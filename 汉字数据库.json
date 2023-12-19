@@ -1,0 +1,5779 @@
+{
+    "汉字数据库": [
+        {
+            "character": "好",     
+            "pin1yin1": "hao3",
+            "POS": "adjective",
+            "lesson": "1.1",
+            "definition": "good",
+            "notes": "Hello: 你好，大家好，您好"
+        },
+        {
+            "character": "是",     
+            "pin1yin1": "shi4",
+            "POS": "verb",
+            "lesson": "1.1",
+            "definition": "to be",
+            "notes": "also 'yes' in affirmative answers"
+        },
+        {
+            "character": "学习",     
+            "pin1yin1": "xue2xi2",
+            "POS": "VO",
+            "lesson": "1.1",
+            "definition": "to study",
+            "notes": "学习 or 学... (subject)"
+        },
+        {
+            "character": "吗",     
+            "pin1yin1": "ma5",
+            "POS": "particle",
+            "lesson": "1.1",
+            "definition": "yes/no interrogative particle)",
+            "notes": "..."
+        },
+        {
+            "character": "你",     
+            "pin1yin1": "ni3",
+            "POS": "pronoun",
+            "lesson": "1.1",
+            "definition": "you",
+            "notes": "informal"
+        },
+        {
+            "character": "我",     
+            "pin1yin1": "wo3",
+            "POS": "pronoun",
+            "lesson": "1.1",
+            "definition": "I",
+            "notes": "..."
+        },
+        {
+            "character": "呢",     
+            "pin1yin1": "ne5",
+            "POS": "particle",
+            "lesson": "1.1",
+            "definition": "what about... interrogative particle)",
+            "notes": "你呢？"
+        },
+        {
+            "character": "也",     
+            "pin1yin1": "ye3",
+            "POS": "adverb",
+            "lesson": "1.1",
+            "definition": "also",
+            "notes": "..."
+        },
+        {
+            "character": "他",     
+            "pin1yin1": "ta1",
+            "POS": "pronoun",
+            "lesson": "1.1",
+            "definition": "he",
+            "notes": "..."
+        },
+        {
+            "character": "不",     
+            "pin1yin1": "bu4",
+            "POS": "adverb",
+            "lesson": "1.1",
+            "definition": "no/not",
+            "notes": "..."
+        },
+        {
+            "character": "老师",     
+            "pin1yin1": "lao3shi1",
+            "POS": "noun",
+            "lesson": "1.1",
+            "definition": "teacher",
+            "notes": "old + certified"
+        },
+        {
+            "character": "中文",     
+            "pin1yin1": "zhong1wen2",
+            "POS": "noun",
+            "lesson": "1.1",
+            "definition": "Chinese language",
+            "notes": "..."
+        },
+        {
+            "character": "她",     
+            "pin1yin1": "ta1",
+            "POS": "pronoun",
+            "lesson": "1.1",
+            "definition": "she",
+            "notes": "..."
+        },
+        {
+            "character": "教授",     
+            "pin1yin1": "jiao4shou4",
+            "POS": "noun",
+            "lesson": "1.1",
+            "definition": "professor",
+            "notes": "..."
+        },
+        {
+            "character": "您",     
+            "pin1yin1": "nin2",
+            "POS": "pronoun",
+            "lesson": "1.2",
+            "definition": "you",
+            "notes": "formal"
+        },
+        {
+            "character": "贵",     
+            "pin1yin1": "gui4",
+            "POS": "adjective",
+            "lesson": "1.2",
+            "definition": "expensive, noble, honored",
+            "notes": "..."
+        },
+        {
+            "character": "姓",     
+            "pin1yin1": "xing4",
+            "POS": "noun",
+            "lesson": "1.2",
+            "definition": "surname",
+            "notes": "also verb: to be surnamed"
+        },
+        {
+            "character": "姓",     
+            "pin1yin1": "xing4",
+            "POS": "verb",
+            "lesson": "1.2",
+            "definition": "to be surnamed",
+            "notes": "also noun: surname"
+        },
+        {
+            "character": "请",     
+            "pin1yin1": "qing3",
+            "POS": "adverb",
+            "lesson": "1.2",
+            "definition": "please",
+            "notes": "also verb: to invite"
+        },
+        {
+            "character": "问",     
+            "pin1yin1": "wen4",
+            "POS": "verb",
+            "lesson": "1.2",
+            "definition": "to ask",
+            "notes": "'May I ask...' = 请问"
+        },
+        {
+            "character": "的",     
+            "pin1yin1": "de5",
+            "POS": "particle",
+            "lesson": "1.2",
+            "definition": "possessive particle)",
+            "notes": "structural"
+        },
+        {
+            "character": "英文",     
+            "pin1yin1": "ying1wen2",
+            "POS": "noun",
+            "lesson": "1.2",
+            "definition": "English language",
+            "notes": "..."
+        },
+        {
+            "character": "名字",     
+            "pin1yin1": "ming2zi5",
+            "POS": "noun",
+            "lesson": "1.2",
+            "definition": "name",
+            "notes": "..."
+        },
+        {
+            "character": "叫",     
+            "pin1yin1": "jiao4",
+            "POS": "verb",
+            "lesson": "1.2",
+            "definition": "to call",
+            "notes": "..."
+        },
+        {
+            "character": "什么",     
+            "pin1yin1": "shen2me5",
+            "POS": "pronoun",
+            "lesson": "1.2",
+            "definition": "what",
+            "notes": "..."
+        },
+        {
+            "character": "谁",     
+            "pin1yin1": "shei2",
+            "POS": "pronoun",
+            "lesson": "1.2",
+            "definition": "who, whom",
+            "notes": "pronounced shui2 in some regions"
+        },
+        {
+            "character": "同",     
+            "pin1yin1": "tong2",
+            "POS": "same, similar",
+            "lesson": "1.2",
+            "definition": "adverb",
+            "notes": "..."
+        },
+        {
+            "character": "同学",     
+            "pin1yin1": "tong2xue2",
+            "POS": "noun",
+            "lesson": "1.2",
+            "definition": "classmate",
+            "notes": "same + study"
+        },
+        {
+            "character": "哪",     
+            "pin1yin1": "na3",
+            "POS": "pronoun",
+            "lesson": "1.3",
+            "definition": "which",
+            "notes": "pronounceds as nei3 in some regions"
+        },
+        {
+            "character": "国",     
+            "pin1yin1": "guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "country",
+            "notes": "哪国 = which country, 美国 = 'merica, 中国人 = Chinese person"
+        },
+        {
+            "character": "人",     
+            "pin1yin1": "ren2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "person",
+            "notes": "中国人 = Chinese person"
+        },
+        {
+            "character": "很",     
+            "pin1yin1": "狠",
+            "POS": "adverb",
+            "lesson": "1.3",
+            "definition": "very, quite",
+            "notes": "basically acts as a verb: 我很高兴"
+        },
+        {
+            "character": "对了",     
+            "pin1yin1": "dui4le5",
+            "POS": "adjective",
+            "lesson": "1.3",
+            "definition": "by the way",
+            "notes": "a phrase used to start a new topic"
+        },
+        {
+            "character": "法国",     
+            "pin1yin1": "fa3guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "France",
+            "notes": "..."
+        },
+        {
+            "character": "美国",     
+            "pin1yin1": "mei3guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "America",
+            "notes": "'merica!"
+        },
+        {
+            "character": "英国",     
+            "pin1yin1": "ying1guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Britain",
+            "notes": "..."
+        },
+        {
+            "character": "中国",     
+            "pin1yin1": "zhong1guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "China",
+            "notes": "..."
+        },
+        {
+            "character": "说",     
+            "pin1yin1": "shuo1",
+            "POS": "verb",
+            "lesson": "1.3",
+            "definition": "to say",
+            "notes": "..."
+        },
+        {
+            "character": "说话",     
+            "pin1yin1": "shuo1hua4",
+            "POS": "VO",
+            "lesson": "1.3",
+            "definition": "to speak",
+            "notes": "..."
+        },
+        {
+            "character": "会",     
+            "pin1yin1": "hui4",
+            "POS": "auxiliary verb",
+            "lesson": "1.3",
+            "definition": "can, be able to, to know how to",
+            "notes": "..."
+        },
+        {
+            "character": "一点儿",     
+            "pin1yin1": "yi4diar3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "a little",
+            "notes": "yi4(1) dian3 er2"
+        },
+        {
+            "character": "儿",     
+            "pin1yin1": "er5",
+            "POS": "suffix",
+            "lesson": "1.3",
+            "definition": "(diminuitive suffix, retroflex ending)",
+            "notes": "..."
+        },
+        {
+            "character": "法文",     
+            "pin1yin1": "fa3wen2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "French language",
+            "notes": "pronounced fa4wen2 in Taiwan"
+        },
+        {
+            "character": "和",     
+            "pin1yin1": "he2",
+            "POS": "conjunction",
+            "lesson": "1.3",
+            "definition": "and",
+            "notes": "pronounced han4 in Taiwan"
+        },
+        {
+            "character": "德国",     
+            "pin1yin1": "de2guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Germany",
+            "notes": "German language: 德语"
+        },
+        {
+            "character": "德语",     
+            "pin1yin1": "de2yu3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "German language",
+            "notes": "..."
+        },
+        {
+            "character": "韩国",     
+            "pin1yin1": "han2guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Korea",
+            "notes": "Korean language: 韩语"
+        },
+        {
+            "character": "韩语",     
+            "pin1yin1": "han2yu3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Korean language",
+            "notes": "also: 韩国语 (han2guo2yu3)，朝鲜语 (chao2xian3yu3)"
+        },
+        {
+            "character": "加拿大",     
+            "pin1yin1": "jian1na2da4",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Canada",
+            "notes": "..."
+        },
+        {
+            "character": "墨西哥",     
+            "pin1yin1": "mo4xi1ge1",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Mexico",
+            "notes": "..."
+        },
+        {
+            "character": "日本",     
+            "pin1yin1": "ri4ben3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Japan",
+            "notes": "Japanese language: "
+        },
+        {
+            "character": "日语",     
+            "pin1yin1": "ri4yu3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Japanese",
+            "notes": "Can also be 日文。 Let's appreciate how ridiculous the Italians are for calling them Giapponese.  Why must they abolish long i's??? (the letter j)"
+        },
+        {
+            "character": "德国",     
+            "pin1yin1": "de2guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Germany",
+            "notes": "..."
+        },
+        {
+            "character": "西班牙",     
+            "pin1yin1": "xi1ban1ya2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Spain",
+            "notes": "Spanish language: 西班牙语 or 西班牙文"
+        },
+        {
+            "character": "西班牙文",     
+            "pin1yin1": "xi1ban1ya2wen2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Spanish language",
+            "notes": "also: 西班牙语 (xi1ban1ya2yu3)"
+        },
+        {
+            "character": "葡萄牙",     
+            "pin1yin1": "pu2tao2ya2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Portugal",
+            "notes": "Portuguese language: 葡萄语，葡萄牙文，葡萄牙文"
+        },
+        {
+            "character": "葡萄语",     
+            "pin1yin1": "pu2tao2yu3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Portuguese language",
+            "notes": "葡萄牙文 (pu2tao2ya2yu3)，葡萄牙文 (pu2tao2ya2wen2)"
+        },
+        {
+            "character": "巴西",     
+            "pin1yin1": "ba1xi1",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Brazil",
+            "notes": "..."
+        },
+        {
+            "character": "意大利",     
+            "pin1yin1": "yi4da1li4",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Italy",
+            "notes": "Italian language: 意大利语, abbr. = 意"
+        },
+        {
+            "character": "意大利语",     
+            "pin1yin1": "yi4da4li4yu3",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Italian language",
+            "notes": "意大利文 may not exist"
+        },
+        {
+            "character": "阿拉伯文",     
+            "pin1yin1": "a1la1bo2wen2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Arabic language",
+            "notes": "also: 阿拉伯语"
+        },
+        {
+            "character": "俄国",     
+            "pin1yin1": "e2guo2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Russia",
+            "notes": "Russian language: 俄文"
+        },
+        {
+            "character": "俄文",     
+            "pin1yin1": "e2wen2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "Russian language",
+            "notes": "俄语 may not exist"
+        },
+        {
+            "character": "语言",     
+            "pin1yin1": "yu3yan2",
+            "POS": "noun",
+            "lesson": "1.3",
+            "definition": "language",
+            "notes": "..."
+        },
+        {
+            "character": "那",     
+            "pin1yin1": "na4",
+            "POS": "pronoun",
+            "lesson": "1.4",
+            "definition": "that",
+            "notes": "also pronounced nei4 in some regions, there = 那儿"
+        },
+        {
+            "character": "书",     
+            "pin1yin1": "shu1",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "book",
+            "notes": "Quantifier: 本"
+        },
+        {
+            "character": "这",     
+            "pin1yin1": "zhe4",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "this",
+            "notes": "also pronounced zhei4 in some regions, here = 这儿"
+        },
+        {
+            "character": "本",     
+            "pin1yin1": "ben3",
+            "POS": "quantifier",
+            "lesson": "1.4",
+            "definition": "(bound items)",
+            "notes": "i.e. books, magazines"
+        },
+        {
+            "character": "文学",     
+            "pin1yin1": "wen2xue2",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "literature",
+            "notes": "can accept nationality as a prefix/adjective"
+        },
+        {
+            "character": "工程",     
+            "pin1yin1": "gong1cheng2",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "engineering",
+            "notes": "..."
+        },
+        {
+            "character": "难",     
+            "pin1yin1": "nan2",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "difficult",
+            "notes": "..."
+        },
+        {
+            "character": "太",     
+            "pin1yin1": "tai4",
+            "POS": "adverb",
+            "lesson": "1.4",
+            "definition": "too",
+            "notes": "S 太 adj 了"
+        },
+        {
+            "character": "可是",     
+            "pin1yin1": "ke3shi4",
+            "POS": "conjunction",
+            "lesson": "1.4",
+            "definition": "but, yet, however",
+            "notes": "..."
+        },
+        {
+            "character": "功课",     
+            "pin1yin1": "gong1ke4",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "homework, assignment",
+            "notes": "sinonym of 作业 (lightly less common and more southern)"
+        },
+        {
+            "character": "多",     
+            "pin1yin1": "duo1",
+            "POS": "adjective",
+            "lesson": "1.4",
+            "definition": "many, much",
+            "notes": "多少 (duo1shao3) how many, how much"
+        },
+        {
+            "character": "们",     
+            "pin1yin1": "men5",
+            "POS": "particle",
+            "lesson": "1.4",
+            "definition": "(plural marker)",
+            "notes": "use as a suffix: 我们，他们，它们，她们，你们"
+        },
+        {
+            "character": "我们",     
+            "pin1yin1": "wo3men5",
+            "POS": "pronoun",
+            "lesson": "1.4",
+            "definition": "we",
+            "notes": "..."
+        },
+        {
+            "character": "少",     
+            "pin1yin1": "shao3",
+            "POS": "adjective",
+            "lesson": "1.4",
+            "definition": "few, little",
+            "notes": "..."
+        },
+        {
+            "character": "大学",     
+            "pin1yin1": "da4xue2",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "college",
+            "notes": "college student: 大学生 (da4xue2sheng1)"
+        },
+        {
+            "character": "大学生",     
+            "pin1yin1": "da4xue2sheng1",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "college student",
+            "notes": "..."
+        },
+        {
+            "character": "系",     
+            "pin1yin1": "xi4",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "major, college department",
+            "notes": "..."
+        },
+        {
+            "character": "数学",     
+            "pin1yin1": "shu4xue2",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "math",
+            "notes": "..."
+        },
+        {
+            "character": "计算机",     
+            "pin1yin1": "ji4suan4ji1",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "computer",
+            "notes": "mainland China only"
+        },
+        {
+            "character": "电脑",     
+            "pin1yin1": "dian4nao3",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "computer",
+            "notes": "used in mainland China and Taiwan"
+        },
+        {
+            "character": "专业",     
+            "pin1yin1": "zhuan1ye4",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "major",
+            "notes": "Taiwan: 主修 (zhu3xiu1)"
+        },
+        {
+            "character": "辅修",     
+            "pin1yin1": "fu3xiu1",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "minor",
+            "notes": "auxiliariary/assisting + to embellish/study"
+        },
+        {
+            "character": "容易",     
+            "pin1yin1": "rong2yi4",
+            "POS": "adjective",
+            "lesson": "1.4",
+            "definition": "easy",
+            "notes": "..."
+        },
+        {
+            "character": "忙",     
+            "pin1yin1": "mang2",
+            "POS": "adjective",
+            "lesson": "1.4",
+            "definition": "busy",
+            "notes": "..."
+        },
+        {
+            "character": "日本",     
+            "pin1yin1": "ri4ben3",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "Japan",
+            "notes": "Land of the Rising Sun"
+        },
+        {
+            "character": "累",     
+            "pin1yin1": "lei4",
+            "POS": "adjective",
+            "lesson": "1.4",
+            "definition": "tired",
+            "notes": "..."
+        },
+        {
+            "character": "作业",     
+            "pin1yin1": "zuo4ye4",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "homework, assignment",
+            "notes": "功课 but slightly less common and more southern"
+        },
+        {
+            "character": "考试",     
+            "pin1yin1": "kao3shi4",
+            "POS": "noun",
+            "lesson": "1.4",
+            "definition": "exam",
+            "notes": "..."
+        },
+        {
+            "character": "有点儿",     
+            "pin1yin1": "you3diar3",
+            "POS": "adverb",
+            "lesson": "1.4",
+            "definition": "a litle",
+            "notes": "..."
+        },
+        {
+            "character": "还好",     
+            "pin1yin1": "hai2hao3",
+            "POS": "adjective",
+            "lesson": "1.4",
+            "definition": "not bad, okay",
+            "notes": "still + good"
+        },
+        {
+            "character": "朋友",     
+            "pin1yin1": "peng2you5",
+            "POS": "noun",
+            "lesson": "1.5",
+            "definition": "friend",
+            "notes": "..."
+        },
+        {
+            "character": "来",     
+            "pin1yin1": "lai2",
+            "POS": "verb",
+            "lesson": "1.5",
+            "definition": "to come",
+            "notes": "also particle: used before a verb to indicate close future"
+        },
+        {
+            "character": "来",     
+            "pin1yin1": "lai2",
+            "POS": "particle",
+            "lesson": "1.5",
+            "definition": "(close future)",
+            "notes": "also verb: to come"
+        },
+        {
+            "character": "介绍",     
+            "pin1yin1": "jie4shao4",
+            "POS": "verb",
+            "lesson": "1.5",
+            "definition": "to introuduce",
+            "notes": "also noun: introduction"
+        },
+        {
+            "character": "介绍",     
+            "pin1yin1": "jie4shao4",
+            "POS": "noun",
+            "lesson": "1.5",
+            "definition": "introduction",
+            "notes": "also verb: to introduce"
+        },
+        {
+            "character": "一下",     
+            "pin1yin1": "yi2xia4",
+            "POS": "particle",
+            "lesson": "1.5",
+            "definition": "(make action brief)",
+            "notes": "used after a verb to make an action brief"
+        },
+        {
+            "character": "室友",     
+            "pin1yin1": "shi4you3",
+            "POS": "noun",
+            "lesson": "1.5",
+            "definition": "roommate",
+            "notes": "room + friend"
+        },
+        {
+            "character": "有",     
+            "pin1yin1": "you3",
+            "POS": "verb",
+            "lesson": "1.5",
+            "definition": "to have, there is/are",
+            "notes": "..."
+        },
+        {
+            "character": "几",     
+            "pin1yin1": "ji3",
+            "POS": "adjective",
+            "lesson": "1.5",
+            "definition": "how many, how much",
+            "notes": "..."
+        },
+        {
+            "character": "两",     
+            "pin1yin1": "liang3",
+            "POS": "adjective",
+            "lesson": "1.5",
+            "definition": "two",
+            "notes": "used with a quantifier, otherwise use 二 (er4)"
+        },
+        {
+            "character": "个",     
+            "pin1yin1": "ge4",
+            "POS": "quantifier",
+            "lesson": "1.5",
+            "definition": "(most things)",
+            "notes": "most commonly used quantifier for people, characters, and things in general"
+        },
+        {
+            "character": "都",     
+            "pin1yin1": "dou1",
+            "POS": "adverb",
+            "lesson": "1.5",
+            "definition": "all, both",
+            "notes": "..."
+        },
+        {
+            "character": "常",     
+            "pin1yin1": "chang2",
+            "POS": "adverb",
+            "lesson": "1.5",
+            "definition": "often, frequently",
+            "notes": "also: 常常，不常，never say 不常常"
+        },
+        {
+            "character": "跟",     
+            "pin1yin1": "gen1",
+            "POS": "preposition",
+            "lesson": "1.5",
+            "definition": "with",
+            "notes": "..."
+        },
+        {
+            "character": "没有",     
+            "pin1yin1": "mei2you3",
+            "POS": "verb",
+            "lesson": "1.5",
+            "definition": "to not have",
+            "notes": "有没有，never use 不 and 有 together"
+        },
+        {
+            "character": "女朋友",     
+            "pin1yin1": "nü3peng2you3",
+            "POS": "noun",
+            "lesson": "1.5",
+            "definition": "girlfriend",
+            "notes": "..."
+        },
+        {
+            "character": "男朋友",     
+            "pin1yin1": "nan2peng2you3",
+            "POS": "noun",
+            "lesson": "1.5",
+            "definition": "boyfriend",
+            "notes": "..."
+        },
+        {
+            "character": "认识",     
+            "pin1yin1": "ren4shi5",
+            "POS": "verb",
+            "lesson": "1.5",
+            "definition": "to know, to recognize, to be aquainted with, to be familiar with",
+            "notes": "conocer"
+        },
+        {
+            "character": "家",     
+            "pin1yin1": "jia1",
+            "POS": "noun",
+            "lesson": "1.6",
+            "definition": "home, family",
+            "notes": "..."
+        },
+        {
+            "character": "老家",     
+            "pin1yin1": "lao3jia1",
+            "POS": "noun",
+            "lesson": "1.6",
+            "definition": "hometown",
+            "notes": "..."
+        },
+        {
+            "character": "大家",     
+            "pin1yin1": "da4jia1",
+            "POS": "noun",
+            "lesson": "1.6",
+            "definition": "all, everyone",
+            "notes": "..."
+        },
+        {
+            "character": "从",     
+            "pin1yin1": "cong2",
+            "POS": "preposition",
+            "lesson": "1.6",
+            "definition": "from",
+            "notes": "..."
+        },
+        {
+            "character": "在",     
+            "pin1yin1": "zai4",
+            "POS": "verb",
+            "lesson": "1.6",
+            "definition": "to be at, to be in",
+            "notes": "also preposition: at, in"
+        },
+        {
+            "character": "在",     
+            "pin1yin1": "zai4",
+            "POS": "preposition",
+            "lesson": "1.6",
+            "definition": "at, in",
+            "notes": "also verb: to be at, to be in"
+        },
+        {
+            "character": "一",     
+            "pin1yin1": "yi1",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "1",
+            "notes": "also: yi2, yi4"
+        },
+        {
+            "character": "二",     
+            "pin1yin1": "er4",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "2",
+            "notes": "also: 两 with quantifier"
+        },
+        {
+            "character": "三",     
+            "pin1yin1": "san1",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "three",
+            "notes": "..."
+        },
+        {
+            "character": "四",     
+            "pin1yin1": "si4",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "4",
+            "notes": "..."
+        },
+        {
+            "character": "五",     
+            "pin1yin1": "wu3",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "5",
+            "notes": "..."
+        },
+        {
+            "character": "六",     
+            "pin1yin1": "liu4",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "6",
+            "notes": "..."
+        },
+        {
+            "character": "七",     
+            "pin1yin1": "qi1",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "7",
+            "notes": "..."
+        },
+        {
+            "character": "八",     
+            "pin1yin1": "ba1",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "8",
+            "notes": "..."
+        },
+        {
+            "character": "九",     
+            "pin1yin1": "jiu3",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "9",
+            "notes": "..."
+        },
+        {
+            "character": "十",     
+            "pin1yin1": "shi2",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "10",
+            "notes": "..."
+        },
+        {
+            "character": "零",     
+            "pin1yin1": "ling2",
+            "POS": "adjective",
+            "lesson": "1.6",
+            "definition": "0",
+            "notes": "..."
+        },
+        {
+            "character": "爸爸",
+            "pin1yin1": "ba4ba5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "father",
+            "notes": "..."
+        },
+        {
+            "character": "妈妈",
+            "pin1yin1": "ma1ma5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "mother",
+            "notes": "..."
+        },
+        {
+            "character": "姐姐",
+            "pin1yin1": "jie3jie5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "older sister",
+            "notes": "..."
+        },
+        {
+            "character": "妹妹",
+            "pin1yin1": "mei4mei5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "younger sister",
+            "notes": "..."
+        },
+        {
+            "character": "哥哥",
+            "pin1yin1": "ge1ge5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "older brother",
+            "notes": "..."
+        },
+        {
+            "character": "弟弟",
+            "pin1yin1": "di4di5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "younger brother",
+            "notes": "..."
+        },
+        {
+            "character": "爷爷",
+            "pin1yin1": "ye2ye5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "paternal grandfather",
+            "notes": "..."
+        },
+        {
+            "character": "奶奶",
+            "pin1yin1": "nai3nai5",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "paternal grandmother",
+            "notes": "..."
+        },
+        {
+            "character": "外公",
+            "pin1yin1": "wai4gong1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "maternal grandfather",
+            "notes": "..."
+        },
+        {
+            "character": "外婆",
+            "pin1yin1": "wai4po2",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "maternal grandmother",
+            "notes": "..."
+        },
+        {
+            "character": "工作",
+            "pin1yin1": "gong1zuo4",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "job",
+            "notes": "also verb: to work"
+        },
+        {
+            "character": "工作",
+            "pin1yin1": "gong1zuo4",
+            "POS":"verb",
+            "lesson": "1.6",
+            "definition": "to work",
+            "notes": "also noun: job"
+        },
+        {
+            "character": "工程师",
+            "pin1yin1": "gong1cheng2shi1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "engineer",
+            "notes": "..."
+        },
+        {
+            "character": "男",
+            "pin1yin1": "nan2",
+            "POS":"adjective",
+            "lesson": "1.6",
+            "definition": "male",
+            "notes": "..."
+        },
+        {
+            "character": "女",
+            "pin1yin1": "nü3",
+            "POS":"adjective",
+            "lesson": "1.6",
+            "definition": "female",
+            "notes": "..."
+        },
+        {
+            "character": "辆",
+            "pin1yin1": "liang4",
+            "POS":"quantifier",
+            "lesson": "1.6",
+            "definition": "(vehicles)",
+            "notes": "..."
+        },
+        {
+            "character": "车",
+            "pin1yin1": "che1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "car",
+            "notes": "..."
+        },
+        {
+            "character": "只",
+            "pin1yin1": "zhi1",
+            "POS":"quantifier",
+            "lesson": "1.6",
+            "definition": "(animals, pairs)",
+            "notes": "..."
+        },
+        {
+            "character": "狗",
+            "pin1yin1": "gou3",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "dog",
+            "notes": "..."
+        },
+        {
+            "character": "爱",
+            "pin1yin1": "ai4",
+            "POS":"verb",
+            "lesson": "1.6",
+            "definition": "to love",
+            "notes": "..."
+        },
+        {
+            "character": "纽约",
+            "pin1yin1": "niu3yue3",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "New York",
+            "notes": "..."
+        },
+        {
+            "character": "孩子",
+            "pin1yin1": "noun",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "child",
+            "notes": "..."
+        },
+        {
+            "character": "猫",
+            "pin1yin1": "mao1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "cat",
+            "notes": "..."
+        },
+        {
+            "character": "商人",
+            "pin1yin1": "shang1ren2",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "business man",
+            "notes": "..."
+        },
+        {
+            "character": "医生",
+            "pin1yin1": "yi1sheng1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "doctor",
+            "notes": "..."
+        },
+        {
+            "character": "律师",
+            "pin1yin1": "lü4shi1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "lawyer",
+            "notes": "..."
+        },
+        {
+            "character": "厨师",
+            "pin1yin1": "chu2shi1",
+            "POS":"noun",
+            "lesson": "1.6",
+            "definition": "chef",
+            "notes": "..."
+        },
+        {
+            "character": "住",
+            "pin1yin1": "zhu4",
+            "POS":"verb",
+            "lesson": "1.7",
+            "definition": "to live",
+            "notes": "..."
+        },
+        {
+            "character": "哪儿",
+            "pin1yin1": "nar3",
+            "POS":"pronoun",
+            "lesson": "1.7",
+            "definition": "where",
+            "notes": "..."
+        },
+        {
+            "character": "宿舍",
+            "pin1yin1": "su4she4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "dorm",
+            "notes": "..."
+        },
+        {
+            "character": "多少",
+            "pin1yin1": "duo1shao3",
+            "POS":"pronoun",
+            "lesson": "1.7",
+            "definition": "how many, how much",
+            "notes": "also: 几 ji3"
+        },
+        {
+            "character": "号",
+            "pin1yin1": "hao4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "number",
+            "notes": "i.e. 你的电话号码是多少？"
+        },
+        {
+            "character": "房间",
+            "pin1yin1": "fang2jian1",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "room",
+            "notes": "..."
+        },
+        {
+            "character": "大",
+            "pin1yin1": "da4",
+            "POS":"adjective",
+            "lesson": "1.7",
+            "definition": "big",
+            "notes": "..."
+        },
+        {
+            "character": "电话",
+            "pin1yin1": "dian4hua4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "phone",
+            "notes": "..."
+        },
+        {
+            "character": "电",
+            "pin1yin1": "dian4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "electricity",
+            "notes": "..."
+        },
+        {
+            "character": "小",
+            "pin1yin1": "xiao3",
+            "POS":"adjective",
+            "lesson": "1.7",
+            "definition": "small",
+            "notes": "Don't confuse 小 (xiao3) with 少 (shao3)"
+        },
+        {
+            "character": "号码",
+            "pin1yin1": "hao4ma3",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "number",
+            "notes": "i.e. 你的电话号码是多少？"
+        },
+        {
+            "character": "手机",
+            "pin1yin1": "shou3ji1",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "cellphone",
+            "notes": "..."
+        },
+        {
+            "character": "手",
+            "pin1yin1": "shou3",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "hand",
+            "notes": "..."
+        },
+        {
+            "character": "机",
+            "pin1yin1": "ji1",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "machine",
+            "notes": "..."
+        },
+        {
+            "character": "校外",
+            "pin1yin1": "xiao4wai4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "off campus",
+            "notes": "..."
+        },
+        {
+            "character": "校",
+            "pin1yin1": "xiao4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "school",
+            "notes": "..."
+        },
+        {
+            "character": "外",
+            "pin1yin1": "wai4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "outside",
+            "notes": "..."
+        },
+        {
+            "character": "校内",
+            "pin1yin1": "xiao4nei4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "on campus",
+            "notes": "..."
+        },
+        {
+            "character": "内",
+            "pin1yin1": "nei4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "inside",
+            "notes": "..."
+        },
+        {
+            "character": "公寓",
+            "pin1yin1": "gong1yu4",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "appartment",
+            "notes": "..."
+        },
+        {
+            "character": "房子",
+            "pin1yin1": "fang2zi5",
+            "POS":"noun",
+            "lesson": "1.7",
+            "definition": "house, room",
+            "notes": "..."
+        },
+        {
+            "character": "去",
+            "pin1yin1": "qu4",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to go",
+            "notes": "..."
+        },
+        {
+            "character": "课",
+            "pin1yin1": "ke4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "class, lesson",
+            "notes": "..."
+        },
+        {
+            "character": "上课",
+            "pin1yin1": "shang",
+            "POS":"VO",
+            "lesson": "1.8",
+            "definition": "to attend class",
+            "notes": "..."
+        },
+        {
+            "character": "下课",
+            "pin1yin1": "xia4ke4",
+            "POS":"VO",
+            "lesson": "1.8",
+            "definition": "to end class",
+            "notes": "..."
+        },
+        {
+            "character": "事儿",
+            "pin1yin1": "shir4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "matter, thing, business",
+            "notes": "..."
+        },
+        {
+            "character": "想",
+            "pin1yin1": "xiang3",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to want, think, miss",
+            "notes": "..."
+        },
+        {
+            "character": "回",
+            "pin1yin1": "hui2",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to return",
+            "notes": "..."
+        },
+        {
+            "character": "一起",
+            "pin1yin1": "yi4qi3",
+            "POS":"adverb",
+            "lesson": "1.8",
+            "definition": "together",
+            "notes": "..."
+        },
+        {
+            "character": "吃",
+            "pin1yin1": "chi1",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to eat",
+            "notes": "default object: 吃饭 (chi1fan4)"
+        },
+        {
+            "character": "饭",
+            "pin1yin1": "fan4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "food, cooked rice, meal",
+            "notes": "..."
+        },
+        {
+            "character": "菜",
+            "pin1yin1": "cai4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "dish (type of food), cuisine",
+            "notes": "..."
+        },
+        {
+            "character": "今天",
+            "pin1yin1": "jin1tian1",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "today",
+            "notes": "..."
+        },
+        {
+            "character": "次",
+            "pin1yin1": "ci4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "time (vez es.)",
+            "notes": "i.e. 上次，这次，下次，两次"
+        },
+        {
+            "character": "怎么",
+            "pin1yin1": "zen3me5",
+            "POS":"pronoun",
+            "lesson": "1.8",
+            "definition": "how",
+            "notes": "..."
+        },
+        {
+            "character": "怎么样",
+            "pin1yin1": "zen3me5yang4",
+            "POS":"pronoun",
+            "lesson": "1.8",
+            "definition": "how is it, how about it",
+            "notes": "..."
+        },
+        {
+            "character": "行",
+            "pin1yin1": "xing2",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to be alright",
+            "notes": "..."
+        },
+        {
+            "character": "再见",
+            "pin1yin1": "zai4jian4",
+            "POS":"phrase",
+            "lesson": "1.8",
+            "definition": "see you again, goodbye",
+            "notes": "..."
+        },
+        {
+            "character": "再",
+            "pin1yin1": "zai4",
+            "POS":"adverb",
+            "lesson": "1.8",
+            "definition": "again",
+            "notes": "..."
+        },
+        {
+            "character": "见",
+            "pin1yin1": "jian4",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to see",
+            "notes": "..."
+        },
+        {
+            "character": "休息",
+            "pin1yin1": "xiu1xi5",
+            "POS":"verb",
+            "lesson": "1.8",
+            "definition": "to rest",
+            "notes": "..."
+        },
+        {
+            "character": "早饭",
+            "pin1yin1": "zao3fan4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "breakfast",
+            "notes": "also: 早餐 (zao3can1)"
+        },
+        {
+            "character": "午饭",
+            "pin1yin1": "wu3fan4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "lunch",
+            "notes": "also: 午餐 (wu3can1)"
+        },
+        {
+            "character": "晚饭",
+            "pin1yin1": "wu3fan4",
+            "POS":"noun",
+            "lesson": "1.8",
+            "definition": "dinner",
+            "notes": "also: 晚餐 (wan3can1)"
+        },
+        {
+            "character": "正在",
+            "pin1yin1": "zheng4zai4",
+            "POS":"adverb",
+            "lesson": "1.9",
+            "definition": "(to indicate an action in progress)",
+            "notes": "in the process of"
+        },
+        {
+            "character": "打",
+            "pin1yin1": "da3",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to hit, to call, to make, to play (drums)",
+            "notes": "i.e. to call someone - 打电话 (da3dian4hua4)"
+        },
+        {
+            "character": "喂",
+            "pin1yin1": "wei4",
+            "POS":"interjection",
+            "lesson": "1.9",
+            "definition": "hey",
+            "notes": "on the phone or to get someone's attention"
+        },
+        {
+            "character": "等",
+            "pin1yin1": "deng3",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to wait",
+            "notes": "等一下儿 (deng3yi2xiar4)：wait a second"
+        },
+        {
+            "character": "知道",
+            "pin1yin1": "zhi1dao4",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to know, be aware of, to realize",
+            "notes": "知道了 (zhi1dao4le5): Got it"
+        },
+        {
+            "character": "谢",
+            "pin1yin1": "xie4",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to thank",
+            "notes": "谢谢 (xie4xie5): thank you"
+        },
+        {
+            "character": "吧",
+            "pin1yin1": "ba5",
+            "POS":"particle",
+            "lesson": "1.9",
+            "definition": "(indicates assumption or suggestion",
+            "notes": "咱们走吧: Let's go"
+        },
+        {
+            "character": "对",
+            "pin1yin1": "dui4",
+            "POS":"adjective",
+            "lesson": "1.9",
+            "definition": "correct, right",
+            "notes": "对呀 (dui4ya5): yeah"
+        },
+        {
+            "character": "看",
+            "pin1yin1": "kan4",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to look at, to see, to watch, to read",
+            "notes": "我看一本书 (wo3kan4yi1ben3shu1): I read a book"
+        },
+        {
+            "character": "电视",
+            "pin1yin1": "dian4shi3",
+            "POS":"noun",
+            "lesson": "1.9",
+            "definition": "television, TV",
+            "notes": "..."
+        },
+        {
+            "character": "做",
+            "pin1yin1": "zuo4",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to do",
+            "notes": "..."
+        },
+        {
+            "character": "上网",
+            "pin1yin1": "shang4wang3",
+            "POS":"VO",
+            "lesson": "1.9",
+            "definition": "to be online",
+            "notes": "..."
+        },
+        {
+            "character": "我就是",
+            "pin1yin1": "wo3jiu4shi4",
+            "POS":"phrase",
+            "lesson": "1.9",
+            "definition": "this is he/she speaking",
+            "notes": "on the phone"
+        },
+        {
+            "character": "位",
+            "pin1yin1": "wei4",
+            "POS":"quantifier",
+            "lesson": "1.9",
+            "definition": "(people)",
+            "notes": "polite"
+        },
+        {
+            "character": "留言",
+            "pin1yin1": "liu2yan2",
+            "POS":"VO",
+            "lesson": "1.9",
+            "definition": "to leave a message",
+            "notes": "used in mainland China (also: 留话 liu2hua4, used everywhere)"
+        },
+        {
+            "character": "留话",
+            "pin1yin1": "liu2hua4",
+            "POS":"VO",
+            "lesson": "1.9",
+            "definition": "to leave a message",
+            "notes": "used in mainland China and Taiwain (also: 留言 liu2yan2, used in mainland China"
+        },
+        {
+            "character": "对不起",
+            "pin1yin1": "dui4bu5qi3",
+            "POS":"phrase",
+            "lesson": "1.9",
+            "definition": "I'm sorry",
+            "notes": "..."
+        },
+        {
+            "character": "时候",
+            "pin1yin1": "shi2hou4",
+            "POS":"noun",
+            "lesson": "1.9",
+            "definition": "a duration of time, a point in time",
+            "notes": "什么时候？ (shen2me5shi2hou4): At what time?"
+        },
+        {
+            "character": "回来",
+            "pin1yin1": "hui2lai2",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to return",
+            "notes": "..."
+        },
+        {
+            "character": "要",
+            "pin1yin1": "yao4",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to want, to desire",
+            "notes": "..."
+        },
+        {
+            "character": "给",
+            "pin1yin1": "gei3",
+            "POS":"preposition",
+            "lesson": "1.9",
+            "definition": "for, to",
+            "notes": "also verb: to give"
+        },
+        {
+            "character": "给",
+            "pin1yin1": "gei3",
+            "POS":"verb",
+            "lesson": "1.9",
+            "definition": "to give",
+            "notes": "also preposition: for, to"
+        },
+        {
+            "character": "电影",
+            "pin1yin1": "dian4ying3",
+            "POS":"noun",
+            "lesson": "1.9",
+            "definition": "movie",
+            "notes": "..."
+        },
+        {
+            "character": "网路",
+            "pin1yin1": "wang3lu4",
+            "POS":"noun",
+            "lesson": "1.9",
+            "definition": "internet",
+            "notes": "..."
+        },
+        {
+            "character": "网站",
+            "pin1yin1": "wang3zhan4",
+            "POS":"noun",
+            "lesson": "1.9",
+            "definition": "website",
+            "notes": "..."
+        },
+        {
+            "character": "发短信",
+            "pin1yin1": "fa1duan3xin4",
+            "POS":"VO",
+            "lesson": "1.9",
+            "definition": "to send a text",
+            "notes": "..."
+        },
+        {
+            "character": "通",
+            "pin1yin1": "tong1",
+            "POS":"quantifier",
+            "lesson": "1.9",
+            "definition": "(phone calls)",
+            "notes": "..."
+        },
+        {
+            "character": "不客气",
+            "pin1yin1": "bu2ke41i5",
+            "POS":"phrase",
+            "lesson": "1.9",
+            "definition": "you're welcome",
+            "notes": "also: 不谢 (bu2xie4)"
+        },
+        {
+            "character": "不谢",
+            "pin1yin1": "bu2xie4",
+            "POS":"phrase",
+            "lesson": "1.9",
+            "definition": "you're welcome",
+            "notes": "also: 不客气 (bu2ke4qi5)"
+        },
+        {
+            "character": "每",     
+            "pin1yin1": "mei3",
+            "POS": "adjective",
+            "lesson": "1.10",
+            "definition": "each",
+            "notes": "i.e. 每天 (mei3tian1) = everyday"
+        },
+        {
+            "character": "床",     
+            "pin1yin1": "chuang2",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "bed",
+            "notes": "..."
+        },
+        {
+            "character": "星期",     
+            "pin1yin1": "xing1qi1",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "week",
+            "notes": "星期几 = day of the week 1-6, Sunday = 星期日 or 星期天 (colloquially)"
+        },
+        {
+            "character": "睡觉",     
+            "pin1yin1": "shui4jiao4",
+            "POS": "verb",
+            "lesson": "1.10",
+            "definition": "to sleep",
+            "notes": "..."
+        },
+        {
+            "character": "才",     
+            "pin1yin1": "cai2",
+            "POS": "time noun",
+            "lesson": "1.10",
+            "definition": "just now or only",
+            "notes": "..."
+        },
+        {
+            "character": "就",     
+            "pin1yin1": "jiu4",
+            "POS": "time noun",
+            "lesson": "1.10",
+            "definition": "just (emphasis)",
+            "notes": "as early as, already, at once, right away, only"
+        },
+        {
+            "character": "刻",     
+            "pin1yin1": "ke4",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "quarter (15 minutes)",
+            "notes": "It's 9:15 =（现在是）九点一刻 (also can be used as a verb for to carve)"
+        },
+        {
+            "character": "时刻",     
+            "pin1yin1": "shi2ke4",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "moment",
+            "notes": "also adverb: constantly, always"
+        },
+        {
+            "character": "时刻",     
+            "pin1yin1": "shi2ke4",
+            "POS": "adverb",
+            "lesson": "1.10",
+            "definition": "constantly, always",
+            "notes": "also noun: moment, synonyms: 总是 (zong3shi4), 一直 (yi4zhi2)"
+        },
+        {
+            "character": "分",     
+            "pin1yin1": "fen1",
+            "POS": "verb",
+            "lesson": "1.10",
+            "definition": "to divide, separate, distribute",
+            "notes": "also noun: fraction"
+        },
+        {
+            "character": "分钟",     
+            "pin1yin1": "fen1zhong1",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "minute",
+            "notes": "It's 8:37 =（现在）八点三十七分。"
+        },
+        {
+            "character": "百分",     
+            "pin1yin1": "bai3fen1",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "percentage, divided into 100 parts",
+            "notes": "..."
+        },
+        {
+            "character": "然后",     
+            "pin1yin1": "ran2hou4",
+            "POS": "adverb",
+            "lesson": "1.10",
+            "definition": "after, then, afterwards",
+            "notes": "..."
+        },
+        {
+            "character": "以后",     
+            "pin1yin1": "yi3hou4",
+            "POS": "adverb",
+            "lesson": "1.10",
+            "definition": "but, before",
+            "notes": "A 以后 B = A, but before that, B"
+        },
+        {
+            "character": "早上",     
+            "pin1yin1": "zao3shang4",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "morning",
+            "notes": "..."
+        },
+        {
+            "character": "上午",     
+            "pin1yin1": "shang4wu3",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "moring",
+            "notes": "..."
+        },
+        {
+            "character": "中午",     
+            "pin1yin1": "zhong1wu3",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "noon",
+            "notes": "..."
+        },
+        {
+            "character": "下午",     
+            "pin1yin1": "xia4wu3",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "afternoon",
+            "notes": "..."
+        },
+        {
+            "character": "晚上",     
+            "pin1yin1": "wan3shang4",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "evening",
+            "notes": "..."
+        },
+        {
+            "character": "喜欢",     
+            "pin1yin1": "xi3huan1",
+            "POS": "verb",
+            "lesson": "1.10",
+            "definition": "to like",
+            "notes": "..."
+        },
+        {
+            "character": "邮件",     
+            "pin1yin1": "you2jian4",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "mail",
+            "notes": "..."
+        },
+        {
+            "character": "写",     
+            "pin1yin1": "xie3",
+            "POS": "verb",
+            "lesson": "1.10",
+            "definition": "to write",
+            "notes": "..."
+        },
+        {
+            "character": "祝",     
+            "pin1yin1": "zhu4",
+            "POS": "verb",
+            "lesson": "1.10",
+            "definition": "to wish",
+            "notes": "..."
+        },
+        {
+            "character": "地址",     
+            "pin1yin1": "di4zhi3",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "address",
+            "notes": "land + location"
+        },
+        {
+            "character": "年",     
+            "pin1yin1": "nian2",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "year",
+            "notes": "..."
+        },
+        {
+            "character": "月",     
+            "pin1yin1": "yue4",
+            "POS": "noun",
+            "lesson": "1.10",
+            "definition": "month",
+            "notes": "..."
+        },
+        {
+            "character": "茶",     
+            "pin1yin1": "cha2",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "tea",
+            "notes": "红茶: hong2cha2 red tea, 绿茶: lü4cha2 green tea"
+        },
+        {
+            "character": "红",     
+            "pin1yin1": "hong2",
+            "POS": "adjective",
+            "lesson": "1.11",
+            "definition": "red",
+            "notes": "..."
+        },
+        {
+            "character": "店员",     
+            "pin1yin1": "dian4yuan2",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "store clerk",
+            "notes": "..."
+        },
+        {
+            "character": "服务员",     
+            "pin1yin1": "fu2wu4yuan2",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "waiter",
+            "notes": "gender neutral"
+        },
+        {
+            "character": "还是",     
+            "pin1yin1": "hai2shi4",
+            "POS": "conjunction",
+            "lesson": "1.11",
+            "definition": "or",
+            "notes": "..."
+        },
+        {
+            "character": "绿",     
+            "pin1yin1": "lü4",
+            "POS": "adjective",
+            "lesson": "1.11",
+            "definition": "green",
+            "notes": "..."
+        },
+        {
+            "character": "坐",     
+            "pin1yin1": "zuo4",
+            "POS": "verb",
+            "lesson": "1.11",
+            "definition": "to sit",
+            "notes": "..."
+        },
+        {
+            "character": "先",     
+            "pin1yin1": "xian1",
+            "POS": "adjective",
+            "lesson": "1.11",
+            "definition": "early, first",
+            "notes": "先生 xian1sheng5 = Mr."
+        },
+        {
+            "character": "先生",     
+            "pin1yin1": "xian1sheng5",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "Mr.",
+            "notes": "also teacher, husband, or sometimes doctor"
+        },
+        {
+            "character": "先进",     
+            "pin1yin1": "xian1jin4",
+            "POS": "adjective",
+            "lesson": "1.11",
+            "definition": "advanced",
+            "notes": "as in advanced technology"
+        },
+        {
+            "character": "先进",     
+            "pin1yin1": "xian1jin4",
+            "POS": "verb",
+            "lesson": "1.11",
+            "definition": "to advance",
+            "notes": "..."
+        },
+        {
+            "character": "洗",     
+            "pin1yin1": "xi3",
+            "POS": "verb",
+            "lesson": "1.11",
+            "definition": "to wash",
+            "notes": "..."
+        },
+        {
+            "character": "洗碗",     
+            "pin1yin1": "xi3wan3",
+            "POS": "VO",
+            "lesson": "1.11",
+            "definition": "to wash dishes",
+            "notes": "..."
+        },
+        {
+            "character": "喝",     
+            "pin1yin1": "he1",
+            "POS": "verb",
+            "lesson": "1.11",
+            "definition": "to drink",
+            "notes": "..."
+        },
+        {
+            "character": "杯",     
+            "pin1yin1": "bei1",
+            "POS": "quantifier",
+            "lesson": "1.11",
+            "definition": "(cup)",
+            "notes": "..."
+        },
+        {
+            "character": "杯子",     
+            "pin1yin1": "bei1zi5",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "cup",
+            "notes": "..."
+        },
+        {
+            "character": "冰",     
+            "pin1yin1": "bing1",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "ice",
+            "notes": "also adjective: iced"
+        },
+        {
+            "character": "冰",     
+            "pin1yin1": "bing1",
+            "POS": "adjective",
+            "lesson": "1.11",
+            "definition": "iced",
+            "notes": "also noun: ice"
+        },
+        {
+            "character": "水",     
+            "pin1yin1": "shui3",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "water",
+            "notes": "..."
+        },
+        {
+            "character": "瓶",     
+            "pin1yin1": "ping2",
+            "POS": "quantifier",
+            "lesson": "1.11",
+            "definition": "(bottle)",
+            "notes": "..."
+        },
+        {
+            "character": "可乐",     
+            "pin1yin1": "ke3le4",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "coca cola",
+            "notes": "..."
+        },
+        {
+            "character": "面",     
+            "pin1yin1": "mian4",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "face, noodles",
+            "notes": "..."
+        },
+        {
+            "character": "饺子",     
+            "pin1yin1": "jiao3zi5",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "duppling",
+            "notes": "..."
+        },
+        {
+            "character": "汤",     
+            "pin1yin1": "tang1",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "soup",
+            "notes": "..."
+        },
+        {
+            "character": "盘",     
+            "pin1yin1": "pan2",
+            "POS": "quantifier",
+            "lesson": "1.11",
+            "definition": "(plate)",
+            "notes": "..."
+        },
+        {
+            "character": "碗",     
+            "pin1yin1": "wan3",
+            "POS": "quantifier",
+            "lesson": "1.11",
+            "definition": "(bowl)",
+            "notes": "..."
+        },
+        {
+            "character": "炒",     
+            "pin1yin1": "chao3",
+            "POS": "verb",
+            "lesson": "1.11",
+            "definition": "to fry",
+            "notes": "..."
+        },
+        {
+            "character": "炒菜",     
+            "pin1yin1": "chao3cai4",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "stir fried food",
+            "notes": "..."
+        },
+        {
+            "character": "双",     
+            "pin1yin1": "shuang1",
+            "POS": "quantifier",
+            "lesson": "1.11",
+            "definition": "(pair)",
+            "notes": "..."
+        },
+        {
+            "character": "筷子",     
+            "pin1yin1": "kuai4zi5",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "chopsticks",
+            "notes": "..."
+        },
+        {
+            "character": "咖啡",     
+            "pin1yin1": "ka1fei1",
+            "POS": "noun",
+            "lesson": "1.11",
+            "definition": "coffee",
+            "notes": "..."
+        },
+        {
+            "character": "借",     
+            "pin1yin1": "jie4",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to borrow",
+            "notes": "..."
+        },
+        {
+            "character": "明天",     
+            "pin1yin1": "ming2tian1",
+            "POS": "adverb",
+            "lesson": "1.12",
+            "definition": "tomorrow",
+            "notes": "..."
+        },
+        {
+            "character": "用",     
+            "pin1yin1": "yong4",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to use",
+            "notes": "..."
+        },
+        {
+            "character": "得",     
+            "pin1yin1": "dei3",
+            "POS": "MAV",
+            "lesson": "1.12",
+            "definition": "to have to or must",
+            "notes": "..."
+        },
+        {
+            "character": "接",     
+            "pin1yin1": "jie1",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to pick sb up or drop sb off",
+            "notes": "..."
+        },
+        {
+            "character": "玩",     
+            "pin1yin1": "wan2",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to play or have fun",
+            "notes": "spend time with: 一起玩 (yi1qi3wan2)"
+        },
+        {
+            "character": "飞",     
+            "pin1yin1": "fei1",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to fly",
+            "notes": "..."
+        },
+        {
+            "character": "飞机",     
+            "pin1yin1": "fei1ji1",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "plane",
+            "notes": "..."
+        },
+        {
+            "character": "飞机常",     
+            "pin1yin1": "fei1ji1chang3",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "airport",
+            "notes": "..."
+        },
+        {
+            "character": "到",     
+            "pin1yin1": "dao4",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to arrive",
+            "notes": "..."
+        },
+        {
+            "character": "开",     
+            "pin1yin1": "kai1",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to open, drive, or turn on",
+            "notes": "..."
+        },
+        {
+            "character": "问题",     
+            "pin1yin1": "wen4ti2",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "problem",
+            "notes": "..."
+        },
+        {
+            "character": "停",     
+            "pin1yin1": "ting2",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to park",
+            "notes": "..."
+        },
+        {
+            "character": "停车场",     
+            "pin1yin1": "ting2che1chang3",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "parking lot",
+            "notes": "..."
+        },
+        {
+            "character": "能",     
+            "pin1yin1": "neng2",
+            "POS": "auxiliary verb",
+            "lesson": "1.12",
+            "definition": "to be able to",
+            "notes": "shows physical capacity"
+        },
+        {
+            "character": "手动车",     
+            "pin1yin1": "shou3dong4che1",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "manual car",
+            "notes": "..."
+        },
+        {
+            "character": "练习",     
+            "pin1yin1": "lian4xi2",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to practice",
+            "notes": "..."
+        },
+        {
+            "character": "进步",     
+            "pin1yin1": "jin4bu4",
+            "POS": "verb",
+            "lesson": "1.12",
+            "definition": "to improve",
+            "notes": "intransitive"
+        },
+        {
+            "character": "白",     
+            "pin1yin1": "bai2",
+            "POS": "adjective",
+            "lesson": "1.12",
+            "definition": "white",
+            "notes": "..."
+        },
+        {
+            "character": "色",     
+            "pin1yin1": "se4",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "color, look, appearance",
+            "notes": "..."
+        },
+        {
+            "character": "应该",     
+            "pin1yin1": "ying1gai1",
+            "POS": "MAV",
+            "lesson": "1.12",
+            "definition": "should",
+            "notes": "..."
+        },
+        {
+            "character": "自动",     
+            "pin1yin1": "zi4dong4",
+            "POS": "adjective",
+            "lesson": "1.12",
+            "definition": "automatic",
+            "notes": "..."
+        },
+        {
+            "character": "自动车",     
+            "pin1yin1": "zi4dong4che1",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "automatic car",
+            "notes": "..."
+        },
+        {
+            "character": "自动排",     
+            "pin1yin1": "zi4dong4pai2",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "automatic transmission",
+            "notes": "..."
+        },
+        {
+            "character": "手排",     
+            "pin1yin1": "shou3pai2",
+            "POS": "noun",
+            "lesson": "1.12",
+            "definition": "manual transmission",
+            "notes": "..."
+        },
+        {
+            "character": "买",     
+            "pin1yin1": "mai3",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to buy",
+            "notes": "..."
+        },
+        {
+            "character": "卖",     
+            "pin1yin1": "mai4",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to sell",
+            "notes": "..."
+        },
+        {
+            "character": "店",     
+            "pin1yin1": "dian4",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "store",
+            "notes": "商店 or add to the end of what the store sells (i.e. 书店，鞋店)"
+        },
+        {
+            "character": "件",     
+            "pin1yin1": "jian4",
+            "POS": "quantifier",
+            "lesson": "1.13",
+            "definition": "(clothing)",
+            "notes": "normally tops"
+        },
+        {
+            "character": "条",     
+            "pin1yin1": "tiao2",
+            "POS": "quantifier",
+            "lesson": "1.13",
+            "definition": "(pants and skirts)",
+            "notes": "..."
+        },
+        {
+            "character": "块",     
+            "pin1yin1": "kuai4",
+            "POS": "quantifier",
+            "lesson": "1.13",
+            "definition": "(dollars)",
+            "notes": "..."
+        },
+        {
+            "character": "张",     
+            "pin1yin1": "zhang1",
+            "POS": "quantifier",
+            "lesson": "1.13",
+            "definition": "(flat objects)",
+            "notes": "for paper, tickets, beds, tables, etc."
+        },
+        {
+            "character": "裤子",     
+            "pin1yin1": "ku4zi5",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "pants",
+            "notes": "singular = one pair of pants"
+        },
+        {
+            "character": "裙子",     
+            "pin1yin1": "qun2zi5",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "skirt",
+            "notes": "..."
+        },
+        {
+            "character": "鞋子",     
+            "pin1yin1": "xie2zi5",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "shoe",
+            "notes": "..."
+        },
+        {
+            "character": "衣服",     
+            "pin1yin1": "yi1fu5",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "clothes",
+            "notes": "..."
+        },
+        {
+            "character": "黄",     
+            "pin1yin1": "huang2",
+            "POS": "adjective",
+            "lesson": "1.13",
+            "definition": "yellow",
+            "notes": "..."
+        },
+        {
+            "character": "黑",     
+            "pin1yin1": "hei1",
+            "POS": "adjective",
+            "lesson": "1.13",
+            "definition": "black",
+            "notes": "..."
+        },
+        {
+            "character": "穿",     
+            "pin1yin1": "chuang1",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to wear",
+            "notes": "..."
+        },
+        {
+            "character": "帮助",     
+            "pin1yin1": "bang1zhu4",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to help",
+            "notes": "also just 帮 (bang1)"
+        },
+        {
+            "character": "试",     
+            "pin1yin1": "shi4",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to try, to try on",
+            "notes": "..."
+        },
+        {
+            "character": "比较",     
+            "pin1yin1": "bi3jiao4",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to compare",
+            "notes": "also means 'comparatively' as an adverb"
+        },
+        {
+            "character": "比较",     
+            "pin1yin1": "bi3jiao4",
+            "POS": "adverb",
+            "lesson": "1.13",
+            "definition": "comparatively",
+            "notes": "also means 'to compare' as a verb"
+        },
+        {
+            "character": "衬衫",     
+            "pin1yin1": "chen4shan1",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "shirt",
+            "notes": "..."
+        },
+        {
+            "character": "错",     
+            "pin1yin1": "cuo4",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "mistake",
+            "notes": "不错 = not bad (adjective)"
+        },
+        {
+            "character": "或者",     
+            "pin1yin1": "huo4zhe3",
+            "POS": "conjunction",
+            "lesson": "1.13",
+            "definition": "or",
+            "notes": "can't be used in an interrogative sense ('I'll eat a banana or an apple,' not 'should I eat a banana or an apple?'... that would use 还是)"
+        },
+        {
+            "character": "便宜",     
+            "pin1yin1": "pian2yi2",
+            "POS": "adjective",
+            "lesson": "1.13",
+            "definition": "cheap",
+            "notes": "also pronounced pian2yi5"
+        },
+        {
+            "character": "让",     
+            "pin1yin1": "rang4",
+            "POS": "preposition, verb",
+            "lesson": "1.13",
+            "definition": "to allow",
+            "notes": "yeah, it's confusing, I know.  It can act as either, I think."
+        },
+        {
+            "character": "钱",     
+            "pin1yin1": "qian2",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "money  ",
+            "notes": "..."
+        },
+        {
+            "character": "票",     
+            "pin1yin1": "piao4",
+            "POS": "noun",
+            "lesson": "1.13",
+            "definition": "ticket",
+            "notes": "..."
+        },
+        {
+            "character": "逛街",     
+            "pin1yin1": "guang4jie1",
+            "POS": "verb",
+            "lesson": "1.13",
+            "definition": "to go shopping, to take a stroll",
+            "notes": "..."
+        },
+        {
+            "character": "岁",     
+            "pin1yin1": "sui4",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to be # years old",
+            "notes": "i.e. 我岁十八"
+        },
+        {
+            "character": "空",     
+            "pin1yin1": "kong4",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "empty air, freetime",
+            "notes": "有空 is to have freetime"
+        },
+        {
+            "character": "过",     
+            "pin1yin1": "guo4",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to pass/celebrate",
+            "notes": "过生日"
+        },
+        {
+            "character": "为",     
+            "pin1yin1": "wei4",
+            "POS": "preposition",
+            "lesson": "1.14",
+            "definition": "for",
+            "notes": "para: recipient of an action (i.e. I do it for her)"
+        },
+        {
+            "character": "一定",     
+            "pin1yin1": "yi2ding4",
+            "POS": "adverb",
+            "lesson": "1.14",
+            "definition": "certainly",
+            "notes": "..."
+        },
+        {
+            "character": "派对",     
+            "pin1yin1": "pai4dui4",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "party",
+            "notes": "cognate"
+        },
+        {
+            "character": "跳舞",     
+            "pin1yin1": "tiao4wu3",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to dance",
+            "notes": "..."
+        },
+        {
+            "character": "送给",     
+            "pin1yin1": "song4gei3",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to gift to",
+            "notes": "..."
+        },
+        {
+            "character": "接送",     
+            "pin1yin1": "jie1song4",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to pick somebody up or drop them off",
+            "notes": "..."
+        },
+        {
+            "character": "棒",     
+            "pin1yin1": "bang4",
+            "POS": "adjective",
+            "lesson": "1.14",
+            "definition": "awesome or bat",
+            "notes": "..."
+        },
+        {
+            "character": "开舞会",     
+            "pin1yin1": "kai1wu3hui4",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to host a party",
+            "notes": "also: 开晚会 (kai1wan3hui4)"
+        },
+        {
+            "character": "请",     
+            "pin1yin1": "qing3",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to invite",
+            "notes": "also adverb: please"
+        },
+        {
+            "character": "开晚会",     
+            "pin1yin1": "kai1wan3hui4",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to host a party",
+            "notes": "also: 开舞会 (kai1wu3hui4)"
+        },
+        {
+            "character": "听到",     
+            "pin1yin1": "ting1dao4",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to hear",
+            "notes": "..."
+        },
+        {
+            "character": "听说",     
+            "pin1yin1": "ting1shuo1",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to hear somebody say",
+            "notes": "..."
+        },
+        {
+            "character": "好听",     
+            "pin1yin1": "hao3ting1",
+            "POS": "adjective",
+            "lesson": "1.14",
+            "definition": "good sounding",
+            "notes": "..."
+        },
+        {
+            "character": "唱歌",     
+            "pin1yin1": "chang4ge1",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to sing",
+            "notes": "..."
+        },
+        {
+            "character": "音乐",     
+            "pin1yin1": "yin1yue4",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "song",
+            "notes": "..."
+        },
+        {
+            "character": "星期",     
+            "pin1yin1": "xing1qi1",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "week",
+            "notes": "..."
+        },
+        {
+            "character": "参加",     
+            "pin1yin1": "can1jia1",
+            "POS": "verb",
+            "lesson": "1.14",
+            "definition": "to join",
+            "notes": "..."
+        },
+        {
+            "character": "蛋糕",     
+            "pin1yin1": "dan4gao1",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "cake"
+        },
+        {
+            "character": "地图",     
+            "pin1yin1": "di4tu2",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "map",
+            "notes": "I'm the map, I'm the map, I'm the map! (earth diagram)"
+        },
+        {
+            "character": "图书馆",     
+            "pin1yin1": "tu2shu1guan3",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "the library",
+            "notes": "..."
+        },
+        {
+            "character": "礼物",     
+            "pin1yin1": "li3wu4",
+            "POS": "noun",
+            "lesson": "1.14",
+            "definition": "present",
+            "notes": "..."
+        },
+        {
+            "character": "前边",     
+            "pin1yin1": "qian2bian1",
+            "POS": "noun of locality",
+            "lesson": "1.15",
+            "definition": "in front of",
+            "notes": "..."
+        },
+        {
+            "character": "后边",     
+            "pin1yin1": "hou4bian1",
+            "POS": "noun of locality",
+            "lesson": "1.15",
+            "definition": "behind",
+            "notes": "..."
+        },
+        {
+            "character": "参观",     
+            "pin1yin1": "can1guan1",
+            "POS": "verb",
+            "lesson": "1.15",
+            "definition": "to visit",
+            "notes": "also to look around"
+        },
+        {
+            "character": "里边",     
+            "pin1yin1": "li3bian1",
+            "POS": "noun of locality",
+            "lesson": "1.15",
+            "definition": "inside",
+            "notes": "..."
+        },
+        {
+            "character": "厨房",     
+            "pin1yin1": "chu2fang2",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "kitchen",
+            "notes": "..."
+        },
+        {
+            "character": "旁边",     
+            "pin1yin1": "pang2bian1",
+            "POS": "noun of locality",
+            "lesson": "1.15",
+            "definition": "next to",
+            "notes": "..."
+        },
+        {
+            "character": "客厅",     
+            "pin1yin1": "ke4ting1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "living room",
+            "notes": "..."
+        },
+        {
+            "character": "走",     
+            "pin1yin1": "zou3",
+            "POS": "verb",
+            "lesson": "1.15",
+            "definition": "to go",
+            "notes": "Adverbial phrase: 走 + method of transportation"
+        },
+        {
+            "character": "走路",     
+            "pin1yin1": "zou3lu4",
+            "POS": "verb",
+            "lesson": "1.15",
+            "definition": "to walk",
+            "notes": "..."
+        },
+        {
+            "character": "餐厅",     
+            "pin1yin1": "can1ting1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "dining room",
+            "notes": "..."
+        },
+        {
+            "character": "餐馆",     
+            "pin1yin1": "can1guan3",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "restaurant",
+            "notes": "..."
+        },
+        {
+            "character": "餐桌",     
+            "pin1yin1": "can1zhuo1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "dining table",
+            "notes": "..."
+        },
+        {
+            "character": "早餐",     
+            "pin1yin1": "zao3can1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "breakfast",
+            "notes": "also: 早饭 (zao3fan4)"
+        },
+        {
+            "character": "午餐",     
+            "pin1yin1": "wu3can1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "lunch",
+            "notes": "also: 午饭 (wu3fan4)"
+        },
+        {
+            "character": "晚餐",     
+            "pin1yin1": "wan3can1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "dinner",
+            "notes": "also: 晚饭 (wan3fan4)"
+        },
+        {
+            "character": "洗澡",     
+            "pin1yin1": "xi3zao3",
+            "POS": "verb",
+            "lesson": "1.15",
+            "definition": "to shower or to bathe",
+            "notes": "..."
+        },
+        {
+            "character": "洗澡间",     
+            "pin1yin1": "xi3zao3jian1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "bathroom, full bath",
+            "notes": "..."
+        },
+        {
+            "character": "洗手间",     
+            "pin1yin1": "xi3shou3jian1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "bathroom, half bath",
+            "notes": "..."
+        },
+        {
+            "character": "卧室",     
+            "pin1yin1": "wo4shi4",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "bedroom",
+            "notes": "lie down + room"
+        },
+        {
+            "character": "桌子",     
+            "pin1yin1": "zhuo1zi5",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "table",
+            "notes": "..."
+        },
+        {
+            "character": "书桌",     
+            "pin1yin1": "shu1zhuo1",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "desk",
+            "notes": "..."
+        },
+        {
+            "character": "窗户",     
+            "pin1yin1": "chuang1hu5",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "window",
+            "notes": "window + household (户 = 4)"
+        },
+        {
+            "character": "公园",     
+            "pin1yin1": "gong1yuan4",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "park",
+            "notes": "..."
+        },
+        {
+            "character": "真",     
+            "pin1yin1": "zhen1",
+            "POS": "adverb",
+            "lesson": "1.15",
+            "definition": "really",
+            "notes": "i.e. 真的吗？真的。(zhen1de5ma5) Really? Really."
+        },
+        {
+            "character": "左边",     
+            "pin1yin1": "zuo3bian1",
+            "POS": "noun of locality",
+            "lesson": "1.15",
+            "definition": "left",
+            "notes": "..."
+        },
+        {
+            "character": "右边",     
+            "pin1yin1": "you4bian1",
+            "POS": "noun of locality",
+            "lesson": "1.15",
+            "definition": "right",
+            "notes": "..."
+        },
+        {
+            "character": "干净",     
+            "pin1yin1": "gan1jing4",
+            "POS": "adjective",
+            "lesson": "1.15",
+            "definition": "clean",
+            "notes": "..."
+        },
+        {
+            "character": "乱",     
+            "pin1yin1": "luan4",
+            "POS": "adjective",
+            "lesson": "1.15",
+            "definition": "messy",
+            "notes": "..."
+        },
+        {
+            "character": "厕所",     
+            "pin1yin1": "ce4suo3",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "toilet",
+            "notes": "..."
+        },
+        {
+            "character": "公共厕所",     
+            "pin1yin1": "gong1gong4ce4suo3",
+            "POS": "noun",
+            "lesson": "1.15",
+            "definition": "public restroom",
+            "notes": "..."
+        },
+        {
+            "character": "椅子",     
+            "pin1yin1": "yi3zi5",
+            "POS": "chair",
+            "lesson": "1.15",
+            "definition": "chair",
+            "notes": "..."
+        },
+        {
+            "character": "还有",     
+            "pin1yin1": "hai2you3",
+            "POS": "conjunction",
+            "lesson": "1.15",
+            "definition": "furthermore in addition, and (emphasized)",
+            "notes": "..."
+        },
+        {
+            "character": "还没",     
+            "pin1yin1": "hai2mei2",
+            "POS": "conjunction",
+            "lesson": "1.15",
+            "definition": "not yet",
+            "notes": "..."
+        },
+        {
+            "character": "篮球",     
+            "pin1yin1": "lan2qiu2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "basketball",
+            "notes": "verb: 打"
+        },
+        {
+            "character": "得",     
+            "pin1yin1": "de5",
+            "POS": "particle",
+            "lesson": "1.16",
+            "definition": "particle for a result, possibility, or degree",
+            "notes": "S V O V 得 adv adj"
+        },
+        {
+            "character": "俩",     
+            "pin1yin1": "lia3",
+            "POS": "adjective",
+            "lesson": "1.16",
+            "definition": "both, two (people)",
+            "notes": "colloquial, following pronoun (i.e. 我们俩在图书馆看书)"
+        },
+        {
+            "character": "教练",     
+            "pin1yin1": "jiao4lian4",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "coach, teach, & practice",
+            "notes": "..."
+        },
+        {
+            "character": "游泳",     
+            "pin1yin1": "you2yong3",
+            "POS": "verb",
+            "lesson": "1.16",
+            "definition": "to swim",
+            "notes": "..."
+        },
+        {
+            "character": "非常",     
+            "pin1yin1": "fei1chang2",
+            "POS": "adverb",
+            "lesson": "1.16",
+            "definition": "very",
+            "notes": "..."
+        },
+        {
+            "character": "快",     
+            "pin1yin1": "kuai4",
+            "POS": "adjective",
+            "lesson": "1.16",
+            "definition": "fast",
+            "notes": "..."
+        },
+        {
+            "character": "体育馆",     
+            "pin1yin1": "ti3yu4guan3",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "gymnasium",
+            "notes": "..."
+        },
+        {
+            "character": "游泳池",     
+            "pin1yin1": "you2yong3chi2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "swimming pool",
+            "notes": "..."
+        },
+        {
+            "character": "健身房",     
+            "pin1yin1": "jian4shen1fang2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "gym",
+            "notes": "(for working out)"
+        },
+        {
+            "character": "锻炼",     
+            "pin1yin1": "duan4lian4",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "to exercise",
+            "notes": "..."
+        },
+        {
+            "character": "现在",     
+            "pin1yin1": "xian4zai4",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "now",
+            "notes": "..."
+        },
+        {
+            "character": "昨天",     
+            "pin1yin1": "zuo2tian1",
+            "POS": "adverb",
+            "lesson": "1.16",
+            "definition": "yesterday",
+            "notes": "..."
+        },
+        {
+            "character": "球赛",     
+            "pin1yin1": "qiu2sai4",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "ballgame or match",
+            "notes": "add a character to the front to specify the sport (i.e. 篮球赛)"
+        },
+        {
+            "character": "包",     
+            "pin1yin1": "bao1",
+            "POS": "verb",
+            "lesson": "1.16",
+            "definition": "to wrap",
+            "notes": "..."
+        },
+        {
+            "character": "慢",     
+            "pin1yin1": "man4",
+            "POS": "adjective",
+            "lesson": "1.16",
+            "definition": "slow",
+            "notes": "..."
+        },
+        {
+            "character": "跑步",     
+            "pin1yin1": "pao3bu4",
+            "POS": "verb",
+            "lesson": "1.16",
+            "definition": "to run",
+            "notes": "..."
+        },
+        {
+            "character": "网球",     
+            "pin1yin1": "wang3qiu2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "tennis",
+            "notes": "..."
+        },
+        {
+            "character": "运动",     
+            "pin1yin1": "yun4dong4",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "sports",
+            "notes": "also verb: to exercise 运动"
+        },
+        {
+            "character": "运动",     
+            "pin1yin1": "yun4dong4",
+            "POS": "verb",
+            "lesson": "1.16",
+            "definition": "to exercise",
+            "notes": "also noun: sports, synonymous with 云动"
+        },
+        {
+            "character": "棒球",     
+            "pin1yin1": "bang4qiu2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "baseball",
+            "notes": "..."
+        },
+        {
+            "character": "足球",     
+            "pin1yin1": "zu2qiu2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "soccer",
+            "notes": "use the verb 踢 because you kick the ball"
+        },
+        {
+            "character": "踢",     
+            "pin1yin1": "ti3",
+            "POS": "verb",
+            "lesson": "1.16",
+            "definition": "to kick",
+            "notes": "..."
+        },
+        {
+            "character": "网球鞋",     
+            "pin1yin1": "wang3qiu2xie2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "tennis shoes",
+            "notes": "replace first character with any other sport to specify another sport's shoes"
+        },
+        {
+            "character": "运动鞋",     
+            "pin1yin1": "yun4dong4xie2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "athletic shoes",
+            "notes": "..."
+        },
+        {
+            "character": "运动员",     
+            "pin1yin1": "yun4dong4yuan2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "athlete",
+            "notes": "..."
+        },
+        {
+            "character": "橄榄球",     
+            "pin1yin1": "gan3lan3qiu2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "football",
+            "notes": "olive ball :D (older way to say it)"
+        },
+        {
+            "character": "美式足球",     
+            "pin1yin1": "mei3shi4zu2qiu2",
+            "POS": "noun",
+            "lesson": "1.16",
+            "definition": "football",
+            "notes": "more modern way to say it"
+        },
+        {
+            "character": "春天",     
+            "pin1yin1": "chun1tian1",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "spring",
+            "notes": "..."
+        },
+        {
+            "character": "久",     
+            "pin1yin1": "jiu3",
+            "POS": "adverb",
+            "lesson": "1.17",
+            "definition": "for a long time",
+            "notes": "..."
+        },
+        {
+            "character": "时间",     
+            "pin1yin1": "shi2jian1",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "time",
+            "notes": "..."
+        },
+        {
+            "character": "放",     
+            "pin1yin1": "fang4",
+            "POS": "verb",
+            "lesson": "1.17",
+            "definition": "to have, to start a vacation, to show movies",
+            "notes": "..."
+        },
+        {
+            "character": "春假",     
+            "pin1yin1": "chun1jia4",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "spring break",
+            "notes": "..."
+        },
+        {
+            "character": "气候",     
+            "pin1yin1": "qi4hou4",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "climate",
+            "notes": "..."
+        },
+        {
+            "character": "夏天",     
+            "pin1yin1": "xia4tian1",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "summer",
+            "notes": "..."
+        },
+        {
+            "character": "秋天",     
+            "pin1yin1": "qiu1tian1",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "autumn",
+            "notes": "..."
+        },
+        {
+            "character": "冬天",     
+            "pin1yin1": "dong1tian1",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "winter",
+            "notes": "..."
+        },
+        {
+            "character": "其中",     
+            "pin1yin1": "qi2zhong1",
+            "POS": "preposition",
+            "lesson": "1.17",
+            "definition": "among, among whom/which",
+            "notes": "..."
+        },
+        {
+            "character": "最",     
+            "pin1yin1": "zui4",
+            "POS": "adverb",
+            "lesson": "1.17",
+            "definition": "(indicate superlative degree)",
+            "notes": "..."
+        },
+        {
+            "character": "暖和",     
+            "pin1yin1": "nuan3huo5",
+            "POS": "adjective",
+            "lesson": "1.17",
+            "definition": "warm",
+            "notes": "..."
+        },
+        {
+            "character": "短",     
+            "pin1yin1": "duan3",
+            "POS": "adjective",
+            "lesson": "1.17",
+            "definition": "short",
+            "notes": "also: 矮 (ai3)"
+        },
+        {
+            "character": "矮",     
+            "pin1yin1": "ai3",
+            "POS": "adjective",
+            "lesson": "1.17",
+            "definition": "short",
+            "notes": "also: 短 (duan3)"
+        },
+        {
+            "character": "有时候",     
+            "pin1yin1": "you3shi2hou5",
+            "POS": "adverb",
+            "lesson": "1.17",
+            "definition": "sometimes",
+            "notes": "..."
+        },
+        {
+            "character": "热",     
+            "pin1yin1": "re4",
+            "POS": "adjective",
+            "lesson": "1.17",
+            "definition": "hot",
+            "notes": "..."
+        },
+        {
+            "character": "华氏",     
+            "pin1yin1": "hua2shi4",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "Fahrenheit",
+            "notes": "..."
+        },
+        {
+            "character": "百",     
+            "pin1yin1": "bai3",
+            "POS": "number",
+            "lesson": "1.17",
+            "definition": "hundred",
+            "notes": "..."
+        },
+        {
+            "character": "度",     
+            "pin1yin1": "du4",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "degree",
+            "notes": "..."
+        },
+        {
+            "character": "极",     
+            "pin1yin1": "ji2",
+            "POS": "adverb",
+            "lesson": "1.17",
+            "definition": "extremely",
+            "notes": "..."
+        },
+        {
+            "character": "刮风",     
+            "pin1yin1": "gua1feng1",
+            "POS": "VO",
+            "lesson": "1.17",
+            "definition": "to blow (wind)",
+            "notes": "..."
+        },
+        {
+            "character": "风",     
+            "pin1yin1": "feng1",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "wind",
+            "notes": "..."
+        },
+        {
+            "character": "下雨",     
+            "pin1yin1": "xia4yu3",
+            "POS": "VO",
+            "lesson": "1.17",
+            "definition": "to rain",
+            "notes": "..."
+        },
+        {
+            "character": "雨",     
+            "pin1yin1": "yu3",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "rain",
+            "notes": "..."
+        },
+        {
+            "character": "冷",     
+            "pin1yin1": "leng3",
+            "POS": "adjective",
+            "lesson": "1.17",
+            "definition": "cold",
+            "notes": "..."
+        },
+        {
+            "character": "下雪",     
+            "pin1yin1": "xia4xue3",
+            "POS": "VO",
+            "lesson": "1.17",
+            "definition": "to snow",
+            "notes": "..."
+        },
+        {
+            "character": "雪",     
+            "pin1yin1": "xue3",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "snow",
+            "notes": "..."
+        },
+        {
+            "character": "见面",     
+            "pin1yin1": "jian4mian4",
+            "POS": "VO",
+            "lesson": "1.17",
+            "definition": "to meet each other",
+            "notes": "..."
+        },
+        {
+            "character": "面",     
+            "pin1yin1": "mian4",
+            "POS": "noun",
+            "lesson": "1.17",
+            "definition": "face",
+            "notes": "..."
+        },
+        {
+            "character": "虽然",     
+            "pin1yin1": "sui1ran2",
+            "POS": "conjunction",
+            "lesson": "1.17",
+            "definition": "although, also, even though or even",
+            "notes": "虽然...可以..."
+        },
+        {
+            "character": "离开",     
+            "pin1yin1": "li2kai1",
+            "POS": "verb",
+            "lesson": "1.17",
+            "definition": "to leave",
+            "notes": "drive away: 开车离开"
+        },
+        {
+            "character": "火车",     
+            "pin1yin1": "huo3che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "train",
+            "notes": "fire car"
+        },
+        {
+            "character": "旅行",     
+            "pin1yin1": "lü3xing2",
+            "POS": "verb",
+            "lesson": "1.18",
+            "definition": "to travel",
+            "notes": "trip + to walk/go/travel"
+        },
+        {
+            "character": "离",     
+            "pin1yin1": "li2",
+            "POS": "verb",
+            "lesson": "1.18",
+            "definition": "to be away from",
+            "notes": "also used in 离开 (li2kai1: to leave)"
+        },
+        {
+            "character": "学校",     
+            "pin1yin1": "xue2xiao4",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "school",
+            "notes": "study + school"
+        },
+        {
+            "character": "远",     
+            "pin1yin1": "yuan3",
+            "POS": "adjective",
+            "lesson": "1.18",
+            "definition": "far",
+            "notes": "Lesson 2.4 phrase: 有朋自远方来，不亦说乎？"
+        },
+        {
+            "character": "只要",     
+            "pin1yin1": "zhi3yao4",
+            "POS": "adverb",
+            "lesson": "1.18",
+            "definition": "only",
+            "notes": "只 as an animal quantifier is zhi1"
+        },
+        {
+            "character": "骑",     
+            "pin1yin1": "qi2",
+            "POS": "verb",
+            "lesson": "1.18",
+            "definition": "to ride",
+            "notes": "骑自行车 (qi2xi4xing2che1: to ride a bike)"
+        },
+        {
+            "character": "自行车",     
+            "pin1yin1": "zi4xing2che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "bike",
+            "notes": "from/self + to walk + car (self driven vehicle), synonyms: 单车 (dan1che1), 脚踏车 (jiao3ta4che1)"
+        },
+        {
+            "character": "公共汽车",     
+            "pin1yin1": "gong1gong4qi4che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "bus",
+            "notes": "public + steam + car (abbr. 汽车）"
+        },
+        {
+            "character": "汽车",     
+            "pin1yin1": "qi4che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "bus",
+            "notes": "short for 公共汽车 (gong1gong4qi4che1)"
+        },
+        {
+            "character": "路",     
+            "pin1yin1": "lu4",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "road",
+            "notes": "used in 走路 (zou3lu4: to walk)"
+        },
+        {
+            "character": "近",     
+            "pin1yin1": "jin4",
+            "POS": "adjective",
+            "lesson": "1.18",
+            "definition": "near",
+            "notes": "..."
+        },
+        {
+            "character": "西",     
+            "pin1yin1": "xi1",
+            "POS": "adjective",
+            "lesson": "1.18",
+            "definition": "west",
+            "notes": "nouns: 西边 (xi1bian1: the west), 西部 (xi1bu4: the west side of a country)"
+        },
+        {
+            "character": "东",     
+            "pin1yin1": "dong1",
+            "POS": "adjective",
+            "lesson": "1.18",
+            "definition": "east",
+            "notes": "nouns: 东边 (dong1bian1: the east), 东部 (dong1bu4: the east side of a country)"
+        },
+        {
+            "character": "北",     
+            "pin1yin1": "bei3",
+            "POS": "adjective",
+            "lesson": "1.18",
+            "definition": "north",
+            "notes": "nouns: 北边 (bei3bian1: the north), 北部 (bei3bu4: the north side of a country)"
+        },
+        {
+            "character": "南",     
+            "pin1yin1": "nan2",
+            "POS": "adjective",
+            "lesson": "1.18",
+            "definition": "south",
+            "notes": "nouns: 南边 (nan2bian1: the south), 南部 (nan2bu4: the south side of a country)"
+        },
+        {
+            "character": "风景",     
+            "pin1yin1": "feng1jing3",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "scenery",
+            "notes": "synonym: 景色 (jing3se4)"
+        },
+        {
+            "character": "景色",     
+            "pin1yin1": "jing3se4",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "scenery",
+            "notes": "also: 风景 (feng1jing3)"
+        },
+        {
+            "character": "船",     
+            "pin1yin1": "chuan2",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "boat, ship",
+            "notes": "..."
+        },
+        {
+            "character": "部",     
+            "pin1yin1": "bu4",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "side of country",
+            "notes": "used with adj. prefix (cardinal direction)"
+        },
+        {
+            "character": "听说",     
+            "pin1yin1": "ting1shuo1",
+            "POS": "verb",
+            "lesson": "1.18",
+            "definition": "to hear of, it is said that",
+            "notes": "yeah, it looks like V&O but it's transitive"
+        },
+        {
+            "character": "海",     
+            "pin1yin1": "hai3",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "ocean, sea, great number",
+            "notes": "i.e. 海边，海里，海滩 (hai3tan1 beach)"
+        },
+        {
+            "character": "海滩",     
+            "pin1yin1": "hai3tan1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "seaside, beach",
+            "notes": "弗吉尼亚海滩: fu2ji2ni2ya4hai3tan1"
+        },
+        {
+            "character": "旺季",     
+            "pin1yin1": "wang4ji4",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "busy season",
+            "notes": "antonym: 淡季  dan4ji4 off-season"
+        },
+        {
+            "character": "淡季",     
+            "pin1yin1": "dan4ji4",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "off-season",
+            "notes": "antonym: 旺季 wang4ji4 busy season"
+        },
+        {
+            "character": "单车",     
+            "pin1yin1": "dan1che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "bike",
+            "notes": "synonym:  自行车 (zi4xing2che1) & 脚踏车 (jiao3ta3che1)"
+        },
+        {
+            "character": "脚踏车",     
+            "pin1yin1": "jiao3ta4che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "bike",
+            "notes": "synonyms: 自行车 (zi4xing2che1) & 单车 (dan1che1)"
+        },
+        {
+            "character": "摩托车",     
+            "pin1yin1": "mo2tuo1che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "scooter, motorcycle",
+            "notes": "synonym: 机车 ji1che1"
+        },
+        {
+            "character": "机车",     
+            "pin1yin1": "ji1che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "scooter, motorcycle",
+            "notes": "synonym: 摩托车 (mo2tuo1che1)"
+        },
+        {
+            "character": "出租汽车",     
+            "pin1yin1": "chu1zu1qi4che1",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "taxi",
+            "notes": "synonym: 计程车 (ji4cheng2che1)"
+        },
+        {
+            "character": "计程车",     
+            "pin1yin1": "计程车",
+            "POS": "noun",
+            "lesson": "1.18",
+            "definition": "taxi",
+            "notes": "synonym: 出租汽车 (chu1zu1qi4che1)"
+        },
+        {
+            "character": "倒",     
+            "pin1yin1": "dao4",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to move backwards, to reverse",
+            "notes": "..."
+        },
+        {
+            "character": "别",     
+            "pin1yin1": "bie2",
+            "POS": "auxiliary verb",
+            "lesson": "2.1",
+            "definition": "don't",
+            "notes": "also adjective: other"
+        },
+        {
+            "character": "别",     
+            "pin1yin1": "bie2",
+            "POS": "adjective",
+            "lesson": "2.1",
+            "definition": "other",
+            "notes": "also auxiliary verb: don't"
+        },
+        {
+            "character": "房东",     
+            "pin1yin1": "fang2dong1",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "landlord",
+            "notes": "..."
+        },
+        {
+            "character": "树",     
+            "pin1yin1": "shu4",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "tree",
+            "notes": "..."
+        },
+        {
+            "character": "撞",     
+            "pin1yin1": "zhuang4",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to collide with, hit, strike",
+            "notes": "..."
+        },
+        {
+            "character": "坏",     
+            "pin1yin1": "huai4",
+            "POS": "adjective",
+            "lesson": "2.1",
+            "definition": "bad",
+            "notes": "..."
+        },
+        {
+            "character": "呀",     
+            "pin1yin1": "ya5",
+            "POS": "particle",
+            "lesson": "2.1",
+            "definition": "(tone softener)",
+            "notes": "used at the end of a sentence (i.e. 对呀 dui4ya5)"
+        },
+        {
+            "character": "小心",     
+            "pin1yin1": "xiao3xin1",
+            "POS": "adjective",
+            "lesson": "2.1",
+            "definition": "cautious",
+            "notes": "also verb: to be careful"
+        },
+        {
+            "character": "小心",     
+            "pin1yin1": "xiao3xin1",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to be careful",
+            "notes": "also adjective: cautious"
+        },
+        {
+            "character": "镜子",     
+            "pin1yin1": "jing4zi5",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "mirror",
+            "notes": "..."
+        },
+        {
+            "character": "破",     
+            "pin1yin1": "po4",
+            "POS": "adjective",
+            "lesson": "2.1",
+            "definition": "broken",
+            "notes": "..."
+        },
+        {
+            "character": "分工合作",     
+            "pin1yin1": "fen1gong1he2zuo4",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to divide and conquer",
+            "notes": "..."
+        },
+        {
+            "character": "主意",     
+            "pin1yin1": "zhu3yi5",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "idea",
+            "notes": "..."
+        },
+        {
+            "character": "负责",     
+            "pin1yin1": "fu4ze2",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to be responsible for",
+            "notes": "..."
+        },
+        {
+            "character": "行李",     
+            "pin1yin1": "xing2li5",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "luggage",
+            "notes": "..."
+        },
+        {
+            "character": "装",     
+            "pin1yin1": "zhuang1",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to install, assemble, to load, to pack",
+            "notes": "..."
+        },
+        {
+            "character": "扫",     
+            "pin1yin1": "sao3",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to clean, sweep",
+            "notes": "i.e. 他扫地。 ta1sao3di4 - he sweeps"
+        },
+        {
+            "character": "整理",     
+            "pin1yin1": "zheng3li3",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to arrange, sort out",
+            "notes": "..."
+        },
+        {
+            "character": "箱子",     
+            "pin1yin1": "xiang1zi5",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "box, case",
+            "notes": "..."
+        },
+        {
+            "character": "挂",     
+            "pin1yin1": "gua4",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to hang",
+            "notes": "..."
+        },
+        {
+            "character": "请客",     
+            "pin1yin1": "qing3ke4",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to host, to treat",
+            "notes": "..."
+        },
+        {
+            "character": "死",     
+            "pin1yin1": "si3",
+            "POS": "adjective",
+            "lesson": "2.1",
+            "definition": "dead",
+            "notes": "..."
+        },
+        {
+            "character": "死",     
+            "pin1yin1": "si3",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "die",
+            "notes": "..."
+        },
+        {
+            "character": "附近",     
+            "pin1yin1": "fu4jin4",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "nearby",
+            "notes": "..."
+        },
+        {
+            "character": "忘",     
+            "pin1yin1": "wang4",
+            "POS": "verb",
+            "lesson": "2.1",
+            "definition": "to forget",
+            "notes": "..."
+        },
+        {
+            "character": "门",     
+            "pin1yin1": "men2",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "door",
+            "notes": "..."
+        },
+        {
+            "character": "关上",     
+            "pin1yin1": "guan1shang4",
+            "POS": "VC",
+            "lesson": "2.1",
+            "definition": "to close",
+            "notes": "(door/window)"
+        },
+        {
+            "character": "外套",     
+            "pin1yin1": "wai4tao4",
+            "POS": "noun",
+            "lesson": "2.1",
+            "definition": "coat",
+            "notes": "..."
+        },
+        {
+            "character": "咱们",     
+            "pin1yin1": "zan2men5",
+            "POS": "pronoun",
+            "lesson": "2.1",
+            "definition": "we, us",
+            "notes": "inclusive"
+        },
+        {
+            "character": "墙",     
+            "pin1yin1": "qiang2",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "wall",
+            "notes": "..."
+        },
+        {
+            "character": "着",     
+            "pin1yin1": "zhe5",
+            "POS": "particle",
+            "lesson": "2.2",
+            "definition": "(indicates continuous or stationary action)",
+            "notes": "在 is progressive (I putting on the dress when...) while 着 is imperfect (she wearing that dress when...)"
+        },
+        {
+            "character": "照片",     
+            "pin1yin1": "zhao4pian4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "photo",
+            "notes": "..."
+        },
+        {
+            "character": "服装",     
+            "pin1yin1": "fu2zhuang1",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "costume",
+            "notes": "..."
+        },
+        {
+            "character": "舞台",     
+            "pin1yin1": "wu3tai2",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "stage (performace)",
+            "notes": "..."
+        },
+        {
+            "character": "摆",     
+            "pin1yin1": "bai3",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to place, put",
+            "notes": "..."
+        },
+        {
+            "character": "各种",     
+            "pin1yin1": "ge4zhong3",
+            "POS": "adjective",
+            "lesson": "2.2",
+            "definition": "various, all kinds of",
+            "notes": "..."
+        },
+        {
+            "character": "乐器",     
+            "pin1yin1": "yue4qi4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "instrument",
+            "notes": "..."
+        },
+        {
+            "character": "鼓",     
+            "pin1yin1": "gu3",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "drum",
+            "notes": "use 打 (da3) with it"
+        },
+        {
+            "character": "拉",     
+            "pin1yin1": "la1",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to play (stringed instrument), to pull",
+            "notes": "..."
+        },
+        {
+            "character": "胡琴",     
+            "pin1yin1": "hu2qin2",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "huqin",
+            "notes": "use 拉 (la1) with it"
+        },
+        {
+            "character": "弹奏",     
+            "pin1yin1": "tan2zou4",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to play (instrument), pluck, strike",
+            "notes": "use with any instrument"
+        },
+        {
+            "character": "自己",     
+            "pin1yin1": "zi4ji3",
+            "POS": "pronoun",
+            "lesson": "2.2",
+            "definition": "oneself",
+            "notes": "..."
+        },
+        {
+            "character": "出",     
+            "pin1yin1": "chu1",
+            "POS": "quantifier",
+            "lesson": "2.2",
+            "definition": "(Chinese theater performances)",
+            "notes": "also verb: to exit"
+        },
+        {
+            "character": "出",     
+            "pin1yin1": "chu1",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to exit",
+            "notes": "also quantifier: (Chinese theater performances)"
+        },
+        {
+            "character": "戏",     
+            "pin1yin1": "xi4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "play, drama",
+            "notes": "..."
+        },
+        {
+            "character": "画",     
+            "pin1yin1": "hua4",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to paint",
+            "notes": "also noun: painting"
+        },
+        {
+            "character": "画",     
+            "pin1yin1": "hua4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "painting",
+            "notes": "also verb: to paint"
+        },
+        {
+            "character": "脸",     
+            "pin1yin1": "lian3",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "face",
+            "notes": "..."
+        },
+        {
+            "character": "拿",     
+            "pin1yin1": "na2",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to hold, take",
+            "notes": "..."
+        },
+        {
+            "character": "把",     
+            "pin1yin1": "ba3",
+            "POS": "quantifier",
+            "lesson": "2.2",
+            "definition": "(utensils with handles)",
+            "notes": "..."
+        },
+        {
+            "character": "刀",     
+            "pin1yin1": "dao1",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "knife",
+            "notes": "..."
+        },
+        {
+            "character": "神气",     
+            "pin1yin1": "shen2qi4",
+            "POS": "adjective",
+            "lesson": "2.2",
+            "definition": "energetic, high-spirited, proud",
+            "notes": "..."
+        },
+        {
+            "character": "座位",     
+            "pin1yin1": "zuo4wei4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "seat",
+            "notes": "..."
+        },
+        {
+            "character": "满",     
+            "pin1yin1": "man3",
+            "POS": "adjective",
+            "lesson": "2.2",
+            "definition": "full",
+            "notes": "..."
+        },
+        {
+            "character": "观众",     
+            "pin1yin1": "guang1zhong4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "audience",
+            "notes": "..."
+        },
+        {
+            "character": "站",     
+            "pin1yin1": "zhan4",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "to stand",
+            "notes": "..."
+        },
+        {
+            "character": "一言为定",     
+            "pin1yin1": "yi4yan2wei2ding4",
+            "POS": "phrase",
+            "lesson": "2.2",
+            "definition": "it's a deal",
+            "notes": "..."
+        },
+        {
+            "character": "演员",     
+            "pin1yin1": "yan3yuan2",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "actor",
+            "notes": "..."
+        },
+        {
+            "character": "导演",     
+            "pin1yin1": "dao3yan3",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "director",
+            "notes": "also verb"
+        },
+        {
+            "character": "导演",     
+            "pin1yin1": "dao3yan3",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "to direct",
+            "notes": "also noun: director"
+        },
+        {
+            "character": "表演",     
+            "pin1yin1": "biao3yan3",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "performance",
+            "notes": "..."
+        },
+        {
+            "character": "表演",     
+            "pin1yin1": "biao3yan3",
+            "POS": "verb",
+            "lesson": "2.2",
+            "definition": "to perform",
+            "notes": "..."
+        },
+        {
+            "character": "乐师",     
+            "pin1yin1": "yue4shi1",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "musician",
+            "notes": "..."
+        },
+        {
+            "character": "北京",     
+            "pin1yin1": "bei3jing1",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "Beijing",
+            "notes": "..."
+        },
+        {
+            "character": "长城",     
+            "pin1yin1": "chang2cheng2",
+            "POS": "noun",
+            "lesson": "2.2",
+            "definition": "the Great Wall",
+            "notes": "..."
+        },
+        {
+            "character": "往",     
+            "pin1yin1": "wang4",
+            "POS": "preposition",
+            "lesson": "2.3",
+            "definition": "toward",
+            "notes": "also pronounced wang, synonymous with 向 (xiang4)"
+        },
+        {
+            "character": "各位",     
+            "pin1yin1": "ge4wei4",
+            "POS": "pronoun",
+            "lesson": "2.3",
+            "definition": "everyone",
+            "notes": "a term used to address people"
+        },
+        {
+            "character": "旅客",     
+            "pin1yin1": "lü3ke4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "traveler, passenger",
+            "notes": "..."
+        },
+        {
+            "character": "降落",     
+            "pin1yin1": "jiang4luo4",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to land, descend",
+            "notes": "as in a plane"
+        },
+        {
+            "character": "安全带",     
+            "pin1yin1": "an1quan2dai4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "seat belt, safety belt",
+            "notes": "..."
+        },
+        {
+            "character": "机上",     
+            "pin1yin1": "ji4shang4",
+            "POS": "VC",
+            "lesson": "2.3",
+            "definition": "to tie, fasten, buckle up",
+            "notes": "..."
+        },
+        {
+            "character": "电子",     
+            "pin1yin1": "dian4zi3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "electronics",
+            "notes": "..."
+        },
+        {
+            "character": "用品",     
+            "pin1yin1": "yong4pin3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "product",
+            "notes": "..."
+        },
+        {
+            "character": "搭乘",     
+            "pin1yin1": "da1cheng2",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to take (a form of transportation)",
+            "notes": "..."
+        },
+        {
+            "character": "航空",     
+            "pin1yin1": "hang2kong1",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "aviation",
+            "notes": "..."
+        },
+        {
+            "character": "出租",     
+            "pin1yin1": "chu1zu1",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to rent",
+            "notes": "..."
+        },
+        {
+            "character": "旅馆",     
+            "pin1yin1": "lü3guan3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "hotel, hostel",
+            "notes": "..."
+        },
+        {
+            "character": "路人",     
+            "pin1yin1": "lu4ren2",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "passerby",
+            "notes": "..."
+        },
+        {
+            "character": "栋",     
+            "pin1yin1": "dong4",
+            "POS": "quantifier",
+            "lesson": "2.3",
+            "definition": "(buldings)",
+            "notes": "..."
+        },
+        {
+            "character": "交叉口",     
+            "pin1yin1": "jiao1cha1kou3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "intersection",
+            "notes": "similar: fork in the road 路口 (lu4kou3)"
+        },
+        {
+            "character": "拐",     
+            "pin1yin1": "guai3",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to turn",
+            "notes": "also: 转 (zhuan3)"
+        },
+        {
+            "character": "一直",     
+            "pin1yin1": "yi4shi2",
+            "POS": "adverb",
+            "lesson": "2.3",
+            "definition": "straight, always",
+            "notes": "also: 总是 (zong3shi4), 时刻 (shi2ke4)"
+        },
+        {
+            "character": "路口",     
+            "pin1yin1": "lu4kou3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "fork in the road",
+            "notes": "similar: intersection 交叉口 (jiao1cha1kou3)"
+        },
+        {
+            "character": "司机",     
+            "pin1yin1": "si1ji1",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "driver",
+            "notes": "..."
+        },
+        {
+            "character": "假日",     
+            "pin1yin1": "jia4ri4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "holiday",
+            "notes": "..."
+        },
+        {
+            "character": "后车箱",     
+            "pin1yin1": "hou4che1xiang1",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "trunk",
+            "notes": "..."
+        },
+        {
+            "character": "发展",     
+            "pin1yin1": "fa1zhan3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "development",
+            "notes": "also verb: to develop"
+        },
+        {
+            "character": "发展",     
+            "pin1yin1": "fa1zhan3",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to develop",
+            "notes": "also noun: development"
+        },
+        {
+            "character": "变化",     
+            "pin1yin1": "bian4hua4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "change",
+            "notes": "also verb"
+        },
+        {
+            "character": "变化",     
+            "pin1yin1": "bian4hua4",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to change",
+            "notes": "also noun"
+        },
+        {
+            "character": "本来",     
+            "pin1yin1": "ben3lai2",
+            "POS": "adverb",
+            "lesson": "2.3",
+            "definition": "originally",
+            "notes": "also: 远来 (yuan2lai2)"
+        },
+        {
+            "character": "农田",     
+            "pin1yin1": "nong2tian2",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "farmland",
+            "notes": "..."
+        },
+        {
+            "character": "变成",     
+            "pin1yin1": "bian4cheng2",
+            "POS": "VC",
+            "lesson": "2.3",
+            "definition": "to become",
+            "notes": "..."
+        },
+        {
+            "character": "马路",     
+            "pin1yin1": "ma3lu4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "road",
+            "notes": "also: 街道 (jie1dao4)"
+        },
+        {
+            "character": "噢",     
+            "pin1yin1": "o1",
+            "POS": "interjection",
+            "lesson": "2.3",
+            "definition": "(indicate epiphany)",
+            "notes": "..."
+        },
+        {
+            "character": "公尺",     
+            "pin1yin1": "gong1chi3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "meter",
+            "notes": "..."
+        },
+        {
+            "character": "红绿灯",     
+            "pin1yin1": "hong2lü4deng1",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "traffic light",
+            "notes": "..."
+        },
+        {
+            "character": "向",     
+            "pin1yin1": "xiang4",
+            "POS": "preposition",
+            "lesson": "2.3",
+            "definition": "toward",
+            "notes": "also: 往 (wang4)"
+        },
+        {
+            "character": "转",     
+            "pin1yin1": "zhuan3",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to turn",
+            "notes": "also: 拐 (guai3)"
+        },
+        {
+            "character": "小吃店",     
+            "pin1yin1": "xiao3chi1dian4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "snack bar",
+            "notes": "..."
+        },
+        {
+            "character": "弯儿",     
+            "pin1yin1": "war3",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "turn, detour",
+            "notes": "..."
+        },
+        {
+            "character": "车费",     
+            "pin1yin1": "che1fei4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "cab fare",
+            "notes": "..."
+        },
+        {
+            "character": "找",     
+            "pin1yin1": "zhao3",
+            "POS": "verb",
+            "lesson": "2.3",
+            "definition": "to seek, look for, to give (change)",
+            "notes": "..."
+        },
+        {
+            "character": "人民币",     
+            "pin1yin1": "ren2min2bi4",
+            "POS": "noun",
+            "lesson": "2.3",
+            "definition": "RMB",
+            "notes": "modern Chinese currency"
+        },
+        {
+            "character": "师母",     
+            "pin1yin1": "shi1mu3",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "teacher's wife",
+            "notes": "honorific term used to address the teacher's wife"
+        },
+        {
+            "character": "些",     
+            "pin1yin1": "xie1",
+            "POS": "quantifier",
+            "lesson": "2.4",
+            "definition": "some",
+            "notes": "..."
+        },
+        {
+            "character": "维生素",     
+            "pin1yin1": "wei2sheng1su4",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "vitamin",
+            "notes": "..."
+        },
+        {
+            "character": "永远",     
+            "pin1yin1": "yong3yuan3",
+            "POS": "adverb",
+            "lesson": "2.4",
+            "definition": "forever",
+            "notes": "..."
+        },
+        {
+            "character": "健康",     
+            "pin1yin1": "jian4kang1",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "healthy",
+            "notes": "..."
+        },
+        {
+            "character": "年轻",     
+            "pin1yin1": "nian2qing1",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "young",
+            "notes": "..."
+        },
+        {
+            "character": "破费",     
+            "pin1yin1": "po4fei4",
+            "POS": "VO",
+            "lesson": "2.4",
+            "definition": "to spend too much money",
+            "notes": "..."
+        },
+        {
+            "character": "小意思",     
+            "pin1yin1": "xiao3yi4si5",
+            "POS": "phrase",
+            "lesson": "2.4",
+            "definition": "no big deal",
+            "notes": "..."
+        },
+        {
+            "character": "男得",     
+            "pin1yin1": "nan2de2",
+            "POS": "adverb",
+            "lesson": "2.4",
+            "definition": "seldom, rarely",
+            "notes": "..."
+        },
+        {
+            "character": "特地",     
+            "pin1yin1": "te4di4",
+            "POS": "adverb",
+            "lesson": "2.4",
+            "definition": "especially",
+            "notes": "..."
+        },
+        {
+            "character": "拿手菜",     
+            "pin1yin1": "na2shou3cai4",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "specialty dish",
+            "notes": "..."
+        },
+        {
+            "character": "凉",     
+            "pin1yin1": "liang2",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "cool, cold",
+            "notes": "..."
+        },
+        {
+            "character": "精神",     
+            "pin1yin1": "jing1shen5",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "energetic, high-spirited",
+            "notes": "..."
+        },
+        {
+            "character": "白头发",     
+            "pin1yin1": "bai2tou2fa",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "gray or white hair",
+            "notes": "..."
+        },
+        {
+            "character": "眼睛",     
+            "pin1yin1": "yan3jing1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "eye",
+            "notes": "..."
+        },
+        {
+            "character": "花",     
+            "pin1yin1": "hua1",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "blurred (eyesight)",
+            "notes": "also noun: flower"
+        },
+        {
+            "character": "花",     
+            "pin1yin1": "hua1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "flower",
+            "notes": "also adjective: blurred (eyesight)"
+        },
+        {
+            "character": "适应",     
+            "pin1yin1": "shi4ying4",
+            "POS": "verb",
+            "lesson": "2.4",
+            "definition": "to get used to",
+            "notes": "similar: to be used to 适应 (xi2guan4)"
+        },
+        {
+            "character": "时差",     
+            "pin1yin1": "shi2cha1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "time difference, jetlag",
+            "notes": "..."
+        },
+        {
+            "character": "白天",     
+            "pin1yin1": "bai2tian1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "daytime",
+            "notes": "..."
+        },
+        {
+            "character": "困",     
+            "pin1yin1": "kun4",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "sleepy, dozy",
+            "notes": "..."
+        },
+        {
+            "character": "睡不着",     
+            "pin1yin1": "shui4bu5zhao2",
+            "POS": "phrase",
+            "lesson": "2.4",
+            "definition": "unable to sleep, sleepless",
+            "notes": "..."
+        },
+        {
+            "character": "街道",     
+            "pin1yin1": "jie1dao4",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "street",
+            "notes": "also: 马路 (ma3lu4)"
+        },
+        {
+            "character": "习惯",     
+            "pin1yin1": "xi2guan4",
+            "POS": "verb",
+            "lesson": "2.4",
+            "definition": "to be used to",
+            "notes": "similar: 适应 (shi4ying4)"
+        },
+        {
+            "character": "长",     
+            "pin1yin1": "zhang3",
+            "POS": "verb",
+            "lesson": "2.4",
+            "definition": "to grow",
+            "notes": "..."
+        },
+        {
+            "character": "年糕",     
+            "pin1yin1": "nian2gao1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "New Year cake, rice cake",
+            "notes": "..."
+        },
+        {
+            "character": "味道",     
+            "pin1yin1": "wei4dao1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "taste",
+            "notes": "..."
+        },
+        {
+            "character": "地道",     
+            "pin1yin1": "di4dao5",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "original, authentic, genuine",
+            "notes": "especially in a cultural context (i.e. food)"
+        },
+        {
+            "character": "香",     
+            "pin1yin1": "xiang1",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "aroma",
+            "notes": "also adjective"
+        },
+        {
+            "character": "香",     
+            "pin1yin1": "xiang1",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "aromatic",
+            "notes": "also noun"
+        },
+        {
+            "character": "俱全",     
+            "pin1yin1": "ju4quan2",
+            "POS": "adverb",
+            "lesson": "2.4",
+            "definition": "all included, altogether",
+            "notes": "the textbook says it's a phrase"
+        },
+        {
+            "character": "饱",     
+            "pin1yin1": "bao3",
+            "POS": "adjective",
+            "lesson": "2.4",
+            "definition": "full",
+            "notes": "..."
+        },
+        {
+            "character": "只是",     
+            "pin1yin1": "zhi3shi4",
+            "POS": "adverb",
+            "lesson": "2.4",
+            "definition": "just, simply",
+            "notes": "..."
+        },
+        {
+            "character": "家常便饭",     
+            "pin1yin1": "jia1chang2bian4fan4",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "homemade meal",
+            "notes": "..."
+        },
+        {
+            "character": "相聚",     
+            "pin1yin1": "xiang1ju4",
+            "POS": "verb",
+            "lesson": "2.4",
+            "definition": "to be together, get together",
+            "notes": "..."
+        },
+        {
+            "character": "干杯",     
+            "pin1yin1": "gan1bei1",
+            "POS": "VO",
+            "lesson": "2.4",
+            "definition": "to toast, cheers",
+            "notes": "..."
+        },
+        {
+            "character": "匹兹堡",     
+            "pin1yin1": "pi3zi1bao3",
+            "POS": "noun",
+            "lesson": "2.4",
+            "definition": "Pittsburg",
+            "notes": "..."
+        },
+        {
+            "character": "寒假",     
+            "pin1yin1": "han2jia4",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "winter break",
+            "notes": "..."
+        },
+        {
+            "character": "旅游",     
+            "pin1yin1": "lü3you2",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "tour",
+            "notes": "..."
+        },
+        {
+            "character": "旅行社",     
+            "pin1yin1": "lü3xing2she4",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "travel agency",
+            "notes": "..."
+        },
+        {
+            "character": "订",     
+            "pin1yin1": "ding4",
+            "POS": "verb",
+            "lesson": "2.7",
+            "definition": "to book, make reservations",
+            "notes": "..."
+        },
+        {
+            "character": "机票",     
+            "pin1yin1": "ji1piao4",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "plane ticket",
+            "notes": "..."
+        },
+        {
+            "character": "羡慕",     
+            "pin1yin1": "xian4mu4",
+            "POS": "verb",
+            "lesson": "2.7",
+            "definition": "to envy",
+            "notes": "..."
+        },
+        {
+            "character": "打算",     
+            "pin1yin1": "da3suan4",
+            "POS": "verb",
+            "lesson": "2.7",
+            "definition": "to plan",
+            "notes": "also noun"
+        },
+        {
+            "character": "打算",     
+            "pin1yin1": "da3suan4",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "plan",
+            "notes": "also verb"
+        },
+        {
+            "character": "抽空",     
+            "pin1yin1": "chou1kong4",
+            "POS": "VO",
+            "lesson": "2.7",
+            "definition": "to manage to find the time",
+            "notes": "squeeze the void!"
+        },
+        {
+            "character": "拜访",     
+            "pin1yin1": "bai4fang3",
+            "POS": "verb",
+            "lesson": "2.7",
+            "definition": "to visit",
+            "notes": "also noun: visit"
+        },
+        {
+            "character": "拜访",     
+            "pin1yin1": "bai4fang3",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "visit",
+            "notes": "also verb"
+        },
+        {
+            "character": "差",     
+            "pin1yin1": "cha1",
+            "POS": "verb",
+            "lesson": "2.7",
+            "definition": "to check",
+            "notes": "..."
+        },
+        {
+            "character": "买不起",     
+            "pin1yin1": "mai3bu5qi3",
+            "POS": "phrase",
+            "lesson": "2.7",
+            "definition": "can't afford to buy",
+            "notes": "example of a negative potential complement"
+        },
+        {
+            "character": "找得到",     
+            "pin1yin1": "zhao3de5dao4",
+            "POS": "phrase",
+            "lesson": "2.7",
+            "definition": "to be able to find",
+            "notes": "example of a positive potential complement"
+        },
+        {
+            "character": "其实",     
+            "pin1yin1": "qi2shi2",
+            "POS": "adverb",
+            "lesson": "2.7",
+            "definition": "as a matter of fact",
+            "notes": "umm, actually.."
+        },
+        {
+            "character": "要是",     
+            "pin1yin1": "yao4shi4",
+            "POS": "conjunction",
+            "lesson": "2.7",
+            "definition": "if",
+            "notes": "also: 如果 (ru2guo3)"
+        },
+        {
+            "character": "南方",     
+            "pin1yin1": "nan2fang1",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "Southern part (of a country), the south",
+            "notes": "..."
+        },
+        {
+            "character": "四季如春",     
+            "pin1yin1": "si4ji4ru2chun1",
+            "POS": "phrase",
+            "lesson": "2.7",
+            "definition": "to be like spring all year round",
+            "notes": "four seasons like spring"
+        },
+        {
+            "character": "风景如画",     
+            "pin1yin1": "feng1jing3ru2hua4",
+            "POS": "phrase",
+            "lesson": "2.7",
+            "definition": "with picturesque scenic beauty",
+            "notes": "scenery like a painting"
+        },
+        {
+            "character": "少数民族",     
+            "pin1yin1": "shao3shu4min2zu2",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "ethnic minority",
+            "notes": "..."
+        },
+        {
+            "character": "如果",     
+            "pin1yin1": "ru2guo3",
+            "POS": "conjunction",
+            "lesson": "2.7",
+            "definition": "if",
+            "notes": "also: 要是 (yao4shi4)"
+        },
+        {
+            "character": "签证",     
+            "pin1yin1": "qian1zheng4",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "visa",
+            "notes": "..."
+        },
+        {
+            "character": "办",     
+            "pin1yin1": "ban4",
+            "POS": "verb",
+            "lesson": "2.7",
+            "definition": "to apply, process",
+            "notes": "..."
+        },
+        {
+            "character": "大概",     
+            "pin1yin1": "da4gai4",
+            "POS": "adverb",
+            "lesson": "2.7",
+            "definition": "probably",
+            "notes": "..."
+        },
+        {
+            "character": "来得及",     
+            "pin1yin1": "lai2de5ji2",
+            "POS": "phrase",
+            "lesson": "2.7",
+            "definition": "to have enough time to",
+            "notes": "example of a positive potential complement"
+        },
+        {
+            "character": "香港",     
+            "pin1yin1": "xiang1gang3",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "Hong Kong",
+            "notes": "..."
+        },
+        {
+            "character": "云南",     
+            "pin1yin1": "yun2nan2",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "Yunnan",
+            "notes": "Chinese SE province"
+        },
+        {
+            "character": "昆明",     
+            "pin1yin1": "kun1ming2",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "Kunming",
+            "notes": "capital of Yunnnan"
+        },
+        {
+            "character": "亲戚",     
+            "pin1yin1": "qin1qi5",
+            "POS": "noun",
+            "lesson": "2.7",
+            "definition": "relative",
+            "notes": "..."
+        },
+        {
+            "character": "远来",     
+            "pin1yin1": "yuan2lai2",
+            "POS": "adverb",
+            "lesson": "2.7",
+            "definition": "originally",
+            "notes": "also: 本来 (ben3lai2)"
+        },
+        {
+            "character": "连",     
+            "pin1yin1": "lian2",
+            "POS": "preposition",
+            "lesson": "2.8",
+            "definition": "even",
+            "notes": "(...)(连)...都/也..."
+        },
+        {
+            "character": "影子",     
+            "pin1yin1": "ying3zi5",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "shadow",
+            "notes": "..."
+        },
+        {
+            "character": "研究报告",     
+            "pin1yin1": "yan2jiu1bao4gao4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "research report",
+            "notes": "..."
+        },
+        {
+            "character": "轻松",     
+            "pin1yin1": "qing1song1",
+            "POS": "adjective",
+            "lesson": "2.8",
+            "definition": "relieved, relaxed",
+            "notes": "..."
+        },
+        {
+            "character": "表妹",     
+            "pin1yin1": "biao3mei4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "cousin",
+            "notes": "also: 表姐，表哥，表弟"
+        },
+        {
+            "character": "强",     
+            "pin1yin1": "qiang2",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "better than, well off, strong",
+            "notes": "..."
+        },
+        {
+            "character": "完",     
+            "pin1yin1": "wan2",
+            "POS": "verb",
+            "lesson": "2.8",
+            "definition": "to finish",
+            "notes": "..."
+        },
+        {
+            "character": "部",     
+            "pin1yin1": "bu4",
+            "POS": "quantifier",
+            "lesson": "2.8",
+            "definition": "(fils, machines, cars)",
+            "notes": "..."
+        },
+        {
+            "character": "功夫片",     
+            "pin1yin1": "gong1fu5pian1",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "action movie, kung fu movie",
+            "notes": "..."
+        },
+        {
+            "character": "主要",     
+            "pin1yin1": "zhu3yao4",
+            "POS": "adjective",
+            "lesson": "2.8",
+            "definition": "major, main",
+            "notes": "..."
+        },
+        {
+            "character": "特别",     
+            "pin1yin1": "te4bie2",
+            "POS": "adverb",
+            "lesson": "2.8",
+            "definition": "very, especially",
+            "notes": "..."
+        },
+        {
+            "character": "它",     
+            "pin1yin1": "ta1",
+            "POS": "pronoun",
+            "lesson": "2.8",
+            "definition": "it",
+            "notes": "..."
+        },
+        {
+            "character": "场面",     
+            "pin1yin1": "chang3mian4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "scene",
+            "notes": "..."
+        },
+        {
+            "character": "情节",     
+            "pin1yin1": "qing2jie2",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "story, plot",
+            "notes": "..."
+        },
+        {
+            "character": "关于",     
+            "pin1yin1": "guan1yu2",
+            "POS": "preposition",
+            "lesson": "2.8",
+            "definition": "about, with regard to",
+            "notes": "..."
+        },
+        {
+            "character": "古代",     
+            "pin1yin1": "gu3dai4",
+            "POS": "adjective",
+            "lesson": "2.8",
+            "definition": "ancient",
+            "notes": "..."
+        },
+        {
+            "character": "故事",     
+            "pin1yin1": "gu4shi5",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "story",
+            "notes": "..."
+        },
+        {
+            "character": "不如",     
+            "pin1yin1": "bu4ru2",
+            "POS": "verb",
+            "lesson": "2.8",
+            "definition": "to be inferior to, to be not as good as",
+            "notes": "..."
+        },
+        {
+            "character": "精彩",     
+            "pin1yin1": "jing1cai3",
+            "POS": "adjective",
+            "lesson": "2.8",
+            "definition": "brilliant, wonderful",
+            "notes": "..."
+        },
+        {
+            "character": "对",     
+            "pin1yin1": "dui4",
+            "POS": "preposition",
+            "lesson": "2.8",
+            "definition": "toward, to",
+            "notes": "..."
+        },
+        {
+            "character": "描写",     
+            "pin1yin1": "miao2xie3",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "description, exposition",
+            "notes": "also verb"
+        },
+        {
+            "character": "描写",     
+            "pin1yin1": "miao2xie3",
+            "POS": "verb",
+            "lesson": "2.8",
+            "definition": "to describe",
+            "notes": "also noun: description"
+        },
+        {
+            "character": "历史",     
+            "pin1yin1": "li4shi3",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "history",
+            "notes": "..."
+        },
+        {
+            "character": "同意",     
+            "pin1yin1": "tong2yi4",
+            "POS": "verb",
+            "lesson": "2.8",
+            "definition": "to agree",
+            "notes": "..."
+        },
+        {
+            "character": "客观",     
+            "pin1yin1": "ke4guan1",
+            "POS": "adjective",
+            "lesson": "2.8",
+            "definition": "factual, objective",
+            "notes": "..."
+        },
+        {
+            "character": "感",     
+            "pin1yin1": "gan3",
+            "POS": "verb",
+            "lesson": "2.8",
+            "definition": "to feel, sense",
+            "notes": "..."
+        },
+        {
+            "character": "兴趣",     
+            "pin1yin1": "xing4qu4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "interest",
+            "notes": "..."
+        },
+        {
+            "character": "感情",     
+            "pin1yin1": "gan3qing2",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "emotion",
+            "notes": "..."
+        },
+        {
+            "character": "方面",     
+            "pin1yin1": "fang1mian4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "aspect",
+            "notes": "..."
+        },
+        {
+            "character": "而且",     
+            "pin1yin1": "er2qie3",
+            "POS": "conjunction",
+            "lesson": "2.8",
+            "definition": "and also, furthermore",
+            "notes": "..."
+        },
+        {
+            "character": "特技",     
+            "pin1yin1": "te4ji4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "special technique",
+            "notes": "..."
+        },
+        {
+            "character": "效果",     
+            "pin1yin1": "xiao4guo3",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "effect",
+            "notes": "..."
+        },
+        {
+            "character": "颜色",     
+            "pin1yin1": "yan2se4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "color",
+            "notes": "..."
+        },
+        {
+            "character": "周末",     
+            "pin1yin1": "zhou1mo4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "weekend",
+            "notes": "..."
+        },
+        {
+            "character": "票价",     
+            "pin1yin1": "piao4jia4",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "ticket price",
+            "notes": "..."
+        },
+        {
+            "character": "英雄",     
+            "pin1yin1": "ying1xiong2",
+            "POS": "noun",
+            "lesson": "2.8",
+            "definition": "hero",
+            "notes": "..."
+        },
+        {
+            "character": "吸引人",     
+            "pin1yin1": "xi1yin3ren2",
+            "POS": "adjective",
+            "lesson": "2.8",
+            "definition": "attractive, appealing",
+            "notes": "..."
+        },
+        {
+            "character": "越来越",     
+            "pin1yin1": "yue4lai2yue4",
+            "POS": "adverb",
+            "lesson": "2.9",
+            "definition": "more and more",
+            "notes": "the more A the more B: 越 A 越 B"
+        },
+        {
+            "character": "需要",     
+            "pin1yin1": "xu1yao4",
+            "POS": "verb",
+            "lesson": "2.9",
+            "definition": "to require",
+            "notes": "..."
+        },
+        {
+            "character": "钟头",     
+            "pin1yin1": "zhong1tou2",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "hour",
+            "notes": "also: 小时 (xiao3shi2)"
+        },
+        {
+            "character": "小时",     
+            "pin1yin1": "xiao3shi2",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "hour",
+            "notes": "also: 钟头 (zhong1tou2)"
+        },
+        {
+            "character": "瘦",     
+            "pin1yin1": "shou4",
+            "POS": "adjective",
+            "lesson": "2.9",
+            "definition": "thin, slim, skinny",
+            "notes": "also: 苗条 (miao2tiao5)"
+        },
+        {
+            "character": "减肥",     
+            "pin1yin1": "jian3fei2",
+            "POS": "VO",
+            "lesson": "2.9",
+            "definition": "to lose weight",
+            "notes": "..."
+        },
+        {
+            "character": "坚持",     
+            "pin1yin1": "jian1chi2",
+            "POS": "verb",
+            "lesson": "2.9",
+            "definition": "to persist, perservere",
+            "notes": "..."
+        },
+        {
+            "character": "体重",     
+            "pin1yin1": "ti3zhong4",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "body weight",
+            "notes": "..."
+        },
+        {
+            "character": "轻",     
+            "pin1yin1": "qing1",
+            "POS": "adjective",
+            "lesson": "2.9",
+            "definition": "light",
+            "notes": "..."
+        },
+        {
+            "character": "磅",     
+            "pin1yin1": "bang4",
+            "POS": "quantifier",
+            "lesson": "2.9",
+            "definition": "(pounds, weight measurments)",
+            "notes": "..."
+        },
+        {
+            "character": "怪不得",     
+            "pin1yin1": "guai4bude",
+            "POS": "phrase",
+            "lesson": "2.9",
+            "definition": "no wonder",
+            "notes": "..."
+        },
+        {
+            "character": "苗条",     
+            "pin1yin1": "miao2tiao5",
+            "POS": "adjective",
+            "lesson": "2.9",
+            "definition": "slim",
+            "notes": "also: 瘦 (shou4)"
+        },
+        {
+            "character": "女孩子",     
+            "pin1yin1": "nü3hai2zi5",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "girl",
+            "notes": "also: 女儿 (nü3er2)"
+        },
+        {
+            "character": "控制",     
+            "pin1yin1": "kong4zhi4",
+            "POS": "verb",
+            "lesson": "2.9",
+            "definition": "to control",
+            "notes": "..."
+        },
+        {
+            "character": "饮食",     
+            "pin1yin1": "yin3shi2",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "food and drink",
+            "notes": "..."
+        },
+        {
+            "character": "注意",     
+            "pin1yin1": "zhu4yi4",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "attention",
+            "notes": "also verb: to pay attention to"
+        },
+        {
+            "character": "注意",     
+            "pin1yin1": "zhu4yi4",
+            "POS": "verb",
+            "lesson": "2.9",
+            "definition": "to pay attention",
+            "notes": "also noun: attention"
+        },
+        {
+            "character": "甜食",     
+            "pin1yin1": "tian2shi2",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "sweet food",
+            "notes": "..."
+        },
+        {
+            "character": "早",     
+            "pin1yin1": "zao3",
+            "POS": "adjevtive",
+            "lesson": "2.9",
+            "definition": "early",
+            "notes": "also adverb: (to emphasize long ago)"
+        },
+        {
+            "character": "早",     
+            "pin1yin1": "zao3",
+            "POS": "adverb",
+            "lesson": "2.9",
+            "definition": "(to emphasize long ago)",
+            "notes": "also adjective: early"
+        },
+        {
+            "character": "个子",     
+            "pin1yin1": "ge4zi5",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "height, stature",
+            "notes": "..."
+        },
+        {
+            "character": "英尺",     
+            "pin1yin1": "ying1chi3",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "foot (unit of measurement)",
+            "notes": "outdated version is (尺) chi3 with a kou3 radical on the left"
+        },
+        {
+            "character": "英寸",     
+            "pin1yin1": "ying1cun4",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "inch",
+            "notes": "outdated version is (寸) cun4 with a kou3 radical on the left"
+        },
+        {
+            "character": "超过",     
+            "pin1yin1": "chao1guo4",
+            "POS": "verb",
+            "lesson": "2.9",
+            "definition": "to surpass",
+            "notes": "..."
+        },
+        {
+            "character": "灵活",     
+            "pin1yin1": "ling2huo2",
+            "POS": "adjective",
+            "lesson": "2.9",
+            "definition": "dexterous, agile, flexible",
+            "notes": "..."
+        },
+        {
+            "character": "总是",     
+            "pin1yin1": "zong3shi4",
+            "POS": "adverb",
+            "lesson": "2.9",
+            "definition": "always",
+            "notes": "also: 时刻 (shi2ke4), 一直 (yi4zhi2)"
+        },
+        {
+            "character": "重要",     
+            "pin1yin1": "zhong4yao4",
+            "POS": "adjective",
+            "lesson": "2.9",
+            "definition": "important",
+            "notes": "..."
+        },
+        {
+            "character": "更",     
+            "pin1yin1": "geng4",
+            "POS": "adverb",
+            "lesson": "2.9",
+            "definition": "more",
+            "notes": "..."
+        },
+        {
+            "character": "总统",     
+            "pin1yin1": "zong3tong3",
+            "POS": "noun",
+            "lesson": "2.9",
+            "definition": "president",
+            "notes": "..."
+        }
+    ]
+}
