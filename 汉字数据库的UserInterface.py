@@ -1,51 +1,32 @@
-import tkinter as Tk
 from tkinter import ttk
 from tkinter import *
 import 汉字数据库的事理 as database
+import pandas as pd
 
 class Ui():
     def __init__(self) -> None:
         self._master = Tk()
-        self._createUiWindow()
         self._valueDict = {
-            'entryCharacter': StringVar(),
-            'entryPin1yin1': StringVar(),
-            'entryPOS': StringVar(),
-            'entryEnglish': StringVar(),
-            'langChoice':StringVar(),
-            'deckCompletion':StringVar(),
-            'deckLength':StringVar(),
-            'pDeckCorrect1':StringVar(),
-            'pDeckCorrect2':StringVar(),
-            'pDeckCorrect3':StringVar(),
-            'pDeckCorrect4':StringVar(),
-            'tDeckCorrect1':StringVar(),
-            'tDeckCorrect2':StringVar(),
-            'tDeckCorrect3':StringVar(),
-            'tDeckCorrect4':StringVar(),
-            'currentQuestion':StringVar(),
-            'pin1yin1Response':StringVar(),
-            'translationResponse':StringVar()
+            'entryCharacter': StringVar(value = ''),
+            'entryPin1yin1': StringVar(value = ''),
+            'entryPOSL': StringVar(value = ''),
+            'entryEnglish': StringVar(value = ''),
+            'langChoice':StringVar(value = 'En'),
+            'deckCompletion':StringVar(value = ''),
+            'deckLength':StringVar(value = ''),
+            'pDeckCorrect1':StringVar(value = ''),
+            'pDeckCorrect2':StringVar(value = ''),
+            'pDeckCorrect3':StringVar(value = ''),
+            'pDeckCorrect4':StringVar(value = ''),
+            'tDeckCorrect1':StringVar(value = ''),
+            'tDeckCorrect2':StringVar(value = ''),
+            'tDeckCorrect3':StringVar(value = ''),
+            'tDeckCorrect4':StringVar(value = ''),
+            'currentQuestion':StringVar(value = ''),
+            'pin1yin1Response':StringVar(value = ''),
+            'translationResponse':StringVar (value = '')
         }
-        self._valueDict['entryCharacter'].set('')
-        self._valueDict['entryPin1yin1'].set('')
-        self._valueDict['entryPOS'].set('')
-        self._valueDict['entryEnglish'].set('')
-        self._valueDict['langChoice'].set('En')
-        self._valueDict['deckCompletion'].set('')
-        self._valueDict['deckLength'].set('')
-        self._valueDict['pDeckCorrect1'].set('')
-        self._valueDict['pDeckCorrect2'].set('')
-        self._valueDict['pDeckCorrect3'].set('')
-        self._valueDict['pDeckCorrect4'].set('')
-        self._valueDict['tDeckCorrect1'].set('')
-        self._valueDict['tDeckCorrect2'].set('')
-        self._valueDict['tDeckCorrect3'].set('')
-        self._valueDict['tDeckCorrect4'].set('')
-        self._valueDict['currentQuestion'].set('')
-        self._valueDict['pin1yin1Response'].set('')
-        self._valueDict['translationRespons'].set('')
-
+        self._createUiWindow()
 
     def _close(self):
         self._master.destroy()
@@ -68,8 +49,7 @@ class Ui():
         笔记本.add(练习的框架, text = '练习')
 
         #Create Practice Title
-        练习的题目 = Frame(
-            练习的框架,
+        练习的题目 = Frame(练习的框架,
             height = 50,
             width = 600,
             bg = 'pale turquoise'
@@ -107,9 +87,9 @@ class Ui():
             text = "Pin1Yin1: ",
             bg = "light cyan"
         )
-        pos_label = Label(
+        posl_label = Label(
             study_refiner,
-            text = "Part of Speech: ",
+            text = "POS or Lesson: ",
             bg = "light cyan"
         )
         eng_label = Label(
@@ -126,15 +106,15 @@ class Ui():
 
         char_label.place(x = 7, y = 25)
         pinyin_label.place(x = 7, y = 75)
-        pos_label.place(x = 7, y = 125)
+        posl_label.place(x = 7, y = 125)
         eng_label.place(x = 7, y = 175)
         choose_lang_label.place(x = 7, y = 225)
         
         #Add Study Refiner Entries
-        char_账目 = Entry(study_refiner)
-        pinyin_账目 = Entry(study_refiner)
-        pos_账目 = Entry(study_refiner)
-        eng_账目 = Entry(study_refiner)
+        char_账目 = Entry(study_refiner, textvariable = self._valueDict['entryCharacter'])
+        pinyin_账目 = Entry(study_refiner, textvariable = self._valueDict['entryPin1yin1'])
+        posl_账目 = Entry(study_refiner, textvariable = self._valueDict['entryPOSL'])
+        eng_账目 = Entry(study_refiner, textvariable = self._valueDict['entryEnglish'])
         中文字 = Label(
             study_refiner,
             text = 'En',
@@ -144,16 +124,10 @@ class Ui():
             study_refiner,
             text = 'Zh', 
             bg = 'light cyan',
-            #activeforeground = 'dark cyan',
-            #selectcolor = 'teal'
         )
         中文的设定 = Radiobutton(
             study_refiner,
             bg = 'light cyan',
-            #activeforeground = 'dark cyan',
-            #selectcolor = 'teal', 
-            #IntVar = 0,
-            #value = 1
         )
         英文的设定 = Radiobutton(
             study_refiner,
@@ -162,7 +136,7 @@ class Ui():
 
         char_账目.place(x = 3, y = 50)
         pinyin_账目.place(x = 3, y = 100)
-        pos_账目.place(x = 3, y = 150)
+        posl_账目.place(x = 3, y = 150)
         eng_账目.place(x = 3, y = 200)
         中文字.place(x = 15, y = 250)
         英文字.place(x = 65, y = 250)
@@ -173,14 +147,15 @@ class Ui():
         练习的按键 = Button(
             study_refiner, 
             text = "练习", 
+            #command = self._searchDatabase(),
             bg = 'azure'
         )
         练习的按键.place(x = 50, y = 275)
+        练习的按键.bind('<Button-1>', self._searchDatabase)
 
         #Create Study Frame
         study_frame = Frame(
-            练习的框架,
-            height = 350,
+            练习的框架, height = 350,
             width = 450,
             padx = 2,
             bg = 'azure'
@@ -209,10 +184,10 @@ class Ui():
         )
         translation_answer_label.place(x = 80, y = 200)
 
-        pinyin_answer_entry = Entry(study_frame)
+        pinyin_answer_entry = Entry(study_frame, textvariable = self._valueDict['pin1yin1Response'])
         pinyin_answer_entry.place(x = 180, y = 90)
 
-        translation_answer_entry = Entry(study_frame)
+        translation_answer_entry = Entry(study_frame, textvariable = self._valueDict['translationResponse'])
         translation_answer_entry.place(x = 180, y = 200)
 
         pinyin_answer = Label(
@@ -230,55 +205,87 @@ class Ui():
 
         round1pinyin = Label(
             study_frame,
-            textvariable = (self._valueDict['pDeckCorrect1'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['pDeckCorrect1'].get()
+                + '/'
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round1pinyin.place(x = 180, y = 146)
         round2pinyin = Label(
             study_frame,
-            textvariable = (self._valueDict['pDeckCorrect2'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['pDeckCorrect2'].get() 
+                + '/' 
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round2pinyin.place(x = 230, y = 146)
 
         round3pinyin = Label(
             study_frame,
-            textvariable = (self._valueDict['pDeckCorrect3'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['pDeckCorrect3'].get() 
+                + '/' 
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round3pinyin.place(x = 280, y = 146)
         
         round4pinyin = Label(
             study_frame,
-            textvariable = (self._valueDict['pDeckCorrect4'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['pDeckCorrect4'].get() 
+                + '/' 
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round4pinyin.place(x = 330, y = 146)
 
         round1translation = Label(
             study_frame,
-            textvariable = (self._valueDict['tDeckCorrect1'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['tDeckCorrect1'].get() 
+                + '/' 
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round1translation.place(x = 180, y = 266)
 
         round2translation = Label(
             study_frame,
-            textvariable = (self._valueDict['tDeckCorrect2'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['tDeckCorrect2'].get() 
+                + '/' 
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round2translation.place(x = 230, y = 266)
 
         round3translation = Label(
             study_frame,
-            textvariable = (self._valueDict['tDeckCorrect3'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['tDeckCorrect3'].get() 
+                + '/' 
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round3translation.place(x = 280, y = 266)
         
         round4translation = Label(
             study_frame,
-            textvariable = (self._valueDict['tDeckCorrect4'].get() + '/' + self._valueDict['deckCompletion'].get()),
+            textvariable = (
+                self._valueDict['tDeckCorrect4'].get()
+                + '/'
+                + self._valueDict['deckCompletion'].get()
+            ),
             bg = 'azure'
         )
         round4translation.place(x = 330, y = 266)
@@ -288,8 +295,14 @@ class Ui():
             bg = 'azure'
         )
         correct_check.place(x = 350, y = 200)
-        if self._valueDict['deckCompletion'].get() != '' and self._valueDict['deckLength'].get() != '':
-            percent = str(int(self._valueDict['deckCompletion'].get())/int(self._valueDict['deckLength'].get()))
+        if (
+            self._valueDict['deckCompletion'].get() != ''
+            and self._valueDict['deckLength'].get() != ''
+        ):
+            percent = str(
+                int(self._valueDict['deckCompletion'].get())
+                /int(self._valueDict['deckLength'].get())
+            )
         else:
             percent = '--'
         percent_complete = Label(
@@ -300,8 +313,57 @@ class Ui():
         percent_complete.place(x = 280, y = 35)
         
 
-    def runMainLoop(self) -> None:
-        self._master.mainloop()
+    def _runMainLoop(self) -> None:
+        self._master.mainloop()        
 
-    #def searchDatabase(self, event) -> None:
-        
+    def _searchDatabase(self, event):
+        refinedDB = database
+        if self._valueDict['entryCharacter'].get() != '':
+            for entry in database:
+                if self._valueDict['entryCharacter'].get().lower() not in entry["character"].lower():
+                    refinedDB.remove(entry)
+        else: 
+            refinedDB = database
+        if self._valueDict['entryPin1yin1'].get() != '':
+            for entry in refinedDB:
+                if self._valueDict['entryPin1yin1'].get().lower() not in entry["pin1yin1"].lower():
+                    refinedDB.remove(entry)        
+        if self._valueDict['entryPOSL'].get() != '':
+            if self._valueDict['entryPOSL'].get()[0] in '0123456789':
+                for entry in refinedDB:
+                    if self._valueDict['entryPOSL'].get().lower() not in entry["lesson"].lower():
+                        refinedDB.remove(entry)  
+            else:
+                for entry in refinedDB:
+                    if self._valueDict['entryPOSL'].get().lower() not in entry["POS"].lower():
+                        refinedDB.remove(entry)  
+        if self._valueDict['entryEnglish'].get() != '':
+            for entry in refinedDB:
+                if self._valueDict['entryEnglish'].get().lower() not in entry["definition"].lower():
+                    refinedDB.remove(entry)  
+        refinedDB.dump()
+
+            
+
+'''''
+self._valueDict = {
+            'entryCharacter': StringVar(value = ''),
+            'entryPin1yin1': StringVar(value = ''),
+            'entryPOSL': StringVar(value = ''),
+            'entryEnglish': StringVar(value = ''),
+            'langChoice':StringVar(value = 'En'),
+            'deckCompletion':StringVar(value = ''),
+            'deckLength':StringVar(value = ''),
+            'pDeckCorrect1':StringVar(value = ''),
+            'pDeckCorrect2':StringVar(value = ''),
+            'pDeckCorrect3':StringVar(value = ''),
+            'pDeckCorrect4':StringVar(value = ''),
+            'tDeckCorrect1':StringVar(value = ''),
+            'tDeckCorrect2':StringVar(value = ''),
+            'tDeckCorrect3':StringVar(value = ''),
+            'tDeckCorrect4':StringVar(value = ''),
+            'currentQuestion':StringVar(value = ''),
+            'pin1yin1Response':StringVar(value = ''),
+            'translationResponse':StringVar (value = '')
+        }
+'''''
