@@ -26,11 +26,12 @@ class Ui():
             'pin1yin1Response':StringVar(value = ''),
             'translationResponse':StringVar (value = '')
         }
+        self._ZH_DB = database.Database().get_database()
         self._createUiWindow()
 
     def _close(self):
         self._master.destroy()
-           
+
     def _createUiWindow(self) -> None:    
         self._master.geometry('600x400')
         self._master.title('汉字数据库')
@@ -311,39 +312,36 @@ class Ui():
             bg = 'azure'
         )
         percent_complete.place(x = 280, y = 35)
-        
 
     def _runMainLoop(self) -> None:
-        self._master.mainloop()        
+        self._master.mainloop()
 
     def _searchDatabase(self, event):
-        refinedDB = database
+        refinedDB = self._ZH_DB.copy()
         if self._valueDict['entryCharacter'].get() != '':
-            for entry in database:
+            for entry in refinedDB:
                 if self._valueDict['entryCharacter'].get().lower() not in entry["character"].lower():
                     refinedDB.remove(entry)
-        else: 
-            refinedDB = database
+
         if self._valueDict['entryPin1yin1'].get() != '':
             for entry in refinedDB:
                 if self._valueDict['entryPin1yin1'].get().lower() not in entry["pin1yin1"].lower():
-                    refinedDB.remove(entry)        
+                    refinedDB.remove(entry)
         if self._valueDict['entryPOSL'].get() != '':
             if self._valueDict['entryPOSL'].get()[0] in '0123456789':
                 for entry in refinedDB:
                     if self._valueDict['entryPOSL'].get().lower() not in entry["lesson"].lower():
-                        refinedDB.remove(entry)  
+                        refinedDB.remove(entry)
             else:
                 for entry in refinedDB:
                     if self._valueDict['entryPOSL'].get().lower() not in entry["POS"].lower():
-                        refinedDB.remove(entry)  
+                        refinedDB.remove(entry)
         if self._valueDict['entryEnglish'].get() != '':
             for entry in refinedDB:
                 if self._valueDict['entryEnglish'].get().lower() not in entry["definition"].lower():
-                    refinedDB.remove(entry)  
+                    refinedDB.remove(entry)
         refinedDB.dump()
 
-            
 
 '''''
 self._valueDict = {
