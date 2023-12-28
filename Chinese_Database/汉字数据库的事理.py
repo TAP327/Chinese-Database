@@ -4,7 +4,7 @@ import pandas as pd
 
 class Database:
     def __init__(self):
-        with open("汉字数据库.json", "r") as fp:
+        with open("Database_Files/汉字数据库.json", "r") as fp:
             self._data = json.loads(fp.read())
 
         self._DB_KEYS = {
@@ -23,14 +23,14 @@ class Database:
         """
         return self._database_normalized
 
-    def search_database(self, searchEntries: dict[str, str]) -> list[str]:
+    def search_database(self, searchEntries: dict[str, str]) -> dict[dict[str, str]]:
         """Query Database based on user search values
 
         Args:
             searchEntries (dict[str, str]): A dictionary of key value pairs containing the user's search values
 
         Returns:
-            list[str]: A collection of the queried results
+            dict[dict[str, str]]: A collection of the queried results
         """
         searchValues = {
             self._DB_KEYS.get(key): searchEntries.pop(key)
@@ -43,3 +43,4 @@ class Database:
                 filter = "lesson" if value[0].isdigit() else "POS"
 
             refinedDB = refinedDB[refinedDB[filter].str.contains(value)]
+        return refinedDB.to_dict('index')
