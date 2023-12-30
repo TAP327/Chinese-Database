@@ -33,10 +33,11 @@ class Ui():
             'check': IntVar (value = 0)
         }
         self.ZH_DB = Database()
-        self._createUiWindow()
         self._search_results = {}
         self._shuffledDeck = {}
         self._missedCards = {}
+        self._createUiWindow()
+        
 
     def _close(self):
         self._master.destroy()
@@ -339,7 +340,7 @@ class Ui():
             and value.get() != ''
         }
         self._search_results = Database.search_database(search_values)
-    
+
     def _showAnswersEn(self): #not finished
         if self._valueDict['pin1yin1Response'].get() == self._valueDict[self._shuffledDeck[self._valueDict['deckCompletion'].get()]]:
             self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
