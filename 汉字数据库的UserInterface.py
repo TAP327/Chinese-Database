@@ -329,17 +329,7 @@ class Ui():
         self._master.mainloop() 
 
     def _checkTheBox(self, event) -> None:
-        self._valueDict['check'].set(1)
-        
-    def _enterBind(self) -> None:
-        if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
-            self._searchDatabaseUI()
-        elif self._valueDict['answered'].get() == 0 and self._valueDict['langChoice'].get() == 'En':
-            self._showAnswersEn()
-        elif self._valueDict['answered'].get() == 0:
-            self._showAnswersZh()
-        else: 
-            self._checkResponses()       
+        self._valueDict['check'].set(1)      
 
     def _searchDatabaseUI(self, event) -> None:
         search_values = {
@@ -399,6 +389,7 @@ class Ui():
                         time.sleep()
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
+                self._shuffledDeck = self._missedCards.shuffle()
         else:
             while self._valueDict['roundNumber'].get() < 5:
                 while self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
@@ -408,6 +399,18 @@ class Ui():
                         time.sleep()
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
+                self._shuffledDeck = self._missedCards.shuffle()
+
+    def _enterBind(self) -> None:
+        if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
+            self._searchDatabaseUI()
+        elif self._valueDict['answered'].get() == 0 and self._valueDict['langChoice'].get() == 'En':
+            self._showAnswersEn()
+        elif self._valueDict['answered'].get() == 0:
+            self._showAnswersZh()
+        else: 
+            self._checkResponses() 
+
                   
 
 '''''
