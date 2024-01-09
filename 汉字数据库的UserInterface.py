@@ -1,8 +1,17 @@
 from tkinter import ttk
-from tkinter import *
+from tkinter import (
+    Tk,
+    Frame,
+    StringVar,
+    IntVar,
+    Label,
+    Entry,
+    Radiobutton,
+    Button,
+    Checkbutton,
+)
 from 汉字数据库的事理 import Database
-from random import *
-from time import *
+import random
 
 class Ui():
     def __init__(self) -> None:
@@ -32,10 +41,12 @@ class Ui():
             'roundNumber': IntVar (value = 1),
             'check': IntVar (value = 0)
         }
-        self.ZH_DB = Database()
+        self._ZH_DB = Database()
         self._search_results = {}
         self._shuffledDeck = {}
         self._missedCards = {}
+        self._showAnswers = False
+
         self._createUiWindow()
         
 
@@ -47,7 +58,7 @@ class Ui():
         self._master.title('汉字数据库')
 
         #Create Tabs
-        笔记本 = ttk.Notebook()
+        笔记本 = ttk.Notebook(self._master)
         笔记本.pack(fill = 'both', expand = 1)
         
         学习的框架 = ttk.Frame(笔记本, width = 600, height = 380)
@@ -323,23 +334,40 @@ class Ui():
         )
         percent_complete.place(x = 280, y = 35)
 
-        练习的框架.bind('<Return>', self._enterBind())
-        练习的框架.bind('x', self._checkTheBox())
+        #练习的框架.bind('<Return>', self._enterBind)
+        #练习的框架.bind('x', self._checkTheBox)
 
-    def _runMainLoop(self) -> None:
+        self._master.bind('<Return>', self._enterBind)
+        self._master.bind('x', self._checkTheBox)
+
+    def runMainLoop(self) -> None:
         self._master.mainloop() 
 
     def _checkTheBox(self, event) -> None:
-        self._valueDict['check'].set(1)      
+        if self._valueDict['check'].get() == 0:
+            self._valueDict['check'].set(1)    
+        else:
+            self._valueDict['check'].set(0)  
 
-    def _searchDatabaseUI(self, event) -> None:
+    def _searchDatabaseUI(self) -> None:
+        '''
+            for key, value in self._valueDict.items():
+                if key in [
+                    'entryCharacter', 
+                    'entryPin1yin1', 
+                    'entryPOSL', 
+                    'entryEnglish'
+                ] and value.get() != '':
+                    search_values.update({key: value.get()})
+        '''
+
         search_values = {
-            key: value.get() 
+            key: value.get()
             for key, value in self._valueDict.items() if 
             key in ['entryCharacter', 'entryPin1yin1', 'entryPOSL', 'entryEnglish']
             and value.get() != ''
         }
-        self._search_results = Database.search_database(search_values)
+        self._search_results = self._ZH_DB.search_database_DB(search_values)
 
     def _showAnswersEn(self): #not finished
         if self._valueDict['pin1yin1Response'].get() == self._valueDict[self._shuffledDeck[self._valueDict['deckCompletion'].get()]]:
@@ -379,33 +407,43 @@ class Ui():
             self._valueDict['answered'].set(0)
             self._valueDict['roundNumber'].set(1)
         
-        self._shuffledDeck = self._searchDatabaseUI().shuffle()
+        self._searchDatabaseUI()
+        '''
+        tmp_list = []
+        for result in self._search_results.values():
+            tmp_list.append(result)
+        '''
+        self._shuffledDeck = [result for result in self._search_results.values()]
+        random.shuffle(self._shuffledDeck)
         self._valueDict['deckLength'].set(len(self._search_results()))
         if self._valueDict['langChoice'].get() == 'En':
             while self._valueDict['roundNumber'].get() < 5:
                 while self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
                     self._valueDict['currectQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get('definition')])
-                    self._valueDict['answered'].set(1)
-                    while self._valueDict['answered'].set(0):
-                        time.sleep()
+                    self._valueDict['answered'].set(0)
+                    while self._showAnswers == False:
+                        continue
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
+                    self._showAnswers = False
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
                 self._shuffledDeck = self._missedCards.shuffle()
         else:
             while self._valueDict['roundNumber'].get() < 5:
                 while self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
                     self._valueDict['currectQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get('character')])
-                    self._valueDict['answered'].set(1)
-                    while self._valueDict['answered'].set(0):
-                        time.sleep()
+                    self._valueDict['answered'].set(0)
+                    while self._showAnswers == False:
+                        continue
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
+                    self._showAnswers = False
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
                 self._shuffledDeck = self._missedCards.shuffle()
 
-    def _enterBind(self) -> None:
+    def _enterBind(self, event) -> None:
         if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
             self._searchDatabaseUI()
         elif self._valueDict['answered'].get() == 0 and self._valueDict['langChoice'].get() == 'En':
+            self._showAnswers = True
             self._showAnswersEn()
         elif self._valueDict['answered'].get() == 0:
             self._showAnswersZh()
@@ -437,4 +475,11 @@ self._valueDict = {
             'answered': IntVar (value = 0),
             'roundNumber': IntVar (value = 1)
         }
+
+        !TODO: Fix line 340 (bind syntax) find a way to bind to 
+        frame instead of master
+
+        !TODO: Create sub window functions to call from create UI function  
+
+        !TODO: Look into error handling for certain functions
 '''''
