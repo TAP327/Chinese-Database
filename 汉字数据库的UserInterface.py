@@ -12,6 +12,7 @@ from tkinter import (
 )
 from 汉字数据库的事理 import Database
 import random
+import time
 
 class Ui():
     def __init__(self) -> None:
@@ -22,7 +23,7 @@ class Ui():
             'entryPOSL': StringVar(value = ''),
             'entryEnglish': StringVar(value = ''),
             'langChoice': StringVar(value = 'En'),
-            'deckCompletion': IntVar(value = 0),
+            'deckCompletion': IntVar(value = 1),
             'deckLength': IntVar(value = 1),
             'pDeckCorrect1': IntVar(value = 0),
             'pDeckCorrect2': IntVar(value = 0),
@@ -43,12 +44,11 @@ class Ui():
         }
         self._ZH_DB = Database()
         self._search_results = {}
-        self._shuffledDeck = {}
-        self._missedCards = {}
+        self._shuffledDeck = []
+        self._missedCards = []
         self._showAnswers = False
 
         self._createUiWindow()
-        
 
     def _close(self):
         self._master.destroy()
@@ -369,33 +369,33 @@ class Ui():
         }
         self._search_results = self._ZH_DB.search_database_DB(search_values)
 
-    def _showAnswersEn(self): #not finished
-        if self._valueDict['pin1yin1Response'].get() == self._valueDict[self._shuffledDeck[self._valueDict['deckCompletion'].get()]]:
+    def _showAnswersEn(self):  # not finished
+        if self._valueDict['pin1yin1Response'].get() == self._shuffledDeck[self._valueDict['deckCompletion'].get()-1].get('pin1yin1'):
             self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
-        else: 
-            self._missedCards = self._missedCards + self._shuffledDeck[self._valueDict['deckCompletion']].get()
-        self._valueDict['pin1yin1Answer'].set(self._shuffledDeck[self._valueDict['deckCompletion']].get('pin1yin1'))
-        self._valueDict['translationAnswer'].set(self._shuffledDeck[self._valueDict['deckCompletion']].get('character'))
+        else:
+            self._missedCards.append(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1])
+        self._valueDict['pin1yin1Answer'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get()].get('pin1yin1'))
+        self._valueDict['translationAnswer'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get()].get('character'))
 
-    def _showAnswersZh(self): #not finished
-        if self._valueDict['pin1yin1Response'].get() == self._valueDict[self._shuffledDeck[self._valueDict['deckCompletion'].get()]]:
+    def _showAnswersZh(self):  # not finished
+        if self._valueDict['pin1yin1Response'].get() == self._shuffledDeck[self._valueDict['deckCompletion'].get()-1].get('pin1yin1'):
             self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
-        else: 
+        else:
             self._missedCards = self._missedCards + self._shuffledDeck[self._valueDict['deckCompletion']].get()
         self._valueDict['pin1yin1Answer'].set(self._shuffledDeck[self._valueDict['deckCompletion']].get('pin1yin1'))
         self._valueDict['translationAnswer'].set(self._shuffledDeck[self._valueDict['deckCompletion']].get('definition'))
 
-    def _checkResponses(self) -> None: #maybe finished
+    def _checkResponses(self) -> None:  # maybe finished
         if self._valueDict['checked'].get() == 1:
             self._valueDict['tDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['tDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
         self._valueDict['answered'].set(0)
         self._valueDict['checked'].set(0)
-    
-    def _runQuiz(self, event): #not finished
 
-        #reset values after previous quiz
-        if self._valueDict['deckCompletion'].get() != 0:
-            self._valueDict['deckCompletion'].set(0)
+    def _runQuiz(self, event):  # not finished
+        # reset values after previous quiz
+        if self._valueDict['deckCompletion'].get() != 1:
+            self._valueDict['deckCompletion'].set(1)
+            self._valueDict['deckLength'].set(1)
             self._valueDict['pDeckCorrect1'].set(0)
             self._valueDict['pDeckCorrect2'].set(0)
             self._valueDict['pDeckCorrect3'].set(0)
@@ -406,7 +406,7 @@ class Ui():
             self._valueDict['tDeckCorrect4'].set(0)
             self._valueDict['answered'].set(0)
             self._valueDict['roundNumber'].set(1)
-        
+
         self._searchDatabaseUI()
         '''
         tmp_list = []
@@ -415,42 +415,53 @@ class Ui():
         '''
         self._shuffledDeck = [result for result in self._search_results.values()]
         random.shuffle(self._shuffledDeck)
-        self._valueDict['deckLength'].set(len(self._search_results()))
+        self._valueDict['deckLength'].set(len(self._search_results))
         if self._valueDict['langChoice'].get() == 'En':
-            while self._valueDict['roundNumber'].get() < 5:
-                while self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
-                    self._valueDict['currectQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get('definition')])
-                    self._valueDict['answered'].set(0)
-                    while self._showAnswers == False:
-                        continue
+            self._runQuizEn()
+        else:
+            self._runQuizZh()
+
+    def _runQuizEn(self):
+        if self._valueDict['roundNumber'].get() < 5:
+            if self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
+                self._valueDict['currentQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1].get('definition'))
+                self._valueDict['answered'].set(0)
+                if not self._showAnswers:
+                    self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
+                else:
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
                     self._showAnswers = False
+                    self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
+            else:
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
                 self._shuffledDeck = self._missedCards.shuffle()
-        else:
-            while self._valueDict['roundNumber'].get() < 5:
-                while self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
-                    self._valueDict['currectQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get('character')])
-                    self._valueDict['answered'].set(0)
-                    while self._showAnswers == False:
-                        continue
+
+    def _runQuizZh(self):
+        if self._valueDict['roundNumber'].get() < 5:
+            if self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
+                self._valueDict['currentQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1].get('character'))
+                self._valueDict['answered'].set(0)
+                if not self._showAnswers:
+                    self._master.after(100, self._runQuizZh)  # Schedule the function in the Tkinter main loop
+                else:
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
                     self._showAnswers = False
+                    self._master.after(100, self._runQuizZh)  # Schedule the function in the Tkinter main loop
+            else:
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
                 self._shuffledDeck = self._missedCards.shuffle()
 
     def _enterBind(self, event) -> None:
         if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
-            self._searchDatabaseUI()
+            self._runQuiz(event)
         elif self._valueDict['answered'].get() == 0 and self._valueDict['langChoice'].get() == 'En':
             self._showAnswers = True
             self._showAnswersEn()
         elif self._valueDict['answered'].get() == 0:
             self._showAnswersZh()
-        else: 
-            self._checkResponses() 
+        else:
+            self._checkResponses()
 
-                  
 
 '''''
 self._valueDict = {
@@ -476,10 +487,11 @@ self._valueDict = {
             'roundNumber': IntVar (value = 1)
         }
 
-        !TODO: Fix line 340 (bind syntax) find a way to bind to 
+        !TODO: Fix line 340 (bind syntax) find a way to bind to
         frame instead of master
 
-        !TODO: Create sub window functions to call from create UI function  
+        !TODO: Create sub window functions to call from create UI function
 
         !TODO: Look into error handling for certain functions
+        !TODO: Fix UI for not showning elements
 '''''
