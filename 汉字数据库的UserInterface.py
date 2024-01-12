@@ -17,6 +17,7 @@ import time
 class Ui():
     def __init__(self) -> None:
         self._master = Tk()
+        self._笔记本 = ttk.Notebook(self._master)
         self._valueDict = {
             'entryCharacter': StringVar(value = ''),
             'entryPin1yin1': StringVar(value = ''),
@@ -42,6 +43,9 @@ class Ui():
             'roundNumber': IntVar (value = 1),
             'check': IntVar (value = 0)
         }
+        self._studyStatsDict = {
+            'round1pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}")
+        }
         self._ZH_DB = Database()
         self._search_results = {}
         self._shuffledDeck = []
@@ -52,30 +56,19 @@ class Ui():
 
     def _close(self):
         self._master.destroy()
-           
-    def _createUiWindow(self) -> None:    
-        self._master.geometry('600x400')
-        self._master.title('汉字数据库')
 
-        #Create Tabs
-        笔记本 = ttk.Notebook(self._master)
-        笔记本.pack(fill = 'both', expand = 1)
-        
-        学习的框架 = ttk.Frame(笔记本, width = 600, height = 380)
-        练习的框架 = ttk.Frame(笔记本, width = 600, height = 380)
-
+    def _createUIDictFrame(self) -> None:
+        学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 380)
         学习的框架.pack(fill = 'both', expand = 1)
-        练习的框架.pack(fill = 'both', expand = 1)
+        self._笔记本.add(学习的框架, text = '学习')
 
-        笔记本.add(学习的框架, text = '学习')
-        笔记本.add(练习的框架, text = '练习')
-
-        #Create Practice Title
+    def _createUISFPracticeTitle(self, 练习的框架) -> None:
         练习的题目 = Frame(练习的框架,
             height = 50,
             width = 600,
             bg = 'pale turquoise'
         )
+
         练习的题目.place(x = 0, y = 0)
         Label(
             练习的题目,
@@ -85,7 +78,7 @@ class Ui():
             bg = 'pale turquoise'
         ).place(x = 10, y = 10)
 
-        #Create Study Refiner
+    def _createUISFStudyRefiner(self, 练习的框架) -> None:
         study_refiner = Frame(
             练习的框架,
             height = 350,
@@ -164,17 +157,101 @@ class Ui():
         英文字.place(x = 65, y = 250)
         中文的设定.place(x = 30, y = 250)
         英文的设定.place(x = 90, y = 250)
-        
+
         #Add Study Button
         练习的按键 = Button(
-            study_refiner, 
+            study_refiner,
             text = "练习", 
             bg = 'azure'
         )
         练习的按键.place(x = 50, y = 275)
         练习的按键.bind('<Button-1>', self._runQuiz)
 
-        #Create Study Frame
+    def _createUISFStudyStats(self, study_frame) -> None:
+        round1pinyin = Label(
+            study_frame,
+            text = self._studyStatsDict['round1pinyin'].get(),
+            bg = 'azure'
+        )
+        round1pinyin.place(x = 180, y = 146)
+        round2pinyin = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['pDeckCorrect2'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round2pinyin.place(x = 230, y = 146)
+
+        round3pinyin = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['pDeckCorrect3'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round3pinyin.place(x = 280, y = 146)
+        
+        round4pinyin = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['pDeckCorrect4'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round4pinyin.place(x = 330, y = 146)
+
+        round1translation = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['tDeckCorrect1'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round1translation.place(x = 180, y = 266)
+
+        round2translation = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['tDeckCorrect2'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round2translation.place(x = 230, y = 266)
+
+        round3translation = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['tDeckCorrect3'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round3translation.place(x = 280, y = 266)
+        
+        round4translation = Label(
+            study_frame,
+            textvariable = (
+                str(self._valueDict['tDeckCorrect4'].get())
+                + '/'
+                + str(self._valueDict['deckCompletion'].get())
+            ),
+            bg = 'azure'
+        )
+        round4translation.place(x = 330, y = 266)
+
+    def _createUISFStudyFrame(self, 练习的框架) -> None:
         study_frame = Frame(
             练习的框架, height = 350,
             width = 450,
@@ -183,7 +260,6 @@ class Ui():
         )
         study_frame.place(x = 136,y = 50)
 
-        #Add Study Elements
         question_label = Label(
             study_frame,
             textvariable = self._valueDict['currentQuestion'].get(),
@@ -224,92 +300,7 @@ class Ui():
         )
         translation_answer.place(x =  180, y = 233)
 
-        round1pinyin = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect1'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round1pinyin.place(x = 180, y = 146)
-        round2pinyin = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect2'].get())
-                + '/' 
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round2pinyin.place(x = 230, y = 146)
-
-        round3pinyin = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect3'].get())
-                + '/' 
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round3pinyin.place(x = 280, y = 146)
-        
-        round4pinyin = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect4'].get())
-                + '/' 
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round4pinyin.place(x = 330, y = 146)
-
-        round1translation = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect1'].get())
-                + '/' 
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round1translation.place(x = 180, y = 266)
-
-        round2translation = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect2'].get())
-                + '/' 
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round2translation.place(x = 230, y = 266)
-
-        round3translation = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect3'].get())
-                + '/' 
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round3translation.place(x = 280, y = 266)
-        
-        round4translation = Label(
-            study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect4'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
-            bg = 'azure'
-        )
-        round4translation.place(x = 330, y = 266)
+        self._createUISFStudyStats(study_frame)
 
         correct_check = Checkbutton(
             study_frame,
@@ -334,28 +325,46 @@ class Ui():
         )
         percent_complete.place(x = 280, y = 35)
 
-        #练习的框架.bind('<Return>', self._enterBind)
-        #练习的框架.bind('x', self._checkTheBox)
+    def _createUIStudyFrame(self) -> None:
+        练习的框架 = ttk.Frame(self._笔记本, width = 600, height = 380)
+        练习的框架.pack(fill = 'both', expand = 1)
+        self._笔记本.add(练习的框架, text = '练习')
+
+        self._createUISFPracticeTitle(练习的框架)
+        self._createUISFStudyRefiner(练习的框架)
+        self._createUISFStudyFrame(练习的框架)
+
+    def _createUiWindow(self) -> None:
+        self._master.geometry('600x400')
+        self._master.title('汉字数据库')
+        self._master.maxsize(600, 400)
+        self._master.minsize(600, 400)
+
+        # Create Tabs
+        self._笔记本.pack(fill = 'both', expand = 1)
+
+        self._createUIDictFrame()
+        self._createUIStudyFrame()
 
         self._master.bind('<Return>', self._enterBind)
         self._master.bind('x', self._checkTheBox)
 
     def runMainLoop(self) -> None:
-        self._master.mainloop() 
+        self._master.mainloop()
 
     def _checkTheBox(self, event) -> None:
         if self._valueDict['check'].get() == 0:
-            self._valueDict['check'].set(1)    
+            self._valueDict['check'].set(1)
         else:
-            self._valueDict['check'].set(0)  
+            self._valueDict['check'].set(0)
 
     def _searchDatabaseUI(self) -> None:
         '''
             for key, value in self._valueDict.items():
                 if key in [
-                    'entryCharacter', 
-                    'entryPin1yin1', 
-                    'entryPOSL', 
+                    'entryCharacter',
+                    'entryPin1yin1',
+                    'entryPOSL',
                     'entryEnglish'
                 ] and value.get() != '':
                     search_values.update({key: value.get()})
@@ -363,7 +372,7 @@ class Ui():
 
         search_values = {
             key: value.get()
-            for key, value in self._valueDict.items() if 
+            for key, value in self._valueDict.items() if
             key in ['entryCharacter', 'entryPin1yin1', 'entryPOSL', 'entryEnglish']
             and value.get() != ''
         }
@@ -451,14 +460,20 @@ class Ui():
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
                 self._shuffledDeck = self._missedCards.shuffle()
 
+    def _updateStats(self) -> None:
+        self._studyStatsDict['round1pinyin'].set(f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}")
+
     def _enterBind(self, event) -> None:
         if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
             self._runQuiz(event)
         elif self._valueDict['answered'].get() == 0 and self._valueDict['langChoice'].get() == 'En':
             self._showAnswers = True
             self._showAnswersEn()
+            self._updateStats()
         elif self._valueDict['answered'].get() == 0:
+            self._showAnswers = True
             self._showAnswersZh()
+            self._updateStats()
         else:
             self._checkResponses()
 
