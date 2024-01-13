@@ -44,7 +44,15 @@ class Ui():
             'check': IntVar (value = 0)
         }
         self._studyStatsDict = {
-            'round1pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}")
+            'round1pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round2pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect2'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round3pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect3'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round4pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect4'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round1translation': StringVar(value = f"{self._valueDict['tDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round2translation': StringVar(value = f"{self._valueDict['tDeckCorrect2'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round3translation': StringVar(value = f"{self._valueDict['tDeckCorrect3'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'round4translation': StringVar(value = f"{self._valueDict['tDeckCorrect4'].get()}/{self._valueDict['deckCompletion'].get()}"),
+            'percentComplete': StringVar(value = f"--")
         }
         self._ZH_DB = Database()
         self._search_results = {}
@@ -170,83 +178,55 @@ class Ui():
     def _createUISFStudyStats(self, study_frame) -> None:
         round1pinyin = Label(
             study_frame,
-            text = self._studyStatsDict['round1pinyin'].get(),
+            textvariable = self._studyStatsDict['round1pinyin'],
             bg = 'azure'
         )
         round1pinyin.place(x = 180, y = 146)
         round2pinyin = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect2'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round2pinyin'],
             bg = 'azure'
         )
         round2pinyin.place(x = 230, y = 146)
 
         round3pinyin = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect3'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round3pinyin'],
             bg = 'azure'
         )
         round3pinyin.place(x = 280, y = 146)
-        
+
         round4pinyin = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['pDeckCorrect4'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round4pinyin'],
             bg = 'azure'
         )
         round4pinyin.place(x = 330, y = 146)
 
         round1translation = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect1'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round1translation'],
             bg = 'azure'
         )
         round1translation.place(x = 180, y = 266)
 
         round2translation = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect2'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round2translation'],
             bg = 'azure'
         )
         round2translation.place(x = 230, y = 266)
 
         round3translation = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect3'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round3translation'],
             bg = 'azure'
         )
         round3translation.place(x = 280, y = 266)
         
         round4translation = Label(
             study_frame,
-            textvariable = (
-                str(self._valueDict['tDeckCorrect4'].get())
-                + '/'
-                + str(self._valueDict['deckCompletion'].get())
-            ),
+            textvariable = self._studyStatsDict['round4translation'],
             bg = 'azure'
         )
         round4translation.place(x = 330, y = 266)
@@ -262,7 +242,7 @@ class Ui():
 
         question_label = Label(
             study_frame,
-            textvariable = self._valueDict['currentQuestion'].get(),
+            textvariable = self._valueDict['currentQuestion'],
             bg = 'azure',
         )
         question_label.place(x = 35, y= 35)
@@ -289,13 +269,13 @@ class Ui():
 
         pinyin_answer = Label(
             study_frame,
-            textvariable = self._valueDict['pin1yin1Answer'].get(),
+            text = self._valueDict['pin1yin1Answer'].get(),
             bg = 'azure'
         )
         pinyin_answer.place(x = 180, y = 113)
         translation_answer = Label(
             study_frame,
-            textvariable = self._valueDict['translationAnswer'].get(),
+            text = self._valueDict['translationAnswer'].get(),
             bg = 'azure'
         )
         translation_answer.place(x =  180, y = 233)
@@ -304,23 +284,15 @@ class Ui():
 
         correct_check = Checkbutton(
             study_frame,
+            command = self._updatePercent,
             bg = 'azure',
             variable = self._valueDict['check']
         )
         correct_check.place(x = 350, y = 200)
-        if (
-            self._valueDict['deckCompletion'] != ''
-            and self._valueDict['deckLength'] != ''
-        ):
-            percent = str(
-                self._valueDict['deckCompletion'].get()
-                /self._valueDict['deckLength'].get()
-            )
-        else:
-            percent = '--'
+
         percent_complete = Label(
             study_frame,
-            textvariable = [percent + '% Complete'],
+            textvariable = self._studyStatsDict['percentComplete'],
             bg = 'azure'
         )
         percent_complete.place(x = 280, y = 35)
@@ -403,8 +375,8 @@ class Ui():
     def _runQuiz(self, event):  # not finished
         # reset values after previous quiz
         if self._valueDict['deckCompletion'].get() != 1:
-            self._valueDict['deckCompletion'].set(1)
             self._valueDict['deckLength'].set(1)
+            self._valueDict['deckCompletion'].set(1)
             self._valueDict['pDeckCorrect1'].set(0)
             self._valueDict['pDeckCorrect2'].set(0)
             self._valueDict['pDeckCorrect3'].set(0)
@@ -425,6 +397,7 @@ class Ui():
         self._shuffledDeck = [result for result in self._search_results.values()]
         random.shuffle(self._shuffledDeck)
         self._valueDict['deckLength'].set(len(self._search_results))
+        self._updatePercent()
         if self._valueDict['langChoice'].get() == 'En':
             self._runQuizEn()
         else:
@@ -463,6 +436,15 @@ class Ui():
     def _updateStats(self) -> None:
         self._studyStatsDict['round1pinyin'].set(f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}")
 
+    def _updatePercent(self) -> None:
+        if (
+            self._valueDict['deckCompletion'] != ''
+            and self._valueDict['deckLength'] != ''
+        ):
+            self._studyStatsDict['percentComplete'].set(f"{self._valueDict['deckCompletion'].get() - 1}/{self._valueDict['deckLength'].get()} Complete")
+        else:
+            self._studyStatsDict['percentComplete'].set('--')
+
     def _enterBind(self, event) -> None:
         if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
             self._runQuiz(event)
@@ -470,10 +452,12 @@ class Ui():
             self._showAnswers = True
             self._showAnswersEn()
             self._updateStats()
+            self._valueDict['answered'].set(1)
         elif self._valueDict['answered'].get() == 0:
             self._showAnswers = True
             self._showAnswersZh()
             self._updateStats()
+            self._valueDict['answered'].set(1)
         else:
             self._checkResponses()
 
