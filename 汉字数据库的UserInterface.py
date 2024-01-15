@@ -39,7 +39,6 @@ class Ui():
             'translationResponse': StringVar (value = ''),
             'pin1yin1Answer': StringVar(value = ''),
             'translationAnswer': StringVar(value = ''),
-            'answered': IntVar (value = 0),
             'roundNumber': IntVar (value = 1),
             'check': IntVar (value = 0)
         }
@@ -58,7 +57,7 @@ class Ui():
         self._search_results = {}
         self._shuffledDeck = []
         self._missedCards = []
-        self._showAnswers = False
+        self._answered = False
 
         self._createUiWindow()
 
@@ -181,55 +180,55 @@ class Ui():
             textvariable = self._studyStatsDict['round1pinyin'],
             bg = 'azure'
         )
-        round1pinyin.place(x = 180, y = 146)
+        round1pinyin.place(x = 180, y = 136)
         round2pinyin = Label(
             study_frame,
             textvariable = self._studyStatsDict['round2pinyin'],
             bg = 'azure'
         )
-        round2pinyin.place(x = 230, y = 146)
+        round2pinyin.place(x = 230, y = 136)
 
         round3pinyin = Label(
             study_frame,
             textvariable = self._studyStatsDict['round3pinyin'],
             bg = 'azure'
         )
-        round3pinyin.place(x = 280, y = 146)
+        round3pinyin.place(x = 280, y = 136)
 
         round4pinyin = Label(
             study_frame,
             textvariable = self._studyStatsDict['round4pinyin'],
             bg = 'azure'
         )
-        round4pinyin.place(x = 330, y = 146)
+        round4pinyin.place(x = 330, y = 136)
 
         round1translation = Label(
             study_frame,
             textvariable = self._studyStatsDict['round1translation'],
             bg = 'azure'
         )
-        round1translation.place(x = 180, y = 266)
+        round1translation.place(x = 180, y = 256)
 
         round2translation = Label(
             study_frame,
             textvariable = self._studyStatsDict['round2translation'],
             bg = 'azure'
         )
-        round2translation.place(x = 230, y = 266)
+        round2translation.place(x = 230, y = 256)
 
         round3translation = Label(
             study_frame,
             textvariable = self._studyStatsDict['round3translation'],
             bg = 'azure'
         )
-        round3translation.place(x = 280, y = 266)
+        round3translation.place(x = 280, y = 256)
         
         round4translation = Label(
             study_frame,
             textvariable = self._studyStatsDict['round4translation'],
             bg = 'azure'
         )
-        round4translation.place(x = 330, y = 266)
+        round4translation.place(x = 330, y = 256)
 
     def _createUISFStudyFrame(self, 练习的框架) -> None:
         study_frame = Frame(
@@ -284,7 +283,7 @@ class Ui():
 
         correct_check = Checkbutton(
             study_frame,
-            command = self._updatePercent,
+            command = self._updateCompletion,
             bg = 'azure',
             variable = self._valueDict['check']
         )
@@ -351,42 +350,45 @@ class Ui():
         self._search_results = self._ZH_DB.search_database_DB(search_values)
 
     def _showAnswersEn(self):  # not finished
+        print(self._valueDict['pin1yin1Response'].get())
+        print(self._shuffledDeck[self._valueDict['deckCompletion'].get()-1].get('pin1yin1'))
         if self._valueDict['pin1yin1Response'].get() == self._shuffledDeck[self._valueDict['deckCompletion'].get()-1].get('pin1yin1'):
-            self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
+            self._valueDict[f"pDeckCorrect{self._valueDict['roundNumber'].get()}"].set(self._valueDict[f"pDeckCorrect{self._valueDict['roundNumber'].get()+1}"])
+            print('saenif')
+            print(self._valueDict[f"pDeckCorrect{self._valueDict['roundNumber'].get()}"])
         else:
             self._missedCards.append(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1])
+            print('saenelse')
         self._valueDict['pin1yin1Answer'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get()].get('pin1yin1'))
         self._valueDict['translationAnswer'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get()].get('character'))
 
     def _showAnswersZh(self):  # not finished
         if self._valueDict['pin1yin1Response'].get() == self._shuffledDeck[self._valueDict['deckCompletion'].get()-1].get('pin1yin1'):
-            self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
+            self._valueDict[f"pDeckCorrect{self._valueDict['roundNumber'].get()}"].set(self._valueDict[f"pDeckCorrect{self._valueDict['roundNumber'].get()+1}"])
         else:
-            self._missedCards = self._missedCards + self._shuffledDeck[self._valueDict['deckCompletion']].get()
-        self._valueDict['pin1yin1Answer'].set(self._shuffledDeck[self._valueDict['deckCompletion']].get('pin1yin1'))
-        self._valueDict['translationAnswer'].set(self._shuffledDeck[self._valueDict['deckCompletion']].get('definition'))
+            self._missedCards.append(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1])
+        self._valueDict['pin1yin1Answer'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get()].get('pin1yin1'))
+        self._valueDict['translationAnswer'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get()].get('definition'))
 
     def _checkResponses(self) -> None:  # maybe finished
         if self._valueDict['checked'].get() == 1:
             self._valueDict['tDeckCorrect' + str(self._valueDict['roundNumber'])].set(self._valueDict['tDeckCorrect' + str(self._valueDict['roundNumber'])] + 1)
-        self._valueDict['answered'].set(0)
         self._valueDict['checked'].set(0)
+        print('checked')
 
     def _runQuiz(self, event):  # not finished
         # reset values after previous quiz
-        if self._valueDict['deckCompletion'].get() != 1:
-            self._valueDict['deckLength'].set(1)
-            self._valueDict['deckCompletion'].set(1)
-            self._valueDict['pDeckCorrect1'].set(0)
-            self._valueDict['pDeckCorrect2'].set(0)
-            self._valueDict['pDeckCorrect3'].set(0)
-            self._valueDict['pDeckCorrect4'].set(0)
-            self._valueDict['tDeckCorrect1'].set(0)
-            self._valueDict['tDeckCorrect2'].set(0)
-            self._valueDict['tDeckCorrect3'].set(0)
-            self._valueDict['tDeckCorrect4'].set(0)
-            self._valueDict['answered'].set(0)
-            self._valueDict['roundNumber'].set(1)
+        self._valueDict['deckLength'].set(1)
+        self._valueDict['deckCompletion'].set(1)
+        self._valueDict['pDeckCorrect1'].set(0)
+        self._valueDict['pDeckCorrect2'].set(0)
+        self._valueDict['pDeckCorrect3'].set(0)
+        self._valueDict['pDeckCorrect4'].set(0)
+        self._valueDict['tDeckCorrect1'].set(0)
+        self._valueDict['tDeckCorrect2'].set(0)
+        self._valueDict['tDeckCorrect3'].set(0)
+        self._valueDict['tDeckCorrect4'].set(0)
+        self._valueDict['roundNumber'].set(1)
 
         self._searchDatabaseUI()
         '''
@@ -397,7 +399,7 @@ class Ui():
         self._shuffledDeck = [result for result in self._search_results.values()]
         random.shuffle(self._shuffledDeck)
         self._valueDict['deckLength'].set(len(self._search_results))
-        self._updatePercent()
+        self._updateCompletion()
         if self._valueDict['langChoice'].get() == 'En':
             self._runQuizEn()
         else:
@@ -407,12 +409,12 @@ class Ui():
         if self._valueDict['roundNumber'].get() < 5:
             if self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
                 self._valueDict['currentQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1].get('definition'))
-                self._valueDict['answered'].set(0)
-                if not self._showAnswers:
+                self._answered = False
+                if self._answered == False:
                     self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
                 else:
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
-                    self._showAnswers = False
+                    self._answered = False
                     self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
             else:
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
@@ -422,21 +424,34 @@ class Ui():
         if self._valueDict['roundNumber'].get() < 5:
             if self._valueDict['deckCompletion'].get() <= self._valueDict['deckLength'].get():
                 self._valueDict['currentQuestion'].set(self._shuffledDeck[self._valueDict['deckCompletion'].get() - 1].get('character'))
-                self._valueDict['answered'].set(0)
-                if not self._showAnswers:
+                self._answered == False
+                if self._answered == False:
                     self._master.after(100, self._runQuizZh)  # Schedule the function in the Tkinter main loop
                 else:
                     self._valueDict['deckCompletion'].set(self._valueDict['deckCompletion'].get() + 1)
-                    self._showAnswers = False
+                    self._answered = False
                     self._master.after(100, self._runQuizZh)  # Schedule the function in the Tkinter main loop
             else:
                 self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
                 self._shuffledDeck = self._missedCards.shuffle()
 
     def _updateStats(self) -> None:
-        self._studyStatsDict['round1pinyin'].set(f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deckCompletion'].get()}")
+        '''
+        Let's say we're on round 2 and we just got the next question right.  This function is supposed 
+        to only change Round 2 stats, while keeping 3 and 4 at zero and 1 at whatever your accuracy was.
+        Line 446 works on the pinyin stats while line 450 works on the translation stats.  For example, 
+        line 446 should set self._valueDict['round2pinyin'] to pDeckCorrect2/deckCompletion.  The same goes
+        for line 450 (set round2translation to tDeckCorrect2/deckCompletion).  
+        '''
+        self._studyStatsDict[f"round{self._valueDict['roundNumber'].get()}pinyin"].set(
+            f"{self._valueDict['pDeckCorrect' + str(self._valueDict['roundNumber'].get())].get()}/{self._valueDict['deckCompletion'].get()}"
+            )
+        self._studyStatsDict[f"round{self._valueDict['roundNumber'].get()}translation"].set(
+            f"{self._valueDict['tDeckCorrect' + str(self._valueDict['roundNumber'].get())].get()}/{self._valueDict['deckCompletion'].get()}"
+            )
 
-    def _updatePercent(self) -> None:
+
+    def _updateCompletion(self) -> None:
         if (
             self._valueDict['deckCompletion'] != ''
             and self._valueDict['deckLength'] != ''
@@ -446,51 +461,29 @@ class Ui():
             self._studyStatsDict['percentComplete'].set('--')
 
     def _enterBind(self, event) -> None:
+        print(str(self._answered))
         if self._valueDict['deckCompletion'].get() == self._valueDict['deckLength'].get():
             self._runQuiz(event)
-        elif self._valueDict['answered'].get() == 0 and self._valueDict['langChoice'].get() == 'En':
-            self._showAnswers = True
+        elif self._answered == False and self._valueDict['langChoice'].get() == 'En':
             self._showAnswersEn()
             self._updateStats()
-            self._valueDict['answered'].set(1)
-        elif self._valueDict['answered'].get() == 0:
-            self._showAnswers = True
+            self._updateCompletion()
+            self._answered = True
+        elif self._answered == False:
             self._showAnswersZh()
             self._updateStats()
-            self._valueDict['answered'].set(1)
+            self._updateCompletion()
+            self._answered = True
         else:
             self._checkResponses()
+        print(str(self._answered))
 
 
 '''''
-self._valueDict = {
-            'entryCharacter': StringVar(value = ''),
-            'entryPin1yin1': StringVar(value = ''),
-            'entryPOSL': StringVar(value = ''),
-            'entryEnglish': StringVar(value = ''),
-            'langChoice': StringVar(value = 'En'),
-            'deckCompletion': IntVar(value = 0),
-            'deckLength': IntVar(value = 1),
-            'pDeckCorrect1': IntVar(value = 0),
-            'pDeckCorrect2': IntVar(value = 0),
-            'pDeckCorrect3': IntVar(value = 0),
-            'pDeckCorrect4': IntVar(value = 0),
-            'tDeckCorrect1': IntVar(value = 0),
-            'tDeckCorrect2': IntVar(value = 0),
-            'tDeckCorrect3': IntVar(value = 0),
-            'tDeckCorrect4': IntVar(value = 0),
-            'currentQuestion': StringVar(value = ''),
-            'pin1yin1Response': StringVar(value = ''),
-            'translationResponse': StringVar (value = ''),
-            'answered': IntVar (value = 0),
-            'roundNumber': IntVar (value = 1)
-        }
-
-        !TODO: Fix line 340 (bind syntax) find a way to bind to
+        !TODO: Fix line 340 (bind syntax) find a way to bind enter to
         frame instead of master
 
-        !TODO: Create sub window functions to call from create UI function
-
         !TODO: Look into error handling for certain functions
-        !TODO: Fix UI for not showning elements
+
+        !TODO: Bind radio buttons
 '''''
