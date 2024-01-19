@@ -29,7 +29,7 @@
             "pin1yin1": "ma5",
             "POS": "particle",
             "lesson": "1.1",
-            "definition": "yes/no interrogative particle)",
+            "definition": "(yes/no interrogative particle)",
             "notes": "..."
         },
         {
@@ -53,7 +53,7 @@
             "pin1yin1": "ne5",
             "POS": "particle",
             "lesson": "1.1",
-            "definition": "what about... interrogative particle)",
+            "definition": "(what about...)",
             "notes": "你呢？"
         },
         {
@@ -165,7 +165,7 @@
             "pin1yin1": "de5",
             "POS": "particle",
             "lesson": "1.2",
-            "definition": "possessive particle)",
+            "definition": "(possessive)",
             "notes": "structural"
         },
         {
@@ -211,9 +211,9 @@
         {
             "character": "同",
             "pin1yin1": "tong2",
-            "POS": "same, similar",
+            "POS": "adverb",
             "lesson": "1.2",
-            "definition": "adverb",
+            "definition": "same, similar",
             "notes": "..."
         },
         {
@@ -581,7 +581,7 @@
             "pin1yin1": "ke3shi4",
             "POS": "conjunction",
             "lesson": "1.4",
-            "definition": "but, yet, however",
+            "definition": "but, yet, however (k)",
             "notes": "..."
         },
         {
@@ -874,7 +874,7 @@
         },
         {
             "character": "女朋友",
-            "pin1yin1": "nü3peng2you3",
+            "pin1yin1": "nv3peng2you3",
             "POS": "noun",
             "lesson": "1.5",
             "definition": "girlfriend",
@@ -1146,7 +1146,7 @@
         },
         {
             "character": "女",
-            "pin1yin1": "nü3",
+            "pin1yin1": "nv3",
             "POS": "adjective",
             "lesson": "1.6",
             "definition": "female",
@@ -1234,7 +1234,7 @@
         },
         {
             "character": "律师",
-            "pin1yin1": "lü4shi1",
+            "pin1yin1": "lv4shi1",
             "POS": "noun",
             "lesson": "1.6",
             "definition": "lawyer",
@@ -2046,7 +2046,7 @@
             "POS": "noun",
             "lesson": "1.11",
             "definition": "tea",
-            "notes": "红茶: hong2cha2 red tea, 绿茶: lü4cha2 green tea"
+            "notes": "红茶: hong2cha2 red tea, 绿茶: lv4cha2 green tea"
         },
         {
             "character": "红",
@@ -2077,12 +2077,12 @@
             "pin1yin1": "hai2shi4",
             "POS": "conjunction",
             "lesson": "1.11",
-            "definition": "or",
+            "definition": "or (h2)",
             "notes": "..."
         },
         {
             "character": "绿",
-            "pin1yin1": "lü4",
+            "pin1yin1": "lv4",
             "POS": "adjective",
             "lesson": "1.11",
             "definition": "green",
@@ -2653,7 +2653,7 @@
             "pin1yin1": "huo4zhe3",
             "POS": "conjunction",
             "lesson": "1.13",
-            "definition": "or",
+            "definition": "or (h4)",
             "notes": "can't be used in an interrogative sense ('I'll eat a banana or an apple,' not 'should I eat a banana or an apple?'... that would use 还是)"
         },
         {
@@ -3140,7 +3140,7 @@
             "pin1yin1": "hai2you3",
             "POS": "conjunction",
             "lesson": "1.15",
-            "definition": "furthermore in addition, and (emphasized)",
+            "definition": "furthermore in addition, and (emphasized) (h)",
             "notes": "..."
         },
         {
@@ -3164,7 +3164,7 @@
             "pin1yin1": "de5",
             "POS": "particle",
             "lesson": "1.16",
-            "definition": "particle for a result, possibility, or degree",
+            "definition": "(result, possibility, or degree)",
             "notes": "S V O V 得 adv adj"
         },
         {
@@ -3633,7 +3633,7 @@
         },
         {
             "character": "旅行",
-            "pin1yin1": "lü3xing2",
+            "pin1yin1": "lv3xing2",
             "POS": "verb",
             "lesson": "1.18",
             "definition": "to travel",
@@ -4124,7 +4124,7 @@
             "pin1yin1": "zhe5",
             "POS": "particle",
             "lesson": "2.2",
-            "definition": "(indicates continuous or stationary action)",
+            "definition": "(continuous or stationary action)",
             "notes": "在 is progressive (I putting on the dress when...) while 着 is imperfect (she wearing that dress when...)"
         },
         {
@@ -4417,7 +4417,7 @@
         },
         {
             "character": "旅客",
-            "pin1yin1": "lü3ke4",
+            "pin1yin1": "lv3ke4",
             "POS": "noun",
             "lesson": "2.3",
             "definition": "traveler, passenger",
@@ -4489,7 +4489,7 @@
         },
         {
             "character": "旅馆",
-            "pin1yin1": "lü3guan3",
+            "pin1yin1": "lv3guan3",
             "POS": "noun",
             "lesson": "2.3",
             "definition": "hotel, hostel",
@@ -4649,7 +4649,7 @@
         },
         {
             "character": "红绿灯",
-            "pin1yin1": "hong2lü4deng1",
+            "pin1yin1": "hong2lv4deng1",
             "POS": "noun",
             "lesson": "2.3",
             "definition": "traffic light",
@@ -5017,7 +5017,7 @@
         },
         {
             "character": "旅游",
-            "pin1yin1": "lü3you2",
+            "pin1yin1": "lv3you2",
             "POS": "noun",
             "lesson": "2.7",
             "definition": "tour",
@@ -5025,7 +5025,7 @@
         },
         {
             "character": "旅行社",
-            "pin1yin1": "lü3xing2she4",
+            "pin1yin1": "lv3xing2she4",
             "POS": "noun",
             "lesson": "2.7",
             "definition": "travel agency",
@@ -5132,7 +5132,7 @@
             "pin1yin1": "yao4shi4",
             "POS": "conjunction",
             "lesson": "2.7",
-            "definition": "if",
+            "definition": "if (r)",
             "notes": "also: 如果 (ru2guo3)"
         },
         {
@@ -5172,7 +5172,7 @@
             "pin1yin1": "ru2guo3",
             "POS": "conjunction",
             "lesson": "2.7",
-            "definition": "if",
+            "definition": "if (y)",
             "notes": "also: 要是 (yao4shi4)"
         },
         {
@@ -5484,7 +5484,7 @@
             "pin1yin1": "er2qie3",
             "POS": "conjunction",
             "lesson": "2.8",
-            "definition": "and also, furthermore",
+            "definition": "and also, furthermore (e)",
             "notes": "..."
         },
         {
@@ -5641,11 +5641,11 @@
         },
         {
             "character": "女孩子",
-            "pin1yin1": "nü3hai2zi5",
+            "pin1yin1": "nv3hai2zi5",
             "POS": "noun",
             "lesson": "2.9",
             "definition": "girl",
-            "notes": "also: 女儿 (nü3er2)"
+            "notes": "also: 女儿 (nv3er2)"
         },
         {
             "character": "控制",
