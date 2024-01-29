@@ -1453,7 +1453,7 @@
             "pin1yin1": "shir4",
             "POS": "noun",
             "lesson": "1.8",
-            "definition": "matter, thing, business",
+            "definition": "matter, thing, business (se)",
             "notes": "..."
         },
         {
@@ -1469,7 +1469,7 @@
             "pin1yin1": "hui2",
             "POS": "verb",
             "lesson": "1.8",
-            "definition": "to return",
+            "definition": "to return, reply",
             "notes": "..."
         },
         {
@@ -5132,7 +5132,7 @@
             "pin1yin1": "yao4shi4",
             "POS": "conjunction",
             "lesson": "2.7",
-            "definition": "if (r)",
+            "definition": "if (y)",
             "notes": "also: 如果 (ru2guo3)"
         },
         {
@@ -5172,7 +5172,7 @@
             "pin1yin1": "ru2guo3",
             "POS": "conjunction",
             "lesson": "2.7",
-            "definition": "if (y)",
+            "definition": "if (r)",
             "notes": "also: 要是 (yao4shi4)"
         },
         {
@@ -5300,8 +5300,8 @@
             "pin1yin1": "wan2",
             "POS": "verb",
             "lesson": "2.8",
-            "definition": "to finish",
-            "notes": "..."
+            "definition": "to finish (w)",
+            "notes": "similar: 结束 jie2shu4"
         },
         {
             "character": "部",
@@ -5773,6 +5773,390 @@
             "POS": "noun",
             "lesson": "2.9",
             "definition": "president",
+            "notes": "..."
+        },
+        {
+            "character": "被",
+            "pin1yin1": "bei4",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "quilt",
+            "notes": "also particle: (passive voice)"
+        },
+        {
+            "character": "被",
+            "pin1yin1": "bei4",
+            "POS": "particle",
+            "lesson": "2.11",
+            "definition": "(passive voice)",
+            "notes": "also noun: quilt"
+        },
+        {
+            "character": "住院",
+            "pin1yin1": "zhu4yuan4",
+            "POS": "VO",
+            "lesson": "2.11",
+            "definition": "to be hospitalized",
+            "notes": "..."
+        },
+        {
+            "character": "照顾",
+            "pin1yin1": "zhao4gu4",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to look after",
+            "notes": "similar: 管 guan3 to take care of, manage, control"
+        },
+        {
+            "character": "到底",
+            "pin1yin1": "dao4di3",
+            "POS": "adverb",
+            "lesson": "2.11",
+            "definition": "finally",
+            "notes": "..."
+        },
+        {
+            "character": "唉",
+            "pin1yin1": "ai4",
+            "POS": "interjection",
+            "lesson": "2.11",
+            "definition": "(sigh)",
+            "notes": "sad, disappointed"
+        },
+        {
+            "character": "事情",
+            "pin1yin1": "shi4qing2",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "matter, thing, business (sq)",
+            "notes": "..."
+        },
+        {
+            "character": "经过",
+            "pin1yin1": "jing1guo4",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "process",
+            "notes": "also verb: to go through (a process)"
+        },
+        {
+            "character": "经过",
+            "pin1yin1": "jing1guo4",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to go through (a process)",
+            "notes": "also noun: process"
+        },
+        {
+            "character": "肚子",
+            "pin1yin1": "du4zi5",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "belly, stomach",
+            "notes": "..."
+        },
+        {
+            "character": "以为",
+            "pin1yin1": "yi3wei2",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to think, consider",
+            "notes": "..."
+        },
+        {
+            "character": "管",
+            "pin1yin1": "guan3",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to take care of, control, manage",
+            "notes": "similar: 照顾 zhao4gu4"
+        },
+        {
+            "character": "拖",
+            "pin1yin1": "tuo1",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to drag, delay",
+            "notes": "..."
+        },
+        {
+            "character": "厉害",
+            "pin1yin1": "li4hai5",
+            "POS": "adjective",
+            "lesson": "2.11",
+            "definition": "severe",
+            "notes": "..."
+        },
+        {
+            "character": "受不了",
+            "pin1yin1": "shou4bu4liao3",
+            "POS": "adjective",
+            "lesson": "2.11",
+            "definition": "unbearable",
+            "notes": "..."
+        },
+        {
+            "character": "刚好",
+            "pin1yin1": "gang1hao3",
+            "POS": "adverb",
+            "lesson": "2.11",
+            "definition": "just, exactly, to happen to be",
+            "notes": "..."
+        },
+        {
+            "character": "情况",
+            "pin1yin1": "qing2kuang4",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "situation",
+            "notes": "..."
+        },
+        {
+            "character": "救护车",
+            "pin1yin1": "jiu4hu4che1",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "ambulance",
+            "notes": "..."
+        },
+        {
+            "character": "急诊室",
+            "pin1yin1": "ji2zhen3shi4",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "emergency room",
+            "notes": "..."
+        },
+        {
+            "character": "急性",
+            "pin1yin1": "ji2xing4",
+            "POS": "adjective",
+            "lesson": "2.11",
+            "definition": "acute",
+            "notes": "..."
+        },
+        {
+            "character": "开刀",
+            "pin1yin1": "kai1dao1",
+            "POS": "VO",
+            "lesson": "2.11",
+            "definition": "to have an operation (k)",
+            "notes": "similar: 动手术 dong4shou3shu4"
+        },
+        {
+            "character": "动手术",
+            "pin1yin1": "dong4shou3shu4",
+            "POS": "VO",
+            "lesson": "2.11",
+            "definition": "to have an operation (d)",
+            "notes": "similar: 开到 kai1dao1"
+        },
+        {
+            "character": "吓死",
+            "pin1yin1": "xia4si3",
+            "POS": "VC",
+            "lesson": "2.11",
+            "definition": "to be scared to death",
+            "notes": "..."
+        },
+        {
+            "character": "手术室",
+            "pin1yin1": "shou3shu4shi4",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "operating room",
+            "notes": "..."
+        },
+        {
+            "character": "担心",
+            "pin1yin1": "dan1xin1",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to worry",
+            "notes": "also adjective: worried"
+        },
+        {
+            "character": "担心",
+            "pin1yin1": "dan1xin1",
+            "POS": "adjective",
+            "lesson": "2.11",
+            "definition": "worried",
+            "notes": "also verb: to worry"
+        },
+        {
+            "character": "进行",
+            "pin1yin1": "jin4xing2",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to be in progress",
+            "notes": "..."
+        },
+        {
+            "character": "顺利",
+            "pin1yin1": "shun4li4",
+            "POS": "adverb",
+            "lesson": "2.11",
+            "definition": "smoothly",
+            "notes": "..."
+        },
+        {
+            "character": "护士",
+            "pin1yin1": "hu4shi5",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "nurse",
+            "notes": "..."
+        },
+        {
+            "character": "推",
+            "pin1yin1": "tui1",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to push, decline",
+            "notes": "..."
+        },
+        {
+            "character": "病房",
+            "pin1yin1": "bing4fang2",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "hospital ward",
+            "notes": "..."
+        },
+        {
+            "character": "休养",
+            "pin1yin1": "xiu1yang3",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to recuperate",
+            "notes": "..."
+        },
+        {
+            "character": "通知",
+            "pin1yin1": "tong1zhi1",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to inform",
+            "notes": "..."
+        },
+        {
+            "character": "家人",
+            "pin1yin1": "jia1ren2",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "family members",
+            "notes": "..."
+        },
+        {
+            "character": "怕",
+            "pin1yin1": "pa4",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to fear",
+            "notes": "..."
+        },
+        {
+            "character": "敢",
+            "pin1yin1": "gan3",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to dare",
+            "notes": "..."
+        },
+        {
+            "character": "结束",
+            "pin1yin1": "jie2shu4",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to finish (j)",
+            "notes": "similar: 完 wan2"
+        },
+        {
+            "character": "没关系",
+            "pin1yin1": "mei2guan1xi4",
+            "POS": "phrase",
+            "lesson": "2.11",
+            "definition": "it doesn't matter (m)",
+            "notes": "similar: 不要紧 bu2yao4jin3"
+        },
+        {
+            "character": "不要紧",
+            "pin1yin1": "bu2yao4jin3",
+            "POS": "phrase",
+            "lesson": "2.11",
+            "definition": "it doesn't matter (b)",
+            "notes": "similar: 没关系 mei2guan1xi4"
+        },
+        {
+            "character": "骂",
+            "pin1yin1": "ma4",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to scold",
+            "notes": "..."
+        },
+        {
+            "character": "顿",
+            "pin1yin1": "dun4",
+            "POS": "quantifier",
+            "lesson": "2.11",
+            "definition": "(meals, scoldings)",
+            "notes": "used in the transliteration for Washington D.C. (华盛顿特区 hua2sheng4dun4te4qu1)"
+        },
+        {
+            "character": "关心",
+            "pin1yin1": "guan1xin1",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to be concerned about",
+            "notes": "also noun: concern"
+        },
+        {
+            "character": "关心",
+            "pin1yin1": "guan1xin1",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "concern",
+            "notes": "also verb: to be concerned about"
+        },
+        {
+            "character": "可怜",
+            "pin1yin1": "ke3lian2",
+            "POS": "adjective",
+            "lesson": "2.11",
+            "definition": "pitiful, pathetic",
+            "notes": "also verb: to have pity on"
+        },
+        {
+            "character": "可怜",
+            "pin1yin1": "ke3lian2",
+            "POS": "verb",
+            "lesson": "2.11",
+            "definition": "to have pity on",
+            "notes": "also adjective: pitiful, pathetic"
+        },
+        {
+            "character": "父母",
+            "pin1yin1": "fu4mu3",
+            "POS": "noun",
+            "lesson": "2.11",
+            "definition": "parents",
+            "notes": "..."
+        },
+        {
+            "character": "请假",
+            "pin1yin1": "qing3jia4",
+            "POS": "VO",
+            "lesson": "2.11",
+            "definition": "to ask for leave",
+            "notes": "..."
+        },
+        {
+            "character": "早日康复",
+            "pin1yin1": "zao3ri4kang1fu4",
+            "POS": "phrase",
+            "lesson": "2.11",
+            "definition": "get well soon",
             "notes": "..."
         }
     ]
