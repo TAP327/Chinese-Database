@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import re
 
 
 class Database:
@@ -9,9 +10,9 @@ class Database:
      
           self._DB_KEYS = {
                'entryCharacter': 'character',
-               'entryPin1yin1': 'pin1yin1',
                'entryEnglish': 'definition',
-               'entryPOSL': 'entryPOSL'
+               'entryPOSL': 'entryPOSL',
+               'entryPin1yin1': 'pin1yin1'
           }
           self._database_normalized = pd.json_normalize(self._data, record_path=["汉字数据库"])
 
@@ -23,10 +24,30 @@ class Database:
                self._DB_KEYS.get(key): searchEntries.pop(key)
                for key in searchEntries.copy().keys()
           }
+          pinyinSeparated = searchValues.get('pin1yin1')
+          print('pinyinSeparated before: ' + str(pinyinSeparated))
+          if pinyinSeparated != None:
+               pinyinSeparated = re.split(
+                    pattern = r"([a-z][a-z]*[1-5])|([a-z][a-z]*$)|([a-z][a-z]*\s)|([1-5])", 
+                    string = pinyinSeparated, 
+                    flags = re.IGNORECASE
+               )
+               print(type(pinyinSeparated))
+               print('pinyinSeparated after: ' + str(pinyinSeparated))
           refinedDB = self._database_normalized.copy()
-
           for filter, value in searchValues.items():
+               print(filter)
                if filter == 'entryPOSL':
                     filter = 'lesson' if value[-1].isdigit() else 'POS'
-               refinedDB = refinedDB[refinedDB[filter].str.contains(value)]
+               if filter != 'pin1yin1':
+                    refinedDB = refinedDB[refinedDB[filter].str.contains(value)]
+               else:
+                    pinyin = 0
+                    while pinyin < len(pinyinSeparated):
+                         if pinyinSeparated[pinyin] != '' and pinyinSeparated[pinyin] != None:
+                              search1 = f"r'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'"
+                              search = f"r'((?:chao)[1-5])|((?:chao)$)|((?:chao)\s)'"
+                              refinedDB = refinedDB[refinedDB[filter].str.contains(pat = r'((?:chao)[1-5])|((?:chao)$)|((?:chao)\s)')]
+                         pinyin += 1
+          print(refinedDB.to_dict('index'))
           return refinedDB.to_dict('index')
