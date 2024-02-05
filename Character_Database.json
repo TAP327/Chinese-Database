@@ -1161,8 +1161,8 @@
             "notes": "..."
         },
         {
-            "character": "车",
-            "pin1yin1": "che1",
+            "character": "车子",
+            "pin1yin1": "che1zi5",
             "POS": "noun",
             "lesson": "1.6",
             "definition": "car",
@@ -2973,7 +2973,7 @@
             "POS": "noun",
             "lesson": "1.15",
             "definition": "restaurant",
-            "notes": "..."
+            "notes": "also: 饭馆 (fan4guan3)"
         },
         {
             "character": "餐桌",
@@ -4492,8 +4492,8 @@
             "pin1yin1": "lv3guan3",
             "POS": "noun",
             "lesson": "2.3",
-            "definition": "hotel, hostel",
-            "notes": "..."
+            "definition": "hotel, hostel (l)",
+            "notes": "also: 酒店 (jiu3dian4), 饭店 (fan4dian4)"
         },
         {
             "character": "路人",
@@ -6020,8 +6020,8 @@
             "pin1yin1": "bing4fang2",
             "POS": "noun",
             "lesson": "2.11",
-            "definition": "hospital ward",
-            "notes": "..."
+            "definition": "hospital ward (b)",
+            "notes": "also: 医院 (yi1yuan4)"
         },
         {
             "character": "休养",
@@ -6158,6 +6158,622 @@
             "lesson": "2.11",
             "definition": "get well soon",
             "notes": "..."
+        },
+        {
+            "character": "千",
+            "pin1yin1": "qian1",
+            "POS": "number",
+            "lesson": "Travel.1",
+            "definition": "thousand",
+            "notes": "..."
+        },
+        {
+            "character": "元",
+            "pin1yin1": "yuan2",
+            "POS": "noun",
+            "lesson": "Travel.1",
+            "definition": "yen",
+            "notes": "..."
+        },
+        {
+            "character": "月亮",
+            "pin1yin1": "yue4liang5",
+            "POS": "noun",
+            "lesson": "Travel.1",
+            "definition": "moon",
+            "notes": "moon + bright"
+        },
+        {
+            "character": "太阳",
+            "pin1yin1": "tai4yang2",
+            "POS": "noun",
+            "lesson": "Travel.1",
+            "definition": "sun",
+            "notes": "..."
+        },
+        {
+            "character": "首都",
+            "pin1yin1": "shou3du1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "capital",
+            "notes": "city"
+        },
+        {
+            "character": "吉林",
+            "pin1yin1": "ji2lin2",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Jilin",
+            "notes": "province in Manchuria"
+        },
+        {
+            "character": "山西",
+            "pin1yin1": "shan1xi1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Shanxi",
+            "notes": "province in China (south of Inner Mongolia, west of Hebei)"
+        },
+        {
+            "character": "山东",
+            "pin1yin1": "shan1dong1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Shandong",
+            "notes": "province in China (east of Hebei, on the Pacific)"
+        },
+        {
+            "character": "上海",
+            "pin1yin1": "shang4hai3",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Shanghai",
+            "notes": "municipality in China on the Pacific"
+        },
+        {
+            "character": "南京",
+            "pin1yin1": "nan2jing1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Nanjing",
+            "notes": "capital of the Jiangsu province, the Ming Dynasty, and the Republic of China"
+        },
+        {
+            "character": "四川",
+            "pin1yin1": "si4chuan1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Sichuan",
+            "notes": "province in central China, north of Yun2nan2 云南"
+        },
+        {
+            "character": "长江",
+            "pin1yin1": "chang2jiang1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Yangtze River",
+            "notes": "major river in China"
+        },
+        {
+            "character": "太行山",
+            "pin1yin1": "tai4hang2shan1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Taihang Mountains",
+            "notes": "mountains in the Shan1xi1, He2bei3, and He2nan2 provinces"
+        },
+        {
+            "character": "森林",
+            "pin1yin1": "sen1lin2",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "forest",
+            "notes": "..."
+        },
+        {
+            "character": "河流",
+            "pin1yin1": "he2liu2",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "river",
+            "notes": "..."
+        },
+        {
+            "character": "河南",
+            "pin1yin1": "he2nan2",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Henan",
+            "notes": "province south of Shan1xi1, Shan1dong1, and He2bei3"
+        },
+        {
+            "character": "河北",
+            "pin1yin1": "he2bei3",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "province between Shan1xi1 and Shan1dong1, surrounds he Bei3jing1 and Tian1jin1 municipalities",
+            "notes": "..."
+        },
+        {
+            "character": "天津",
+            "pin1yin1": "tian1jin1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "Tianjin",
+            "notes": "municipality near Bei3jing, surrounded by He2bei3 and the Pacific"
+        },
+        {
+            "character": "山区",
+            "pin1yin1": "shan1qu1",
+            "POS": "noun",
+            "lesson": "Travel.2",
+            "definition": "mountain",
+            "notes": "..."
+        },
+        {
+            "character": "天子",
+            "pin1yin1": "tian1zi3",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "emperor",
+            "notes": "..."
+        },
+        {
+            "character": "天空",
+            "pin1yin1": "tian1kong1",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "sky",
+            "notes": "..."
+        },
+        {
+            "character": "佛",
+            "pin1yin1": "fo2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "Buddha, buddhism",
+            "notes": "..."
+        },
+        {
+            "character": "阴",
+            "pin1yin1": "yin1",
+            "POS": "adjective",
+            "lesson": "Travel.3",
+            "definition": "yin",
+            "notes": "slow, soft, pliable diluted, cold, wet, feminine, female, cloudy, dark, shady, secret, moon, earth, water, passive, negative charge"
+        },
+        {
+            "character": "阳",
+            "pin1yin1": "yang2",
+            "POS": "adjective",
+            "lesson": "Travel.3",
+            "definition": "yang",
+            "notes": "fast, hard, solid, concentrated, hot, dry, aggressive, fire, sky, masculine, male, bright, sun, fire, sky, positive charge"
+        },
+        {
+            "character": "金",
+            "pin1yin1": "jin1",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "gold, metal",
+            "notes": "five elements"
+        },
+        {
+            "character": "土",
+            "pin1yin1": "tu2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "earth",
+            "notes": "five elements" 
+        },
+        {
+            "character": "疼",
+            "pin1yin1": "teng2",
+            "POS": "verb",
+            "lesson": "Travel.3",
+            "definition": "to ache",
+            "notes": "..."
+        },
+        {
+            "character": "痛",
+            "pin1yin1": "tong4",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "pain",
+            "notes": "headache (头痛), toothache (牙痛）"
+        },
+        {
+            "character": "疼痛",
+            "pin1yin1": "teng2tong4",
+            "POS": "verb",
+            "lesson": "Travel.3",
+            "definition": "to cause pain",
+            "notes": "..."
+        },
+        {
+            "character": "牙齿",
+            "pin1yin1": "ya2chi3",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "tooth",
+            "notes": "also: dental"
+        },
+        {
+            "character": "牙医",
+            "pin1yin1": "ya2yi1",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "dentist",
+            "notes": "..."
+        },
+        {
+            "character": "风水",
+            "pin1yin1": "feng1shui3",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "fengshui",
+            "notes": "wind + water"
+        },
+        {
+            "character": "春节",
+            "pin1yin1": "chun1jie2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "Chinese New Year",
+            "notes": "also: Spring festival"
+        },
+        {
+            "character": "元宵节",
+            "pin1yin1": "yuan2xiao1jie2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "Lantern Festival",
+            "notes": "fifteenth and final day of the New Year festival"
+        },
+        {
+            "character": "福",
+            "pin1yin1": "fu2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "blessing",
+            "notes": "also: good fortune"
+        },
+        {
+            "character": "七夕",
+            "pin1yin1": "qi1xi1",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "Chinese Valentine's Day",
+            "notes": "always falls on 七月七日 of the lunar calendar"
+        },
+        {
+            "character": "龙舟节",
+            "pin1yin1": "long2zhou1jie2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "Dragon Boat Festival",
+            "notes": "always falls on 五月五日 of the lunar calendar"
+        },
+        {
+            "character": "老鼠",
+            "pin1yin1": "lao3shu3",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "rat, mouse",
+            "notes": "..."
+        },
+        {
+            "character": "奶牛",
+            "pin1yin1": "nai3niu2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "cow",
+            "notes": "一头奶牛 (tou2)"
+        },
+        {
+            "character": "黄牛",
+            "pin1yin1": "huang2niu2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "ox",
+            "notes": "一头黄牛 (tou2)"
+        },
+        {
+            "character": "老虎",
+            "pin1yin1": "lao3hu3",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "tiger",
+            "notes": "..."
+        },
+        {
+            "character": "兔子",
+            "pin1yin1": "tu4zi5",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "rabbit",
+            "notes": "..."
+        },
+        {
+            "character": "龙",
+            "pin1yin1": "long2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "dragon",
+            "notes": "一条龙：a strip of dragon (tiao2)"
+        },
+        {
+            "character": "蛇",
+            "pin1yin1": "she2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "snake",
+            "notes": "一条蛇：a strip of snake (tiao2)"
+        },
+        {
+            "character": "马",
+            "pin1yin1": "ma3",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "horse",
+            "notes": "一匹马 (pi3)"
+        },
+        {
+            "character": "羊",
+            "pin1yin1": "yang2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "sheep",
+            "notes": "一只羊 (zhi1)"
+        },
+        {
+            "character": "山羊",
+            "pin1yin1": "shan1yang2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "goat",
+            "notes": "一只山羊 (zhi1)"
+        },
+        {
+            "character": "候子",
+            "pin1yin1": "hou2",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "monkey",
+            "notes": "一只猴子 (zhi1)"
+        },
+        {
+            "character": "公鸡",
+            "pin1yin1": "gong1ji1",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "rooster",
+            "notes": "..."
+        },
+        {
+            "character": "鸡",
+            "pin1yin1": "鸡",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "chicken",
+            "notes": "..."
+        },
+        {
+            "character": "猪",
+            "pin1yin1": "zhu1",
+            "POS": "noun",
+            "lesson": "Travel.3",
+            "definition": "pig",
+            "notes": "一头猪 (tou2)"
+        },
+        {
+            "character": "米饭",
+            "pin1yin1": "mi3fan4",
+            "POS": "noun",
+            "lesson": "Travel.4",
+            "definition": "cooked rice",
+            "notes": "..."
+        },
+        {
+            "character": "面粉",
+            "pin1yin1": "mian4fen3",
+            "POS": "noun",
+            "lesson": "Travel.4",
+            "definition": "flour",
+            "notes": "noodle/wheat powder"
+        },
+        {
+            "character": "肉",
+            "pin1yin1": "rou4",
+            "POS": "noun",
+            "lesson": "Travel.4",
+            "definition": "meat",
+            "notes": "牛肉，猪肉，羊肉，鸡肉，鱼肉，"
+        },
+        {
+            "character": "葡萄酒",
+            "pin1yin1": "pu2tao2jiu3",
+            "POS": "noun",
+            "lesson": "Travel.4",
+            "definition": "grape wine",
+            "notes": "..."
+        },
+        {
+            "character": "酒水",
+            "pin1yin1": "jiu3shui3",
+            "POS": "noun",
+            "lesson": "Travel.4",
+            "definition": "beverage",
+            "notes": "..."
+        },
+        {
+            "character": "公车",
+            "pin1yin1": "gong1che1",
+            "POS": "noun",
+            "lesson": "Travel.5",
+            "definition": "bus",
+            "notes": "also: 公交车 (gong1jiao1che1)"
+        },
+        {
+            "character": "电车",
+            "pin1yin1": "dian4che1",
+            "POS": "noun",
+            "lesson": "Travel.5",
+            "definition": "tram",
+            "notes": "electric powered vehicle"
+        },
+        {
+            "character": "火车站",
+            "pin1yin1": "huo3che1zhan4",
+            "POS": "noun",
+            "lesson": "Travel.5",
+            "definition": "train station",
+            "notes": "..."
+        },
+        {
+            "character": "公车站",
+            "pin1yin1": "gong1che1zhan4",
+            "POS": "noun",
+            "lesson": "Travel.5",
+            "definition": "bus station",
+            "notes": "..."
+        },
+        {
+            "character": "舟",
+            "pin1yin1": "zhou1",
+            "POS": "noun",
+            "lesson": "Travel.5",
+            "definition": "boat (antiquated)",
+            "notes": "also: 船 (chuan2)"
+        },
+        {
+            "character": "船",
+            "pin1yin1": "chuan2",
+            "POS": "noun",
+            "lesson": "Travel.5",
+            "definition": "boat (modern)",
+            "notes": "also: 舟 (zhou1)"
+        },
+        {
+            "character": "入口",
+            "pin1yin1": "ru4kou3",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "entrance",
+            "notes": "..."
+        },
+        {
+            "character": "入",
+            "pin1yin1": "ru4",
+            "POS": "verb",
+            "lesson": "Travel.6",
+            "definition": "to enter",
+            "notes": "..."
+        },
+        {
+            "character": "出口",
+            "pin1yin1": "chu1kou3",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "exit",
+            "notes": "..."
+        },
+        {
+            "character": "私",
+            "pin1yin1": "si1",
+            "POS": "adjective",
+            "lesson": "Travel.6",
+            "definition": "private",
+            "notes": "..."
+        },
+        {
+            "character": "公",
+            "pin1yin1": "gong1",
+            "POS": "adjective",
+            "lesson": "Travel.6",
+            "definition": "public",
+            "notes": "..."
+        },
+        {
+            "character": "安",
+            "pin1yin1": "an1",
+            "POS": "adjective",
+            "lesson": "Travel.6",
+            "definition": "peaceful, safe",
+            "notes": "..."
+        },
+        {
+            "character": "公安",
+            "pin1yin1": "gong1an1",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "police (mainland)",
+            "notes": "also: 警察 jing3cha2 (Taiwan)"
+        },
+        {
+            "character": "警察",
+            "pin1yin1": "jing3cha2",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "police",
+            "notes": "also: 公安 gong1an1 (mainland)"
+        },
+        {
+            "character": "银行",
+            "pin1yin1": "yin2hang2",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "bank",
+            "notes": "..."
+        },
+        {
+            "character": "酒店",
+            "pin1yin1": "jiu3dian4",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "hotel (j)",
+            "notes": "also: 旅馆 (lü3guan3), 饭店 (fan4dian4)"
+        },
+        {
+            "character": "饭店",
+            "pin1yin1": "fan4dian4",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "hotel (f)",
+            "notes": "also: 旅馆 (lü3guan3), 饭店 (fan4dian4)"
+        },
+        {
+            "character": "医院",
+            "pin1yin1": "yi1yuan4",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "hospital (y)",
+            "notes": "also: 病房 (bing4fang2)"
+        },
+        {
+            "character": "饭馆",
+            "pin1yin1": "fan4guan3",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "restaurant",
+            "notes": "also: 餐馆 (can1guan3)"
+        },
+        {
+            "character": "超市",
+            "pin1yin1": "chao1shi4",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "supermarket",
+            "notes": "to surpass/transcend + market/city"
+        },
+        {
+            "character": "地铁",
+            "pin1yin1": "di4tie3",
+            "POS": "noun",
+            "lesson": "Travel.6",
+            "definition": "metro",
+            "notes": "ground + iron"
         }
     ]
 }

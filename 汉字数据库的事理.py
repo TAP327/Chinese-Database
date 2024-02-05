@@ -45,9 +45,8 @@ class Database:
                     pinyin = 0
                     while pinyin < len(pinyinSeparated):
                          if pinyinSeparated[pinyin] != '' and pinyinSeparated[pinyin] != None:
-                              search1 = f"r'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'"
-                              search = f"r'((?:chao)[1-5])|((?:chao)$)|((?:chao)\s)'"
-                              refinedDB = refinedDB[refinedDB[filter].str.contains(pat = r'((?:chao)[1-5])|((?:chao)$)|((?:chao)\s)')]
+                              pattern = f'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'
+                              refinedDB = refinedDB[refinedDB[filter].str.contains(pat = pattern)]
                          pinyin += 1
           print(refinedDB.to_dict('index'))
           return refinedDB.to_dict('index')
