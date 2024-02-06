@@ -25,20 +25,22 @@ class Database:
                for key in searchEntries.copy().keys()
           }
           pinyinSeparated = searchValues.get('pin1yin1')
-          print('pinyinSeparated before: ' + str(pinyinSeparated))
           if pinyinSeparated != None:
                pinyinSeparated = re.split(
                     pattern = r"([a-z][a-z]*[1-5])|([a-z][a-z]*$)|([a-z][a-z]*\s)|([1-5])", 
                     string = pinyinSeparated, 
                     flags = re.IGNORECASE
                )
-               print(type(pinyinSeparated))
-               print('pinyinSeparated after: ' + str(pinyinSeparated))
           refinedDB = self._database_normalized.copy()
           for filter, value in searchValues.items():
-               print(filter)
                if filter == 'entryPOSL':
-                    filter = 'lesson' if value[-1].isdigit() else 'POS'
+                    if value[0:3].lower() == 'hsk':
+                         filter = 'HSK'
+                         value = value.upper()
+                    elif value[-1].isdigit() or value[-1] == '#':
+                         filter = 'lesson'
+                    else:
+                         filter = 'POS'
                if filter != 'pin1yin1':
                     refinedDB = refinedDB[refinedDB[filter].str.contains(value)]
                else:

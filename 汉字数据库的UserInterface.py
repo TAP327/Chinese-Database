@@ -345,7 +345,7 @@ class Ui():
         self._master.mainloop()
 
     def _checkTheBox(self, event) -> None:
-        if self._answered == True:
+        if self._answered == False:
             if self._valueDict['check'].get() == 0:
                 self._valueDict['check'].set(1)
             else:
@@ -447,6 +447,7 @@ class Ui():
             newQuestionSlice = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get() - 1 #Type int
             newQuestion = self._shuffledDeck[newQuestionSlice] #Type dict
             newQuestionDef = newQuestion.get('character')
+            print(str(newQuestionSlice) + ': ' + str(newQuestionDef))
             self._valueDict['currentQuestion'].set(newQuestionDef)
             if self._answered == False:
                 self._master.after(100, self._runQuizZh)  # Schedule the function in the Tkinter main loop
@@ -458,28 +459,16 @@ class Ui():
         self._valueDict['translationCorrectAnswer'].set('')
         self._valueDict['donetext'].set('做得好！')
 
-    def _newRoundEn(self):
-        print('newRoundEn')
+    def _newRound(self):
+        print('newRound')
         self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
         missedCardsShuffled: list[dict] = []
         missedCardsShuffled = missedCardsShuffled + self._missedCards
         random.shuffle(missedCardsShuffled)
+        print(missedCardsShuffled)
         self._shuffledDeck.clear()
         self._shuffledDeck: list[dict] = self._shuffledDeck + missedCardsShuffled
-        self._valueDict['deckLength'].set(len(self._shuffledDeck))
-        self._answered = False  
-        self._missedCards.clear()
-        if self._shuffledDeck == []:
-            self._done()
-    
-    def _newRoundZh(self):
-        print('newRoundZh')
-        self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
-        missedCardsShuffled: list[dict] = []
-        missedCardsShuffled = missedCardsShuffled + self._missedCards
-        random.shuffle(missedCardsShuffled)
-        self._shuffledDeck.clear()
-        self._shuffledDeck: list[dict] = self._shuffledDeck + missedCardsShuffled
+        print(self._shuffledDeck)
         self._valueDict['deckLength'].set(len(self._shuffledDeck))
         self._answered = False  
         self._missedCards.clear()
@@ -524,12 +513,10 @@ class Ui():
         self._valueDict['responseState'].set('disabled')
 
     def _switchLangtoEn(self) -> None:
-        print('now English')
         self._valueDict['currentQuestion'].set('')
         self._runQuizEn()
     
     def _switchLangtoZh(self) -> None:
-        print('now Chinese')
         self._valueDict['currentQuestion'].set('')
         self._runQuizZh()
 
@@ -547,7 +534,7 @@ class Ui():
             else:
                 self._master.after(100, self._lastCard)
             self._valueDict['check'].set(0)
-            self._newRoundEn()
+            self._newRound()
             self._runQuizEn()
         elif deckCompletion == self._valueDict['deckLength'].get():
             self._showAnswersZh()
@@ -557,12 +544,8 @@ class Ui():
             else:
                 self._master.after(100, self._lastCard)
             self._valueDict['check'].set(0)
-            self._newRoundZh()
+            self._newRound()
             self._runQuizZh()
-        elif self._answered == False and self._valueDict['langChoice'].get() == 'En':
-            self._updateStats()
-            self._updateCompletion()
-            self._answered = True
         elif self._answered == False:
             self._updateStats()
             self._updateCompletion()
@@ -581,7 +564,7 @@ class Ui():
 
 '''''
         !TODO: Fix line 340 (bind syntax) find a way to bind enter to
-        frame instead of master or make a tab varible and add it to enter bind
+        frame instead of master (or make a tab varible and add it to enter bind?)
 
         !TODO: Last Card
 
