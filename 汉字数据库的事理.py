@@ -34,7 +34,7 @@ class Database:
           refinedDB = self._database_normalized.copy()
           for filter, value in searchValues.items():
                if filter == 'entryPOSL':
-                    if value[0:3].lower() == 'hsk':
+                    if value[0:3].lower() == 'hsk' or 'ban':
                          filter = 'HSK'
                          value = value.upper()
                     elif value[-1].isdigit() or value[-1] == '#':
