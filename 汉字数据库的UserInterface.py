@@ -454,10 +454,35 @@ class Ui():
             else:
                 self._master.after(100, self._runQuizZh)  # Don't delete this! It does something!
 
-    def _done(self):
-        self._valueDict['roundNumber'].set(6)
+    def _done(self):    
+        self._studyStatsDict['round1pinyin'].set('0/0'),
+        self._studyStatsDict['round2pinyin'].set('0/0'),
+        self._studyStatsDict['round3pinyin'].set('0/0'),
+        self._studyStatsDict['round4pinyin'].set('0/0'),
+        self._studyStatsDict['round1translation'].set('0/0'),
+        self._studyStatsDict['round2translation'].set('0/0'),
+        self._studyStatsDict['round3translation'].set('0/0'),
+        self._studyStatsDict['round4translation'].set('0/0'),
+        self._studyStatsDict['percentComplete'].set('--'),
+        #self._valueDict['deck1Completion'].set(0)
+        #self._valueDict['deck2Completion'].set(0)
+        #self._valueDict['deck3Completion'].set(0)
+        #self._valueDict['deck4Completion'].set(0)
+        #self._valueDict['deck5Completion'].set(0)
+        #self._valueDict['deck6Completion'].set(0)
+        #self._valueDict['deckLength'].set(1)
+        #self._valueDict['pDeckCorrect1'].set(0)
+        #self._valueDict['pDeckCorrect2'].set(0)
+        #self._valueDict['pDeckCorrect3'].set(0)
+        #self._valueDict['pDeckCorrect4'].set(0)
+        #self._valueDict['tDeckCorrect1'].set(0)
+        #self._valueDict['tDeckCorrect2'].set(0)
+        #self._valueDict['tDeckCorrect3'].set(0)
+        #self._valueDict['tDeckCorrect4'].set(0)
+        #self._valueDict['roundNumber'].set(6)
         self._valueDict['translationCorrectAnswer'].set('')
-        self._valueDict['donetext'].set('做得好！')
+        self._valueDict['donetext'].set('做得好！')    
+        print('done')    
 
     def _newRound(self):
         print('newRound')
@@ -569,7 +594,10 @@ class Ui():
         !TODO: Fix line 340 (bind syntax) find a way to bind enter to
         frame instead of master (or make a tab varible and add it to enter bind?)
 
-        !TODO: Last Card
+        !TODO: Last Card (extra card?, reset counter on new game, delayed update, disabled text boxes)
 
+        !TODO: Input 202 Vocab
+
+        !TODO: Input BAND 1 & the rest of HSK 2
         azure & lightblue2
 '''''
