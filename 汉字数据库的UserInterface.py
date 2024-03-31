@@ -464,22 +464,6 @@ class Ui():
         self._studyStatsDict['round3translation'].set('0/0'),
         self._studyStatsDict['round4translation'].set('0/0'),
         self._studyStatsDict['percentComplete'].set('--'),
-        #self._valueDict['deck1Completion'].set(0)
-        #self._valueDict['deck2Completion'].set(0)
-        #self._valueDict['deck3Completion'].set(0)
-        #self._valueDict['deck4Completion'].set(0)
-        #self._valueDict['deck5Completion'].set(0)
-        #self._valueDict['deck6Completion'].set(0)
-        #self._valueDict['deckLength'].set(1)
-        #self._valueDict['pDeckCorrect1'].set(0)
-        #self._valueDict['pDeckCorrect2'].set(0)
-        #self._valueDict['pDeckCorrect3'].set(0)
-        #self._valueDict['pDeckCorrect4'].set(0)
-        #self._valueDict['tDeckCorrect1'].set(0)
-        #self._valueDict['tDeckCorrect2'].set(0)
-        #self._valueDict['tDeckCorrect3'].set(0)
-        #self._valueDict['tDeckCorrect4'].set(0)
-        #self._valueDict['roundNumber'].set(6)
         self._valueDict['translationCorrectAnswer'].set('')
         self._valueDict['donetext'].set('做得好！')    
         print('done')    
@@ -536,7 +520,10 @@ class Ui():
         else:
             self._studyStatsDict['percentComplete'].set('--')
         self._answered = True
+        print(self._valueDict['responseState'].get())
         self._valueDict['responseState'].set('disabled')
+        print(self._valueDict['responseState'].get())
+
 
     def _switchLangtoEn(self) -> None:
         self._valueDict['currentQuestion'].set('')
@@ -594,7 +581,7 @@ class Ui():
         !TODO: Fix line 340 (bind syntax) find a way to bind enter to
         frame instead of master (or make a tab varible and add it to enter bind?)
 
-        !TODO: Last Card (extra card?, reset counter on new game, delayed update, disabled text boxes)
+        !TODO: Last Card (extra card?, delayed update, disabled text boxes)
 
         !TODO: Input 202 Vocab
 
