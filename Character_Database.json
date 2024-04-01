@@ -924,8 +924,8 @@
             "POS": "adjective",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.5",
-            "definition": "how many, how much",
-            "notes": "..."
+            "definition": "how many, how much, a few",
+            "notes": "i.e. 几个人 (ji3ge5ren2) a few people, similar: 多少 (duo1shao3) large numbers"
         },
         {
             "character": "两",
@@ -1438,7 +1438,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.7",
             "definition": "how many, how much",
-            "notes": "also: 几 ji3"
+            "notes": "similar: 几 (ji3) small numbers"
         },
         {
             "character": "号",
@@ -2950,7 +2950,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.13",
             "definition": "to compare",
-            "notes": "also means 'comparatively' as an adverb"
+            "notes": "also adverb: comparatively"
         },
         {
             "character": "比较",
@@ -2959,7 +2959,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.13",
             "definition": "comparatively",
-            "notes": "also means 'to compare' as a verb"
+            "notes": "also verb: to compare"
         },
         {
             "character": "衬衫",
@@ -3058,7 +3058,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.14",
             "definition": "to pass/celebrate",
-            "notes": "过生日, also aspect particle"
+            "notes": "过生日, also aspect particle: (perfect marker)"
         },
         {
             "character": "为",
@@ -3067,7 +3067,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.14",
             "definition": "for",
-            "notes": "para: recipient of an action (i.e. I do it for her)"
+            "notes": "para (es.), recipient of an action (i.e. I do it for her)"
         },
         {
             "character": "一定",
@@ -3272,8 +3272,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "1.15",
-            "definition": "to visit",
-            "notes": "also to look around"
+            "definition": "to visit, to look around",
+            "notes": "..."
         },
         {
             "character": "里边",
@@ -3521,7 +3521,7 @@
         {
             "character": "椅子",
             "pin1yin1": "yi3zi5",
-            "POS": "chair",
+            "POS": "noun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.15",
             "definition": "chair",
@@ -4902,7 +4902,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.2",
             "definition": "director",
-            "notes": "also verb"
+            "notes": "also verb: to direct"
         },
         {
             "character": "导演",
@@ -5172,7 +5172,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.3",
             "definition": "change",
-            "notes": "also verb"
+            "notes": "also verb: to change"
         },
         {
             "character": "变化",
@@ -5181,7 +5181,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.3",
             "definition": "to change",
-            "notes": "also noun"
+            "notes": "also noun: change"
         },
         {
             "character": "本来",
@@ -5568,7 +5568,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.4",
             "definition": "aroma",
-            "notes": "also adjective"
+            "notes": "also adjective: aromatic"
         },
         {
             "character": "香",
@@ -5577,7 +5577,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.4",
             "definition": "aromatic",
-            "notes": "also noun"
+            "notes": "also noun: aroma"
         },
         {
             "character": "俱全",
@@ -5703,7 +5703,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.7",
             "definition": "to plan",
-            "notes": "also noun"
+            "notes": "also noun: plan"
         },
         {
             "character": "打算",
@@ -5712,7 +5712,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.7",
             "definition": "plan",
-            "notes": "also verb"
+            "notes": "also verb: to plan"
         },
         {
             "character": "抽空",
@@ -5721,7 +5721,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.7",
             "definition": "to manage to find the time",
-            "notes": "squeeze the void!"
+            "notes": "literally: squeeze the void!"
         },
         {
             "character": "拜访",
@@ -5739,7 +5739,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.7",
             "definition": "visit",
-            "notes": "also verb"
+            "notes": "also verb: to visit"
         },
         {
             "character": "差",
@@ -6099,7 +6099,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.8",
             "definition": "description, exposition",
-            "notes": "also verb"
+            "notes": "also verb: to describe"
         },
         {
             "character": "描写",
@@ -6108,7 +6108,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.8",
             "definition": "to describe",
-            "notes": "also noun: description"
+            "notes": "also noun: description, exposition"
         },
         {
             "character": "历史",
@@ -6513,7 +6513,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
             "definition": "quilt",
-            "notes": "also particle: (passive voice：被)"
+            "notes": "also particle: (passive voice: 被)"
         },
         {
             "character": "被",
@@ -6936,6 +6936,366 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
             "definition": "get well soon",
+            "notes": "..."
+        },
+        {
+            "character": "难道",
+            "pin1yin1": "nan2dao4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "isn't it true...",
+            "notes": "..."
+        },
+        {
+            "character": "就业",
+            "pin1yin1": "jiu4ye4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "employment",
+            "notes": "..."
+        },
+        {
+            "character": "中心",
+            "pin1yin1": "zhong1xin1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "center",
+            "notes": "i.e. 就业中心 (jiu4ye4zhong1xin1) career center"
+        },
+        {
+            "character": "讲座",
+            "pin1yin1": "jiang3zuo4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "lecture",
+            "notes": "..."
+        },
+        {
+            "character": "如何",
+            "pin1yin1": "ru2he2",
+            "POS": "pronoun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "how (pronoun)",
+            "notes": "..."
+        },
+        {
+            "character": "简历",
+            "pin1yin1": "jian3li4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "resume, curriculum vitae (C.V.)",
+            "notes": "..."
+        },
+        {
+            "character": "忘记",
+            "pin1yin1": "wang4ji4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to forget",
+            "notes": "..."
+        },
+        {
+            "character": "复杂",
+            "pin1yin1": "fu4za2",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "complicated, complex",
+            "notes": "..."
+        },
+        {
+            "character": "首先",
+            "pin1yin1": "shou3xian1",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "first of all",
+            "notes": "..."
+        },
+        {
+            "character": "性质",
+            "pin1yin1": "xing4zhi4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "characteristic, quality, nature",
+            "notes": "..."
+        },
+        {
+            "character": "要求",
+            "pin1yin1": "yao1qiu2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to require",
+            "notes": "also noun: requirement"
+        },
+        {
+            "character": "要求",
+            "pin1yin1": "yao1qiu2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "requirement",
+            "notes": "also verb: to require"
+        },
+        {
+            "character": "调整",
+            "pin1yin1": "tiao2zheng3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to adjust",
+            "notes": "also noun: adjustment"
+        },
+        {
+            "character": "调整",
+            "pin1yin1": "tiao2zheng3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "adjustment",
+            "notes": "also verb: to adjust"
+        },
+        {
+            "character": "写法",
+            "pin1yin1": "xie3fa3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "style of writting, format",
+            "notes": "..."
+        },
+        {
+            "character": "突出",
+            "pin1yin1": "tu1chu1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to make conspicuous",
+            "notes": "also adjective: outstanding"
+        },
+        {
+            "character": "突出",
+            "pin1yin1": "tu1chu1",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "outstanding",
+            "notes": "also verb: to make conspicuous"
+        },
+        {
+            "character": "重点",
+            "pin1yin1": "zhong4dian3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "focus, major point",
+            "notes": "..."
+        },
+        {
+            "character": "拒绝",
+            "pin1yin1": "ju4jue2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to refuse, to reject",
+            "notes": "..."
+        },
+        {
+            "character": "仔仔细细",
+            "pin1yin1": "zi3zi3xi4xi4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "very carefully",
+            "notes": "..."
+        },
+        {
+            "character": "修改",
+            "pin1yin1": "xiu1gai3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to revise",
+            "notes": "also noun: revision"
+        },
+        {
+            "character": "修改",
+            "pin1yin1": "xiu1gai3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "revision",
+            "notes": "also verb: to revise"
+        },
+        {
+            "character": "招聘",
+            "pin1yin1": "zhao1pin4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to hire",
+            "notes": "..."
+        },
+        {
+            "character": "信息",
+            "pin1yin1": "xin4xi1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "information, message",
+            "notes": "..."
+        },
+        {
+            "character": "直接",
+            "pin1yin1": "zhi2jie1",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "directly",
+            "notes": "..."
+        },
+        {
+            "character": "下载",
+            "pin1yin1": "xia4zai3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to download",
+            "notes": "..."
+        },
+        {
+            "character": "表格",
+            "pin1yin1": "biao3ge2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "form",
+            "notes": "as in a paperwork, not a shape"
+        },
+        {
+            "character": "推荐信",
+            "pin1yin1": "tui1jian4xin4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "letter of recommendation",
+            "notes": "..."
+        },
+        {
+            "character": "恐怕",
+            "pin1yin1": "kong3pa4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "I'm afraid that...",
+            "notes": "..."
+        },
+        {
+            "character": "赶快",
+            "pin1yin1": "gan3kuai4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "speedily",
+            "notes": "..."
+        },
+        {
+            "character": "有限",
+            "pin1yin1": "you3xian4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "limited",
+            "notes": "..."
+        },
+        {
+            "character": "考虑",
+            "pin1yin1": "kao3lv4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to consider",
+            "notes": "..."
+        },
+        {
+            "character": "安排",
+            "pin1yin1": "an1pai2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "arrangement",
+            "notes": "also verb: to arrange"
+        },
+        {
+            "character": "安排",
+            "pin1yin1": "an1pai2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to arrange",
+            "notes": "also noun: arrangement"
+        },
+        {
+            "character": "相信",
+            "pin1yin1": "xiang1xin4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to believe, to be sure",
+            "notes": "..."
+        },
+        {
+            "character": "乐意",
+            "pin1yin1": "le4yi4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to be willing to",
+            "notes": "..."
+        },
+        {
+            "character": "聪明",
+            "pin1yin1": "cong1ming2",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "smart",
+            "notes": "..."
+        },
+        {
+            "character": "能干",
+            "pin1yin1": "neng2gan4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "capable",
+            "notes": "..."
+        },
+        {
+            "character": "条件",
+            "pin1yin1": "tiao2jian4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "qualification",
+            "notes": "..."
+        },
+        {
+            "character": "但愿",
+            "pin1yin1": "dan4yuan4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "to wish",
             "notes": "..."
         },
         {
