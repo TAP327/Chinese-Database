@@ -7263,21 +7263,129 @@
             "notes": "also noun: troublesome"
         },
         {
-            "character": "",
-            "pin1yin1": "",
-            "POS": "",
+            "character": "顺便",
+            "pin1yin1": "shun4bian4",
+            "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
-            "definition": "",
+            "definition": "conviently, in passing",
             "notes": "..."
         },
         {
-            "character": "",
-            "pin1yin1": "",
-            "POS": "",
+            "character": "出门在外",
+            "pin1yin1": "chu1men2zai4wai4",
+            "POS": "phrase",
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
-            "definition": "",
+            "definition": "to be away from home",
+            "notes": "..."
+        },
+        {
+            "character": "保险",
+            "pin1yin1": "bao3xian3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "insurance",
+            "notes": "..."
+        },
+        {
+            "character": "证明",
+            "pin1yin1": "zheng4ming2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to prove, to certify",
+            "notes": "also noun: proof, certificate"
+        },
+        {
+            "character": "证明",
+            "pin1yin1": "zheng4ming2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "proof, certificate",
+            "notes": "also verb: to prove, to certify"
+        },
+        {
+            "character": "缺席",
+            "pin1yin1": "que1xi2",
+            "POS": "VO",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to be absent",
+            "notes": "also noun: absence"
+        },
+        {
+            "character": "缺席",
+            "pin1yin1": "que1xi2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "absence",
+            "notes": "also VO: to be absent"
+        },
+        {
+            "character": "辅导",
+            "pin1yin1": "fu3dao3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to tutor, to mentor",
+            "notes": "..."
+        },
+        {
+            "character": "补考",
+            "pin1yin1": "bu3kao3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "make-up test",
+            "notes": "..."
+        },
+        {
+            "character": "至于",
+            "pin1yin1": "zhi4yu2",
+            "POS": "preposition",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "as for, as to",
+            "notes": "..."
+        },
+        {
+            "character": "倒霉",
+            "pin1yin1": "dao3mei2",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "unlucky",
+            "notes": "..."
+        },
+        {
+            "character": "俗话",
+            "pin1yin1": "su2hua4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "common saying, proverb",
+            "notes": "..."
+        },
+        {
+            "character": "靠",
+            "pin1yin1": "kao4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to lean against, depend on",
+            "notes": "..."
+        },
+        {
+            "character": "友谊",
+            "pin1yin1": "you3yi4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "friendship",
             "notes": "..."
         },
         {
