@@ -583,7 +583,7 @@ class Ui():
 
         !TODO: Last Card (extra card?, delayed update, disabled text boxes)
 
-        !TODO: Input 202 Vocab
+        !TODO: Input 202 Vocab (2.12, 2.13, 2.16)
 
         !TODO: Input BAND 1 & the rest of HSK 2
         azure & lightblue2

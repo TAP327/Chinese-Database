@@ -2930,9 +2930,9 @@
             "pin1yin1": "bang1zhu4",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "1.13",
+            "lesson": "1.13, 2.12",
             "definition": "to help",
-            "notes": "also just 帮 (bang1)"
+            "notes": "transitive, unlike 帮忙 (bang1mang2), also just 帮 (bang1), also noun: to help"
         },
         {
             "character": "试",
@@ -5189,8 +5189,8 @@
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.3",
-            "definition": "originally",
-            "notes": "also: 远来 (yuan2lai2)"
+            "definition": "originally, (b)",
+            "notes": "also: 远来 (yuan2lai2), 当初 (dang1chu1)"
         },
         {
             "character": "农田",
@@ -5909,7 +5909,7 @@
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.7",
-            "definition": "originally",
+            "definition": "originally (y)",
             "notes": "also: 本来 (ben3lai2)"
         },
         {
@@ -6936,6 +6936,348 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
             "definition": "get well soon",
+            "notes": "..."
+        },
+        {
+            "character": "由于",
+            "pin1yin1": "you2yu2",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "due to, because of",
+            "notes": "i.e. 由于...因此... (yin1ci3) or ...是由于..."
+        },
+        {
+            "character": "因此",
+            "pin1yin1": "yin1ci3",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "thus, consequentially (y)",
+            "notes": "i.e. 由于...因此... (yin1ci3), similar: 如次 (ru2ci3)"
+        },
+        {
+            "character": "解决",
+            "pin1yin1": "jie3jue2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to solve",
+            "notes": "..."
+        },
+        {
+            "character": "帮助",
+            "pin1yin1": "bang1zhu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "help (noun)",
+            "notes": "also verb: to help"
+        },
+        {
+            "character": "答谢",
+            "pin1yin1": "da2xie4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to thank",
+            "notes": "..."
+        },
+        {
+            "character": "煮",
+            "pin1yin1": "zhu3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to cook",
+            "notes": "similar: 做饭 (zuo4fan4)"
+        },
+        {
+            "character": "恭喜",
+            "pin1yin1": "gong1xi3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to congratulate",
+            "notes": "..."
+        },
+        {
+            "character": "出院",
+            "pin1yin1": "chu1yuan4",
+            "POS": "VO",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to be discharged from the hospital",
+            "notes": "..."
+        },
+        {
+            "character": "恢复",
+            "pin1yin1": "hui1fu4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to recover",
+            "notes": "..."
+        },
+        {
+            "character": "啦",
+            "pin1yin1": "la5",
+            "POS": "interjection",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "(sighing, questioning)",
+            "notes": "used at the end of a sentence"
+        },
+        {
+            "character": "段",
+            "pin1yin1": "duan4",
+            "POS": "quantifier",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "(section, segment)",
+            "notes": "..."
+        },
+        {
+            "character": "乱跑",
+            "pin1yin1": "luan4pao3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to run around",
+            "notes": "..."
+        },
+        {
+            "character": "只好",
+            "pin1yin1": "zhi3hao3",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "have to (to have no choice but to)",
+            "notes": "..."
+        },
+        {
+            "character": "待",
+            "pin1yin1": "dai1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to stay",
+            "notes": "..."
+        },
+        {
+            "character": "躺",
+            "pin1yin1": "tang3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to lie down, to recline",
+            "notes": "..."
+        },
+        {
+            "character": "整天",
+            "pin1yin1": "zheng3tian1",
+            "POS": "time noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "the whole day",
+            "notes": "..."
+        },
+        {
+            "character": "闷死",
+            "pin1yin1": "men1si3",
+            "POS": "VC",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to be extremely bored",
+            "notes": "..."
+        },
+        {
+            "character": "算了吧",
+            "pin1yin1": "suan4le5ba5",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "let it be, just forget it",
+            "notes": "..."
+        },
+        {
+            "character": "如次",
+            "pin1yin1": "ru2ci3",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "so, thus (r)",
+            "notes": "similar: 因此 (yin1ci3)"
+        },
+        {
+            "character": "何必",
+            "pin1yin1": "he2bi4",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "there's no need",
+            "notes": "..."
+        },
+        {
+            "character": "当初",
+            "pin1yin1": "dang1chu1",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "in the first place, originally (d)",
+            "notes": "similar: 本来 (ben3lai2), 远来 (yuan2lai2)"
+        },
+        {
+            "character": "检查",
+            "pin1yin1": "jian3cha2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to examine",
+            "notes": "also noun: checkup, examination"
+        },
+        {
+            "character": "检查",
+            "pin1yin1": "jian3cha2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "checkup, examination",
+            "notes": "also verb: to examine"
+        },
+        {
+            "character": "地步",
+            "pin1yin1": "di4bu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "condition (medical), situation",
+            "notes": "..."
+        },
+        {
+            "character": "哎呀",
+            "pin1yin1": "ai1ya5",
+            "POS": "interjection",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "ah!, oh dear!",
+            "notes": "..."
+        },
+        {
+            "character": "后悔",
+            "pin1yin1": "hou4hui3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to regret",
+            "notes": "..."
+        },
+        {
+            "character": "多亏",
+            "pin1yin1": "duo1kui1",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "thsnks to, luckily",
+            "notes": "..."
+        },
+        {
+            "character": "糟",
+            "pin1yin1": "zao1",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "in a terrible state, chaotic",
+            "notes": "..."
+        },
+        {
+            "character": "不幸",
+            "pin1yin1": "bu2xing4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "adverstiy, misfortune",
+            "notes": "..."
+        },
+        {
+            "character": "不然",
+            "pin1yin1": "bu4ran2",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "or else, otherwise, if not",
+            "notes": "i.e. ...(要)不然... (yao4bu4ran2)"
+        },
+        {
+            "character": "后果",
+            "pin1yin1": "hou4guo3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "consequence, aftermath (negative)",
+            "notes": "similar: 结果 (jie2guo3) neutral"
+        },
+        {
+            "character": "不堪设想",
+            "pin1yin1": "bu4kan1she4xiang3",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "can't bear to think about it",
+            "notes": "..."
+        },
+        {
+            "character": "害",
+            "pin1yin1": "hai4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to harm, cause trouble",
+            "notes": "..."
+        },
+        {
+            "character": "趟",
+            "pin1yin1": "tang4",
+            "POS": "quantifier",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "(trips)",
+            "notes": "..."
+        },
+        {
+            "character": "麻烦",
+            "pin1yin1": "ma2fan5",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "troublesome",
+            "notes": "also verb: to trouble (somebody)"
+        },
+        {
+            "character": "麻烦",
+            "pin1yin1": "ma2fan5",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "to trouble (somebody)",
+            "notes": "also noun: troublesome"
+        },
+        {
+            "character": "",
+            "pin1yin1": "",
+            "POS": "",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "",
+            "notes": "..."
+        },
+        {
+            "character": "",
+            "pin1yin1": "",
+            "POS": "",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12",
+            "definition": "",
             "notes": "..."
         },
         {
