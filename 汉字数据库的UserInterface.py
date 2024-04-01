@@ -41,7 +41,6 @@ class Ui():
             'currentQuestion': StringVar(value = ''),
             'pin1yin1Response': StringVar(value = ''),
             'translationResponse': StringVar (value = ''),
-            'responseState': StringVar(value = 'normal'),
             'pin1yin1CorrectAnswer': StringVar(value = ''),
             'translationCorrectAnswer': StringVar(value = ''),
             'roundNumber': IntVar (value = 6),
@@ -287,10 +286,12 @@ class Ui():
         )
         translation_correct_answer_label_en.place(x = 180, y = 237)
 
-        pinyin_answer_entry = Entry(study_frame, textvariable = self._valueDict['pin1yin1Response'], state = 'normal')
+        pinyin_answer_entry = Entry(study_frame, textvariable = self._valueDict['pin1yin1Response'])
+        self._valueDict['pinyin_answer_entry'] = pinyin_answer_entry
         pinyin_answer_entry.place(x = 180, y = 90)
 
-        translation_answer_entry = Entry(study_frame, textvariable = self._valueDict['translationResponse'], state = self._valueDict['responseState'].get())
+        translation_answer_entry = Entry(study_frame, textvariable = self._valueDict['translationResponse'])
+        self._valueDict['translation_answer_entry'] = translation_answer_entry
         translation_answer_entry.place(x = 180, y = 180)
 
         done_text = Label(
@@ -520,9 +521,8 @@ class Ui():
         else:
             self._studyStatsDict['percentComplete'].set('--')
         self._answered = True
-        print(self._valueDict['responseState'].get())
-        self._valueDict['responseState'].set('disabled')
-        print(self._valueDict['responseState'].get())
+        self._valueDict['pinyin_answer_entry'].config(state="normal")
+        self._valueDict['translation_answer_entry'].config(state="normal")
 
 
     def _switchLangtoEn(self) -> None:
@@ -569,12 +569,14 @@ class Ui():
             self._showAnswersEn()
             self._checkTransResponses()
             self._valueDict['check'].set(0)
-            self._valueDict['responseState'].set('normal')
+            self._valueDict['pinyin_answer_entry'].config(state="disabled")
+            self._valueDict['translation_answer_entry'].config(state="disabled")
         else:
             self._showAnswersZh()
             self._checkTransResponses()
             self._valueDict['check'].set(0)
-            self._valueDict['responseState'].set('normal')
+            self._valueDict['pinyin_answer_entry'].config(state="disabled")
+            self._valueDict['translation_answer_entry'].config(state="disabled")
 
 
 '''''
