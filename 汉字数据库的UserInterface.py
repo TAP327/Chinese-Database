@@ -12,7 +12,6 @@ from tkinter import (
 )
 from 汉字数据库的事理 import Database
 import random
-import re
 
 class Ui():
     def __init__(self) -> None:
@@ -24,12 +23,12 @@ class Ui():
             'entryPOSL': StringVar(value = ''),
             'entryEnglish': StringVar(value = ''),
             'langChoice': StringVar(value = 'En'),
-            'deck1Completion': IntVar(value = 0),
-            'deck2Completion': IntVar(value = 0),
-            'deck3Completion': IntVar(value = 0),
-            'deck4Completion': IntVar(value = 0),
-            'deck5Completion': IntVar(value = 0),
-            'deck6Completion': IntVar(value = 0), #Don't delete!
+            'deck1Completion': IntVar(value = 1),
+            'deck2Completion': IntVar(value = 1),
+            'deck3Completion': IntVar(value = 1),
+            'deck4Completion': IntVar(value = 1),
+            'deck5Completion': IntVar(value = 1),
+            'deck6Completion': IntVar(value = 1), #Don't delete!
             'deckLength': IntVar(value = 1),
             'pDeckCorrect1': IntVar(value = 0),
             'pDeckCorrect2': IntVar(value = 0),
@@ -253,7 +252,10 @@ class Ui():
         question_label = Label(
             study_frame,
             textvariable = self._valueDict['currentQuestion'],
-            bg = 'white'
+            bg = 'white',
+            font = 14,
+            wraplength = 250,
+            justify = 'left'
         )
         question_label.place(x = 35, y= 35)
 
@@ -268,7 +270,9 @@ class Ui():
             study_frame,
             textvariable = self._valueDict['pin1yin1CorrectAnswer'],
             bg = 'white',
-            font = 15
+            font = 15,
+            wraplength = 250,
+            justify = 'left'
         )
         pinyin_correct_answer_label.place(x = 180, y = 143)
 
@@ -283,17 +287,17 @@ class Ui():
             study_frame,
             textvariable = self._valueDict['translationCorrectAnswer'],
             bg = 'white',
-            font = 48
+            font = 15,
+            wraplength = 250,
+            justify = 'left'
         )
         translation_correct_answer_label_en.place(x = 180, y = 237)
 
-        pinyin_answer_entry = Entry(study_frame, textvariable = self._valueDict['pin1yin1Response'])
-        self._valueDict['pinyin_answer_entry'] = pinyin_answer_entry
-        pinyin_answer_entry.place(x = 180, y = 90)
+        self.pinyin_answer_entry = Entry(study_frame, textvariable = self._valueDict['pin1yin1Response'], state = 'normal')
+        self.pinyin_answer_entry.place(x = 180, y = 90)
 
-        translation_answer_entry = Entry(study_frame, textvariable = self._valueDict['translationResponse'])
-        self._valueDict['translation_answer_entry'] = translation_answer_entry
-        translation_answer_entry.place(x = 180, y = 180)
+        self.translation_answer_entry = Entry(study_frame, textvariable = self._valueDict['translationResponse'], state = 'normal')
+        self.translation_answer_entry.place(x = 180, y = 180)
 
         done_text = Label(
             study_frame,
@@ -373,14 +377,17 @@ class Ui():
         self._search_results = self._ZH_DB.search_database_DB(search_values)
 
     def _showAnswersEn(self) -> None:
+        print('showAnswersEn')
         self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
         self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('character'))
 
     def _showAnswersZh(self) -> None:
+        print('showAnswersZh')
         self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
         self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('definition'))
 
     def _checkTransResponses(self) -> None:
+        print('checkTransResponses')
         if self._valueDict['check'].get() == 1:
             tDeckCorrectNum = 'tDeckCorrect' + str(self._valueDict['roundNumber'].get())
             self._valueDict[tDeckCorrectNum].set(self._valueDict[tDeckCorrectNum].get()+1)
@@ -389,10 +396,11 @@ class Ui():
         self._valueDict['currentQuestion'].set('')
 
     def _runQuiz(self, event):
-        self._valueDict['deck1Completion'].set(0)
-        self._valueDict['deck2Completion'].set(0)
-        self._valueDict['deck3Completion'].set(0)
-        self._valueDict['deck4Completion'].set(0)
+        print('runQuiz')
+        self._valueDict['deck1Completion'].set(1)
+        self._valueDict['deck2Completion'].set(1)
+        self._valueDict['deck3Completion'].set(1)
+        self._valueDict['deck4Completion'].set(1)
         self._valueDict['pDeckCorrect1'].set(0)
         self._valueDict['pDeckCorrect2'].set(0)
         self._valueDict['pDeckCorrect3'].set(0)
@@ -435,17 +443,6 @@ class Ui():
             newQuestion = self._shuffledDeck[newQuestionSlice] #Type dict
             newQuestionDef = newQuestion.get('definition')
             self._valueDict['currentQuestion'].set(newQuestionDef)
-            if 'also ' in newQuestion.get('notes'):
-                newQuestionPOS = newQuestion.get('POS')
-                '''notesSplit = re.split(
-                    pattern = r"(^(?:(also ))[a-z]+)",
-                    string = newQuestionNotes,
-                    flags = re.IGNORECASE,
-                    maxsplit = 1
-                )[1][5:]'''
-                self._valueDict['donetext'].set('('+ newQuestionPOS + ')')  
-            else:
-                self._valueDict['donetext'].set('')
             if self._answered == False:
                 self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
             else:
@@ -462,26 +459,21 @@ class Ui():
             else:
                 self._master.after(100, self._runQuizZh)  # Don't delete this! It does something!
 
-    def _done(self):    
-        self._studyStatsDict['round1pinyin'].set('0/0'),
-        self._studyStatsDict['round2pinyin'].set('0/0'),
-        self._studyStatsDict['round3pinyin'].set('0/0'),
-        self._studyStatsDict['round4pinyin'].set('0/0'),
-        self._studyStatsDict['round1translation'].set('0/0'),
-        self._studyStatsDict['round2translation'].set('0/0'),
-        self._studyStatsDict['round3translation'].set('0/0'),
-        self._studyStatsDict['round4translation'].set('0/0'),
-        self._studyStatsDict['percentComplete'].set('--'),
+    def _done(self):
+        self._valueDict['roundNumber'].set(6)
         self._valueDict['translationCorrectAnswer'].set('')
-        self._valueDict['donetext'].set('做得好！')    
+        self._valueDict['donetext'].set('做得好！')
 
     def _newRound(self):
+        print('newRound')
         self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
         missedCardsShuffled: list[dict] = []
         missedCardsShuffled = missedCardsShuffled + self._missedCards
         random.shuffle(missedCardsShuffled)
+        print(missedCardsShuffled)
         self._shuffledDeck.clear()
         self._shuffledDeck: list[dict] = self._shuffledDeck + missedCardsShuffled
+        print(self._shuffledDeck)
         self._valueDict['deckLength'].set(len(self._shuffledDeck))
         self._answered = False  
         self._missedCards.clear()
@@ -492,6 +484,7 @@ class Ui():
         pass
 
     def _updateStats(self) -> None:
+        print('updateStats')
         deckCompletion = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()
         pDeckNum = 'pDeckCorrect' + str(self._valueDict['roundNumber'].get())
         tDeckNum = 'tDeckCorrect' + str(self._valueDict['roundNumber'].get())
@@ -506,24 +499,24 @@ class Ui():
         self._valueDict['translationResponse'].set('')
         self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].set(deckCompletion+1)
         roundNumPinyin = f"round{self._valueDict['roundNumber'].get()}pinyin"
-        self._studyStatsDict[roundNumPinyin].set(f"{self._valueDict[pDeckNum].get()}/{deckCompletion+1}")
+        self._studyStatsDict[roundNumPinyin].set(f"{self._valueDict[pDeckNum].get()}/{deckCompletion}")
         self._studyStatsDict[roundNumPinyin].get()
         roundNumTrans = f"round{self._valueDict['roundNumber'].get()}translation"
-        self._studyStatsDict[roundNumTrans].set(f"{self._valueDict[tDeckNum].get()}/{deckCompletion+1}")
+        self._studyStatsDict[roundNumTrans].set(f"{self._valueDict[tDeckNum].get()}/{deckCompletion}")
 
     def _updateCompletion(self) -> None:
+        print('updateCompletion')
         deckCompletion = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()
         if (
             deckCompletion != ''
             and self._valueDict['deckLength'].get() != ''
         ):
-            self._studyStatsDict['percentComplete'].set(f"{deckCompletion}/{self._valueDict['deckLength'].get()} Complete")
+            self._studyStatsDict['percentComplete'].set(f"{deckCompletion-1}/{self._valueDict['deckLength'].get()} Complete")
         else:
             self._studyStatsDict['percentComplete'].set('--')
         self._answered = True
-        self._valueDict['pinyin_answer_entry'].config(state="normal")
-        self._valueDict['translation_answer_entry'].config(state="normal")
-
+        self.pinyin_answer_entry['state'] = 'normal'
+        self.translation_answer_entry['state'] = 'normal'
 
     def _switchLangtoEn(self) -> None:
         self._valueDict['currentQuestion'].set('')
@@ -539,7 +532,7 @@ class Ui():
             self._done()
         elif self._valueDict['roundNumber'].get() == 6:
             self._runQuiz(event)
-        elif deckCompletion >= self._valueDict['deckLength'].get() and self._valueDict['langChoice'].get() == 'En':
+        elif deckCompletion == self._valueDict['deckLength'].get() and self._valueDict['langChoice'].get() == 'En':
             self._showAnswersEn()
             self._checkTransResponses()
             if self._answered == False:
@@ -547,16 +540,22 @@ class Ui():
             else:
                 self._master.after(100, self._lastCard)
             self._valueDict['check'].set(0)
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
             self._newRound()
             self._runQuizEn()
-        elif deckCompletion >= self._valueDict['deckLength'].get():
+        elif deckCompletion == self._valueDict['deckLength'].get():
             self._showAnswersZh()
             self._checkTransResponses()
+            self._updateStats()
+            self._updateCompletion()
             if self._answered == False:
                 self._master.after(100, self._lastCard)
             else:
                 self._master.after(100, self._lastCard)
             self._valueDict['check'].set(0)
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
             self._newRound()
             self._runQuizZh()
         elif self._answered == False:
@@ -567,26 +566,23 @@ class Ui():
             self._showAnswersEn()
             self._checkTransResponses()
             self._valueDict['check'].set(0)
-            self._valueDict['donetext'].set('')  
-            self._valueDict['pinyin_answer_entry'].config(state="disabled")
-            self._valueDict['translation_answer_entry'].config(state="disabled")
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
         else:
             self._showAnswersZh()
             self._checkTransResponses()
             self._valueDict['check'].set(0)
-            self._valueDict['donetext'].set('')  
-            self._valueDict['pinyin_answer_entry'].config(state="disabled")
-            self._valueDict['translation_answer_entry'].config(state="disabled")
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
 
 
 '''''
         !TODO: Fix line 340 (bind syntax) find a way to bind enter to
         frame instead of master (or make a tab varible and add it to enter bind?)
 
-        !TODO: Last Card (delayed update)
+        !TODO: Last Card
 
-        !TODO: Input 202 Vocab (2.12, 2.13, 2.16)
+        !TODO: Refactor Study Tab
 
-        !TODO: Input BAND 1 & the rest of HSK 2
         azure & lightblue2
 '''''
