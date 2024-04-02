@@ -373,12 +373,10 @@ class Ui():
         self._search_results = self._ZH_DB.search_database_DB(search_values)
 
     def _showAnswersEn(self) -> None:
-        self._valueDict['donetext'].set('')  
         self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
         self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('character'))
 
     def _showAnswersZh(self) -> None:
-        self._valueDict['donetext'].set('')  
         self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
         self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('definition'))
 
@@ -446,6 +444,8 @@ class Ui():
                     maxsplit = 1
                 )[1][5:]'''
                 self._valueDict['donetext'].set('('+ newQuestionPOS + ')')  
+            else:
+                self._valueDict['donetext'].set('')
             if self._answered == False:
                 self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
             else:
@@ -567,12 +567,14 @@ class Ui():
             self._showAnswersEn()
             self._checkTransResponses()
             self._valueDict['check'].set(0)
+            self._valueDict['donetext'].set('')  
             self._valueDict['pinyin_answer_entry'].config(state="disabled")
             self._valueDict['translation_answer_entry'].config(state="disabled")
         else:
             self._showAnswersZh()
             self._checkTransResponses()
             self._valueDict['check'].set(0)
+            self._valueDict['donetext'].set('')  
             self._valueDict['pinyin_answer_entry'].config(state="disabled")
             self._valueDict['translation_answer_entry'].config(state="disabled")
 
@@ -581,7 +583,7 @@ class Ui():
         !TODO: Fix line 340 (bind syntax) find a way to bind enter to
         frame instead of master (or make a tab varible and add it to enter bind?)
 
-        !TODO: Last Card (extra card?, delayed update, disabled text boxes)
+        !TODO: Last Card (delayed update)
 
         !TODO: Input 202 Vocab (2.12, 2.13, 2.16)
 
