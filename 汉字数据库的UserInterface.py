@@ -12,6 +12,7 @@ from tkinter import (
 )
 from 汉字数据库的事理 import Database
 import random
+import re
 
 class Ui():
     def __init__(self) -> None:
@@ -372,17 +373,16 @@ class Ui():
         self._search_results = self._ZH_DB.search_database_DB(search_values)
 
     def _showAnswersEn(self) -> None:
-        print('showAnswersEn')
+        self._valueDict['donetext'].set('')  
         self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
         self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('character'))
 
     def _showAnswersZh(self) -> None:
-        print('showAnswersZh')
+        self._valueDict['donetext'].set('')  
         self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
         self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('definition'))
 
     def _checkTransResponses(self) -> None:
-        print('checkTransResponses')
         if self._valueDict['check'].get() == 1:
             tDeckCorrectNum = 'tDeckCorrect' + str(self._valueDict['roundNumber'].get())
             self._valueDict[tDeckCorrectNum].set(self._valueDict[tDeckCorrectNum].get()+1)
@@ -391,7 +391,6 @@ class Ui():
         self._valueDict['currentQuestion'].set('')
 
     def _runQuiz(self, event):
-        print('runQuiz')
         self._valueDict['deck1Completion'].set(0)
         self._valueDict['deck2Completion'].set(0)
         self._valueDict['deck3Completion'].set(0)
@@ -438,6 +437,15 @@ class Ui():
             newQuestion = self._shuffledDeck[newQuestionSlice] #Type dict
             newQuestionDef = newQuestion.get('definition')
             self._valueDict['currentQuestion'].set(newQuestionDef)
+            if 'also ' in newQuestion.get('notes'):
+                newQuestionPOS = newQuestion.get('POS')
+                '''notesSplit = re.split(
+                    pattern = r"(^(?:(also ))[a-z]+)",
+                    string = newQuestionNotes,
+                    flags = re.IGNORECASE,
+                    maxsplit = 1
+                )[1][5:]'''
+                self._valueDict['donetext'].set('('+ newQuestionPOS + ')')  
             if self._answered == False:
                 self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
             else:
@@ -448,7 +456,6 @@ class Ui():
             newQuestionSlice = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get() - 1 #Type int
             newQuestion = self._shuffledDeck[newQuestionSlice] #Type dict
             newQuestionDef = newQuestion.get('character')
-            print(str(newQuestionSlice) + ': ' + str(newQuestionDef))
             self._valueDict['currentQuestion'].set(newQuestionDef)
             if self._answered == False:
                 self._master.after(100, self._runQuizZh)  # Schedule the function in the Tkinter main loop
@@ -467,19 +474,14 @@ class Ui():
         self._studyStatsDict['percentComplete'].set('--'),
         self._valueDict['translationCorrectAnswer'].set('')
         self._valueDict['donetext'].set('做得好！')    
-        print('done')    
 
     def _newRound(self):
-        print('newRound')
         self._valueDict['roundNumber'].set(self._valueDict['roundNumber'].get() + 1)
         missedCardsShuffled: list[dict] = []
         missedCardsShuffled = missedCardsShuffled + self._missedCards
         random.shuffle(missedCardsShuffled)
-        print(missedCardsShuffled)
         self._shuffledDeck.clear()
         self._shuffledDeck: list[dict] = self._shuffledDeck + missedCardsShuffled
-        print(self._shuffledDeck)
-        print(len(self._shuffledDeck))
         self._valueDict['deckLength'].set(len(self._shuffledDeck))
         self._answered = False  
         self._missedCards.clear()
@@ -490,7 +492,6 @@ class Ui():
         pass
 
     def _updateStats(self) -> None:
-        print('updateStats')
         deckCompletion = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()
         pDeckNum = 'pDeckCorrect' + str(self._valueDict['roundNumber'].get())
         tDeckNum = 'tDeckCorrect' + str(self._valueDict['roundNumber'].get())
@@ -511,7 +512,6 @@ class Ui():
         self._studyStatsDict[roundNumTrans].set(f"{self._valueDict[tDeckNum].get()}/{deckCompletion+1}")
 
     def _updateCompletion(self) -> None:
-        print('updateCompletion')
         deckCompletion = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()
         if (
             deckCompletion != ''
@@ -535,13 +535,11 @@ class Ui():
 
     def _enterBind(self, event) -> None:
         deckCompletion = self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()
-        print(deckCompletion)
         if self._valueDict['roundNumber'].get() == 5:
             self._done()
         elif self._valueDict['roundNumber'].get() == 6:
             self._runQuiz(event)
         elif deckCompletion >= self._valueDict['deckLength'].get() and self._valueDict['langChoice'].get() == 'En':
-            print("New round subroutine")
             self._showAnswersEn()
             self._checkTransResponses()
             if self._answered == False:

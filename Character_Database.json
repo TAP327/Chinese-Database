@@ -2266,7 +2266,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.10",
             "definition": "to wish",
-            "notes": "..."
+            "notes": "similar: (但愿) dan4yuan4"
         },
         {
             "character": "地址",
@@ -7520,7 +7520,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
-            "definition": "style of writting, format",
+            "definition": "style of writing, format",
             "notes": "..."
         },
         {
@@ -7736,7 +7736,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
-            "definition": "qualification",
+            "definition": "qualifications, credentials, living/working conditions",
             "notes": "..."
         },
         {
@@ -7746,7 +7746,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
             "definition": "to wish",
-            "notes": "..."
+            "notes": "similar: 祝 (zhu4)"
         },
         {
             "character": "千",
@@ -8016,7 +8016,16 @@
             "HSK": "HSK --, BAND --",
             "lesson": "Travel.3",
             "definition": "tooth",
-            "notes": "also: dental"
+            "notes": "also adjective: dental"
+        },
+        {
+            "character": "牙齿",
+            "pin1yin1": "ya2chi3",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "Travel.3",
+            "definition": "dental",
+            "notes": "also noun: tooth"
         },
         {
             "character": "牙医",
