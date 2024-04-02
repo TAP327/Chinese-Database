@@ -736,7 +736,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "(plural marker)",
-            "notes": "syntax: use as a suffix 我们 (wo3men5 - we)，他们 (ta1men5 - they)，它们 (ta1men5 - they)，她们 (ta1men5 - they)，你们 (ni3men5 - you guys)"
+            "notes": "syntax: use as a suffix 我们 (wo3men5 - exclusive we)，他们 (ta1men5 - they)，它们 (ta1men5 - they)，她们 (ta1men5 - they)，你们 (ni3men5 - you guys), 咱们 (zan2men5 - inclusive we)"
         },
         {
             "character": "我们",
@@ -744,7 +744,7 @@
             "POS": "pronoun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
-            "definition": "we",
+            "definition": "we, us (exclusive)",
             "notes": "..."
         },
         {
@@ -1834,7 +1834,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.8",
             "definition": "lunch",
-            "notes": "also: 午餐 (wu3can1)"
+            "notes": "similar: 午餐 (wu3can1)"
         },
         {
             "character": "晚饭",
@@ -1843,7 +1843,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.8",
             "definition": "dinner",
-            "notes": "also: 晚餐 (wan3can1)"
+            "notes": "similar: 晚餐 (wan3can1)"
         },
         {
             "character": "正在",
@@ -1852,7 +1852,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.9",
             "definition": "(to indicate an action in progress)",
-            "notes": "in the process of"
+            "notes": "..."
         },
         {
             "character": "打",
@@ -1870,7 +1870,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.9",
             "definition": "hey",
-            "notes": "on the phone or to get someone's attention"
+            "notes": "syntax: used when on the phone or to get someone's attention"
         },
         {
             "character": "等",
@@ -1879,7 +1879,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.9",
             "definition": "to wait",
-            "notes": "等一下儿 (deng3yi2xiar4)：wait a second"
+            "notes": "i.e. 等一下儿 (deng3yi2xiar4)：wait a second"
         },
         {
             "character": "知道",
@@ -1888,7 +1888,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.9",
             "definition": "to know, be aware of, to realize",
-            "notes": "知道了 (zhi1dao4le5): Got it"
+            "notes": "i.e. 知道了 (zhi1dao4le5): Got it"
         },
         {
             "character": "谢",
@@ -1897,7 +1897,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.9",
             "definition": "to thank",
-            "notes": "谢谢 (xie4xie5): thank you"
+            "notes": "i.e. 谢谢 (xie4xie5): thank you"
         },
         {
             "character": "吧",
@@ -1906,7 +1906,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.9",
             "definition": "(indicates assumption or suggestion",
-            "notes": "咱们走吧: Let's go"
+            "notes": "i.e. 咱们走吧 (zan2men5zou3ba5 - Let's go)"
         },
         {
             "character": "对",
@@ -1915,7 +1915,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
             "definition": "correct, right",
-            "notes": "对呀 (dui4ya5): yeah"
+            "notes": "i.e. 对呀 (dui4ya5 - yeah)"
         },
         {
             "character": "看",
@@ -1924,7 +1924,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.9",
             "definition": "to look at, to see, to watch, to read",
-            "notes": "我看一本书 (wo3kan4yi1ben3shu1): I read a book"
+            "notes": "i.e. 我看一本书 (wo3kan4yi1ben3shu1 - I read a book)"
         },
         {
             "character": "电视",
@@ -1960,7 +1960,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
             "definition": "this is he/she speaking",
-            "notes": "on the phone"
+            "notes": "syntax: used on the phone"
         },
         {
             "character": "位",
@@ -1968,8 +1968,8 @@
             "POS": "quantifier",
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
-            "definition": "(people)",
-            "notes": "polite"
+            "definition": "(people f.)",
+            "notes": "..."
         },
         {
             "character": "留言",
@@ -1977,8 +1977,8 @@
             "POS": "VO",
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
-            "definition": "to leave a message",
-            "notes": "used in mainland China (also: 留话 liu2hua4, used everywhere)"
+            "definition": "to leave a message (mainland China)",
+            "notes": "similar:  留话 (liu2hua4 - used everywhere)"
         },
         {
             "character": "留话",
@@ -1987,7 +1987,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
             "definition": "to leave a message",
-            "notes": "used in mainland China and Taiwain (also: 留言 liu2yan2, used in mainland China"
+            "notes": "similar: 留言 (liu2yan2 - used in mainland China)"
         },
         {
             "character": "对不起",
@@ -2005,7 +2005,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
             "definition": "a duration of time, a point in time",
-            "notes": "什么时候？ (shen2me5shi2hou4): At what time?"
+            "notes": "i.e. 什么时候？ (shen2me5shi2hou4 - At what time?)"
         },
         {
             "character": "回来",
@@ -2095,7 +2095,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.9",
             "definition": "you're welcome",
-            "notes": "also: 不谢 (bu2xie4)"
+            "notes": "similar: 不谢 (bu2xie4)"
         },
         {
             "character": "不谢",
@@ -2104,7 +2104,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
             "definition": "you're welcome",
-            "notes": "also: 不客气 (bu2ke4qi5)"
+            "notes": "similar: 不客气 (bu2ke4qi5)"
         },
         {
             "character": "每",
@@ -2113,7 +2113,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.10",
             "definition": "each",
-            "notes": "i.e. 每天 (mei3tian1) = everyday"
+            "notes": "i.e. 每天 (mei3tian1 - everyday), 每当...的时候 (mei3dang1...de5shi2hou5 -  everytime...happens)"
         },
         {
             "character": "床",
@@ -2131,7 +2131,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.10",
             "definition": "week",
-            "notes": "星期几 = day of the week 1-6, Sunday = 星期日 or 星期天 (colloquially)"
+            "notes": "syntax: 星期几 = day of the week 1-6, Sunday = 星期日 or 星期天 (colloquially)"
         },
         {
             "character": "睡觉",
@@ -2157,8 +2157,8 @@
             "POS": "time noun",
             "HSK": "HSK 2, BAND --",
             "lesson": "1.10",
-            "definition": "just (emphasis)",
-            "notes": "as early as, already, at once, right away, only"
+            "definition": "just (emphasis), as early as, already, right away, only",
+            "notes": "..."
         },
         {
             "character": "刻",
@@ -2167,7 +2167,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.10",
             "definition": "quarter (15 minutes)",
-            "notes": "It's 9:15 =（现在是）九点一刻 (also can be used as a verb for to carve)"
+            "notes": "syntax: It's 9:15 =（现在是）九点一刻 (also can be used as a verb for to carve)"
         },
         {
             "character": "时刻",
@@ -2185,7 +2185,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.10",
             "definition": "constantly, always",
-            "notes": "also noun: moment, synonyms: 总是 (zong3shi4), 一直 (yi4zhi2)"
+            "notes": "also noun: moment, similar: 总是 (zong3shi4), 一直 (yi4zhi2)"
         },
         {
             "character": "分",
@@ -2203,7 +2203,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.10",
             "definition": "minute",
-            "notes": "It's 8:37 =（现在）八点三十七分。"
+            "notes": "i.e. It's 8:37 =（现在）八点三十七分。"
         },
         {
             "character": "百分",
@@ -4676,8 +4676,8 @@
             "POS": "pronoun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.1",
-            "definition": "we, us",
-            "notes": "inclusive"
+            "definition": "we, us (inclusive)",
+            "notes": "similar: 我们 (wo3men5 - exclusive)"
         },
         {
             "character": "墙",
