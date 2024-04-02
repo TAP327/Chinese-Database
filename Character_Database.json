@@ -88,7 +88,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.1",
             "definition": "no/not (b)",
-            "notes": "..."
+            "notes": "pronunciation: bu2 (precedes 4th tone)"
         },
         {
             "character": "老师",
@@ -943,7 +943,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.5",
             "definition": "(make action brief)",
-            "notes": "used after a verb to make an action brief"
+            "notes": "syntax: used after a verb to make an action brief (i.e. 介绍一下 jie4shao4yi2xia4 - brief introduction)"
         },
         {
             "character": "室友",
@@ -952,7 +952,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.5",
             "definition": "roommate",
-            "notes": "room + friend"
+            "notes": "literally: room + friend"
         },
         {
             "character": "有",
@@ -970,7 +970,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.5",
             "definition": "how many, how much, a few",
-            "notes": "i.e. 几个人 (ji3ge5ren2) a few people, similar: 多少 (duo1shao3) large numbers"
+            "notes": "i.e. 几个人 (ji3ge5ren2 - a few people), similar: 多少 (duo1shao3) large numbers"
         },
         {
             "character": "两",
@@ -979,7 +979,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.5",
             "definition": "two",
-            "notes": "used with a quantifier, otherwise use 二 (er4)"
+            "notes": "similar: 二 (er4 - two, used without a quantifier)"
         },
         {
             "character": "个",
@@ -988,7 +988,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.5",
             "definition": "(most things)",
-            "notes": "most commonly used quantifier for people, characters, and things in general"
+            "notes": "quantifier: most commonly used quantifier for people, characters, and things in general"
         },
         {
             "character": "都",
@@ -1024,7 +1024,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.5",
             "definition": "to not have",
-            "notes": "有没有，never use 不 and 有 together"
+            "notes": "syntax: never use 不 and 有 together, i.e. 有没有 (you3mei2you3 - is there...?)"
         },
         {
             "character": "女朋友",
@@ -1051,7 +1051,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.5",
             "definition": "to know, to recognize, to be aquainted with, to be familiar with",
-            "notes": "conocer"
+            "notes": "..."
         },
         {
             "character": "家",
@@ -1114,7 +1114,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.6",
             "definition": "1",
-            "notes": "also: yi2, yi4"
+            "notes": "pronunciation: yi2 (precedes 4th tone), yi4 (precedes 1st, 2nd, or 3rd tone)"
         },
         {
             "character": "二",
@@ -1123,7 +1123,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.6",
             "definition": "2",
-            "notes": "also: 两 with quantifier"
+            "notes": "similar: 两 (liang3 - used with quantifier)"
         },
         {
             "character": "三",
@@ -1491,8 +1491,8 @@
             "POS": "noun",
             "HSK": "HSK 2, BAND --",
             "lesson": "1.7",
-            "definition": "number",
-            "notes": "i.e. 你的电话号码是多少？"
+            "definition": "number (一个汉字)",
+            "notes": "i.e. 你的电话号码是多少？(ni3de5dian4hua4hao4ma3shi4duo1shao3? - What's your phone number?)"
         },
         {
             "character": "房间",
@@ -1537,7 +1537,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.7",
             "definition": "small",
-            "notes": "Don't confuse 小 (xiao3) with 少 (shao3)"
+            "notes": "warning: Don't confuse 小 (xiao3) with 少 (shao3)"
         },
         {
             "character": "号码",
@@ -1545,8 +1545,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.7",
-            "definition": "number",
-            "notes": "i.e. 你的电话号码是多少？"
+            "definition": "number (两个汉字)",
+            "notes": "i.e. 你的电话号码是多少？(ni3de5dian4hua4hao4ma3shi4duo1shao3? - What's your phone number?)"
         },
         {
             "character": "手机",
@@ -1671,7 +1671,7 @@
             "POS": "VO",
             "HSK": "HSK --, BAND --",
             "lesson": "1.8",
-            "definition": "to end class",
+            "definition": "to end/leave class",
             "notes": "..."
         },
         {
@@ -1680,7 +1680,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.8",
-            "definition": "matter, thing, business (se)",
+            "definition": "matter, thing, business (s)",
             "notes": "..."
         },
         {
@@ -1717,7 +1717,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.8",
             "definition": "to eat",
-            "notes": "default object: 吃饭 (chi1fan4)"
+            "notes": "syntax: default object 吃饭 (chi1fan4)"
         },
         {
             "character": "饭",
@@ -1825,7 +1825,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.8",
             "definition": "breakfast",
-            "notes": "also: 早餐 (zao3can1)"
+            "notes": "similar: 早餐 (zao3can1)"
         },
         {
             "character": "午饭",
