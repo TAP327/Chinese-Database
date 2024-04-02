@@ -7,7 +7,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.1",
             "definition": "good",
-            "notes": "Hello: 你好，大家好，您好"
+            "notes": "i.e. 你好 (ni3hao3 - hello inf.)，大家好 (da4jia1hao3 - hello everyone)，您好 (nin2hao3 - hello f.)" 
         },
         {
             "character": "是",
@@ -15,8 +15,8 @@
             "POS": "verb",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.1",
-            "definition": "to be",
-            "notes": "also 'yes' in affirmative answers"
+            "definition": "to be, yes",
+            "notes": "syntax: 是 means 'yes' in affirmative answers"
         },
         {
             "character": "学习",
@@ -25,7 +25,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.1",
             "definition": "to study",
-            "notes": "学习 or 学... (subject)"
+            "notes": "..."
         },
         {
             "character": "吗",
@@ -97,7 +97,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.1",
             "definition": "teacher",
-            "notes": "old + certified"
+            "notes": "literally: old + certified"
         },
         {
             "character": "中文",
@@ -106,7 +106,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.1",
             "definition": "Chinese language (z)",
-            "notes": "also: 汉语 (han4yu3)"
+            "notes": "similar: 汉语 (han4yu3)"
         },
         {
             "character": "她",
@@ -132,8 +132,8 @@
             "POS": "pronoun",
             "HSK": "HSK 2, BAND --",
             "lesson": "1.2",
-            "definition": "you",
-            "notes": "formal"
+            "definition": "you (f.)",
+            "notes": "..."
         },
         {
             "character": "贵",
@@ -178,7 +178,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.2",
             "definition": "to ask",
-            "notes": "'May I ask...' = 请问"
+            "notes": "i.e. 'May I ask...' = 请问 (qing3wen4)"
         },
         {
             "character": "的",
@@ -186,8 +186,8 @@
             "POS": "particle",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.2",
-            "definition": "(possessive)",
-            "notes": "structural"
+            "definition": "(possessive, adverb marker)",
+            "notes": "syntax: 我的狗 (wo3de5gou3 - my dog), 我好好的学中文 (wo3hao3hao3de5xue2zhong1wen2 - I study Chinese well), to use 的 as an adverb: adjx2 的 V"
         },
         {
             "character": "英文",
@@ -232,7 +232,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.2",
             "definition": "who, whom",
-            "notes": "pronounced shui2 in some regions"
+            "notes": "variation: pronounced shui2 in some regions"
         },
         {
             "character": "同",
@@ -250,7 +250,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.2",
             "definition": "classmate",
-            "notes": "same + study"
+            "notes": "literally: same + study"
         },
         {
             "character": "哪",
@@ -259,7 +259,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.3",
             "definition": "which",
-            "notes": "pronounceds as nei3 in some regions"
+            "notes": "variation: pronounceds as nei3 in some regions"
         },
         {
             "character": "国",
@@ -268,7 +268,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "country",
-            "notes": "哪国 = which country, 美国 = 'merica, 中国人 = Chinese person"
+            "notes": "i.e. 哪国 = which country, 美国 = 'merica, 中国人 = Chinese person"
         },
         {
             "character": "人",
@@ -277,7 +277,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.3",
             "definition": "person",
-            "notes": "中国人 = Chinese person"
+            "notes": "i.e. 中国人 (zhong1guo3ren2 - Chinese person)"
         },
         {
             "character": "很",
@@ -286,7 +286,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.3",
             "definition": "very, quite",
-            "notes": "basically acts as a verb: 我很高兴"
+            "notes": "syntax: basically acts as a verb (我很高兴 - wo3hen2gao3xing1 I am (very) happy)"
         },
         {
             "character": "对了",
@@ -295,7 +295,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "by the way",
-            "notes": "a phrase used to start a new topic"
+            "notes": "syntax: a phrase used to start a new topic"
         },
         {
             "character": "法国",
@@ -313,7 +313,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "America",
-            "notes": "'merica!"
+            "notes": "literally: beautiful country (actually a cognate: 'merica!)"
         },
         {
             "character": "英国",
@@ -367,7 +367,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "a little",
-            "notes": "yi4(1) dian3 er2"
+            "notes": "pronunciation: yi4(1) dian3 er2"
         },
         {
             "character": "儿",
@@ -385,7 +385,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "French language",
-            "notes": "pronounced fa4wen2 in Taiwan"
+            "notes": "variation: pronounced fa4wen2 in Taiwan"
         },
         {
             "character": "和",
@@ -394,7 +394,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.3",
             "definition": "and",
-            "notes": "pronounced han4 in Taiwan"
+            "notes": "variation: pronounced han4 in Taiwan"
         },
         {
             "character": "德国",
@@ -403,7 +403,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Germany",
-            "notes": "German language: 德语"
+            "notes": "i.e. German language: 德语 (de2yu3)"
         },
         {
             "character": "德语",
@@ -421,7 +421,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Korea",
-            "notes": "Korean language: 韩语"
+            "notes": "i.e. Korean language: 韩语 (han2yu3), 韩国语 (han2guo2yu3), 朝鲜语 (chao2xian3yu3)"
         },
         {
             "character": "韩语",
@@ -429,8 +429,26 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Korean language",
-            "notes": "also: 韩国语 (han2guo2yu3)，朝鲜语 (chao2xian3yu3)"
+            "definition": "Korean language (h, 两个汉字)",
+            "notes": "similar: 韩国语 (han2guo2yu3)，朝鲜语 (chao2xian3yu3)"
+        },
+        {
+            "character": "韩国语",
+            "pin1yin1": "han2guo3yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.3",
+            "definition": "Korean language (h, 三个汉字)",
+            "notes": "similar: 韩语 (han2yu3)，朝鲜语 (chao2xian3yu3)"
+        },
+        {
+            "character": "朝鲜语",
+            "pin1yin1": "chao2xian3yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.3",
+            "definition": "Korean language (c)",
+            "notes": "similar: 韩国语 (han2guo2yu3)，朝鲜语 (han2yu3)"
         },
         {
             "character": "加拿大",
@@ -457,7 +475,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Japan",
-            "notes": "Japanese language: "
+            "notes": "literally: land of the rising sun, i.e. Japanese language: 日文 (ri4wen2), 日语 (ri4yu3)"
         },
         {
             "character": "日语",
@@ -465,17 +483,17 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Japanese",
-            "notes": "Can also be 日文。 Let's appreciate how ridiculous the Italians are for calling them Giapponese.  Why must they abolish long i's??? (the letter j)"
+            "definition": "Japanese language (_y)",
+            "notes": "similar: 日文 (ri4wen2) Let's appreciate how ridiculous the Italians are for calling them Giapponese.  Why must they abolish long i's??? (the letter j)"
         },
         {
-            "character": "德国",
-            "pin1yin1": "de2guo2",
+            "character": "日文",
+            "pin1yin1": "ri4wen2",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Germany",
-            "notes": "..."
+            "definition": "Japanese language (_w)",
+            "notes": "similar: 日语 (ri4yu3) Let's appreciate how ridiculous the Italians are for calling them Giapponese.  Why must they abolish long i's??? (the letter j)"
         },
         {
             "character": "西班牙",
@@ -492,8 +510,17 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Spanish language",
-            "notes": "also: 西班牙语 (xi1ban1ya2yu3)"
+            "definition": "Spanish language (_w)",
+            "notes": "similar: 西班牙语 (xi1ban1ya2yu3)"
+        },
+        {
+            "character": "西班牙语",
+            "pin1yin1": "xi1ban1ya2yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.3",
+            "definition": "Spanish language (_y)",
+            "notes": "similar: 西班牙语 (xi1ban1ya2wen2)"
         },
         {
             "character": "葡萄牙",
@@ -501,8 +528,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Portugal",
-            "notes": "Portuguese language: 葡萄语，葡萄牙文，葡萄牙文"
+            "definition": "Portugal ",
+            "notes": "i.e. Portuguese language: 葡萄语，葡萄牙文，葡萄牙文"
         },
         {
             "character": "葡萄语",
@@ -510,8 +537,26 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Portuguese language",
-            "notes": "葡萄牙文 (pu2tao2ya2yu3)，葡萄牙文 (pu2tao2ya2wen2)"
+            "definition": "Portuguese language (_y, 三个汉字)",
+            "notes": "similar: 葡萄牙语 (pu2tao2ya2yu3)，葡萄牙文 (pu2tao2ya2wen2)"
+        },
+        {
+            "character": "葡萄牙语",
+            "pin1yin1": "pu2tao2ya2yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.3",
+            "definition": "Portuguese language (_y, 四个汉字)",
+            "notes": "similar: 葡萄语 (pu2tao2yu3)，葡萄牙文 (pu2tao2ya2wen2)"
+        },
+        {
+            "character": "葡萄牙文",
+            "pin1yin1": "pu2tao2ya2wen2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.3",
+            "definition": "Portuguese language (_w, 四个汉字)",
+            "notes": "similar: 葡萄牙语 (pu2tao2ya2yu3)，葡萄语 (pu2tao2yu3)"
         },
         {
             "character": "巴西",
@@ -529,7 +574,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Italy",
-            "notes": "Italian language: 意大利语, abbr. = 意"
+            "notes": "i.e. Italian language: 意大利语, abbr. = 意"
         },
         {
             "character": "意大利语",
@@ -538,7 +583,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Italian language",
-            "notes": "意大利文 may not exist"
+            "notes": "warning: 意大利文 may not exist"
         },
         {
             "character": "阿拉伯文",
@@ -546,8 +591,17 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
-            "definition": "Arabic language",
-            "notes": "also: 阿拉伯语"
+            "definition": "Arabic language (_w)",
+            "notes": "similar: 阿拉伯语 (a1la1bo2yu3)"
+        },
+        {
+            "character": "阿拉伯语",
+            "pin1yin1": "a1la1bo2yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.3",
+            "definition": "Arabic language (_y)",
+            "notes": "similar: 阿拉伯文 (a1la1bo2wen2)"
         },
         {
             "character": "俄国",
@@ -556,7 +610,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Russia",
-            "notes": "Russian language: 俄文"
+            "notes": "i.e. Russian language: 俄文 (e2wen2)"
         },
         {
             "character": "俄文",
@@ -565,7 +619,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Russian language",
-            "notes": "俄语 may not exist"
+            "notes": "warning: 俄语 may not exist"
         },
         {
             "character": "语言",
@@ -583,7 +637,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "that",
-            "notes": "also pronounced nei4 in some regions, there = 那儿"
+            "notes": "variation: pronounced nei4 in some regions, there = 那儿"
         },
         {
             "character": "书",
@@ -592,7 +646,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "book",
-            "notes": "Quantifier: 本"
+            "notes": "quantifier: 本"
         },
         {
             "character": "这",
@@ -601,7 +655,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "this",
-            "notes": "also pronounced zhei4 in some regions, here = 这儿"
+            "notes": "variation: pronounced zhei4 in some regions, here = 这儿"
         },
         {
             "character": "本",
@@ -610,7 +664,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "(bound items)",
-            "notes": "i.e. books, magazines"
+            "notes": "i.e. 一本书 (yi1ben3shu1), books, magazines"
         },
         {
             "character": "文学",
@@ -619,7 +673,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "literature",
-            "notes": "can accept nationality as a prefix/adjective"
+            "notes": "syntax: can accept nationality as a prefix/adjective"
         },
         {
             "character": "工程",
@@ -646,7 +700,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "too",
-            "notes": "S 太 adj 了"
+            "notes": "syntax: S 太 adj 了"
         },
         {
             "character": "可是",
@@ -655,7 +709,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "but, yet, however (k)",
-            "notes": "also: 但是 (dan4shi4)"
+            "notes": "similar: 但是 (dan4shi4)"
         },
         {
             "character": "功课",
@@ -664,7 +718,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "homework, assignment",
-            "notes": "synonym of 作业 (lightly less common and more southern)"
+            "notes": "similar: 作业 (zuo4ye4 - lightly less common and more southern)"
         },
         {
             "character": "多",
@@ -673,7 +727,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "many, much",
-            "notes": "多少 (duo1shao3) how many, how much"
+            "notes": "i.e. 多少 (duo1shao3) how many, how much"
         },
         {
             "character": "们",
@@ -682,7 +736,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "(plural marker)",
-            "notes": "use as a suffix: 我们，他们，它们，她们，你们"
+            "notes": "syntax: use as a suffix 我们 (wo3men5 - we)，他们 (ta1men5 - they)，它们 (ta1men5 - they)，她们 (ta1men5 - they)，你们 (ni3men5 - you guys)"
         },
         {
             "character": "我们",
@@ -700,7 +754,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
             "definition": "few, little",
-            "notes": "..."
+            "notes": "i.e. 多少 (duo1shao3) how many, how much"
         },
         {
             "character": "大学",
@@ -709,7 +763,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "college",
-            "notes": "college student: 大学生 (da4xue2sheng1)"
+            "notes": "i.e. 大学生 (da4xue2sheng1 - college student)"
         },
         {
             "character": "大学生",
@@ -744,8 +798,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
-            "definition": "computer",
-            "notes": "mainland China only"
+            "definition": "computer (mainland China)",
+            "notes": "similar: 电脑 (dian4nao3 - mainland China or Taiwan)"
         },
         {
             "character": "电脑",
@@ -753,8 +807,8 @@
             "POS": "noun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.4",
-            "definition": "computer",
-            "notes": "used in mainland China and Taiwan"
+            "definition": "computer (mainland China or Taiwan)",
+            "notes": "similar: 计算机 (ji4suan4ji1 - mainland China only)"
         },
         {
             "character": "专业",
@@ -763,7 +817,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "major",
-            "notes": "Taiwan: 主修 (zhu3xiu1)"
+            "notes": "similar: 主修 (zhu3xiu1 - Taiwan)"
         },
         {
             "character": "辅修",
@@ -772,7 +826,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "minor",
-            "notes": "auxiliariary/assisting + to embellish/study"
+            "notes": "literally: auxiliariary/assisting + to embellish/study"
         },
         {
             "character": "容易",
@@ -793,15 +847,6 @@
             "notes": "..."
         },
         {
-            "character": "日本",
-            "pin1yin1": "ri4ben3",
-            "POS": "noun",
-            "HSK": "HSK --, BAND --",
-            "lesson": "1.4",
-            "definition": "Japan",
-            "notes": "Land of the Rising Sun"
-        },
-        {
             "character": "累",
             "pin1yin1": "lei4",
             "POS": "adjective",
@@ -817,7 +862,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "homework, assignment",
-            "notes": "功课 but slightly less common and more southern"
+            "notes": "similar: 功课 (gong1ke4 - more common and more northern)"
         },
         {
             "character": "考试",
@@ -834,7 +879,7 @@
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
-            "definition": "a litle",
+            "definition": "a little",
             "notes": "..."
         },
         {
@@ -844,7 +889,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.4",
             "definition": "not bad, okay",
-            "notes": "still + good"
+            "notes": "literally: still + good"
         },
         {
             "character": "朋友",
@@ -960,8 +1005,8 @@
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "1.5",
-            "definition": "often, frequently",
-            "notes": "also: 常常，不常，never say 不常常"
+            "definition": "often, frequently (一个汉字）",
+            "notes": "syntax: 常常，不常，never say 不常常"
         },
         {
             "character": "跟",
@@ -1752,8 +1797,8 @@
             "POS": "adverb",
             "HSK": "HSK 2, BAND --",
             "lesson": "1.8",
-            "definition": "again",
-            "notes": "..."
+            "definition": "again (future)",
+            "notes": "i.e. 再见 (zai4jian4) I'll see you again, similar: 又 (you4) past"
         },
         {
             "character": "见",
@@ -7389,6 +7434,105 @@
             "notes": "..."
         },
         {
+            "character": "催",
+            "pin1yin1": "cui1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "to urge",
+            "notes": "..."
+        },
+        {
+            "character": "吵架",
+            "pin1yin1": "chao3jia4",
+            "POS": "VO",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "to quarrel",
+            "notes": "..."
+        },
+        {
+            "character": "心情",
+            "pin1yin1": "xin1qing2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "mood",
+            "notes": "..."
+        },
+        {
+            "character": "谈谈",
+            "pin1yin1": "tan2tan5",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "to chat",
+            "notes": "..."
+        },
+        {
+            "character": "建议",
+            "pin1yin1": "jian4yi4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "to advise, to recommend",
+            "notes": "also noun: advice, recommendation"
+        },
+        {
+            "character": "建议",
+            "pin1yin1": "jian4yi4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "advice, recommendation",
+            "notes": "also verb: to advise, to recommend"
+        },
+        {
+            "character": "怎么搞的",
+            "pin1yin1": "zen3me5gao3de5",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "What happened?  What did you do?",
+            "notes": "similar: 怎么了 (zen3me5le5) less acusatory (What's wrong?)"
+        },
+        {
+            "character": "怎么了",
+            "pin1yin1": "zen3me5le5",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "What's wrong?",
+            "notes": "similar: 怎么搞的 (zen3me5gao3de5) acusatory (What happened? What did you do?)"
+        },
+        {
+            "character": "又",
+            "pin1yin1": "you4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "again (past)",
+            "notes": "similar: 再 (zai4 - will happen again in the future, i.e. 再见 zai4jian4 I'll see you again)"
+        },
+        {
+            "character": "",
+            "pin1yin1": "",
+            "POS": "",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "",
+            "notes": "..."
+        },
+        {
+            "character": "",
+            "pin1yin1": "",
+            "POS": "",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.13",
+            "definition": "",
+            "notes": "..."
+        },
+        {
             "character": "难道",
             "pin1yin1": "nan2dao4",
             "POS": "adverb",
@@ -7530,7 +7674,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
             "definition": "to make conspicuous",
-            "notes": "also adjective: outstanding"
+            "notes": "also adjective: outstanding (i.e. of a performance)"
         },
         {
             "character": "突出",
@@ -7538,7 +7682,7 @@
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
-            "definition": "outstanding",
+            "definition": "outstanding (i.e. of a performance)",
             "notes": "also verb: to make conspicuous"
         },
         {
