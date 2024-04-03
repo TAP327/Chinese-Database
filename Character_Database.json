@@ -4208,8 +4208,8 @@
             "POS": "noun",
             "HSK": "HSK 2, BAND --",
             "lesson": "1.18",
-            "definition": "road",
-            "notes": "i.e. 走路 (zou3lu4 - to walk)"
+            "definition": "road (一个汉字)",
+            "notes": "i.e. 走路 (zou3lu4 - to walk), similar: 马路 (ma3lu4), 街道 (jie1dao4)"
         },
         {
             "character": "近",
@@ -4361,8 +4361,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.18",
-            "definition": "scooter, motorcycle",
-            "notes": "synonym: 机车 (ji1che1)"
+            "definition": "scooter, motorcycle (m)",
+            "notes": "similar: 机车 (ji1che1)"
         },
         {
             "character": "机车",
@@ -4370,8 +4370,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.18",
-            "definition": "scooter, motorcycle",
-            "notes": "synonym: 摩托车 (mo2tuo1che1)"
+            "definition": "scooter, motorcycle (j)",
+            "notes": "similar: 摩托车 (mo2tuo1che1)"
         },
         {
             "character": "出租汽车",
@@ -4379,8 +4379,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.18",
-            "definition": "taxi",
-            "notes": "synonym: 计程车 (ji4cheng2che1), 出租车 (chu1zu1che1)"
+            "definition": "taxi (c, 四个汉字)",
+            "notes": "similar: 计程车 (ji4cheng2che1), 出租车 (chu1zu1che1)"
         },
         {
             "character": "出租车",
@@ -4388,7 +4388,7 @@
             "POS": "noun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.18",
-            "definition": "taxi",
+            "definition": "taxi (c, 三个汉字)",
             "notes": "synonym: 计程车 (ji4cheng2che1), 出租汽车 (chu1zu1qi4che1)"
         },
         {
@@ -4397,7 +4397,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.18",
-            "definition": "taxi",
+            "definition": "taxi (j)",
             "notes": "synonym: 出租汽车 (chu1zu1qi4che1)"
         },
         {
@@ -4470,7 +4470,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.01",
             "definition": "(tone softener)",
-            "notes": "used at the end of a sentence (i.e. 对呀 dui4ya5)"
+            "notes": "syntax: used at the end of a sentence, i.e. 对呀 (dui4ya5)"
         },
         {
             "character": "小心",
@@ -4560,7 +4560,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.01",
             "definition": "to clean, sweep",
-            "notes": "i.e. 他扫地。 ta1sao3di4 - he sweeps"
+            "notes": "i.e. 他扫地 (ta1sao3di4 - he sweeps)"
         },
         {
             "character": "整理",
@@ -4586,7 +4586,7 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.01, 2.13",
-            "definition": "to hang. hang up the phone",
+            "definition": "to hang, to hang up the phone",
             "notes": "..."
         },
         {
@@ -4605,7 +4605,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.01",
             "definition": "dead",
-            "notes": "..."
+            "notes": "also verb: to die"
         },
         {
             "character": "死",
@@ -4613,8 +4613,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.01",
-            "definition": "die",
-            "notes": "..."
+            "definition": "to die",
+            "notes": "also adjective: dead"
         },
         {
             "character": "附近",
@@ -4650,7 +4650,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.01",
             "definition": "to close",
-            "notes": "(door/window)"
+            "notes": "..."
         },
         {
             "character": "外套",
@@ -4686,7 +4686,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "2.02",
             "definition": "(continuous or stationary action)",
-            "notes": "在 is progressive (I putting on the dress when...) while 着 is imperfect (she wearing that dress when...)"
+            "notes": "syntax: 在 is progressive (I putting on the dress when...) while 着 is imperfect (she wearing that dress when...)"
         },
         {
             "character": "照片",
@@ -4749,7 +4749,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.02",
             "definition": "drum",
-            "notes": "use 打 (da3) with it"
+            "notes": "syntax: use 打 (da3) with it"
         },
         {
             "character": "拉",
@@ -4767,7 +4767,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.02",
             "definition": "huqin",
-            "notes": "use 拉 (la1) with it"
+            "notes": "syntax: use 拉 (la1) with it"
         },
         {
             "character": "弹奏",
@@ -4776,7 +4776,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.02",
             "definition": "to play (instrument), pluck, strike",
-            "notes": "use with any instrument"
+            "notes": "syntax: use with any instrument"
         },
         {
             "character": "自己",
@@ -4938,7 +4938,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.02",
             "definition": "director",
-            "notes": "also verb"
+            "notes": "also verb: to direct"
         },
         {
             "character": "导演",
@@ -5000,8 +5000,8 @@
             "POS": "preposition",
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
-            "definition": "toward",
-            "notes": "also pronounced wang, synonymous with 向 (xiang4)"
+            "definition": "toward (w)",
+            "notes": "similar: 向 (xiang4), pronunciation:"
         },
         {
             "character": "各位",
@@ -5027,8 +5027,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
-            "definition": "to land, descend",
-            "notes": "as in a plane"
+            "definition": "to land, descend (of a plane)",
+            "notes": "..."
         },
         {
             "character": "安全带",
@@ -5100,7 +5100,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
             "definition": "hotel, hostel (l)",
-            "notes": "also: 酒店 (jiu3dian4), 饭店 (fan4dian4)"
+            "notes": "similar: 酒店 (jiu3dian4), 饭店 (fan4dian4)"
         },
         {
             "character": "路人",
@@ -5135,8 +5135,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
-            "definition": "to turn",
-            "notes": "also: 转 (zhuan3)"
+            "definition": "to turn (g)",
+            "notes": "similar: 转 (zhuan3)"
         },
         {
             "character": "一直",
@@ -5208,7 +5208,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
             "definition": "change",
-            "notes": "also verb"
+            "notes": "also verb: to change"
         },
         {
             "character": "变化",
@@ -5217,7 +5217,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
             "definition": "to change",
-            "notes": "also noun, similar: 改 (gai3)"
+            "notes": "also noun: change, similar: 改 (gai3)"
         },
         {
             "character": "本来",
@@ -5226,7 +5226,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
             "definition": "originally (b)",
-            "notes": "also: 远来 (yuan2lai2), 当初 (dang1chu1)"
+            "notes": "similar: 远来 (yuan2lai2), 当初 (dang1chu1)"
         },
         {
             "character": "农田",
@@ -5252,8 +5252,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
-            "definition": "road",
-            "notes": "also: 街道 (jie1dao4)"
+            "definition": "road (m)",
+            "notes": "similar: 街道 (jie1dao4), 路 (lu4)"
         },
         {
             "character": "噢",
@@ -5288,8 +5288,8 @@
             "POS": "preposition",
             "HSK": "HSK 2, BAND --",
             "lesson": "2.03",
-            "definition": "toward",
-            "notes": "also: 往 (wang4)"
+            "definition": "toward (x)",
+            "notes": "similar: 往 (wang4)"
         },
         {
             "character": "转",
@@ -5297,8 +5297,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
-            "definition": "to turn",
-            "notes": "also: 拐 (guai3)"
+            "definition": "to turn (z)",
+            "notes": "similar: 拐 (guai3)"
         },
         {
             "character": "小吃店",
@@ -5343,7 +5343,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
             "definition": "RMB",
-            "notes": "modern Chinese currency"
+            "notes": "literally: the people's currency (man + people/nationality + coin)"
         },
         {
             "character": "师母",
@@ -5352,7 +5352,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
             "definition": "teacher's wife",
-            "notes": "honorific term used to address the teacher's wife"
+            "notes": "syntax: honorific term used to address the teacher's wife"
         },
         {
             "character": "些",
@@ -5549,8 +5549,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
-            "definition": "street",
-            "notes": "also: 马路 (ma3lu4)"
+            "definition": "street (j)",
+            "notes": "also: 马路 (ma3lu4), 路 (lu4)"
         },
         {
             "character": "习惯",
