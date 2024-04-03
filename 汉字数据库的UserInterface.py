@@ -589,5 +589,7 @@ class Ui():
 
         !TODO: Refactor Study Tab
 
+        !TODO: ZHDB - 1-207, 500-950 are good
+
         azure & lightblue2
 '''''
