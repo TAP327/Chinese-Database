@@ -5504,7 +5504,7 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
-            "definition": "to get used to",
+            "definition": "to get used to (s)",
             "notes": "similar: to be used to 适应 (xi2guan4)"
         },
         {
@@ -5550,7 +5550,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
             "definition": "street (j)",
-            "notes": "also: 马路 (ma3lu4), 路 (lu4)"
+            "notes": "similar: 马路 (ma3lu4), 路 (lu4)"
         },
         {
             "character": "习惯",
@@ -5558,7 +5558,7 @@
             "POS": "verb",
             "HSK": "HSK 3, BAND --",
             "lesson": "2.04",
-            "definition": "to be used to",
+            "definition": "to be used to (x)",
             "notes": "similar: 适应 (shi4ying4)"
         },
         {
@@ -5594,8 +5594,8 @@
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
-            "definition": "original, authentic, genuine",
-            "notes": "especially in a cultural context (i.e. food)"
+            "definition": "original, authentic, genuine (of culture)",
+            "notes": "..."
         },
         {
             "character": "香",
@@ -5604,7 +5604,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
             "definition": "aroma",
-            "notes": "also adjective"
+            "notes": "also adjective: aromatic"
         },
         {
             "character": "香",
@@ -5613,7 +5613,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
             "definition": "aromatic",
-            "notes": "also noun"
+            "notes": "also noun: aroma"
         },
         {
             "character": "俱全",
@@ -5622,7 +5622,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.04",
             "definition": "all included, altogether",
-            "notes": "the textbook says it's a phrase"
+            "notes": "..."
         },
         {
             "character": "饱",
@@ -5739,7 +5739,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "to plan",
-            "notes": "also noun"
+            "notes": "also noun: plan"
         },
         {
             "character": "打算",
@@ -5748,7 +5748,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "plan",
-            "notes": "also verb"
+            "notes": "also verb: to plan"
         },
         {
             "character": "抽空",
@@ -5757,7 +5757,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "to manage to find the time",
-            "notes": "squeeze the void!"
+            "notes": "literally: squeeze the void!"
         },
         {
             "character": "拜访",
@@ -5775,7 +5775,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "visit",
-            "notes": "also verb"
+            "notes": "also verb: to visit"
         },
         {
             "character": "差",
@@ -5793,7 +5793,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "can't afford to buy",
-            "notes": "example of a negative potential complement"
+            "notes": "syntax: example of a negative potential complement"
         },
         {
             "character": "找得到",
@@ -5802,7 +5802,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "to be able to find",
-            "notes": "example of a positive potential complement"
+            "notes": "syntax: example of a positive potential complement"
         },
         {
             "character": "其实",
@@ -5811,7 +5811,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "as a matter of fact",
-            "notes": "umm, actually.."
+            "notes": "..."
         },
         {
             "character": "要是",
@@ -5820,7 +5820,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "if (y)",
-            "notes": "also: 如果 (ru2guo3)"
+            "notes": "similar: 如果 (ru2guo3)"
         },
         {
             "character": "南方",
@@ -5838,7 +5838,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "to be like spring all year round",
-            "notes": "four seasons like spring"
+            "notes": "literally: four seasons like spring"
         },
         {
             "character": "风景如画",
@@ -5847,7 +5847,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "with picturesque scenic beauty",
-            "notes": "scenery like a painting"
+            "notes": "literally: scenery like a painting"
         },
         {
             "character": "少数民族",
@@ -5865,7 +5865,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "if (r)",
-            "notes": "also: 要是 (yao4shi4)"
+            "notes": "similar: 要是 (yao4shi4)"
         },
         {
             "character": "签证",
@@ -5901,7 +5901,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "to have enough time to",
-            "notes": "example of a positive potential complement"
+            "notes": "syntax: example of a positive potential complement"
         },
         {
             "character": "香港",
@@ -5919,7 +5919,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "Yunnan",
-            "notes": "Chinese SE province"
+            "notes": "description: Chinese SE province"
         },
         {
             "character": "昆明",
@@ -5928,7 +5928,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "Kunming",
-            "notes": "capital of Yunnnan"
+            "notes": "description: capital of Yunnnan"
         },
         {
             "character": "亲戚",
@@ -5936,8 +5936,17 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
-            "definition": "relative (q)",
-            "notes": "..."
+            "definition": "relative, family member (q)",
+            "notes": "similar: 家人 (jia1ren2)"
+        },
+        {
+            "character": "家人",
+            "pin1yin1": "jia1ren2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.07",
+            "definition": "relative, family member (r)",
+            "notes": "similar: 亲戚 (qin4qi5)"
         },
         {
             "character": "原来",
@@ -5946,7 +5955,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.07",
             "definition": "originally (y)",
-            "notes": "also: 本来 (ben3lai2), 当初 (dang1chu1)"
+            "notes": "similar: 本来 (ben3lai2), 当初 (dang1chu1)"
         },
         {
             "character": "连",
@@ -5955,7 +5964,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
             "definition": "even",
-            "notes": "(...)(连)...都/也..."
+            "notes": "syntax: (...)(连)A都/也B.  Even A B!  i.e. 连他的妈妈不喜欢他！(lian2ta1de5ma1ma5bu4xi3huan1ta1 - even his mom doesn't like him!)"
         },
         {
             "character": "影子",
@@ -5990,8 +5999,8 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
-            "definition": "cousin",
-            "notes": "also: 表姐，表哥，表弟"
+            "definition": "cousin (younger, female)",
+            "notes": "similar: 表姐 (biao3jie3, older female)，表哥 (biao3ge1, older male)，表弟 (biao3di4, younger male)"
         },
         {
             "character": "强",
@@ -6135,7 +6144,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
             "definition": "description, exposition",
-            "notes": "also verb"
+            "notes": "also verb: to describe"
         },
         {
             "character": "描写",
@@ -6144,7 +6153,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
             "definition": "to describe",
-            "notes": "also noun: description"
+            "notes": "also noun: description, exposition"
         },
         {
             "character": "历史",
@@ -6323,8 +6332,8 @@
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
             "lesson": "2.09",
-            "definition": "thin, slim, skinny",
-            "notes": "also: 苗条 (miao2tiao5)"
+            "definition": "thin, slim, skinny (s)",
+            "notes": "similar: 苗条 (miao2tiao5)"
         },
         {
             "character": "减肥",
@@ -6386,8 +6395,8 @@
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
             "lesson": "2.09",
-            "definition": "slim",
-            "notes": "also: 瘦 (shou4)"
+            "definition": "slim (m)",
+            "notes": "similar: 瘦 (shou4)"
         },
         {
             "character": "女孩子",
@@ -7125,7 +7134,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "so, thus (r)",
-            "notes": "..."
+            "notes": "i.e. 但愿如此 (dan4yuan4ru2ci3 - I hope so), 正是如此 (zheng4shi4ru2ci3 - it's just like)"
         },
         {
             "character": "何必",
