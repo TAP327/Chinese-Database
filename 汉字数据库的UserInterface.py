@@ -443,11 +443,6 @@ class Ui():
             newQuestion = self._shuffledDeck[newQuestionSlice] #Type dict
             newQuestionDef = newQuestion.get('definition')
             self._valueDict['currentQuestion'].set(newQuestionDef)
-            if 'also ' == newQuestion.get('notes')[5:]:
-                newQuestionPOS = newQuestion.get('POS')
-                self._valueDict['donetext'].set('('+ newQuestionPOS + ')')  
-            else:
-                self._valueDict['donetext'].set('')
             if self._answered == False:
                 self._master.after(100, self._runQuizEn)  # Schedule the function in the Tkinter main loop
             else:
