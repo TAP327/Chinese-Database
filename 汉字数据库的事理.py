@@ -35,19 +35,17 @@ class Database:
           for filter, value in searchValues.items():
                if filter == 'entryPOSL':
                     print(filter + ': ' + value)
-                    if value[0:3].lower() == 'hsk' or value[0:4].lower() == 'band':
+                    if value[0:3].lower() in ['hsk', 'ban']:
                          filter = 'HSK'
                          print('HSK')
                          value = value.upper()
                     elif value[-1].isdigit() or value[-1] == '#':
                          filter = 'lesson'
-                         print('lesson')
                          if value[-1] == '#':
                               value = value[0:-1].upper()
                          print('value: ' + value)
                     else:
                          filter = 'POS'
-                         print('POS')
                if filter != 'pin1yin1':
                     refinedDB = refinedDB[refinedDB[filter].str.contains(value)]
                else:
