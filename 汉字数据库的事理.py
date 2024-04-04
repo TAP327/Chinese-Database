@@ -39,6 +39,7 @@ class Database:
                          filter = 'HSK'
                          print('HSK')
                          value = value.upper()
+                         print(value)
                     elif value[-1].isdigit() or value[-1] == '#':
                          filter = 'lesson'
                          if value[-1] == '#':
