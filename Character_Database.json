@@ -781,7 +781,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.04",
             "definition": "major, college department",
-            "notes": "..."
+            "notes": "similar: 专业 (zhuan4ye4 - used in mainland China), 主修 (zhu3xiu1 - used in Taiwan)"
         },
         {
             "character": "数学",
@@ -799,7 +799,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.04",
             "definition": "computer (mainland China)",
-            "notes": "similar: 电脑 (dian4nao3 - mainland China or Taiwan)"
+            "notes": "similar: 电脑 (dian4nao3 - used in mainland China or Taiwan)"
         },
         {
             "character": "电脑",
@@ -807,26 +807,17 @@
             "POS": "noun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.04",
-            "definition": "computer (mainland China or Taiwan)",
-            "notes": "similar: 计算机 (ji4suan4ji1 - mainland China only)"
+            "definition": "computer (everywhere)",
+            "notes": "similar: 计算机 (ji4suan4ji1 - used in mainland China)"
         },
         {
             "character": "专业",
             "pin1yin1": "zhuan1ye4",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
-            "lesson": "1.04",
-            "definition": "major",
-            "notes": "similar: 主修 (zhu3xiu1 - Taiwan)"
-        },
-        {
-            "character": "辅修",
-            "pin1yin1": "fu3xiu1",
-            "POS": "noun",
-            "HSK": "HSK --, BAND --",
-            "lesson": "1.04",
-            "definition": "minor",
-            "notes": "literally: auxiliariary/assisting + to embellish/study"
+            "lesson": "1.04, 2.18",
+            "definition": "major (studies - mainland China)",
+            "notes": "similar: 主修 (zhu3xiu1 - used in Taiwan)"
         },
         {
             "character": "容易",
@@ -997,7 +988,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.05",
             "definition": "all, both",
-            "notes": "..."
+            "notes": "similar: 凡是 (fan2shi4 - all, every)"
         },
         {
             "character": "常",
@@ -1051,7 +1042,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.05",
             "definition": "to know, to recognize, to be aquainted with, to be familiar with",
-            "notes": "..."
+            "notes": "similar: 了解 (liao3jie3 - to know well, to understand)"
         },
         {
             "character": "家",
@@ -1986,7 +1977,7 @@
             "POS": "VO",
             "HSK": "HSK --, BAND --",
             "lesson": "1.9",
-            "definition": "to leave a message (mainland China)",
+            "definition": "to leave a message (Mainland)",
             "notes": "similar:  留话 (liu2hua4 - used everywhere)"
         },
         {
@@ -4145,8 +4136,8 @@
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
             "lesson": "1.17",
-            "definition": "although, also, even though or even",
-            "notes": "syntax: 虽然...可以... (sui1ran2...ke3yi3... - although A, B)"
+            "definition": "although, also, even though or even (s)",
+            "notes": "syntax: 虽然...可以... (sui1ran2...ke3yi3... - although A, B), similar: 尽管 (jin3guan3)"
         },
         {
             "character": "离开",
@@ -5243,8 +5234,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.03",
-            "definition": "to develop",
-            "notes": "also noun: development"
+            "definition": "to develop (f)",
+            "notes": "also noun: development, similar: 开发 (kai1fa1)"
         },
         {
             "character": "变化",
@@ -6027,7 +6018,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
             "definition": "research report",
-            "notes": "..."
+            "notes": "similar: 论文 (lun4wen2 - research paper, thesis)"
         },
         {
             "character": "轻松",
@@ -6795,13 +6786,13 @@
             "notes": "synonym: 开到 kai1dao1"
         },
         {
-            "character": "吓死",
-            "pin1yin1": "xia4si3",
+            "character": "吓",
+            "pin1yin1": "xia4",
             "POS": "VC",
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
-            "definition": "to be scared to death",
-            "notes": "..."
+            "definition": "to scare",
+            "notes": "similar: 怕 (pa4 - to fear), 恐怕 (kong3pa4 - to be afraid that...)"
         },
         {
             "character": "手术室",
@@ -6909,7 +6900,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
             "definition": "to fear",
-            "notes": "..."
+            "notes": "similar: 吓 (xia4 - to scare), 恐怕 (kong3pa4 - to be afraid that...)"
         },
         {
             "character": "敢",
@@ -8483,8 +8474,8 @@
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
-            "definition": "I'm afraid that...",
-            "notes": "..."
+            "definition": "to be afraid that...",
+            "notes": "similar: 吓 (xia4 - to scare), 怕 (pa4 - to fear)"
         },
         {
             "character": "赶快",
@@ -8584,6 +8575,402 @@
             "lesson": "2.17",
             "definition": "to wish (x)",
             "notes": "similar: 祝 (zhu4), 希望 (xi1wang1)"
+        },
+        {
+            "character": "根据",
+            "pin1yin1": "gen1ju4",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.17",
+            "definition": "according to",
+            "notes": "syntax: 根据...(的信息)"
+        },
+        {
+            "character": "员工",
+            "pin1yin1": "yuan2gong1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "employee",
+            "notes": "..."
+        },
+        {
+            "character": "左右",
+            "pin1yin1": "zuo3you4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "more or less (两个汉字)",
+            "notes": "similar: 差不多 (cha4bu5duo1), literally: left right"
+        },
+        {
+            "character": "差不多",
+            "pin1yin1": "cha4bu5duo1",
+            "POS": "",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "more or less (三个汉字)",
+            "notes": "similar: 左右 (zuo3you4)"
+        },
+        {
+            "character": "主任",
+            "pin1yin1": "zhu3ren4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "director",
+            "notes": "..."
+        },
+        {
+            "character": "学位",
+            "pin1yin1": "xue2wei4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "academic degree",
+            "notes": "..."
+        },
+        {
+            "character": "商务",
+            "pin1yin1": "shang1wu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "commercial affairs, commerce",
+            "notes": "similar: 公司 (gong1si4 - company), 业务 (ye4wu4 - business, service)"
+        },
+        {
+            "character": "商学",
+            "pin1yin1": "shang1xue2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "business major",
+            "notes": "..."
+        },
+        {
+            "character": "科学",
+            "pin1yin1": "ke1xue2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "science",
+            "notes": "..."
+        },
+        {
+            "character": "月份",
+            "pin1yin1": "yue4fen4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "(a certain) month",
+            "notes": "..."
+        },
+        {
+            "character": "从商",
+            "pin1yin1": "cong2shang1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to engage in business",
+            "notes": "..."
+        },
+        {
+            "character": "影响",
+            "pin1yin1": "ying3xiang3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to influence",
+            "notes": "also noun: influence"
+        },
+        {
+            "character": "影响",
+            "pin1yin1": "ying3xiang3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "influence",
+            "notes": "also verb: to influence"
+        },
+        {
+            "character": "了解",
+            "pin1yin1": "liao3jie3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to know well, to understand",
+            "notes": "similar: 认识 (ren4shi5 - to recognize, to be familiar with)"
+        },
+        {
+            "character": "咨询",
+            "pin1yin1": "zi1xun2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to consult",
+            "notes": "also noun: consultation"
+        },
+        {
+            "character": "咨询",
+            "pin1yin1": "zi1xun2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "consultation",
+            "notes": "also verb: to consult"
+        },
+        {
+            "character": "开发",
+            "pin1yin1": "kai1fa1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to develop (k)",
+            "notes": "similar: 发展 (fa1zhan3)"
+        },
+        {
+            "character": "软件",
+            "pin1yin1": "ruan3jian4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "software",
+            "notes": "literally: soft/flexible + item/component"
+        },
+        {
+            "character": "技术",
+            "pin1yin1": "ji1shu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "technology",
+            "notes": "literally: skill + technique"
+        },
+        {
+            "character": "提供",
+            "pin1yin1": "ti2gong1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to provide",
+            "notes": "..."
+        },
+        {
+            "character": "大量",
+            "pin1yin1": "da4liang4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "large quantity",
+            "notes": "..."
+        },
+        {
+            "character": "尽管",
+            "pin1yin1": "jin3guan3",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "although (j)",
+            "notes": "similar: 虽然 (sui1ran2)"
+        },
+        {
+            "character": "上市",
+            "pin1yin1": "shang4shi4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to go public, to list on the market",
+            "notes": ""
+        },
+        {
+            "character": "业务",
+            "pin1yin1": "ye4wu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "business, service",
+            "notes": "similar: 公司 (gong1si4 - company), 商务 (shang1wu4 - commercial affairs, commerce)"
+        },
+        {
+            "character": "开展",
+            "pin1yin1": "kai1zhan3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to carry on",
+            "notes": "..."
+        },
+        {
+            "character": "除了...以外",
+            "pin1yin1": "chu2le5...yi3wai4",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "besides, except",
+            "notes": "..."
+        },
+        {
+            "character": "主修",
+            "pin1yin1": "zhu3xiu1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "major (Taiwan)",
+            "notes": "similar: 专业 (zhuan4ye4 - used in mainland China), 系 (xi4)"
+        },
+        {
+            "character": "副修",
+            "pin1yin1": "fu4xiu1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "minor",
+            "notes": "literally: auxiliariary/assisting + to embellish/study"
+        },
+        {
+            "character": "平均",
+            "pin1yin1": "ping2jun1",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "average",
+            "notes": "..."
+        },
+        {
+            "character": "曾经",
+            "pin1yin1": "ceng2jing1",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "once",
+            "notes": "..."
+        },
+        {
+            "character": "嘉奖",
+            "pin1yin1": "jia1jiang3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to award",
+            "notes": "also noun: award"
+        },
+        {
+            "character": "嘉奖",
+            "pin1yin1": "jia1jiang3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "award",
+            "notes": "also verb: to award"
+        },
+        {
+            "character": "担任",
+            "pin1yin1": "dan1ren4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to take the position of",
+            "notes": "..."
+        },
+        {
+            "character": "学生会",
+            "pin1yin1": "xue2sheng1hui4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "student committee",
+            "notes": "..."
+        },
+        {
+            "character": "主席",
+            "pin1yin1": "zhu3xi2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "chairman",
+            "notes": "..."
+        },
+        {
+            "character": "组织",
+            "pin1yin1": "zu3zhi1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to organize",
+            "notes": "also noun: organization"
+        },
+        {
+            "character": "组织",
+            "pin1yin1": "zu3zhi1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "organization",
+            "notes": "also verb: to organize"
+        },
+        {
+            "character": "凡是",
+            "pin1yin1": "fan2shi4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "all, every",
+            "notes": "similar: 都 (dou1 - all, both)"
+        },
+        {
+            "character": "之一",
+            "pin1yin1": "zhi1yi1",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "one of",
+            "notes": ""
+        },
+        {
+            "character": "项目",
+            "pin1yin1": "xiang4mu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "project (mainland)",
+            "notes": "similar: 计划 (ji4hua4 - used in Taiwan)"
+        },
+        {
+            "character": "计划",
+            "pin1yin1": "ji4hua4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "project (Taiwan)",
+            "notes": "similar: 项目 (xiang4mu4 - used in mainland China)"
+        },
+        {
+            "character": "论文",
+            "pin1yin1": "lun4wen2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "research paper, thesis",
+            "notes": "similar: 研究报告 (yan2jiu1bao4gao4 - research report)"
+        },
+        {
+            "character": "出差",
+            "pin1yin1": "chu1chai1",
+            "POS": "VO",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to go on a business trip",
+            "notes": "..."
+        },
+        {
+            "character": "哪怕",
+            "pin1yin1": "na3pa4",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "even if",
+            "notes": "..."
         },
         {
             "character": "千",
@@ -9222,7 +9609,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "TRAVEL.06",
             "definition": "police (mainland)",
-            "notes": "similar: 警察 jing3cha2 (Taiwan)"
+            "notes": "similar: 警察 (jing3cha2 - used in Taiwan)"
         },
         {
             "character": "警察",
@@ -9231,7 +9618,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "TRAVEL.06, 2.13",
             "definition": "police (Taiwan)",
-            "notes": "similar: 公安 gong1an1 (mainland)"
+            "notes": "similar: 公安 gong1an1 (used in mainland China)"
         },
         {
             "character": "银行",
@@ -9708,7 +10095,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "NEWHSK.02",
             "definition": "company",
-            "notes": "..."
+            "notes": "similar: 商务 (shang1wu4 - commercial affairs), 业务 (ye4wu4 - business, service)"
         },
         {
             "character": "公斤",
@@ -10549,10 +10936,10 @@
         },
         {
             "character": "成绩",
-            "pin1yin1": "cheng2ji4",
+            "pin1yin1": "cheng2ji1, cheng2ji4",
             "POS": "noun",
             "HSK": "HSK 3, BAND --",
-            "lesson": "NEWHSK.03",
+            "lesson": "NEWHSK.03, 2.18",
             "definition": "score",
             "notes": "..."
         },

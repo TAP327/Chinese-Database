@@ -12,7 +12,6 @@ from tkinter import (
 )
 from 汉字数据库的事理 import Database
 import random
-import re
 
 class Ui():
     def __init__(self) -> None:
@@ -584,8 +583,6 @@ class Ui():
         !TODO: Last Card (delayed translation counter update)
 
         !TODO: Add HSK 3 & BAND 1
-
-        !TODO: adjust regex for double work POS, make work post merge crisis
         
         !TODO: Refactor Study Tab
 
