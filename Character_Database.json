@@ -42,8 +42,8 @@
             "POS": "pronoun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.01",
-            "definition": "you",
-            "notes": "informal"
+            "definition": "you (inf.)",
+            "notes": "..."
         },
         {
             "character": "我",
@@ -61,7 +61,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.01",
             "definition": "(what about...)",
-            "notes": "你呢？"
+            "notes": "i.e. 你呢？(ni3ne5 - What about you?"
         },
         {
             "character": "也",
@@ -187,7 +187,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.02",
             "definition": "(possessive)",
-            "notes": "structural"
+            "notes": "..."
         },
         {
             "character": "英文",
@@ -452,7 +452,7 @@
         },
         {
             "character": "加拿大",
-            "pin1yin1": "jian1na2da4",
+            "pin1yin1": "jia1na2da4",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.03",
@@ -699,8 +699,8 @@
             "POS": "adverb",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.04",
-            "definition": "too",
-            "notes": "syntax: S 太 adj 了"
+            "definition": "too (i.e. too much)",
+            "notes": "syntax: S 太 adj 了, i.e. 太多了 (tai4duo1le5 - too much)"
         },
         {
             "character": "可是",
@@ -717,7 +717,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.04",
-            "definition": "homework, assignment",
+            "definition": "homework, assignment (Northern China)",
             "notes": "similar: 作业 (zuo4ye4 - lightly less common and more southern)"
         },
         {
@@ -852,7 +852,7 @@
             "POS": "noun",
             "HSK": "HSK 3, BAND --",
             "lesson": "1.04",
-            "definition": "homework, assignment",
+            "definition": "homework, assignment (Southern China)",
             "notes": "similar: 功课 (gong1ke4 - but slightly less common and more southern)"
         },
         {
@@ -1680,8 +1680,8 @@
             "POS": "verb",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.08",
-            "definition": "to want, think, miss",
-            "notes": "..."
+            "definition": "to want, think, miss (x)",
+            "notes": "similar: 要 (yao4 - to want, to desire)"
         },
         {
             "character": "回",
@@ -1752,8 +1752,8 @@
             "POS": "pronoun",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.08",
-            "definition": "how",
-            "notes": "..."
+            "definition": "how (inf.)",
+            "notes": "similar: 如何 (ru2he2 - formal), 怎么样 (zen3me5yang4 - how about it?)"
         },
         {
             "character": "怎么样",
@@ -2023,7 +2023,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.09",
             "definition": "to want, to desire",
-            "notes": "..."
+            "notes": "similar: 想 (xiang3 - to want, to think, to miss)"
         },
         {
             "character": "给",
@@ -2094,7 +2094,7 @@
             "POS": "phrase",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.09",
-            "definition": "you're welcome",
+            "definition": "you're welcome (三个汉字)",
             "notes": "similar: 不谢 (bu2xie4)"
         },
         {
@@ -2103,7 +2103,7 @@
             "POS": "phrase",
             "HSK": "HSK --, BAND --",
             "lesson": "1.09",
-            "definition": "you're welcome",
+            "definition": "you're welcome (两个汉字)",
             "notes": "similar: 不客气 (bu2ke4qi5)"
         },
         {
@@ -8115,7 +8115,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.16",
             "definition": "application",
-            "notes": "also verb: to apply"
+            "notes": "also verb: to apply for, similar: 申请 (shen1qing3)"
         },
         {
             "character": "应用",
@@ -8124,7 +8124,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.16",
             "definition": "to apply",
-            "notes": "also noun: application"
+            "notes": "also noun: application, similar: 申请 (shen1qing3)"
         },
         {
             "character": "网络",
@@ -8258,8 +8258,8 @@
             "POS": "pronoun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
-            "definition": "how (pronoun)",
-            "notes": "..."
+            "definition": "how (f.)",
+            "notes": "similar: 怎么 (zen3me5 - informal), 怎么样 (zen3me5yang4 - how about it?)"
         },
         {
             "character": "简历",
@@ -8889,7 +8889,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "chairman",
-            "notes": "..."
+            "notes": "literally: main + seat"
         },
         {
             "character": "组织",
@@ -8970,6 +8970,51 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "even if",
+            "notes": "..."
+        },
+        {
+            "character": "申请",
+            "pin1yin1": "shen1qing3",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to apply for",
+            "notes": "also noun: application, similar: 应用 (ying4yong4)"
+        },
+        {
+            "character": "申请",
+            "pin1yin1": "shen1qing3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "application",
+            "notes": "also noun: to apply for, similar: 应用 (ying4yong4)"
+        },
+        {
+            "character": "填",
+            "pin1yin1": "tian2",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "to fill in (a form)",
+            "notes": "i.e. 填表格 (tian2biao3ge2 - fill out a form)"
+        },
+        {
+            "character": "线上",
+            "pin1yin1": "xian4shang4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "online, virtual",
+            "notes": "..."
+        },
+        {
+            "character": "线下",
+            "pin1yin1": "xian4xia4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.18",
+            "definition": "offline, in person",
             "notes": "..."
         },
         {
@@ -10936,12 +10981,12 @@
         },
         {
             "character": "成绩",
-            "pin1yin1": "cheng2ji1, cheng2ji4",
+            "pin1yin1": "cheng2ji4",
             "POS": "noun",
             "HSK": "HSK 3, BAND --",
             "lesson": "NEWHSK.03, 2.18",
             "definition": "score",
-            "notes": "..."
+            "notes": "pronunciation: also cheng2ji1"
         },
         {
             "character": "水平",
