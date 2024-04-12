@@ -97,7 +97,7 @@
             "HSK": "HSK 1, BAND --",
             "lesson": "1.01",
             "definition": "teacher",
-            "notes": "literally: old + certified, synonym: 教授 (jiao4shou4)"
+            "notes": "literally: old + certified, synonym: 教授 (jiao4shou4 - professor)"
         },
         {
             "character": "中文",
@@ -124,7 +124,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.01, 2.16",
             "definition": "professor",
-            "notes": "synonym: 老师 (lao3shi1)"
+            "notes": "synonym: 老师 (lao3shi1 - teacher)"
         },
         {
             "character": "您",
@@ -195,8 +195,17 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.02",
-            "definition": "English language",
-            "notes": "..."
+            "definition": "English language (spoken)",
+            "notes": "similar: 英语 (ying2yu3 - English language, written)"
+        },
+        {
+            "character": "英语",
+            "pin1yin1": "ying1yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.02",
+            "definition": "English language (written)",
+            "notes": "similar: 英文 (ying2wen2 - English language, spoken)"
         },
         {
             "character": "名字",
@@ -384,8 +393,17 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.03",
-            "definition": "French language",
+            "definition": "French language (_w)",
             "notes": "similar: 法语 (fa3yu3), variation: pronounced fa4wen2 in Taiwan"
+        },
+        {
+            "character": "法语",
+            "pin1yin1": "fa3yu3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.03",
+            "definition": "French language (_y)",
+            "notes": "similar: 法语 (fa3wen2)"
         },
         {
             "character": "和",
@@ -411,7 +429,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.03",
-            "definition": "German language",
+            "definition": "German language (_y)",
             "notes": "..."
         },
         {
@@ -448,7 +466,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.3",
             "definition": "Korean language (c)",
-            "notes": "similar: 韩国语 (han2guo2yu3)，朝鲜语 (han2yu3)"
+            "notes": "similar: 韩国语 (han2guo2yu3)，朝语 (han2yu3)"
         },
         {
             "character": "加拿大",
@@ -582,7 +600,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.03",
-            "definition": "Italian language",
+            "definition": "Italian language (_y)",
             "notes": "warning: 意大利文 may not exist"
         },
         {
@@ -618,7 +636,7 @@
             "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "1.03",
-            "definition": "Russian language",
+            "definition": "Russian language (_w)",
             "notes": "warning: 俄语 may not exist"
         },
         {
@@ -1576,15 +1594,6 @@
             "notes": "..."
         },
         {
-            "character": "校",
-            "pin1yin1": "xiao4",
-            "POS": "noun",
-            "HSK": "HSK --, BAND --",
-            "lesson": "1.07",
-            "definition": "school",
-            "notes": "..."
-        },
-        {
             "character": "外",
             "pin1yin1": "wai4",
             "POS": "noun",
@@ -1649,7 +1658,7 @@
         },
         {
             "character": "上课",
-            "pin1yin1": "shang",
+            "pin1yin1": "shang4ke4",
             "POS": "VO",
             "HSK": "HSK --, BAND --",
             "lesson": "1.08",
