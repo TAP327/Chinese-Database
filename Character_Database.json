@@ -727,7 +727,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.04",
             "definition": "but, yet, however (k)",
-            "notes": "similar: 但是 (dan4shi4)"
+            "notes": "similar: 但是 (dan4shi4), 不过 (bu2guo4 - softer), 却 (que4 - adverb)"
         },
         {
             "character": "功课",
@@ -2320,7 +2320,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.10",
             "definition": "to wish (z)",
-            "notes": "similar: 希望 (xi1wang1), 祝 (zhu4)"
+            "notes": "similar: 希望 (xi1wang1), 但愿 (dan4yuan4)"
         },
         {
             "character": "地址",
@@ -3825,6 +3825,15 @@
             "notes": "syntax: use the verb 踢 because you kick the ball"
         },
         {
+            "character": "冰球",
+            "pin1yin1": "bing1qiu2",
+            "POS": "noun",
+            "HSK": "HSK 3, BAND --",
+            "lesson": "1.16",
+            "definition": "ice hockey",
+            "notes": "literally: ice ball"
+        },
+        {
             "character": "踢",
             "pin1yin1": "ti3",
             "POS": "verb",
@@ -4146,7 +4155,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "1.17",
             "definition": "although, also, even though or even (s)",
-            "notes": "syntax: 虽然...可以... (sui1ran2...ke3yi3... - although..., ...), similar: 尽管 (jin3guan3 - more formal/intense)"
+            "notes": "syntax: 虽然...可以... (sui1ran2...ke3yi3... - although..., ...), similar: 尽管 (jin3guan3 - more formal/intense), 固然 (gu4ran2 - admittedly, formal)"
         },
         {
             "character": "离开",
@@ -4452,7 +4461,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.01",
             "definition": "to move backwards, to reverse",
-            "notes": "..."
+            "notes": "also adverb: actually"
         },
         {
             "character": "别",
@@ -6270,7 +6279,16 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
             "definition": "and also, furthermore (e)",
-            "notes": "..."
+            "notes": "syntax: 不但...而且... (bu2dan4...er2qie3... - not only..., but also...)"
+        },
+        {
+            "character": "不但",
+            "pin1yin1": "bu2dan4",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.08, 2.18",
+            "definition": "not only",
+            "notes": "syntax: 不但...而且... (bu2dan4...er2qie3... - not only..., but also...)"
         },
         {
             "character": "特技",
@@ -6637,9 +6655,9 @@
             "pin1yin1": "dao4di3",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11",
-            "definition": "finally",
-            "notes": "..."
+            "lesson": "2.11, 2.19",
+            "definition": "finally (place emphasis)",
+            "notes": "similar: 究竟 (jiu1jing4)"
         },
         {
             "character": "唉",
@@ -7070,8 +7088,8 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
-            "definition": "to congratulate",
-            "notes": "..."
+            "definition": "to congratulate, congratulations",
+            "notes": "similar: 祝贺 (zhu4he4)"
         },
         {
             "character": "出院",
@@ -7422,7 +7440,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "unlucky",
-            "notes": "literally: to fall down + bacteria"
+            "notes": "literally: to fall down + bacteria, antonym: 幸运 (xing4yun4 - lucky)"
         },
         {
             "character": "俗话",
@@ -7835,7 +7853,7 @@
             "POS": "phrase",
             "HSK": "HSK --, BAND --",
             "lesson": "2.16",
-            "definition": "have to, must",
+            "definition": "have to, must, will happen",
             "notes": "synonym: 只好 (zhi3hao), 得 (dei3)"
         },
         {
@@ -8109,13 +8127,13 @@
             "notes": "..."
         },
         {
-            "character": "所学的",
-            "pin1yin1": "suo3xue2de5",
-            "POS": "adjective",
+            "character": "所...的",
+            "pin1yin1": "suo3...de5",
+            "POS": "noun",
             "HSK": "HSK --, BAND --",
             "lesson": "2.16",
-            "definition": "what has been learned",
-            "notes": "..."
+            "definition": "what has been...",
+            "notes": "syntax: (S) 所 V 的 (S suo3 V de5 - what [subject] has [verbed]), i.e. 我要把所学的中文好好地应用一下 (wo3yao4ba5suo3xue2de5zhong1wen2hao3hao3de5ying4yong4yi1xia4 - I want to apply all that I have learned in Chinese)"
         },
         {
             "character": "应用",
@@ -8216,15 +8234,6 @@
             "definition": "to distrurb",
             "notes": "..."
         },
-        {
-            "character": "",
-            "pin1yin1": "",
-            "POS": "noun",
-            "HSK": "HSK --, BAND --",
-            "lesson": "2.16",
-            "definition": "",
-            "notes": "..."
-        },    
         {
             "character": "难道",
             "pin1yin1": "nan2dao4",
@@ -8509,7 +8518,7 @@
             "pin1yin1": "kao3lv4",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.17",
+            "lesson": "2.17, 2.19",
             "definition": "to consider",
             "notes": "..."
         },
@@ -8582,7 +8591,7 @@
             "POS": "verb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
-            "definition": "to wish (x)",
+            "definition": "to wish (d)",
             "notes": "similar: 祝 (zhu4), 希望 (xi1wang1)"
         },
         {
@@ -8615,7 +8624,7 @@
         {
             "character": "差不多",
             "pin1yin1": "cha4bu5duo1",
-            "POS": "",
+            "POS": "adverb",
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "more or less (三个汉字)",
@@ -8700,7 +8709,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "influence",
-            "notes": "also verb: to influence"
+            "notes": "also verb: to influence, syntax: (受)...的影响 (shou4...de5ying3xiang3 - due to the influence of...)"
         },
         {
             "character": "了解",
@@ -8790,7 +8799,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "to go public, to list on the market",
-            "notes": ""
+            "notes": "..."
         },
         {
             "character": "业务",
@@ -8934,7 +8943,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "one of",
-            "notes": ""
+            "notes": "..."
         },
         {
             "character": "项目",
@@ -9081,13 +9090,220 @@
             "notes": "..."
         },
         {
-            "character": "不论",
-            "pin1yin1": "bu2lun4",
+            "character": "不过",
+            "pin1yin1": "bu2guo4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
-            "definition": "no matter what (b, f.)",
-            "notes": "similar: 无论 (wu2lun4 - f.), 不管 (bu4guan3 - inf.), syntax: 不论...都/也... (bu2lun4...dou1/ye2 - no matter..., ...), i.e. 不论朋友说什么，他都不听 (bu2lun4peng2you3shuo1shen2me, ta1dou1bu4ting1 - No matter what his friends say, he still doesn't listen.)"
+            "definition": "however, nonetheless (softer - b)",
+            "notes": "syntax: (虽然)...不过... (sui1ran2...bu2guo4... - although..., however...), similar: 但是 (dan4shi4), 可是 (ke3shi4), 却 (que4 - adverb)"
+        },
+        {
+            "character": "宁愿",
+            "pin1yin1": "ning4yuan4 ",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "would rather, better",
+            "notes": "syntax: 宁愿...也要... (ning4yuan4...ye2yao4... - I would suffer through...in order to...), 宁愿...也不... (ning4yuan4...ye2bu4... - neither option is desirable, but I'd rather...than...), i.e. 我宁愿死，也不要跟你结婚 (wo3ning4yuan4si3, ye2bu2yao4gen3ni3jie2hun4 - I would rather die than have to marry you!)"
+        },
+        {
+            "character": "金融",
+            "pin1yin1": "jin1rong2",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "banking, financing",
+            "notes": "also adjective: financial"
+        },
+        {
+            "character": "金融",
+            "pin1yin1": "jin1rong2",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "financial",
+            "notes": "also noun: banking, financing"
+        },
+        {
+            "character": "市场",
+            "pin1yin1": "shi4chang3",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "marketplace, market (abstract)",
+            "notes": "..."
+        },
+        {
+            "character": "竞争",
+            "pin1yin1": "jing4zheng1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "to compete",
+            "notes": "also noun: competition"
+        },
+        {
+            "character": "竞争",
+            "pin1yin1": "jing4zheng1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "competition",
+            "notes": "also verb: to compete"
+        },
+        {
+            "character": "祝贺",
+            "pin1yin1": "zhu4he4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "to congratulate, congratulations",
+            "notes": "similar: 恭喜 (gong1xi3)"
+        },
+        {
+            "character": "谦虚",
+            "pin1yin1": "qian1xu1",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "modest, self-effacing",
+            "notes": "also verb: to make modest remarks"
+        },
+        {
+            "character": "谦虚",
+            "pin1yin1": "qian1xu1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "to make modest remarks",
+            "notes": "also adjective: modest, self-effacing"
+        },
+        {
+            "character": "幸运",
+            "pin1yin1": "xing4yun4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "lucky",
+            "notes": "antonym: 倒霉 (dao3mei2 - unlucky)"
+        },
+        {
+            "character": "工资",
+            "pin1yin1": "gong1zi1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "wages, pay",
+            "notes": "..."
+        },
+        {
+            "character": "稳定",
+            "pin1yin1": "wen3ding4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "stability",
+            "notes": "also verb: to stabilize, also adjective: stable, stability"
+        },
+        {
+            "character": "稳定",
+            "pin1yin1": "wen3ding",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "to stabilize",
+            "notes": "also noun: stability, also adjective: steady, stable"
+        },
+        {
+            "character": "稳定",
+            "pin1yin1": "wen3ding4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "steady, stable",
+            "notes": "also noun: stability, also verb: to stabilize"
+        },
+        {
+            "character": "年薪",
+            "pin1yin1": "nian2xin1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "annual salary",
+            "notes": "similar: 月薪 (yue4xin1 - monthly income)"
+        },
+        {
+            "character": "月薪",
+            "pin1yin1": "yue4xin1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "monthly income",
+            "notes": "similar: 年薪 (nian2xin1 - annual salary)"
+        },
+        {
+            "character": "固然",
+            "pin1yin1": "gu4ran2",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "admittedly, it's true that",
+            "notes": "similar: 虽然 (sui1ran2 - informal), 尽管 (jin3guan3 -formal), syntax: 固然...可是/但是... (gu4ran2...ke3shi4/dan4shi4 - although..., ...), i.e. 学习固然重要，可是心理健康更重要。(xue2xi4gu4ran2zhong4yao4, ke3shi4xin1li3jian4kang1geng4zhong4kao4 - Although studying is important, your mental health is even more so.)"
+        },
+        {
+            "character": "融洽",
+            "pin1yin1": "rong2qia4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "harmonious, friendly",
+            "notes": "..."
+        },
+        {
+            "character": "上司",
+            "pin1yin1": "shang4si4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "boss, superior",
+            "notes": "..."
+        },
+        {
+            "character": "却",
+            "pin1yin1": "que4",
+            "POS": "adverb",
+            "HSK": "HSK 3, BAND --",
+            "lesson": "2.19",
+            "definition": "but (adverb - brings attention to contrast)",
+            "notes": "syntax: used after a conjunction or verb, can be used in alone or with 'but', similar: 可是 (ke3shi4 - conjunction),  但是 (dan4shi4 - conjunction), 不过 (bu4guo3 - conjunction)"
+        },
+        {
+            "character": "究竟",
+            "pin1yin1": "jiu1jing4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "finally, afterall, in fact, whatever/the hell",
+            "notes": "syntax: 你究竟想做什么？ (ni3jiu1jing4xiang3zuo4shen2me5? - What the hell are you going to do?)"
+        },
+        {
+            "character": "没想到",
+            "pin1yin1": "mei2xiang3dao4",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.19",
+            "definition": "it never occured to...that",
+            "notes": "translation: 我没想到... = no me di cuenta de que..."
+        },
+        {
+            "character": "倒",
+            "pin1yin1": "dao4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.01",
+            "definition": "actually (on the contrary, surprisingly)",
+            "notes": "also adverb: to move backwards, to reverse"
         },
         {
             "character": "千",
@@ -10338,7 +10554,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "NEWHSK.02",
             "definition": "to begin",
-            "notes": "..."
+            "notes": "syntax: 从...开始, ... (cong2...kai1shi -   ever since..., ...), i.e. 从小开始，我就很喜欢音乐。（cong2xiao3kai1shi3, wo3jiu4hen3xi3huan1yin1yue4 - Ever since I was little, I loved music.)"
         },
         {
             "character": "准备",
@@ -10473,7 +10689,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "NEWHSK.02",
             "definition": "but (d)",
-            "notes": "also: 可是 (ke3shi4)"
+            "notes": "also: 可是 (ke3shi4), 不过 (bu2guo4 - softer), 却 (que4 - adverb)"
         },
         {
             "character": "因为",
@@ -10498,7 +10714,7 @@
             "pin1yin1": "wan4",
             "POS": "number",
             "HSK": "HSK 3, BAND --",
-            "lesson": "NEWHSK.03",
+            "lesson": "NEWHSK.03, 2.19",
             "definition": "ten thousand",
             "notes": "..."
         },
@@ -10554,7 +10770,7 @@
             "HSK": "HSK 3, BAND --",
             "lesson": "NEWHSK.03",
             "definition": "before, ago",
-            "notes": "opposite: 以后 (yi3hou4)"
+            "notes": "antonym: 以后 (yi3hou4)"
         },
         {
             "character": "最近",
@@ -11119,7 +11335,7 @@
             "pin1yin1": "huan2jing4",
             "POS": "noun",
             "HSK": "HSK 3, BAND --",
-            "lesson": "NEWHSK.03",
+            "lesson": "NEWHSK.03, 2.19",
             "definition": "environment",
             "notes": "..."
         },
