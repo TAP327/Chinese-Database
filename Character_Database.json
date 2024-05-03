@@ -2167,7 +2167,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.10",
             "definition": "just (emphasis), as early as, already, right away, only",
-            "notes": "..."
+            "notes": "i.e. 就是 (jiu4shi4 - exactly)"
         },
         {
             "character": "刻",
@@ -6657,7 +6657,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11, 2.19",
             "definition": "finally (place emphasis)",
-            "notes": "similar: 究竟 (jiu1jing4)"
+            "notes": "similar: 究竟 (jiu1jing4), syntax: often followed by 还是 (hai2shi4 - still) to give the meaning of 'even despite A, B still was the outcome'"
         },
         {
             "character": "唉",
@@ -7242,7 +7242,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "extent",
-            "notes": "literally: ground/earth + step/paces = the span/extent"
+            "notes": "literally: ground/earth + step/paces = the span/extent, syntax: 到了...的地步 (dao4le5...di4bu4 - arrive at this state)"
         },
         {
             "character": "哎呀",
@@ -7269,7 +7269,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "thanks to, luckily",
-            "notes": "..."
+            "notes": "syntax: 多亏...要不然... (duo1kui1...yao4bu4ran2... - thankfully... otherwise..."
         },
         {
             "character": "糟",
@@ -7323,7 +7323,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "to harm, cause trouble for",
-            "notes": "..."
+            "notes": "syntax: reason, 还得 undesirable situation (hai4de2 - indicates negative result)"
         },
         {
             "character": "趟",
@@ -7539,7 +7539,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.13",
             "definition": "again",
-            "notes": "similar: 再 (zai4 - will happen again in the future, i.e. 再见 zai4jian4 I'll see you again)"
+            "notes": "similar: 再 (zai4 - will happen again in the future, i.e. 再见 zai4jian4 I'll see you again), syntax: S V 又 adj 又 adj  (you4...you4... - S V not only adj, but also adj) keep both adjectives positive or both negative"
         },
         {
             "character": "心事",
@@ -8943,7 +8943,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "one of",
-            "notes": "..."
+            "notes": "syntax: S 是 [noun phrase] 之一 (shi4...zhi1yi1... - S is one of [noun phrase])"
         },
         {
             "character": "项目",
@@ -8988,7 +8988,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "even if",
-            "notes": "..."
+            "notes": "syntax: 哪怕(是)...也 (na3pa4(shi4)...ye2 - even if..., ...)"
         },
         {
             "character": "申请",
