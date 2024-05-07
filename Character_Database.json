@@ -222,8 +222,8 @@
             "POS": "verb",
             "HSK": "HSK 1, BAND --",
             "lesson": "1.02",
-            "definition": "to call",
-            "notes": "..."
+            "definition": "to call, (passive marker)",
+            "notes": "syntax: O + 叫 + S (给) + V, similar: 让 (rang4 - to call, passive marker), 被 (bei4 - to make, passive marker)"
         },
         {
             "character": "什么",
@@ -1031,9 +1031,18 @@
             "pin1yin1": "mei2you3",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "1.05",
+            "lesson": "1.05, 2.20",
             "definition": "to not have",
-            "notes": "syntax: never use 不 and 有 together, i.e. 有没有 (you3mei2you3 - is there...?)"
+            "notes": "syntax: never use 不 and 有 together, i.e. 有没有 (you3mei2you3 - is there...?), 没有...吗 (mei2you3...ma5 - rhetorical question), similar: 不是 (bu2shi4 - rhetorical question), 难道...没/不...吗？(nan2dao4...mei2/bu4...ma5 - rhetorical question)"
+        },
+        {
+            "character": "不是",
+            "pin1yin1": "bu2shi4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.05, 2.20",
+            "definition": "to not be",
+            "notes": "syntax: 不是...吗 (bu2shi4...ma5 - rhetorical question), similar: 不是 (bu2shi4 - rhetorical), 难道...没/不...吗？(nan2dao4...mei2/bu4...ma5 - rhetorical question)"
         },
         {
             "character": "女朋友",
@@ -1096,7 +1105,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.06",
             "definition": "from",
-            "notes": "..."
+            "notes": "syntax: 从...开始, ... (cong2...kai1shi -   ever since..., ...), i.e. 从小开始，我就很喜欢音乐。（cong2xiao3kai1shi3, wo3jiu4hen3xi3huan1yin1yue4 - Ever since I was little, I loved music.)"
         },
         {
             "character": "在",
@@ -1888,7 +1897,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.09",
             "definition": "to wait",
-            "notes": "i.e. 等一下儿 (deng3yi2xiar4): wait a second"
+            "notes": "i.e. 等一下儿 (deng3yi2xiar4): wait a second, similar: 期待 (qi1dai4 - await, expect)"
         },
         {
             "character": "知道",
@@ -2165,8 +2174,8 @@
             "pin1yin1": "jiu4",
             "POS": "time noun",
             "HSK": "HSK 2, BAND --",
-            "lesson": "1.10",
-            "definition": "just (emphasis), as early as, already, right away, only",
+            "lesson": "1.10, 2.20",
+            "definition": "just (emphasis), merely, precisely",
             "notes": "i.e. 就是 (jiu4shi4 - exactly)"
         },
         {
@@ -2984,7 +2993,7 @@
             "pin1yin1": "bang1zhu4",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "1.13, 2.12",
+            "lesson": "1.13, 2.12, 2.20",
             "definition": "to help",
             "notes": "syntax: transitive, similar: 帮忙 (bang1mang2 - intransitive), 帮 (bang1), also noun: to help"
         },
@@ -2993,7 +3002,7 @@
             "pin1yin1": "bang1mang2",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "1.13, 2.12",
+            "lesson": "1.13, 2.12, 2.20",
             "definition": "to help",
             "notes": "syntax: intransitive, similar: 帮助 (bang1zhu4 - transitive), 帮 (bang1), also noun: to help"
         },
@@ -3085,7 +3094,7 @@
             "HSK": "HSK 2, BAND --",
             "lesson": "1.13",
             "definition": "to allow",
-            "notes": "warning: can also act as a preposition"
+            "notes": "syntax: O + 让 + S (给) + V, similar: 叫 (jiao4 - to call, passive marker), 被 (bei4 - to make, passive marker)"
         },
         {
             "character": "钱",
@@ -4153,7 +4162,7 @@
             "pin1yin1": "sui1ran2",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "1.17",
+            "lesson": "1.17, 2.20",
             "definition": "although, also, even though or even (s)",
             "notes": "syntax: 虽然...可以... (sui1ran2...ke3yi3... - although..., ...), similar: 尽管 (jin3guan3 - more formal/intense), 固然 (gu4ran2 - admittedly, formal)"
         },
@@ -4216,9 +4225,18 @@
             "pin1yin1": "zhi3yao4",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "1.18",
-            "definition": "only",
+            "lesson": "1.18, 2.20",
+            "definition": "as long as",
             "notes": "syntax: 只要...就... (zhi3yao4...jiu4... - as long as..., ...)"
+        },
+        {
+            "character": "只有",
+            "pin1yin1": "zhi3you3",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "1.18, 2.20",
+            "definition": "only if",
+            "notes": "syntax: 只有...就... (zhi3you3...cai2... - only if..., ...)"
         },
         {
             "character": "骑",
@@ -4459,8 +4477,8 @@
             "pin1yin1": "dao4",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.01",
-            "definition": "to move backwards, to reverse",
+            "lesson": "2.01, 2.20",
+            "definition": "to move backwards, on the contrary",
             "notes": "also adverb: actually"
         },
         {
@@ -5872,9 +5890,9 @@
             "pin1yin1": "yao4shi4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.07",
+            "lesson": "2.07, 2.20",
             "definition": "if (y)",
-            "notes": "similar: 如果 (ru2guo3), 哪怕 (na3pa4 - even if)"
+            "notes": "similar: 如果 (ru2guo3), 哪怕 (na3pa4 - even if), syntax: 要是...就... (yao4shi4...jiu4... - if... then...)"
         },
         {
             "character": "南方",
@@ -6016,7 +6034,7 @@
             "pin1yin1": "lian2",
             "POS": "preposition",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.08",
+            "lesson": "2.08, 2.20",
             "definition": "even",
             "notes": "syntax: (...)(连)A都/也B.  Even A B!  i.e. 连他的妈妈不喜欢他！(lian2ta1de5ma1ma5bu4xi3huan1ta1 - even his mom doesn't like him!)"
         },
@@ -6144,7 +6162,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.08",
             "definition": "about, with regard to",
-            "notes": "..."
+            "notes": "syntax: 关于 (guan1yu2... - on the subject of..."
         },
         {
             "character": "古代",
@@ -6277,9 +6295,9 @@
             "pin1yin1": "er2qie3",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.08",
+            "lesson": "2.08, 2.20",
             "definition": "and also, furthermore (e)",
-            "notes": "syntax: 不但...而且... (bu2dan4...er2qie3... - not only..., but also...)"
+            "notes": "syntax: 不但/不是...而且... (bu2dan4/bu2shi4...er2qie3... - not only..., but also...)"
         },
         {
             "character": "不但",
@@ -6445,7 +6463,7 @@
         },
         {
             "character": "怪不得",
-            "pin1yin1": "guai4bude",
+            "pin1yin1": "guai4b4ude2",
             "POS": "phrase",
             "HSK": "HSK --, BAND --",
             "lesson": "2.09",
@@ -6630,7 +6648,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
             "definition": "(passive voice)",
-            "notes": "also noun: quilt (被子）"
+            "notes": "also noun: quilt (被子), syntax: O + 被 + S (给) + V, similar: 叫 (jiao4 - to call, passive marker), 让 (rang4 - to make, passive marker)"
         },
         {
             "character": "住院",
@@ -6655,7 +6673,7 @@
             "pin1yin1": "dao4di3",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11, 2.19",
+            "lesson": "2.11, 2.19, 2.20",
             "definition": "finally (place emphasis)",
             "notes": "similar: 究竟 (jiu1jing4), syntax: often followed by 还是 (hai2shi4 - still) to give the meaning of 'even despite A, B still was the outcome'"
         },
@@ -6709,16 +6727,16 @@
             "pin1yin1": "yi3wei2",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11",
+            "lesson": "2.11, 2.20",
             "definition": "to think, consider (wrongly)",
-            "notes": "similar: 觉得 (jue2de2), 认为 (ren4wei2)"
+            "notes": "similar: 觉得 (jue2de2 - to think/feel), 认为 (ren4wei2 - to think logically)"
         },
         {
             "character": "管",
             "pin1yin1": "guan3",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11",
+            "lesson": "2.11, 2.20",
             "definition": "to take care of, manage, or control",
             "notes": "similar: 照顾 zhao4gu4 (to look after), syntax: 不管...都/也... (bu2guan3...dou1/ye2 - no matter..., ..., inf.), the formal versions are 不论 (bu2lun4), 无论 (wu2lun4)"
         },
@@ -6745,7 +6763,7 @@
             "pin1yin1": "shou4bu4liao3",
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11",
+            "lesson": "2.11, 2.20",
             "definition": "unbearable",
             "notes": "..."
         },
@@ -6754,9 +6772,9 @@
             "pin1yin1": "gang1hao3",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11",
+            "lesson": "2.11, 2.20",
             "definition": "just, exactly, to happen to be",
-            "notes": "..."
+            "notes": "syntax: usually favorable"
         },
         {
             "character": "情况",
@@ -6945,7 +6963,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11",
             "definition": "to finish (j)",
-            "notes": "similar: 完 wan2"
+            "notes": "similar: 完 wan2, syntax: ..., 结束  (jie2shu4 - ..., in the end...)"
         },
         {
             "character": "没关系",
@@ -7051,9 +7069,9 @@
             "pin1yin1": "you2yu2",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.12",
+            "lesson": "2.12, 2.20",
             "definition": "due to, because of",
-            "notes": "literally: to follow + from"
+            "notes": "literally: to follow + from, syntax: 由于...因此... (you2yu2...yin1ci3... - ...is due to...), 是由于 (shi4you2yu2 - is due to)"
         },
         {
             "character": "解决",
@@ -7186,12 +7204,12 @@
             "pin1yin1": "suan4le5ba5",
             "POS": "phrase",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.12",
+            "lesson": "2.12, 2.20",
             "definition": "let it be",
             "notes": "..."
         },
         {
-            "character": "如次",
+            "character": "如此",
             "pin1yin1": "ru2ci3",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
@@ -7240,7 +7258,7 @@
             "pin1yin1": "di4bu4",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.12",
+            "lesson": "2.12, 2.20",
             "definition": "extent",
             "notes": "literally: ground/earth + step/paces = the span/extent, syntax: 到了...的地步 (dao4le5...di4bu4 - arrive at this state)"
         },
@@ -7267,9 +7285,18 @@
             "pin1yin1": "duo1kui1",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.12",
+            "lesson": "2.12, 2.20",
             "definition": "thanks to, luckily",
             "notes": "syntax: 多亏...要不然... (duo1kui1...yao4bu4ran2... - thankfully... otherwise..."
+        },
+        {
+            "character": "要不然",
+            "pin1yin1": "yao4bu4ran2",
+            "POS": "conjunction",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.12, 2.20",
+            "definition": "otherwise",
+            "notes": "syntax: 多亏...要不然... (duo1kui1...yao4bu4ran2... - thankfully... otherwise...), similar: 不然 (bu4ran2 - otherwise)"
         },
         {
             "character": "糟",
@@ -7296,7 +7323,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "or else, otherwise, if not",
-            "notes": "literally: not + correct (if not correct, than...)"
+            "notes": "literally: not + correct (if not correct, than...), similar: 要不然 (yao4bu4ran2 - otherwise)"
         },
         {
             "character": "后果",
@@ -7321,7 +7348,7 @@
             "pin1yin1": "hai4",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.12",
+            "lesson": "2.12, 2.20",
             "definition": "to harm, cause trouble for",
             "notes": "syntax: reason, 还得 undesirable situation (hai4de2 - indicates negative result)"
         },
@@ -7339,9 +7366,9 @@
             "pin1yin1": "ma2fan5",
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.12",
+            "lesson": "2.12, 2.20",
             "definition": "troublesome",
-            "notes": "..."
+            "notes": "i.e. 没什么，不麻烦 (mei2shen2me5, bu4ma2fan5 - it doesn' t matter, it was no trouble)"
         },
         {
             "character": "顺便",
@@ -7431,7 +7458,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.12",
             "definition": "as for, as to",
-            "notes": "..."
+            "notes": "i.e. 至于我，那个考试是非常难。(zhi4yu2wo3, na4ge5kao3shi4shi4fei1chang3nan2 - as for me, that test was very hard.)"
         },
         {
             "character": "倒霉",
@@ -7537,7 +7564,7 @@
             "pin1yin1": "you4",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.13",
+            "lesson": "2.13, 2.20",
             "definition": "again",
             "notes": "similar: 再 (zai4 - will happen again in the future, i.e. 再见 zai4jian4 I'll see you again), syntax: S V 又 adj 又 adj  (you4...you4... - S V not only adj, but also adj) keep both adjectives positive or both negative"
         },
@@ -7852,7 +7879,7 @@
             "pin1yin1": "fei1...bu4ke3",
             "POS": "phrase",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.16",
+            "lesson": "2.16, 2.20",
             "definition": "have to, must, will happen",
             "notes": "synonym: 只好 (zhi3hao), 得 (dei3)"
         },
@@ -7987,9 +8014,9 @@
             "pin1yin1": "dang4",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.16",
+            "lesson": "2.16, 2.20",
             "definition": "to regard, to treat as",
-            "notes": "..."
+            "notes": "syntax: 当...的时候 (dang4 (situation) de5shi2hou4 - when (situation), ..., 把...当成 (ba3...dang4cheng2 - to treat... as...)"
         },
         {
             "character": "退休",
@@ -8007,7 +8034,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.16",
             "definition": "to expect, await",
-            "notes": "..."
+            "notes": "similar: 等 (deng3)"
         },
         {
             "character": "毛笔",
@@ -8079,7 +8106,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.16",
             "definition": "master",
-            "notes": "..."
+            "notes": "similar: 主席 (zhu3xi2 - chairman), 上司 (shang4si4 - boss, superior), 主任 (zhu3ren4 - director)"
         },
         {
             "character": "将来",
@@ -8131,7 +8158,7 @@
             "pin1yin1": "suo3...de5",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.16",
+            "lesson": "2.16, 2.20",
             "definition": "what has been...",
             "notes": "syntax: (S) 所 V 的 (S suo3 V de5 - what [subject] has [verbed]), i.e. 我要把所学的中文好好地应用一下 (wo3yao4ba5suo3xue2de5zhong1wen2hao3hao3de5ying4yong4yi1xia4 - I want to apply all that I have learned in Chinese)"
         },
@@ -8212,9 +8239,9 @@
             "pin1yin1": "yi3...wei2rong2",
             "POS": "phrase",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.16",
+            "lesson": "2.16, 2.20",
             "definition": "to be proud of",
-            "notes": "..."
+            "notes": "syntax: S 以 O 为荣 (S is proud of O)"
         },
         {
             "character": "加油",
@@ -8241,7 +8268,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.17",
             "definition": "isn't it true...",
-            "notes": "syntax: use at the start of a rhetorical sentence to make it accusatory"
+            "notes": "syntax: use at the start of a rhetorical sentence to make it accusatory, 难道...没/不...吗？(nan2dao4...mei2/bu4...ma5 - rhetorical question), similar: 不是/没有...吗？(bu2shi4/mei2you3...ma5 - rhetorical question"
         },
         {
             "character": "就业",
@@ -8491,7 +8518,7 @@
             "pin1yin1": "kong3pa4",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.17",
+            "lesson": "2.17, 2.20",
             "definition": "to be afraid that...",
             "notes": "similar: 吓 (xia4 - to scare), 怕 (pa4 - to fear)"
         },
@@ -8599,7 +8626,7 @@
             "pin1yin1": "gen1ju4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.17",
+            "lesson": "2.17, 2.20",
             "definition": "according to",
             "notes": "syntax: 根据...(的信息)"
         },
@@ -8637,7 +8664,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "director",
-            "notes": "..."
+            "notes": "similar: 主席 (zhu3xi2 - chairman), 上司 (shang4si4 - boss, superior), 硕士 (shuo4shi4 - master)"
         },
         {
             "character": "学位",
@@ -8707,7 +8734,7 @@
             "pin1yin1": "ying3xiang3",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "influence",
             "notes": "also verb: to influence, syntax: (受)...的影响 (shou4...de5ying3xiang3 - due to the influence of...)"
         },
@@ -8788,9 +8815,9 @@
             "pin1yin1": "jin3guan3",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "although (j)",
-            "notes": "similar: 虽然 (sui1ran2 - less formal/intense), syntax: 尽管...可是... (jin3guan3...ke3shi4... - although..., ...)"
+            "notes": "similar: 虽然 (sui1ran2 - less formal/intense), syntax: 尽管...可是/但是... (jin3guan3...ke3shi4/但是... - although..., ...)"
         },
         {
             "character": "上市",
@@ -8824,7 +8851,7 @@
             "pin1yin1": "chu2le5...yi3wai4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "besides, except, in addition to",
             "notes": "syntax: 除了...以外，都 (chu2le5...yi3wai4, dou1 - indicates exclusion), 除了...以外，也/还 (chu2le5...yi3wai4, ye2/hai2 - indicates inclusion)"
         },
@@ -8907,7 +8934,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.18",
             "definition": "chairman",
-            "notes": "literally: main + seat"
+            "notes": "literally: main + seat, similar: 上司 (shang4si4 - boss, superior), 主任 (zhu3ren4 - director), 硕士 (shuo4shi4 - master)"
         },
         {
             "character": "组织",
@@ -8932,7 +8959,7 @@
             "pin1yin1": "fan2shi4",
             "POS": "adjective",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "all, every",
             "notes": "similar: 都 (dou1 - all, both), syntax: 凡是...都... (fan2shi4...dou1 - everythings that..., ...)"
         },
@@ -8986,7 +9013,7 @@
             "pin1yin1": "na3pa4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "even if",
             "notes": "syntax: 哪怕(是)...也 (na3pa4(shi4)...ye2 - even if..., ...)"
         },
@@ -9049,7 +9076,7 @@
             "pin1yin1": "bu2lun4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "no matter what (b, f.)",
             "notes": "similar: 无论 (wu2lun4 - f.), 不管 (bu4guan3 - inf.), syntax: 不论...都/也... (bu2lun4...dou1/ye2 - no matter..., ...), i.e. 不论朋友说什么，他都不听 (bu2lun4peng2you3shuo1shen2me, ta1dou1bu4ting1 - No matter what his friends say, he still doesn't listen.)"
         },
@@ -9058,7 +9085,7 @@
             "pin1yin1": "wu2lun4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "no matter what (w, f.)",
             "notes": "similar: 不论 (bu2lun4 - f.), 不管 (bu4guan3 - inf.), syntax: 无论...都/也... (wu2lun4...dou1/ye2 - no matter..., ...), i.e. 无论朋友说什么，他都不听 (wu2lun4peng2you3shuo1shen2me, ta1dou1bu4ting1 - No matter what his friends say, he still doesn't listen.)"
         },
@@ -9094,7 +9121,7 @@
             "pin1yin1": "bu2guo4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.18",
+            "lesson": "2.18, 2.20",
             "definition": "however, nonetheless (softer - b)",
             "notes": "syntax: (虽然)...不过... (sui1ran2...bu2guo4... - although..., however...), similar: 但是 (dan4shi4), 可是 (ke3shi4), 却 (que4 - adverb)"
         },
@@ -9103,7 +9130,7 @@
             "pin1yin1": "ning4yuan4 ",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.19",
+            "lesson": "2.19， 2.20",
             "definition": "would rather, better",
             "notes": "syntax: 宁愿...也要... (ning4yuan4...ye2yao4... - I would suffer through...in order to...), 宁愿...也不... (ning4yuan4...ye2bu4... - neither option is desirable, but I'd rather...than...), i.e. 我宁愿死，也不要跟你结婚 (wo3ning4yuan4si3, ye2bu2yao4gen3ni3jie2hun4 - I would rather die than have to marry you!)"
         },
@@ -9247,7 +9274,7 @@
             "pin1yin1": "gu4ran2",
             "POS": "conjunction",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.19",
+            "lesson": "2.19, 2.20",
             "definition": "admittedly, it's true that",
             "notes": "similar: 虽然 (sui1ran2 - informal), 尽管 (jin3guan3 -formal), syntax: 固然...可是/但是... (gu4ran2...ke3shi4/dan4shi4 - although..., ...), i.e. 学习固然重要，可是心理健康更重要。(xue2xi4gu4ran2zhong4yao4, ke3shi4xin1li3jian4kang1geng4zhong4kao4 - Although studying is important, your mental health is even more so.)"
         },
@@ -9267,7 +9294,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.19",
             "definition": "boss, superior",
-            "notes": "..."
+            "notes": "similar: 主席 (zhu3xi2 - chairman), 主任 (zhu3ren4 - director), 硕士 (shuo4shi4- master)"
         },
         {
             "character": "却",
@@ -9301,9 +9328,63 @@
             "pin1yin1": "dao4",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.01",
+            "lesson": "2.19",
             "definition": "actually (on the contrary, surprisingly)",
             "notes": "also adverb: to move backwards, to reverse"
+        },
+        {
+            "character": "请慢走",
+            "pin1yin1": "qing3man2zou3",
+            "POS": "phrase",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.20",
+            "definition": "Take care!",
+            "notes": "literally: please walk carefully"
+        },
+        {
+            "character": "一...就...",
+            "pin1yin1": "yi1...jiu4...",
+            "POS": "preposition",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.20",
+            "definition": "as soon as..., ...",
+            "notes": "..."
+        },
+        {
+            "character": "一边",
+            "pin1yin1": "yi1bian1",
+            "POS": "preposition",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.20",
+            "definition": "(at the same time)",
+            "notes": "syntax: 一边 V 一边 V (yi1bian1...yi1bian1... - V & V simultaneously)"
+        },
+        {
+            "character": "是...的",
+            "pin1yin1": "shi4...de5",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.20",
+            "definition": "(emphatic structure - s)",
+            "notes": "syntax: S 是 ... 的 (shi4...de5 - indeed)"
+        },
+        {
+            "character": "可",
+            "pin1yin1": "ke3",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.20",
+            "definition": "(emphatic structure - k)",
+            "notes": "syntax: S 是 ... 的 (shi4...de5 - indeed)"
+        },
+        {
+            "character": "为了",
+            "pin1yin1": "wei2le5",
+            "POS": "preposition",
+            "HSK": "HSK --, BAND --",
+            "lesson": "2.20",
+            "definition": "in order to, for",
+            "notes": "syntax: 为了..., ... (can be in front of a noun or a clause), i.e. 为了他的健康，每天锻炼 (wei2le5ta1de5jian4kang1, mei3tian1duan4lian4 - for his health, he exercises everyday.)"
         },
         {
             "character": "千",
@@ -10127,7 +10208,7 @@
         {
             "character": "上",
             "pin1yin1": "shang4",
-            "POS": "prepositon",
+            "POS": "preposition",
             "HSK": "HSK 1, BAND --",
             "lesson": "NEWHSK.01",
             "definition": "on, above, previous",
@@ -10489,18 +10570,18 @@
             "pin1yin1": "jue2de2",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "NEWHSK.02",
+            "lesson": "NEWHSK.02, 2.20",
             "definition": "to feel, think, intuit",
-            "notes": "similar: 以为 (yi3wei2), 认为 (ren4wei2)"
+            "notes": "similar: 以为 (yi3wei2 - to think wrongly), 认为 (ren4wei2 - to think logically)"
         },
         {
             "character": "认为",
             "pin1yin1": "ren4wei2",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "NEWHSK.02",
+            "lesson": "NEWHSK.02, 2.20",
             "definition": "to think (logically)",
-            "notes": "similar: 以为 (yi3wei2), 觉得 (jue2de2)"
+            "notes": "similar: 以为 (yi3wei2 - to think wrongly), 觉得 (jue2de2 - to think/feel)"
         },
         {
             "character": "懂",
@@ -10552,7 +10633,7 @@
             "pin1yin1": "kai1shi3",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "NEWHSK.02",
+            "lesson": "NEWHSK.02, 2.20",
             "definition": "to begin",
             "notes": "syntax: 从...开始, ... (cong2...kai1shi -   ever since..., ...), i.e. 从小开始，我就很喜欢音乐。（cong2xiao3kai1shi3, wo3jiu4hen3xi3huan1yin1yue4 - Ever since I was little, I loved music.)"
         },
@@ -10717,6 +10798,24 @@
             "lesson": "NEWHSK.03, 2.19",
             "definition": "ten thousand",
             "notes": "..."
+        },
+        {
+            "character": "哪儿的话",
+            "pin1yin1": "na3er5de5hua4",
+            "POS": "phrase",
+            "HSK": "HSK 3, BAND --",
+            "lesson": "NEWHSK.03, 2.20",
+            "definition": "It was nothing, don't mention it.",
+            "notes": "similar: 哪里(na3li3 - where?, you flatter me)"
+        },
+        {
+            "character": "哪里",
+            "pin1yin1": "na3li3",
+            "POS": "phrase",
+            "HSK": "HSK 3, BAND --",
+            "lesson": "NEWHSK.03, 2.20",
+            "definition": "where?, you flatter me",
+            "notes": "similar: 哪儿的话(na3er5de5hua4 - It was nothing, don't mention it)"
         },
         {
             "character": "半",
