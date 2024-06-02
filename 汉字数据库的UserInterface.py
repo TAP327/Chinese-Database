@@ -17,45 +17,55 @@ class Ui():
     def __init__(self) -> None:
         self._master = Tk()
         self._笔记本 = ttk.Notebook(self._master)
-        self._valueDict = {
-            'entryCharacter': StringVar(value = ''),
-            'entryPin1yin1': StringVar(value = ''),
-            'entryPOSL': StringVar(value = ''),
-            'entryEnglish': StringVar(value = ''),
+        self._searchTerms = {
+            'character': StringVar(value = ''),
+            'pin1yin1': StringVar(value = ''),
+            'POSL': StringVar(value = ''),
+            'english': StringVar(value = ''),
             'langChoice': StringVar(value = 'En'),
-            'deck1Completion': IntVar(value = 1),
-            'deck2Completion': IntVar(value = 1),
-            'deck3Completion': IntVar(value = 1),
-            'deck4Completion': IntVar(value = 1),
-            'deck5Completion': IntVar(value = 1),
-            'deck6Completion': IntVar(value = 1), #Don't delete!
-            'deckLength': IntVar(value = 1),
-            'pDeckCorrect1': IntVar(value = 0),
-            'pDeckCorrect2': IntVar(value = 0),
-            'pDeckCorrect3': IntVar(value = 0),
-            'pDeckCorrect4': IntVar(value = 0),
-            'tDeckCorrect1': IntVar(value = 0),
-            'tDeckCorrect2': IntVar(value = 0),
-            'tDeckCorrect3': IntVar(value = 0),
-            'tDeckCorrect4': IntVar(value = 0),
+        }
+        self._questionInfo = {
             'currentQuestion': StringVar(value = ''),
-            'pin1yin1Response': StringVar(value = ''),
-            'translationResponse': StringVar (value = ''),
-            'pin1yin1CorrectAnswer': StringVar(value = ''),
-            'translationCorrectAnswer': StringVar(value = ''),
-            'roundNumber': IntVar (value = 6),
+            'pResponse': StringVar(value = ''),
+            'tResponse': StringVar (value = ''),
+            'pCorrectAnswer': StringVar(value = ''),
+            'tCorrectAnswer': StringVar(value = ''),
             'check': IntVar (value = 0),
+        }
+        self._roundInfo = {
+            'deckLength': IntVar(value = 1),
+            'roundNumber': IntVar (value = 6),
             'donetext': StringVar (value = '')
         }
-        self._studyStatsDict = {
-            'round1pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect1'].get()}/{self._valueDict['deck1Completion'].get()}"),
-            'round2pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect2'].get()}/{self._valueDict['deck2Completion'].get()}"),
-            'round3pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect3'].get()}/{self._valueDict['deck3Completion'].get()}"),
-            'round4pinyin': StringVar(value = f"{self._valueDict['pDeckCorrect4'].get()}/{self._valueDict['deck4Completion'].get()}"),
-            'round1translation': StringVar(value = f"{self._valueDict['tDeckCorrect1'].get()}/{self._valueDict['deck1Completion'].get()}"),
-            'round2translation': StringVar(value = f"{self._valueDict['tDeckCorrect2'].get()}/{self._valueDict['deck2Completion'].get()}"),
-            'round3translation': StringVar(value = f"{self._valueDict['tDeckCorrect3'].get()}/{self._valueDict['deck3Completion'].get()}"),
-            'round4translation': StringVar(value = f"{self._valueDict['tDeckCorrect4'].get()}/{self._valueDict['deck4Completion'].get()}"),
+        self._deckCompletion = [
+            IntVar(value = 1),
+            IntVar(value = 1),
+            IntVar(value = 1),
+            IntVar(value = 1),
+            IntVar(value = 1),
+            IntVar(value = 1), #Don't delete!
+        ]
+        self._pDeckCorrect = [
+            IntVar(value = 0),
+            IntVar(value = 0),
+            IntVar(value = 0),
+            IntVar(value = 0),
+        ]
+        self._tDeckCorrect = [
+            IntVar(value = 0),
+            IntVar(value = 0),
+            IntVar(value = 0),
+            IntVar(value = 0),
+        ]
+        self._studyStats = {
+            'round1pinyin': StringVar(value = f"{self._pDeckCorrect[0]}/{self._deck1Completion[0]}"),
+            'round2pinyin': StringVar(value = f"{self._pDeckCorrect[1]}/{self._deck2Completion[1]}"),
+            'round3pinyin': StringVar(value = f"{self._pDeckCorrect[2]}/{self._deck3Completion[2]}"),
+            'round4pinyin': StringVar(value = f"{self._pDeckCorrect[3]}/{self._deck4Completion[3]}"),
+            'round1translation': StringVar(value = f"{self._tDeckCorrect[0]}/{self._deckCompletion[0]}"),
+            'round2translation': StringVar(value = f"{self._tDeckCorrect[1]}/{self._deckCompletion[1]}"),
+            'round3translation': StringVar(value = f"{self._tDeckCorrect[2]}/{self._deckCompletion[2]}"),
+            'round4translation': StringVar(value = f"{self._tDeckCorrect[3]}/{self._deckCompletion[3]}"),
             'percentComplete': StringVar(value = f"--")
         }
         self._ZH_DB = Database()
@@ -137,10 +147,10 @@ class Ui():
         choose_lang_label.place(x = 7, y = 225)
         
         #Add Study Refiner Entries
-        char_账目 = Entry(study_refiner, textvariable = self._valueDict['entryCharacter'])
-        pinyin_账目 = Entry(study_refiner, textvariable = self._valueDict['entryPin1yin1'])
-        posl_账目 = Entry(study_refiner, textvariable = self._valueDict['entryPOSL'])
-        eng_账目 = Entry(study_refiner, textvariable = self._valueDict['entryEnglish'])
+        char_账目 = Entry(study_refiner, textvariable = self._searchTerms['character'])
+        pinyin_账目 = Entry(study_refiner, textvariable = self._searchTerms['pin1yin1'])
+        posl_账目 = Entry(study_refiner, textvariable = self._searchTerms['POSL'])
+        eng_账目 = Entry(study_refiner, textvariable = self._searchTerms['english'])
         中文字 = Label(
             study_refiner,
             text = 'Zh',
@@ -154,14 +164,14 @@ class Ui():
         英文的设定 = Radiobutton(
             study_refiner,
             bg = 'pink',
-            variable = self._valueDict['langChoice'],
+            variable = self._searchTerms['langChoice'],
             value = 'En',
             command = self._switchLangtoEn
         )
         中文的设定 = Radiobutton(
             study_refiner,
             bg = 'pink',
-            variable = self._valueDict['langChoice'],
+            variable = self._searchTerms['langChoice'],
             value = 'Zh',
             command = self._switchLangtoZh
         )
@@ -251,7 +261,7 @@ class Ui():
 
         question_label = Label(
             study_frame,
-            textvariable = self._valueDict['currentQuestion'],
+            textvariable = self._questionInfo['currentQuestion'],
             bg = 'white',
             font = 14,
             wraplength = 250,
@@ -268,7 +278,7 @@ class Ui():
 
         pinyin_correct_answer_label = Label(
             study_frame,
-            textvariable = self._valueDict['pin1yin1CorrectAnswer'],
+            textvariable = self._questionInfo['pCorrectAnswer'],
             bg = 'white',
             font = 15,
             wraplength = 250,
@@ -285,7 +295,7 @@ class Ui():
 
         translation_correct_answer_label_en = Label(
             study_frame,
-            textvariable = self._valueDict['translationCorrectAnswer'],
+            textvariable = self._questionInfo['tCorrectAnswer'],
             bg = 'white',
             font = 15,
             wraplength = 250,
@@ -293,15 +303,15 @@ class Ui():
         )
         translation_correct_answer_label_en.place(x = 180, y = 237)
 
-        self.pinyin_answer_entry = Entry(study_frame, textvariable = self._valueDict['pin1yin1Response'], state = 'normal')
+        self.pinyin_answer_entry = Entry(study_frame, textvariable = self._questionInfo['pResponse'], state = 'normal')
         self.pinyin_answer_entry.place(x = 180, y = 90)
 
-        self.translation_answer_entry = Entry(study_frame, textvariable = self._valueDict['translationResponse'], state = 'normal')
+        self.translation_answer_entry = Entry(study_frame, textvariable = self._questionInfo['tResponse'], state = 'normal')
         self.translation_answer_entry.place(x = 180, y = 180)
 
         done_text = Label(
             study_frame,
-            textvariable = self._valueDict['donetext'],
+            textvariable = self._roundInfo['donetext'],
             bg = 'white',
             font = 16
         )
@@ -313,7 +323,7 @@ class Ui():
             study_frame,
             command = self._updateCompletion,
             bg = 'white',
-            variable = self._valueDict['check']
+            variable = self._questionInfo['check']
         )
         correct_check.place(x = 350, y = 180)
 
@@ -378,19 +388,29 @@ class Ui():
 
     def _showAnswersEn(self) -> None:
         print('showAnswersEn')
-        self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
-        self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('character'))
+        roundNumber = self._roundInfo['roundNumber'].get()
+        roundCompletion = self._deckCompletion[roundNumber].get() - 1
+        pin1yin1 = self._shuffledDeck[roundCompletion].get('pin1yin1')
+        self._questionInfo['pCorrectAnswer'].set(pin1yin1)
+
+        character = self._shuffledDeck[roundCompletion].get('character')
+        self._questionInfo['tCorrectAnswer'].set(character)
 
     def _showAnswersZh(self) -> None:
         print('showAnswersZh')
-        self._valueDict['pin1yin1CorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('pin1yin1'))
-        self._valueDict['translationCorrectAnswer'].set(self._shuffledDeck[self._valueDict[f"deck{self._valueDict['roundNumber'].get()}Completion"].get()-1].get('definition'))
+        roundNumber = self._roundInfo['roundNumber'].get()
+        roundCompletion = self._deckCompletion[roundNumber].get() - 1
+        pin1yin1 = self._shuffledDeck[roundCompletion].get('pin1yin1')
+        self._questionInfo['pCorrectAnswer'].set(pin1yin1)
+
+        definition = self._shuffledDeck[roundCompletion].get('definition')
+        self._questionInfo['tCorrectAnswer'].set(definition)
 
     def _checkTransResponses(self) -> None:
         print('checkTransResponses')
         if self._valueDict['check'].get() == 1:
-            tDeckCorrectNum = 'tDeckCorrect' + str(self._valueDict['roundNumber'].get())
-            self._valueDict[tDeckCorrectNum].set(self._valueDict[tDeckCorrectNum].get()+1)
+            tDeckCorrectNum = 'tDeckCorrect' + str(self._roundInfo['roundNumber'].get())
+            self._valueDict[tDeckCorrectNum].set(self._questionInfo[tDeckCorrectNum].get()+1)
             self._valueDict['check'].set(0)
         self._answered = False
         self._valueDict['currentQuestion'].set('')
