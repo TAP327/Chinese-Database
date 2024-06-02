@@ -58,10 +58,10 @@ class Ui():
             IntVar(value = 0),
         ]
         self._studyStats = {
-            'round1pinyin': StringVar(value = f"{self._pDeckCorrect[0]}/{self._deck1Completion[0]}"),
-            'round2pinyin': StringVar(value = f"{self._pDeckCorrect[1]}/{self._deck2Completion[1]}"),
-            'round3pinyin': StringVar(value = f"{self._pDeckCorrect[2]}/{self._deck3Completion[2]}"),
-            'round4pinyin': StringVar(value = f"{self._pDeckCorrect[3]}/{self._deck4Completion[3]}"),
+            'round1pinyin': StringVar(value = f"{self._pDeckCorrect[0]}/{self._deckCompletion[0]}"),
+            'round2pinyin': StringVar(value = f"{self._pDeckCorrect[1]}/{self._deckCompletion[1]}"),
+            'round3pinyin': StringVar(value = f"{self._pDeckCorrect[2]}/{self._deckCompletion[2]}"),
+            'round4pinyin': StringVar(value = f"{self._pDeckCorrect[3]}/{self._deckCompletion[3]}"),
             'round1translation': StringVar(value = f"{self._tDeckCorrect[0]}/{self._deckCompletion[0]}"),
             'round2translation': StringVar(value = f"{self._tDeckCorrect[1]}/{self._deckCompletion[1]}"),
             'round3translation': StringVar(value = f"{self._tDeckCorrect[2]}/{self._deckCompletion[2]}"),
@@ -197,55 +197,55 @@ class Ui():
     def _createUISFStudyStats(self, study_frame) -> None:
         round1pinyin = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round1pinyin'],
+            textvariable = self._studyStats['round1pinyin'],
             bg = 'white'
         )
         round1pinyin.place(x = 180, y = 120)
         round2pinyin = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round2pinyin'],
+            textvariable = self._studyStats['round2pinyin'],
             bg = 'white'
         )
         round2pinyin.place(x = 230, y = 120)
 
         round3pinyin = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round3pinyin'],
+            textvariable = self._studyStats['round3pinyin'],
             bg = 'white'
         )
         round3pinyin.place(x = 280, y = 120)
 
         round4pinyin = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round4pinyin'],
+            textvariable = self._studyStats['round4pinyin'],
             bg = 'white'
         )
         round4pinyin.place(x = 330, y = 120)
 
         round1translation = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round1translation'],
+            textvariable = self._studyStats['round1translation'],
             bg = 'white'
         )
         round1translation.place(x = 180, y = 215)
 
         round2translation = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round2translation'],
+            textvariable = self._studyStats['round2translation'],
             bg = 'white'
         )
         round2translation.place(x = 230, y = 215)
 
         round3translation = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round3translation'],
+            textvariable = self._studyStats['round3translation'],
             bg = 'white'
         )
         round3translation.place(x = 280, y = 215)
         
         round4translation = Label(
             study_frame,
-            textvariable = self._studyStatsDict['round4translation'],
+            textvariable = self._studyStats['round4translation'],
             bg = 'white'
         )
         round4translation.place(x = 330, y = 215)
@@ -329,7 +329,7 @@ class Ui():
 
         percent_complete = Label(
             study_frame,
-            textvariable = self._studyStatsDict['percentComplete'],
+            textvariable = self._studyStats['percentComplete'],
             bg = 'white'
         )
         percent_complete.place(x = 280, y = 35)
@@ -514,9 +514,9 @@ class Ui():
         self._questionInfo['tResponse'].set('')
         self._deckCompletion[roundNumber].set(deckCompletion+1)
         roundNumPinyin = f"round{roundNumber}pinyin"
-        self._studyStatsDict[roundNumPinyin].set(f"{self._valueDict[pDeckNum].get()}/{deckCompletion}")
+        self._studyStats[roundNumPinyin].set(f"{self._valueDict[pDeckNum].get()}/{deckCompletion}")
         roundNumTrans = f"round{self._roundInfo['roundNumber'].get()}translation"
-        self._studyStatsDict[roundNumTrans].set(f"{self._valueDict[tDeckNum].get()}/{deckCompletion}")
+        self._studyStats[roundNumTrans].set(f"{self._valueDict[tDeckNum].get()}/{deckCompletion}")
 
     def _updateCompletion(self) -> None:
         roundNumber = self._roundInfo['roundNumber'].get()
@@ -525,9 +525,9 @@ class Ui():
             deckCompletion != ''
             and self._roundInfo['deckLength'].get() != ''
         ):
-            self._studyStatsDict['percentComplete'].set(f"{deckCompletion-1}/{self._roundInfo['deckLength'].get()} Complete")
+            self._studyStats['percentComplete'].set(f"{deckCompletion-1}/{self._roundInfo['deckLength'].get()} Complete")
         else:
-            self._studyStatsDict['percentComplete'].set('--')
+            self._studyStats['percentComplete'].set('--')
         self._answered = True
         self.pinyin_answer_entry['state'] = 'normal'
         self.translation_answer_entry['state'] = 'normal'
