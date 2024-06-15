@@ -35,7 +35,9 @@ class Ui():
         self._roundInfo = {
             'deckLength': IntVar(value = 1),
             'roundNumber': IntVar (value = 5),
-            'donetext': StringVar (value = '')
+            'donetext': StringVar (value = ''),
+            'pDeckNum': IntVar(value = 0),
+            'tDeckNum': IntVar(value = 0)
         }
         self._deckCompletion = [
             IntVar(value = 1),
@@ -370,12 +372,12 @@ class Ui():
 
     def _searchDatabaseUI(self) -> None:
         '''
-            for key, value in self._valueDict.items():
+            for key, value in self._searchTerms.items():
                 if key in [
-                    'entryCharacter',
-                    'entryPin1yin1',
-                    'entryPOSL',
-                    'entryEnglish'
+                    'character',
+                    'pin1yin1',
+                    'POSL',
+                    'english'
                 ] and value.get() != '':
                     search_values.update({key: value.get()})
         '''
@@ -408,8 +410,7 @@ class Ui():
     def _checkTransResponses(self) -> None:
         if self._questionInfo['check'].get() == 1:
             roundNumber = self._roundInfo['roundNumber'].get()
-            tDeckCorrectNum = 'tDeckCorrect' + str(roundNumber)
-            self._questionInfo[tDeckCorrectNum].set(self._questionInfo[tDeckCorrectNum].get()+1)
+            self._tDeckCorrect[roundNumber].set(self._tDeckCorrect[roundNumber].get() + 1)
             self._questionInfo['check'].set(0)
         self._answered = False
         self._questionInfo['currentQuestion'].set('')
@@ -420,7 +421,7 @@ class Ui():
         self._questionInfo['tResponse'].set('')
         self._questionInfo['pCorrectAnswer'].set('')
         self._questionInfo['tCorrectAnswer'].set('')
-        self._roundInfo['roundNumber'].set(1)
+        self._roundInfo['roundNumber'].set(0)
         self._roundInfo['donetext'].set('')
         self._deckCompletion[0].set(1)
         self._deckCompletion[1].set(1)
@@ -454,6 +455,8 @@ class Ui():
             self._runQuizEn()
         else:
             self._runQuizZh()
+        
+       
 
     def _runQuizEn(self):
         if self._searchTerms['langChoice'].get() == 'En':
@@ -502,11 +505,9 @@ class Ui():
 
     def _updateStats(self) -> None:
         roundNumber = self._roundInfo['roundNumber'].get()
-        deckCompletion = self.deckCompletion[roundNumber].get()
-        pDeckNum = f'pDeckCorrect {roundNumber}'
-        tDeckNum = f'tDeckCorrect {roundNumber}'
+        deckCompletion = self._deckCompletion[roundNumber].get()
         if self._questionInfo['pResponse'].get() == self._questionInfo['pCorrectAnswer'].get():
-            self._valueDict[pDeckNum].set(self._valueDict[pDeckNum].get()+1)
+            self._pDeckCorrect[roundNumber].set(self._pDeckCorrect[roundNumber].get() + 1)
         else:
             self._missedCards.append(self._shuffledDeck[deckCompletion-1])
 
@@ -514,11 +515,12 @@ class Ui():
         self._questionInfo['tCorrectAnswer'].set('')
         self._questionInfo['pResponse'].set('')
         self._questionInfo['tResponse'].set('')
-        self._deckCompletion[roundNumber].set(deckCompletion+1)
+        self._deckCompletion[roundNumber].set(deckCompletion + 1)
+    
         roundNumPinyin = 'p' + str(roundNumber)
-        self._studyStats[roundNumPinyin].set(f"{self._valueDict[pDeckNum].get()}/{deckCompletion}")
+        self._studyStats[roundNumPinyin].set(str(self._pDeckCorrect[roundNumber].get()) + '/' + str(deckCompletion))
         roundNumTrans = 't' + str(roundNumber)
-        self._studyStats[roundNumTrans].set(f"{self._valueDict[tDeckNum].get()}/{deckCompletion}")
+        self._studyStats[roundNumTrans].set(str(self._tDeckCorrect[roundNumber].get()) + '/' + str(deckCompletion))
 
     def _updateCompletion(self) -> None:
         roundNumber = self._roundInfo['roundNumber'].get()

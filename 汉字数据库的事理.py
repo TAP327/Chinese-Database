@@ -57,5 +57,5 @@ class Database:
                               pattern = f'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'
                               refinedDB = refinedDB[refinedDB[filter].str.contains(pat = pattern)]
                          pinyin += 1
-          print(refinedDB.to_dict('index'))
+          #print(refinedDB.to_dict('index'))
           return refinedDB.to_dict('index')
