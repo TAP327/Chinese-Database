@@ -33,7 +33,7 @@ class Database:
                )
           refinedDB = self._database_normalized.copy()
           for filter, value in searchValues.items():
-               if filter == 'POSL':
+               if filter == 'entryPOSL':
                     print(filter + ': ' + value)
                     if value[0:3].lower() == 'hsk' or value[0:4].lower() == 'band':
                          filter = 'HSK'
