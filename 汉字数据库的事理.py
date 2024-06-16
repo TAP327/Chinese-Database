@@ -9,10 +9,10 @@ class Database:
                self._data = json.load(file)
      
           self._DB_KEYS = {
-               'entryCharacter': 'character',
-               'entryEnglish': 'definition',
-               'entryPOSL': 'entryPOSL',
-               'entryPin1yin1': 'pin1yin1'
+               'character': 'character',
+               'english': 'definition',
+               'POSL': 'entryPOSL',
+               'pin1yin1': 'pin1yin1'
           }
           self._database_normalized = pd.json_normalize(self._data, record_path=["汉字数据库"])
 
@@ -33,7 +33,7 @@ class Database:
                )
           refinedDB = self._database_normalized.copy()
           for filter, value in searchValues.items():
-               if filter == 'entryPOSL':
+               if filter == 'POSL':
                     print(filter + ': ' + value)
                     if value[0:3].lower() == 'hsk' or value[0:4].lower() == 'band':
                          filter = 'HSK'
