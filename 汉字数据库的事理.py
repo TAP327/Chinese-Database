@@ -9,10 +9,11 @@ class Database:
                self._data = json.load(file)
      
           self._DB_KEYS = {
-               'entryCharacter': 'character',
-               'entryEnglish': 'definition',
-               'entryPOSL': 'entryPOSL',
-               'entryPin1yin1': 'pin1yin1'
+               'character': 'character',
+               'definition': 'definition',
+               'POS': 'POS',
+               'HSK': 'HSK',
+               'pin1yin1': 'pin1yin1'
           }
           self._database_normalized = pd.json_normalize(self._data, record_path=["汉字数据库"])
 
@@ -24,6 +25,7 @@ class Database:
                self._DB_KEYS.get(key): searchEntries.pop(key)
                for key in searchEntries.copy().keys()
           }
+          
           pinyinSeparated = searchValues.get('pin1yin1')
           if pinyinSeparated != None:
                pinyinSeparated = re.split(
@@ -33,29 +35,25 @@ class Database:
                )
           refinedDB = self._database_normalized.copy()
           for filter, value in searchValues.items():
-               if filter == 'entryPOSL':
-                    print(filter + ': ' + value)
-                    if value[0:3].lower() == 'hsk' or value[0:4].lower() == 'band':
-                         filter = 'HSK'
-                         print('HSK')
+               if filter != 'definition':
+                    value = value.lower()
+                    print('not definition: ' + value)
+               else: 
+                    print('definition')
+               if filter == 'HSK':
+                    if value[0:3] == 'hsk' or value[0:4] == 'band':
                          value = value.upper()
-                    elif value[-1].isdigit() or value[-1] == '#':
-                         filter = 'lesson'
-                         print('lesson')
-                         if value[-1] == '#':
-                              value = value[0:-1].upper()
-                         print('value: ' + value)
+                         filter = 'HSK'
                     else:
-                         filter = 'POS'
-                         print('POS')
+                         filter = 'lesson'
                if filter != 'pin1yin1':
                     refinedDB = refinedDB[refinedDB[filter].str.contains(value)]
                else:
                     pinyin = 0
                     while pinyin < len(pinyinSeparated):
                          if pinyinSeparated[pinyin] != '' and pinyinSeparated[pinyin] != None:
-                              pattern = f'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'
+                              pattern = f'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'.lower()  
+                                   #In the line above, .lower() is necessary to extract the groups
                               refinedDB = refinedDB[refinedDB[filter].str.contains(pat = pattern)]
                          pinyin += 1
-          #print(refinedDB.to_dict('index'))
           return refinedDB.to_dict('index')

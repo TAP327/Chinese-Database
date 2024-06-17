@@ -20,8 +20,9 @@ class Ui():
         self._searchTerms = {
             'character': StringVar(value = ''),
             'pin1yin1': StringVar(value = ''),
-            'POSL': StringVar(value = ''),
-            'english': StringVar(value = ''),
+            'POS': StringVar(value = ''),
+            'HSK': StringVar(value = ''),
+            'definition': StringVar(value = ''),
             'langChoice': StringVar(value = 'En'),
         }
         self._questionInfo = {
@@ -82,7 +83,7 @@ class Ui():
         self._master.destroy()
 
     def _createUIDictFrame(self) -> None:
-        学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 380)
+        学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
         学习的框架.place(x = 200, y = 120)
         self._笔记本.add(学习的框架, text = '学习')
 
@@ -105,7 +106,7 @@ class Ui():
     def _createUISFStudyRefiner(self, 练习的框架) -> None:
         study_refiner = Frame(
             练习的框架,
-            height = 350,
+            height = 450,
             width = 155,
             bg = 'pink',
             padx = 2
@@ -126,34 +127,40 @@ class Ui():
             text = "Pin1Yin1: ",
             bg = "pink"
         )
-        posl_label = Label(
+        pos_label = Label(
             study_refiner,
-            text = "POS or Lesson: ",
+            text = "Part of Speech: ",
             bg = "pink"
         )
-        eng_label = Label(
+        hsk_label = Label(
             study_refiner,
-            text = "English: ",
+            text = "HSK Level: ",
+            bg = "pink"
+        )
+        def_label = Label(
+            study_refiner,
+            text = "Definition: ",
             bg = "pink"
         )
         choose_lang_label = Label(
             study_refiner,
             text = "Question Language: ",
             bg = "pink"
-
         )
 
         char_label.place(x = 7, y = 25)
         pinyin_label.place(x = 7, y = 75)
-        posl_label.place(x = 7, y = 125)
-        eng_label.place(x = 7, y = 175)
-        choose_lang_label.place(x = 7, y = 225)
+        pos_label.place(x = 7, y = 125)
+        hsk_label.place(x = 7, y = 175)
+        def_label.place(x = 7, y = 225)
+        choose_lang_label.place(x = 7, y = 275)
         
         #Add Study Refiner Entries
         char_账目 = Entry(study_refiner, textvariable = self._searchTerms['character'])
         pinyin_账目 = Entry(study_refiner, textvariable = self._searchTerms['pin1yin1'])
-        posl_账目 = Entry(study_refiner, textvariable = self._searchTerms['POSL'])
-        eng_账目 = Entry(study_refiner, textvariable = self._searchTerms['english'])
+        pos_账目 = Entry(study_refiner, textvariable = self._searchTerms['POS'])
+        hsk_账目 = Entry(study_refiner, textvariable = self._searchTerms['HSK'])
+        def_账目 = Entry(study_refiner, textvariable = self._searchTerms['definition'])
         中文字 = Label(
             study_refiner,
             text = 'Zh',
@@ -181,12 +188,13 @@ class Ui():
 
         char_账目.place(x = 3, y = 50)
         pinyin_账目.place(x = 3, y = 100)
-        posl_账目.place(x = 3, y = 150)
-        eng_账目.place(x = 3, y = 200)
-        中文字.place(x = 15, y = 250)
-        英文字.place(x = 65, y = 250)
-        中文的设定.place(x = 40, y = 250)
-        英文的设定.place(x = 90, y = 250)
+        pos_账目.place(x = 3, y = 150)
+        hsk_账目.place(x = 3, y = 200)
+        def_账目.place(x = 3, y = 250)
+        中文字.place(x = 15, y = 300)
+        英文字.place(x = 65, y = 300)
+        中文的设定.place(x = 40, y = 300)
+        英文的设定.place(x = 90, y = 300)
 
         #Add Study Button
         练习的按键 = Button(
@@ -194,7 +202,7 @@ class Ui():
             text = "练习", 
             bg = 'white'
         )
-        练习的按键.place(x = 50, y = 275)
+        练习的按键.place(x = 50, y = 330)
         练习的按键.bind('<Button-1>', self._runQuiz)
 
     def _createUISFStudyStats(self, study_frame) -> None:
@@ -203,59 +211,60 @@ class Ui():
             textvariable = self._studyStats['p0'],
             bg = 'white'
         )
-        round0pinyin.place(x = 180, y = 120)
+        round0pinyin.place(x = 190, y = 160)
         round1pinyin = Label(
             study_frame,
             textvariable = self._studyStats['p1'],
             bg = 'white'
         )
-        round1pinyin.place(x = 230, y = 120)
+        round1pinyin.place(x = 240, y = 160)
 
         round2pinyin = Label(
             study_frame,
             textvariable = self._studyStats['p2'],
             bg = 'white'
         )
-        round2pinyin.place(x = 280, y = 120)
+        round2pinyin.place(x = 290, y = 160)
 
         round3pinyin = Label(
             study_frame,
             textvariable = self._studyStats['p3'],
             bg = 'white'
         )
-        round3pinyin.place(x = 330, y = 120)
+        round3pinyin.place(x = 340, y = 160)
 
         round0translation = Label(
             study_frame,
             textvariable = self._studyStats['t0'],
             bg = 'white'
         )
-        round0translation.place(x = 180, y = 215)
+        round0translation.place(x = 190, y = 265)
 
         round1translation = Label(
             study_frame,
             textvariable = self._studyStats['t1'],
             bg = 'white'
         )
-        round1translation.place(x = 230, y = 215)
+        round1translation.place(x = 240, y = 265)
 
         round2translation = Label(
             study_frame,
             textvariable = self._studyStats['t2'],
             bg = 'white'
         )
-        round2translation.place(x = 280, y = 215)
+        round2translation.place(x = 290, y = 265)
         
         round3translation = Label(
             study_frame,
             textvariable = self._studyStats['t3'],
             bg = 'white'
         )
-        round3translation.place(x = 330, y = 215)
+        round3translation.place(x = 340, y = 265)
 
     def _createUISFStudyFrame(self, 练习的框架) -> None:
         study_frame = Frame(
-            练习的框架, height = 350,
+            练习的框架, 
+            height = 450,
             width = 465,
             padx = 2,
             bg = 'white'
@@ -270,14 +279,14 @@ class Ui():
             wraplength = 250,
             justify = 'left'
         )
-        question_label.place(x = 35, y= 35)
+        question_label.place(x = 70, y= 75)
 
         pinyin_entry_label = Label(
             study_frame,
             text = 'Pin1yin1:  ',
             bg = 'white'
         )
-        pinyin_entry_label.place(x = 80, y = 80)
+        pinyin_entry_label.place(x = 95, y = 125)
 
         pinyin_correct_answer_label = Label(
             study_frame,
@@ -287,16 +296,16 @@ class Ui():
             wraplength = 250,
             justify = 'left'
         )
-        pinyin_correct_answer_label.place(x = 180, y = 143)
+        pinyin_correct_answer_label.place(x = 190, y = 183)
 
         translation_entry_label = Label(
             study_frame,
             text = 'Translation:  ',
             bg = 'white'
         )
-        translation_entry_label.place(x = 80, y = 180)
+        translation_entry_label.place(x = 95, y = 230)
 
-        translation_correct_answer_label_en = Label(
+        translation_correct_answer_label = Label(
             study_frame,
             textvariable = self._questionInfo['tCorrectAnswer'],
             bg = 'white',
@@ -304,13 +313,13 @@ class Ui():
             wraplength = 250,
             justify = 'left'
         )
-        translation_correct_answer_label_en.place(x = 180, y = 237)
+        translation_correct_answer_label.place(x = 191, y = 287)
 
         self.pinyin_answer_entry = Entry(study_frame, textvariable = self._questionInfo['pResponse'], state = 'normal')
-        self.pinyin_answer_entry.place(x = 180, y = 90)
+        self.pinyin_answer_entry.place(x = 190, y = 125)
 
         self.translation_answer_entry = Entry(study_frame, textvariable = self._questionInfo['tResponse'], state = 'normal')
-        self.translation_answer_entry.place(x = 180, y = 180)
+        self.translation_answer_entry.place(x = 190, y = 230)
 
         done_text = Label(
             study_frame,
@@ -318,7 +327,7 @@ class Ui():
             bg = 'white',
             font = 16
         )
-        done_text.place(x = 180, y = 260)
+        done_text.place(x = 190, y = 316)
 
         self._createUISFStudyStats(study_frame)
 
@@ -328,17 +337,17 @@ class Ui():
             bg = 'white',
             variable = self._questionInfo['check']
         )
-        correct_check.place(x = 350, y = 180)
+        correct_check.place(x = 350, y = 219)
 
         percent_complete = Label(
             study_frame,
             textvariable = self._studyStats['percent'],
             bg = 'white'
         )
-        percent_complete.place(x = 280, y = 35)
+        percent_complete.place(x = 45, y = 40)
 
     def _createUIStudyFrame(self) -> None:
-        练习的框架 = ttk.Frame(self._笔记本, width = 600, height = 380)
+        练习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
         练习的框架.place(x = 0, y = 0)
         self._笔记本.add(练习的框架, text = '练习')
 
@@ -348,8 +357,8 @@ class Ui():
 
     def _createUiWindow(self) -> None:
         self._master.title('汉字数据库')
-        self._master.maxsize(600, 400)
-        self._master.minsize(600, 400)
+        self._master.maxsize(600, 450)
+        self._master.minsize(600, 450)
 
         # Create Tabs
         self._笔记本.place(x = 0, y = 0)
@@ -376,15 +385,16 @@ class Ui():
                 if key in [
                     'character',
                     'pin1yin1',
-                    'POSL',
-                    'english'
+                    'POS',
+                    'HSK',
+                    'definition'
                 ] and value.get() != '':
                     search_values.update({key: value.get()})
         '''
         search_values = {
             key: value.get()
             for key, value in self._searchTerms.items() if
-            key in ['character', 'pin1yin1', 'POSL', 'english']
+            key in ['character', 'pin1yin1', 'POS', 'HSK', 'definition']
             and value.get() != ''
         }
         self._search_results = self._ZH_DB.search_database_DB(search_values)
@@ -449,8 +459,9 @@ class Ui():
         self._updateCompletion()
         self._searchTerms['character'].set('')
         self._searchTerms['pin1yin1'].set([])
-        self._searchTerms['POSL'].set('')
-        self._searchTerms['english'].set('')
+        self._searchTerms['POS'].set('')
+        self._searchTerms['HSK'].set('')
+        self._searchTerms['definition'].set('')
         if self._searchTerms['langChoice'].get() == 'En':
             self._runQuizEn()
         else:
