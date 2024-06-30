@@ -95,6 +95,7 @@ class Ui():
             'percent': StringVar(value = "--")
         }
 
+        self._currentTab = 0
         self._ZH_DB = Database()
         self._Dsearch_results = {}
         self._Ssearch_results = {}
@@ -410,8 +411,8 @@ class Ui():
             relief = 'flat'
         )
         self._ZH1.place(x = 70, y = 75)
-        self._ZH1.bind("<Enter>", self.enterChar)
-        self._ZH1.bind("<Leave>", self.leaveChar)
+        self._ZH1.bind("<Enter>", self._enterChar)
+        self._ZH1.bind("<Leave>", self._leaveChar)
         PY1 = Label(
             SR_frame,
             textvariable = self._searchInfo['PY1'],
@@ -427,7 +428,7 @@ class Ui():
         
     
         #Entry No. 2
-        ZH2 = Button(
+        self._ZH2 = Button(
             SR_frame,
             textvariable = self._searchInfo['ZH2'],
             bg = 'white',
@@ -439,7 +440,10 @@ class Ui():
             highlightcolor = 'white',
             relief = 'flat'
         )
-        ZH2.place(x = 70, y = 140)
+        self._ZH2.place(x = 70, y = 140)
+        
+        self._ZH2.bind("<Enter>", self._enterChar)
+        self._ZH2.bind("<Leave>", self._leaveChar)
         PY2 = Label(
             SR_frame,
             textvariable = self._searchInfo['PY2'],
@@ -454,7 +458,7 @@ class Ui():
         EN2.place(x = 165, y = 165)
 
         #Entry No. 3       
-        ZH3 = Button(
+        self._ZH3 = Button(
             SR_frame,
             textvariable = self._searchInfo['ZH3'],
             bg = 'white',
@@ -466,7 +470,9 @@ class Ui():
             highlightcolor = 'white',
             relief = 'flat'
         )
-        ZH3.place(x = 70, y = 205)
+        self._ZH3.place(x = 70, y = 205)
+        self._ZH3.bind("<Enter>", self._enterChar)
+        self._ZH3.bind("<Leave>", self._leaveChar)
         PY3 = Label(
             SR_frame,
             textvariable = self._searchInfo['PY3'],
@@ -481,7 +487,7 @@ class Ui():
         EN3.place(x = 165, y = 230)
 
         #Entry No. 4
-        ZH4 = Button(
+        self._ZH4 = Button(
             SR_frame,
             textvariable = self._searchInfo['ZH4'],
             bg = 'white',
@@ -493,7 +499,9 @@ class Ui():
             highlightcolor = 'white',
             relief = 'flat'
         )
-        ZH4.place(x = 70, y = 270)
+        self._ZH4.place(x = 70, y = 270)       
+        self._ZH4.bind("<Enter>", self._enterChar)
+        self._ZH4.bind("<Leave>", self._leaveChar)
         PY4 = Label(
             SR_frame,
             textvariable = self._searchInfo['PY4'],
@@ -533,22 +541,24 @@ class Ui():
         lastButt.place(x = 312, y = 330)
 
     def _createUIDictFrame(self) -> None:
-        学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
-        学习的框架.place(x = 0, y = 0)
-        self._笔记本.add(学习的框架, text = '学习')
+        self._学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
+        self._学习的框架.place(x = 0, y = 0)
+        self._学习的框架.bind('<Button-1>', self._changeTab)
+        self._笔记本.add(self._学习的框架, text = '学习')
 
-        self._createFrameTitle(学习的框架, '汉英词典')
-        self._createDictRefiner(学习的框架)
-        self._createSearchResultsFrame(学习的框架)
+        self._createFrameTitle(self._学习的框架, '汉英词典')
+        self._createDictRefiner(self._学习的框架)
+        self._createSearchResultsFrame(self._学习的框架)
     
     def _createUIStudyFrame(self) -> None:
-        练习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
-        练习的框架.place(x = 0, y = 0)
-        self._笔记本.add(练习的框架, text = '练习')
+        self._练习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
+        self._练习的框架.place(x = 0, y = 0)
+        self._练习的框架.bind('<Button-1>', self._changeTab)
+        self._笔记本.add(self._练习的框架, text = '练习')
 
-        self._createFrameTitle(练习的框架, '            咱们练习中文吧! ')
-        self._createStudyRefiner(练习的框架)
-        self._createQuizFrame(练习的框架)
+        self._createFrameTitle(self._练习的框架, '            咱们练习中文吧! ')
+        self._createStudyRefiner(self._练习的框架)
+        self._createQuizFrame(self._练习的框架)
 
     def _createUiWindow(self) -> None:
         self._master.title('汉字数据库')
@@ -567,11 +577,21 @@ class Ui():
     def runMainLoop(self) -> None:
         self._master.mainloop()
 
-    def enterChar(self, event) -> None:
-        self._ZH1['background'] = 'azure'
+    def _changeTab(self, event) -> None:
+        print('function triggered')
+        print(str(event.widget))
+        if event.widget == self.练习的框架:
+            self._currentTab = 0
+        elif event.widget == self.学习的框架:
+            self._currentTab = 1
+        print(str(self._currentTab))
 
-    def leaveChar(self, event) -> None:
-        self._ZH1['background'] = 'white'
+    def _enterChar(self, event) -> None:
+        event.widget.configure(bg = 'azure')
+
+    def _leaveChar(self, event) -> None:
+        event.widget.configure(bg ='white')
+
 
     def _checkTheBox(self, event) -> None:
         if self._answered == False:
