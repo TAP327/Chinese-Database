@@ -533,12 +533,13 @@ class Ui():
             bg = 'white'
         )
         nextButt.place(x = 241, y = 330)
-        lastButt = Button(
+        self._lastButt = Button(
             SR_frame,
             text = '   Last   ',
             bg = 'white'
         )
-        lastButt.place(x = 312, y = 330)
+        self._lastButt.place(x = 312, y = 330)
+        self._lastButt.bind('<Button-1>', self._changeTab)
 
     def _createUIDictFrame(self) -> None:
         self._学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
@@ -580,10 +581,12 @@ class Ui():
     def _changeTab(self, event) -> None:
         print('function triggered')
         print(str(event.widget))
-        if event.widget == self.练习的框架:
+        if event.widget == self._练习的框架:
             self._currentTab = 0
-        elif event.widget == self.学习的框架:
+        elif event.widget == self._学习的框架:
             self._currentTab = 1
+        elif event.widget == self._lastButt:
+            self._currentTab = 2
         print(str(self._currentTab))
 
     def _enterChar(self, event) -> None:
@@ -784,55 +787,56 @@ class Ui():
         self._runQuizZh()
 
     def _enterBind(self, event) -> None:
-        roundNumber = self._roundInfo['roundNumber'].get()
-        deckCompletion = self._deckCompletion[roundNumber].get()
-        if roundNumber == 4:
-            self._done()
-        elif roundNumber == 5:
-            self._runQuiz(event)
-        elif deckCompletion == self._roundInfo['deckLength'].get() and self._SsearchTerms['langChoice'].get() == 'En':
-            self._showAnswersEn()
-            self._checkTransResponses()
-            if self._answered == False:
-                self._master.after(100, self._lastCard)
+        if self._笔记本.index(self._笔记本.select()) == 1:
+            roundNumber = self._roundInfo['roundNumber'].get()
+            deckCompletion = self._deckCompletion[roundNumber].get()
+            if roundNumber == 4:
+                self._done()
+            elif roundNumber == 5:
+                self._runQuiz(event)
+            elif deckCompletion == self._roundInfo['deckLength'].get() and self._SsearchTerms['langChoice'].get() == 'En':
+                self._showAnswersEn()
+                self._checkTransResponses()
+                if self._answered == False:
+                    self._master.after(100, self._lastCard)
+                else:
+                    self._master.after(100, self._lastCard)
+                self._questionInfo['check'].set(0)
+                self.pinyin_answer_entry['state'] = 'disabled'
+                self.translation_answer_entry['state'] = 'disabled'
+                self._newRound()
+                self._runQuizEn()
+            elif deckCompletion == self._roundInfo['deckLength'].get():
+                self._showAnswersZh()
+                self._checkTransResponses()
+                self._updateStats()
+                self._updateCompletion()
+                if self._answered == False:
+                    self._master.after(100, self._lastCard)
+                else:
+                    self._master.after(100, self._lastCard)
+                self._questionInfo['check'].set(0)
+                self.pinyin_answer_entry['state'] = 'disabled'
+                self.translation_answer_entry['state'] = 'disabled'
+                self._newRound()
+                self._runQuizZh()
+            elif self._answered == False:
+                self._updateStats()
+                self._updateCompletion()
+                self._answered = True
+            elif self._SsearchTerms['langChoice'].get() == 'En':
+                self._showAnswersEn()
+                self._checkTransResponses()
+                self._questionInfo['check'].set(0)
+                self.pinyin_answer_entry['state'] = 'disabled'
+                self.translation_answer_entry['state'] = 'disabled'
             else:
-                self._master.after(100, self._lastCard)
-            self._questionInfo['check'].set(0)
-            self.pinyin_answer_entry['state'] = 'disabled'
-            self.translation_answer_entry['state'] = 'disabled'
-            self._newRound()
-            self._runQuizEn()
-        elif deckCompletion == self._roundInfo['deckLength'].get():
-            self._showAnswersZh()
-            self._checkTransResponses()
-            self._updateStats()
-            self._updateCompletion()
-            if self._answered == False:
-                self._master.after(100, self._lastCard)
-            else:
-                self._master.after(100, self._lastCard)
-            self._questionInfo['check'].set(0)
-            self.pinyin_answer_entry['state'] = 'disabled'
-            self.translation_answer_entry['state'] = 'disabled'
-            self._newRound()
-            self._runQuizZh()
-        elif self._answered == False:
-            self._updateStats()
-            self._updateCompletion()
-            self._answered = True
-        elif self._SsearchTerms['langChoice'].get() == 'En':
-            self._showAnswersEn()
-            self._checkTransResponses()
-            self._questionInfo['check'].set(0)
-            self.pinyin_answer_entry['state'] = 'disabled'
-            self.translation_answer_entry['state'] = 'disabled'
-        else:
-            self._showAnswersZh()
-            self._checkTransResponses()
-            self._questionInfo['check'].set(0)
-            self.pinyin_answer_entry['state'] = 'disabled'
-            self.translation_answer_entry['state'] = 'disabled'
-    
+                self._showAnswersZh()
+                self._checkTransResponses()
+                self._questionInfo['check'].set(0)
+                self.pinyin_answer_entry['state'] = 'disabled'
+                self.translation_answer_entry['state'] = 'disabled'
+
 
 
 
