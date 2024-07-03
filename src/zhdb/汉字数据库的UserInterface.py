@@ -23,7 +23,7 @@ class Ui():
             'POS': StringVar(value = ''),
             'HSK': StringVar(value = ''),
             'definition': StringVar(value = ''),
-            'langChoice': StringVar(value = 'En'),
+            'exactMatch': IntVar(value = 0),
         }
         self._SsearchTerms = {
             'character': StringVar(value = ''),
@@ -95,7 +95,6 @@ class Ui():
             'percent': StringVar(value = "--")
         }
 
-        self._currentTab = 0
         self._ZH_DB = Database()
         self._Dsearch_results = {}
         self._Ssearch_results = {}
@@ -122,89 +121,123 @@ class Ui():
             bg = 'aquamarine2'
         ).place(x = 0, y = 10)
 
-    def _createRefinerLabels(self, frame_refiner) -> None:
+    def _createRefinerLabels(self, xRefiner: Frame) -> None:
         char_label = Label(
-            frame_refiner,
+            xRefiner,
             text = "Character: ",
             bg = "pink"
         )
         pinyin_label = Label(
-            frame_refiner,
+            xRefiner,
             text = "Pin1Yin1: ",
             bg = "pink"
         )
         pos_label = Label(
-            frame_refiner,
+            xRefiner,
             text = "Part of Speech: ",
             bg = "pink"
         )
         hsk_label = Label(
-            frame_refiner,
+            xRefiner,
             text = "HSK Level: ",
             bg = "pink"
         )
         def_label = Label(
-            frame_refiner,
+            xRefiner,
             text = "Definition: ",
             bg = "pink"
         )
-        choose_lang_label = Label(
-            frame_refiner,
-            text = "Question Language: ",
-            bg = "pink"
-        )
+        if self._dictRefiner == xRefiner:
+            opt_label = Label(
+                xRefiner,
+                text = "Exact matches only: ",
+                bg = "pink"
+            )
+        else:
+            opt_label = Label(
+                xRefiner,
+                text = "Question Label: ",
+                bg = "pink"
+            )
 
         char_label.place(x = 7, y = 25)
         pinyin_label.place(x = 7, y = 75)
         pos_label.place(x = 7, y = 125)
         hsk_label.place(x = 7, y = 175)
         def_label.place(x = 7, y = 225)
-        choose_lang_label.place(x = 7, y = 275)      
+        opt_label.place(x = 7, y = 275)      
 
-    def _createRefinerVars(self, study_refiner, XsearchTerms: dict, buttFunc) -> None:
-        char_账目 = Entry(study_refiner, textvariable = XsearchTerms['character'])
-        pinyin_账目 = Entry(study_refiner, textvariable = XsearchTerms['pin1yin1'])
-        pos_账目 = Entry(study_refiner, textvariable = XsearchTerms['POS'])
-        hsk_账目 = Entry(study_refiner, textvariable = XsearchTerms['HSK'])
-        def_账目 = Entry(study_refiner, textvariable = XsearchTerms['definition'])
-        中文字 = Label(
-            study_refiner,
-            text = 'Zh',
-            bg = 'pink'
-        )
-        英文字 = Label(
-            study_refiner,
-            text = 'En', 
-            bg = 'pink',
-        )
-        英文的设定 = Radiobutton(
-            study_refiner,
-            bg = 'pink',
-            variable = XsearchTerms['langChoice'],
-            value = 'En',
-            command = self._switchLangtoEn
-        )
-        中文的设定 = Radiobutton(
-            study_refiner,
-            bg = 'pink',
-            variable = XsearchTerms['langChoice'],
-            value = 'Zh',
-            command = self._switchLangtoZh
-        )
+    def _createRefinerVars(self, xRefiner, XsearchTerms: dict, buttFunc) -> None:
+        char_账目 = Entry(xRefiner, textvariable = XsearchTerms['character'])
+        pinyin_账目 = Entry(xRefiner, textvariable = XsearchTerms['pin1yin1'])
+        pos_账目 = Entry(xRefiner, textvariable = XsearchTerms['POS'])
+        hsk_账目 = Entry(xRefiner, textvariable = XsearchTerms['HSK'])
+        def_账目 = Entry(xRefiner, textvariable = XsearchTerms['definition'])
+        if xRefiner == self._dictRefiner:
+            opt1 = Label(
+                xRefiner,
+                text = 'Yes',
+                bg = 'pink'
+            )
+            opt2 = Label(
+                xRefiner,
+                text = 'No', 
+                bg = 'pink'
+            )
+            opt1Butt = Radiobutton(
+                xRefiner,
+                bg = 'pink',
+                variable = XsearchTerms['exactMatch'],
+                value = 1,
+                #command = self.    TODO!
+            )
+            opt2Butt = Radiobutton(
+                xRefiner,
+                bg = 'pink',
+                variable = XsearchTerms['exactMatch'],
+                value = 0,
+                #command = self.    TODO!
+            )
+
+        else:
+            opt1 = Label(
+                xRefiner,
+                text = 'Zh',
+                bg = 'pink'
+            )
+            opt2 = Label(
+                xRefiner,
+                text = 'En', 
+                bg = 'pink',
+            )
+            opt1Butt = Radiobutton(
+                xRefiner,
+                bg = 'pink',
+                variable = XsearchTerms['langChoice'],
+                value = 'En',
+                command = self._switchLangtoEn 
+            )
+            opt2Butt = Radiobutton(
+                xRefiner,
+                bg = 'pink',
+                variable = XsearchTerms['langChoice'],
+                value = 'Zh',
+                command = self._switchLangtoZh  
+            )
 
         char_账目.place(x = 3, y = 50)
         pinyin_账目.place(x = 3, y = 100)
         pos_账目.place(x = 3, y = 150)
         hsk_账目.place(x = 3, y = 200)
         def_账目.place(x = 3, y = 250)
-        中文字.place(x = 15, y = 300)
-        英文字.place(x = 65, y = 300)
-        中文的设定.place(x = 40, y = 300)
-        英文的设定.place(x = 90, y = 300)
+        opt1.place(x = 15, y = 300)
+        opt2.place(x = 65, y = 300)
+        opt2Butt.place(x = 40, y = 300)
+        opt1Butt.place(x = 90, y = 300)
 
         #Add Study Button
         按键 = Button(
-            study_refiner,
+            xRefiner,
             text = "练习", 
             bg = 'white'
         )
@@ -212,34 +245,34 @@ class Ui():
         按键.bind('<Button-1>', buttFunc)
 
     def _createDictRefiner(self, 学习的框架) -> None:
-        dict_refiner = Frame(
+        self._dictRefiner = Frame(
             学习的框架,
             height = 400,
             width = 155,
             bg = 'pink',
             padx = 2
         )
-        dict_refiner.place(
+        self._dictRefiner.place(
             x = 0,
             y = 50
         )
-        self._createRefinerLabels(dict_refiner)
-        self._createRefinerVars(dict_refiner, self._DsearchTerms, self._runQuery)
+        self._createRefinerLabels(self._dictRefiner)
+        self._createRefinerVars(self._dictRefiner, self._DsearchTerms, self._runQuery)
 
     def _createStudyRefiner(self, 练习的框架) -> None:
-        study_refiner = Frame(
+        self._studyRefiner = Frame(
             练习的框架,
             height = 400,
             width = 155,
             bg = 'pink',
             padx = 2
         )
-        study_refiner.place(
+        self._studyRefiner.place(
             x = 0,
             y = 50
         )
-        self._createRefinerLabels(study_refiner)
-        self._createRefinerVars(study_refiner, self._SsearchTerms, self._runQuiz)
+        self._createRefinerLabels(self._studyRefiner)
+        self._createRefinerVars(self._studyRefiner, self._SsearchTerms, self._runQuiz)
 
     def _createStudyStats(self, study_frame) -> None:
         round0pinyin = Label(
@@ -539,12 +572,10 @@ class Ui():
             bg = 'white'
         )
         self._lastButt.place(x = 312, y = 330)
-        self._lastButt.bind('<Button-1>', self._changeTab)
 
     def _createUIDictFrame(self) -> None:
         self._学习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
         self._学习的框架.place(x = 0, y = 0)
-        self._学习的框架.bind('<Button-1>', self._changeTab)
         self._笔记本.add(self._学习的框架, text = '学习')
 
         self._createFrameTitle(self._学习的框架, '汉英词典')
@@ -554,7 +585,6 @@ class Ui():
     def _createUIStudyFrame(self) -> None:
         self._练习的框架 = ttk.Frame(self._笔记本, width = 600, height = 450)
         self._练习的框架.place(x = 0, y = 0)
-        self._练习的框架.bind('<Button-1>', self._changeTab)
         self._笔记本.add(self._练习的框架, text = '练习')
 
         self._createFrameTitle(self._练习的框架, '            咱们练习中文吧! ')
@@ -578,23 +608,11 @@ class Ui():
     def runMainLoop(self) -> None:
         self._master.mainloop()
 
-    def _changeTab(self, event) -> None:
-        print('function triggered')
-        print(str(event.widget))
-        if event.widget == self._练习的框架:
-            self._currentTab = 0
-        elif event.widget == self._学习的框架:
-            self._currentTab = 1
-        elif event.widget == self._lastButt:
-            self._currentTab = 2
-        print(str(self._currentTab))
-
     def _enterChar(self, event) -> None:
         event.widget.configure(bg = 'azure')
 
     def _leaveChar(self, event) -> None:
         event.widget.configure(bg ='white')
-
 
     def _checkTheBox(self, event) -> None:
         if self._answered == False:
@@ -653,7 +671,12 @@ class Ui():
         self._questionInfo['currentQuestion'].set('')
 
     def _runQuery(self, event):
-        print('BUTT FUNK IS A SUCCESS')
+        self._SsearchTerms['character'].set('')
+        self._SsearchTerms['pin1yin1'].set([])
+        self._SsearchTerms['POS'].set('')
+        self._SsearchTerms['HSK'].set('')
+        self._SsearchTerms['definition'].set('')
+        
 
     def _runQuiz(self, event):
         self._questionInfo['currentQuestion'].set('')
@@ -787,57 +810,63 @@ class Ui():
         self._runQuizZh()
 
     def _enterBind(self, event) -> None:
-        if self._笔记本.index(self._笔记本.select()) == 1:
-            roundNumber = self._roundInfo['roundNumber'].get()
-            deckCompletion = self._deckCompletion[roundNumber].get()
-            if roundNumber == 4:
-                self._done()
-            elif roundNumber == 5:
-                self._runQuiz(event)
-            elif deckCompletion == self._roundInfo['deckLength'].get() and self._SsearchTerms['langChoice'].get() == 'En':
-                self._showAnswersEn()
-                self._checkTransResponses()
-                if self._answered == False:
-                    self._master.after(100, self._lastCard)
-                else:
-                    self._master.after(100, self._lastCard)
-                self._questionInfo['check'].set(0)
-                self.pinyin_answer_entry['state'] = 'disabled'
-                self.translation_answer_entry['state'] = 'disabled'
-                self._newRound()
-                self._runQuizEn()
-            elif deckCompletion == self._roundInfo['deckLength'].get():
-                self._showAnswersZh()
-                self._checkTransResponses()
-                self._updateStats()
-                self._updateCompletion()
-                if self._answered == False:
-                    self._master.after(100, self._lastCard)
-                else:
-                    self._master.after(100, self._lastCard)
-                self._questionInfo['check'].set(0)
-                self.pinyin_answer_entry['state'] = 'disabled'
-                self.translation_answer_entry['state'] = 'disabled'
-                self._newRound()
-                self._runQuizZh()
-            elif self._answered == False:
-                self._updateStats()
-                self._updateCompletion()
-                self._answered = True
-            elif self._SsearchTerms['langChoice'].get() == 'En':
-                self._showAnswersEn()
-                self._checkTransResponses()
-                self._questionInfo['check'].set(0)
-                self.pinyin_answer_entry['state'] = 'disabled'
-                self.translation_answer_entry['state'] = 'disabled'
+        if self._笔记本.index(self._笔记本.select()) == 0:
+            self._enterSearch(event)
+        else:
+            self._enterStudy(event)
+
+    def _enterSearch(self, event) -> None:
+        self._runQuery(event)
+
+    def _enterStudy(self, event) -> None:
+        roundNumber = self._roundInfo['roundNumber'].get()
+        deckCompletion = self._deckCompletion[roundNumber].get()
+        if roundNumber == 4:
+            self._done()
+        elif roundNumber == 5:
+            self._runQuiz(event)
+        elif deckCompletion == self._roundInfo['deckLength'].get() and self._SsearchTerms['langChoice'].get() == 'En':
+            self._showAnswersEn()
+            self._checkTransResponses()
+            if self._answered == False:
+                self._master.after(100, self._lastCard)
             else:
-                self._showAnswersZh()
-                self._checkTransResponses()
-                self._questionInfo['check'].set(0)
-                self.pinyin_answer_entry['state'] = 'disabled'
-                self.translation_answer_entry['state'] = 'disabled'
-
-
+                self._master.after(100, self._lastCard)
+            self._questionInfo['check'].set(0)
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
+            self._newRound()
+            self._runQuizEn()
+        elif deckCompletion == self._roundInfo['deckLength'].get():
+            self._showAnswersZh()
+            self._checkTransResponses()
+            self._updateStats()
+            self._updateCompletion()
+            if self._answered == False:
+                self._master.after(100, self._lastCard)
+            else:
+                self._master.after(100, self._lastCard)
+            self._questionInfo['check'].set(0)
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
+            self._newRound()
+            self._runQuizZh()
+        elif self._answered == False:
+            self._updateStats()
+            self._updateCompletion()
+            self._answered = True
+        elif self._SsearchTerms['langChoice'].get() == 'En':
+            self._showAnswersEn()
+            self._checkTransResponses()
+            self._questionInfo['check'].set(0)
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
+        else:
+            self._showAnswersZh()
+            self._checkTransResponses()
+            self._questionInfo['check'].set(0)
+            self.pinyin_answer_entry['state'] = 'disabled'
+            self.translation_answer_entry['state'] = 'disabled'
 
 
 
@@ -846,8 +875,6 @@ class Ui():
         frame instead of master (or make a tab varible and add it to enter bind?)
 
         !TODO: Last Card
-
-        !TODO: Refactor Study Tab
 
         azure & lightblue2
 '''''
