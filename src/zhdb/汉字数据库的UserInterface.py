@@ -34,19 +34,20 @@ class Ui():
             'langChoice': StringVar(value = 'En'),
         }
         self._searchInfo = {
+            'welcome': StringVar(value  = 'Welcome to Chinese Database!'),
             'pageCounter': StringVar(value = 'Search Results: '),
-            'ZH1': StringVar(value = '汉字'),
-            'PY1': StringVar(value = 'pin1yin1'),
-            'EN1': StringVar(value = 'English example'),
-            'ZH2': StringVar(value = '汉字汉字'),
-            'PY2': StringVar(value = 'pin1yin1'),
-            'EN2': StringVar(value = 'English'),
-            'ZH3': StringVar(value = '汉字'),
-            'PY3': StringVar(value = 'pin1yin1'),
-            'EN3': StringVar(value = 'English'),
-            'ZH4': StringVar(value = '汉字'),
-            'PY4': StringVar(value = 'pin1yin1'),
-            'EN4': StringVar(value = 'English sample that is kind of obnoxiously long')
+            'ZH1': StringVar(value = ''),
+            'PY1': StringVar(value = ''),
+            'EN1': StringVar(value = ''),
+            'ZH2': StringVar(value = ''),
+            'PY2': StringVar(value = ''),
+            'EN2': StringVar(value = ''),
+            'ZH3': StringVar(value = ''),
+            'PY3': StringVar(value = ''),
+            'EN3': StringVar(value = ''),
+            'ZH4': StringVar(value = ''),
+            'PY4': StringVar(value = ''),
+            'EN4': StringVar(value = '')
         }
         self._questionInfo = {
             'currentQuestion': StringVar(value = ''),
@@ -430,6 +431,12 @@ class Ui():
             bg = 'white'
         )
         SR_page_count.place(x = 45, y = 40)
+        self._welcomeLabel = Label(
+            学习的框架,
+            bg = 'white',
+            textvariable = self._searchInfo['welcome']
+        )
+        self._welcomeLabel.place(x = 280, y = 185)
 
         #Entry No. 1
         self._ZH1 = Button(
@@ -621,7 +628,7 @@ class Ui():
             else:
                 self._questionInfo['check'].set(0)
 
-    def _XsearchDatabaseUI(self, XsearchTerms: dict[str, StringVar]) -> None:
+    def _XsearchDatabaseUI(self, mode: int, XsearchTerms: dict[str, StringVar]) -> None:
         '''
             for key, value in XsearchTerms.items():
                 if key in [
@@ -639,10 +646,10 @@ class Ui():
             key in ['character', 'pin1yin1', 'POS', 'HSK', 'definition']
             and value.get() != ''
         }
-        if XsearchTerms == self._Dsearch_results:
+        if mode == 0:
             self._Dsearch_results = self._ZH_DB.search_database_DB(search_values)
         else:
-            self._Ssearch_results = self._ZH_DB.search_database_DB(search_values)      
+            self._Ssearch_results = self._ZH_DB.search_database_DB(search_values)
 
     def _showAnswersEn(self) -> None:
         roundNumber = self._roundInfo['roundNumber'].get()
@@ -671,12 +678,32 @@ class Ui():
         self._questionInfo['currentQuestion'].set('')
 
     def _runQuery(self, event):
-        self._SsearchTerms['character'].set('')
-        self._SsearchTerms['pin1yin1'].set([])
-        self._SsearchTerms['POS'].set('')
-        self._SsearchTerms['HSK'].set('')
-        self._SsearchTerms['definition'].set('')
-        
+        self._XsearchDatabaseUI(0, self._DsearchTerms) 
+        if self._DsearchTerms['exactMatch'].get() == 0:
+            pass    #exact matches only
+        else:
+            pass    #all matches
+        print('Dsearch_results')
+        print(str(self._Dsearch_results))
+
+        self._DsearchTerms['character'].set('')
+        self._DsearchTerms['pin1yin1'].set([])
+        self._DsearchTerms['POS'].set('')
+        self._DsearchTerms['HSK'].set('')
+        self._DsearchTerms['definition'].set('')
+        self._searchInfo['welcome'].set('')
+        self._searchInfo['ZH1'].set('')
+        self._searchInfo['PY1'].set('')
+        self._searchInfo['EN1'].set('')
+        self._searchInfo['ZH2'].set('')
+        self._searchInfo['PY2'].set('')
+        self._searchInfo['EN2'].set('')
+        self._searchInfo['ZH3'].set('')
+        self._searchInfo['PY3'].set('')
+        self._searchInfo['EN3'].set('')
+        self._searchInfo['ZH4'].set('')
+        self._searchInfo['PY4'].set('')
+        self._searchInfo['EN4'].set('')
 
     def _runQuiz(self, event):
         self._questionInfo['currentQuestion'].set('')
@@ -700,8 +727,7 @@ class Ui():
         self._tDeckCorrect[3].set(0)
         self._answered = False
 
-        self._XsearchDatabaseUI(self._SsearchTerms)
-
+        self._XsearchDatabaseUI(1, self._SsearchTerms)
         '''
         tmp_list = []
         for result in self._Ssearch_results.values():
