@@ -1022,7 +1022,7 @@
             "pin1yin1": "gen1",
             "POS": "preposition",
             "HSK": "HSK --, BAND 1",
-            "lesson": "1.05",
+            "lesson": "1.05, 3.01",
             "definition": "with",
             "notes": "..."
         },
@@ -1472,7 +1472,7 @@
             "pin1yin1": "zhu4",
             "POS": "verb",
             "HSK": "HSK 1, BAND --",
-            "lesson": "1.07",
+            "lesson": "1.07, 3.01",
             "definition": "to live",
             "notes": "..."
         },
@@ -1822,7 +1822,7 @@
             "character": "再",
             "pin1yin1": "zai4",
             "POS": "adverb",
-            "HSK": "HSK 2, BAND --",
+            "HSK": "HSK 2, BAND 1",
             "lesson": "1.08",
             "definition": "again",
             "notes": "..."
@@ -2426,7 +2426,7 @@
             "pin1yin1": "hai2shi4",
             "POS": "conjunction",
             "HSK": "HSK --, BAND 1",
-            "lesson": "1.11",
+            "lesson": "1.11, 3.01",
             "definition": "or (interrogative)",
             "notes": "syntax: can't be used in a declarative sense ('Should I eat a banana or an apple?' not 'I'll eat a banana or an apple'... that would use 或者 huo4zhe3)"
         },
@@ -3406,7 +3406,7 @@
             "pin1yin1": "can1guan1",
             "POS": "verb",
             "HSK": "HSK --, BAND --",
-            "lesson": "1.15",
+            "lesson": "1.15, 3.01",
             "definition": "to visit, to look around",
             "notes": "..."
         },
@@ -4828,7 +4828,7 @@
             "pin1yin1": "qiang2",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.02",
+            "lesson": "2.02, 3.01",
             "definition": "wall",
             "notes": "..."
         },
@@ -6864,7 +6864,7 @@
             "HSK": "HSK --, BAND --",
             "lesson": "2.11, 2.20",
             "definition": "just, exactly, to happen to be",
-            "notes": "syntax: usually favorable"
+            "notes": "syntax: usually favorable, similar: 刚 (gang1 - just now (present/past adverb)), 刚刚 (gang1gang1 - just now (present adverb)), 刚才 (gang1cai2 - just now (present, noun))"
         },
         {
             "character": "情况",
@@ -6970,7 +6970,7 @@
             "pin1yin1": "shun4li4",
             "POS": "adverb",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.11",
+            "lesson": "2.11, 3.01",
             "definition": "smoothly",
             "notes": "..."
         },
@@ -7807,9 +7807,9 @@
             "pin1yin1": "gang1gang1",
             "POS": "noun",
             "HSK": "HSK --, BAND --",
-            "lesson": "2.13",
-            "definition": "a moment ago (g)",
-            "notes": "similar: 刚才 (gang1cai2 - just now)"
+            "lesson": "2.13, 3.01",
+            "definition": "just now (present, adverb)",
+            "notes": "similar: 刚才 (gang1cai2 - just now (present, noun)), 刚 (gang1 - present/past adverb), 刚好 (gang1hao3 - exactly, to happen to be)"
         },
         {
             "character": "匆匆忙忙",
@@ -9477,6 +9477,141 @@
             "notes": "syntax: 为了..., ... (can be in front of a noun or a clause), i.e. 为了他的健康，每天锻炼 (wei2le5ta1de5jian4kang1, mei3tian1duan4lian4 - for his health, he exercises everyday.)"
         },
         {
+            "character": "小时候",
+            "pin1yin1": "xiao3shi2hou5",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "childhood",
+            "notes": "i.e. 我小时候经常游泳。(wo3xiao3shi2hou5jing1chang2you2yong3 - I swam a lot as a kid)"
+        },
+        {
+            "character": "印象",
+            "pin1yin1": "yin4xiang4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "impression",
+            "notes": "..."
+        },
+        {
+            "character": "建筑",
+            "pin1yin1": "jian4zhu4",
+            "POS": "noun",
+            "HSK": "HSK --, BAND 1",
+            "lesson": "NEWBAND.01",
+            "definition": "building",
+            "notes": "also verb: to construct, similar: 楼 (lou2 - building, floor of a building, construction)"
+        },
+        {
+            "character": "建筑",
+            "pin1yin1": "jian4zhu4",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "to construct",
+            "notes": "also noun: building"
+        },
+        {
+            "character": "直飞",
+            "pin1yin1": "zhi3fei1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "to fly directly",
+            "notes": "also noun: direct flight"
+        },
+        {
+            "character": "直飞",
+            "pin1yin1": "zhi3fei1",
+            "POS": "noun",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "direct flight",
+            "notes": "also verb: to fly directly"
+        },
+        {
+            "character": "转机",
+            "pin1yin1": "zhuan3ji1",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "to change flights",
+            "notes": "..."
+        },
+        {
+            "character": "谈生意",
+            "pin1yin1": "tan2sheng1yi5",
+            "POS": "verb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "to discuss business",
+            "notes": "..."
+        },
+        {
+            "character": "深刻",
+            "pin1yin1": "shen1ke4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "profound, deep",
+            "notes": "..."
+        },
+        {
+            "character": "难忘",
+            "pin1yin1": "nan2wang4",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "unforgettable",
+            "notes": "literally: hard + to forget"
+        },
+        {
+            "character": "古老",
+            "pin1yin1": "gu3lao3",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "ancient, old",
+            "notes": "similar: 老 (old)"
+        },
+        {
+            "character": "舒服",
+            "pin1yin1": "shu1fu5",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "comfortable, feeling well",
+            "notes": "..."
+        },
+        {
+            "character": "刚",
+            "pin1yin1": "gang1",
+            "POS": "adjective",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "just now (present/past, adverb)",
+            "notes": "similar: 刚刚 (gang1gang1 - just now (present, adverb), 刚才 (gang1cai2 - just now (present, noun)), 刚好 (gang1hao3 - exactly, to happen to be)"
+        },
+        {
+            "character": "一路上",
+            "pin1yin1": "yi1lu4shang4",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "along the way",
+            "notes": "literally: one + road + on"
+        },
+        {
+            "character": "竟然",
+            "pin1yin1": "jing4ran2",
+            "POS": "adverb",
+            "HSK": "HSK --, BAND --",
+            "lesson": "3.01",
+            "definition": "unexpectedly",
+            "notes": "..."
+        },
+        {
             "character": "千",
             "pin1yin1": "qian1",
             "POS": "number",
@@ -10678,7 +10813,7 @@
             "pin1yin1": "dong3",
             "POS": "verb",
             "HSK": "HSK 2, BAND --",
-            "lesson": "NEWHSK.02, 2.16",
+            "lesson": "NEWHSK.02, 2.16, 3.01",
             "definition": "to understand (一个汉字)",
             "notes": "similar: 认识 (ren4shi5 - to recognize, to be familiar with), 了解 (liao3jie3 - to know well, undertand), 明白 (ming2bai5 - to understand, realize)"
         },
@@ -10813,7 +10948,7 @@
             "pin1yin1": "hai2",
             "POS": "adverb",
             "HSK": "HSK 2, BAND 1",
-            "lesson": "NEWHSK.02",
+            "lesson": "NEWHSK.02, 3.01",
             "definition": "still, even",
             "notes": "also: verb, warning: 还 (huan2 - to pay)"
         },
@@ -10928,11 +11063,11 @@
         {
             "character": "刚才",
             "pin1yin1": "gang1cai (_c)",
-            "POS": "adverb",
-            "HSK": "HSK 3, BAND --",
+            "POS": "noun",
+            "HSK": "HSK 3, BAND 1",
             "lesson": "NEWHSK.03",
-            "definition": "just now",
-            "notes": "literally: barely + a moment ago, similar: 刚刚 (gang1gang1 - a moment ago)"
+            "definition": "just now (present, noun)",
+            "notes": "literally: barely + a moment ago, similar: 刚刚 (gang1gang1 - just now (present, adverb)), 刚 (gang1 - just now (present/past - adverb), 刚好 (gang1hao3 - to happen to be, exactly)"
         },
         {
             "character": "一会儿",
@@ -12154,8 +12289,8 @@
             "pin1yin1": "huan2",
             "POS": "verb",
             "HSK": "HSK --, BAND 1",
-            "lesson": "NEWBAND.01",
-            "definition": "",
+            "lesson": "NEWBAND.01, 3.01",
+            "definition": "to pay back, return",
             "notes": "also: adverb, warning: 还 (hai2 - still, even) "
         },
         {
@@ -12417,7 +12552,7 @@
             "HSK": "HSK --, BAND 1",
             "lesson": "NEWBAND.01",
             "definition": "old, expert, obsolete",
-            "notes": "..."
+            "notes": "similar: 古老 (gu3lao3 - ancient, old)"
         },
         {
             "character": "老人",
@@ -12444,7 +12579,7 @@
             "HSK": "HSK --, BAND 1",
             "lesson": "NEWBAND.01",
             "definition": "construction, floor (of a house), building",
-            "notes": "i.e. 教学楼 (jiao4xue2lou2 - educational building), 我在三楼 (wo3zai4san1lou2 - I'm on the third floor)"
+            "notes": "similar: 建筑 (jian4zhu4 - building, to construct), i.e. 教学楼 (jiao4xue2lou2 - educational building), 我在三楼 (wo3zai4san1lou2 - I'm on the third floor)"
         },
         {
             "character": "楼上",
