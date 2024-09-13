@@ -35,9 +35,22 @@ class Database:
                     flags = re.IGNORECASE
                )
           refinedDB = self._database_normalized.copy()
+          print('searchValues.keys()')
+          print(searchValues.keys())
+          print('searchValues.items()')
+          print(searchValues)
+          for filter in searchValues.keys():
+               print(filter)
+               match filter:
+                    case 'entryPOSL':
+                         # Handle POSL Case
+                         pass
+                    case 'pin1yin1':
+                         # Handle pin1yin1 case
+                         pass
           for filter, value in searchValues.items():
-               if filter == 'entryPOSL':
-                    print(filter + ': ' + value)
+               
+               if filter == None:
                     if value[0:3].lower() == 'hsk' or value[0:4].lower() == 'band':
                          filter = 'HSK'
                          print('HSK')
