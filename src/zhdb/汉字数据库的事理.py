@@ -2,17 +2,20 @@ import json
 import pandas as pd
 import re
 
+from pathlib import Path
+
 
 class Database:
      def __init__(self):
-          with open('Character_Database.json', 'r', encoding = 'utf-8') as file:
+          db_filepath = Path('src/zhdb/Character_Database.json')
+          with open(db_filepath, 'r', encoding = 'utf-8') as file:
                self._data = json.load(file)
      
           self._DB_KEYS = {
-               'entryCharacter': 'character',
-               'entryEnglish': 'definition',
-               'entryPOSL': 'entryPOSL',
-               'entryPin1yin1': 'pin1yin1'
+               'character': 'character',
+               'english': 'definition',
+               'POSL': 'entryPOSL',
+               'pin1yin1': 'pin1yin1'
           }
           self._database_normalized = pd.json_normalize(self._data, record_path=["汉字数据库"])
 
@@ -32,9 +35,22 @@ class Database:
                     flags = re.IGNORECASE
                )
           refinedDB = self._database_normalized.copy()
+          print('searchValues.keys()')
+          print(searchValues.keys())
+          print('searchValues.items()')
+          print(searchValues)
+          for filter in searchValues.keys():
+               print(filter)
+               match filter:
+                    case 'entryPOSL':
+                         # Handle POSL Case
+                         pass
+                    case 'pin1yin1':
+                         # Handle pin1yin1 case
+                         pass
           for filter, value in searchValues.items():
-               if filter == 'entryPOSL':
-                    print(filter + ': ' + value)
+               
+               if filter == None:
                     if value[0:3].lower() == 'hsk' or value[0:4].lower() == 'band':
                          filter = 'HSK'
                          print('HSK')
@@ -57,5 +73,5 @@ class Database:
                               pattern = f'((?:{pinyinSeparated[pinyin]})[1-5])|((?:{pinyinSeparated[pinyin]})$)|((?:{pinyinSeparated[pinyin]})\s)'
                               refinedDB = refinedDB[refinedDB[filter].str.contains(pat = pattern)]
                          pinyin += 1
-          print(refinedDB.to_dict('index'))
+          #print(refinedDB.to_dict('index'))
           return refinedDB.to_dict('index')

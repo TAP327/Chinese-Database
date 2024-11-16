@@ -1,0 +1,19 @@
+[project]
+name = "Chinese_Database"
+version = "0.1"
+dependencies = [
+    "pandas",
+    "tk"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+zhdb = "zhdb.主要:main"
